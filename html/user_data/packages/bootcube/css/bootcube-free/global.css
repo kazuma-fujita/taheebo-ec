@@ -1,0 +1,40 @@
+/* ------------------------------------- */
+/*	  Common	*/
+/* ------------------------------------- */
+.frame_outer {
+  text-align: left; }
+
+/* ------------------------------------- */
+/*	  Header	*/
+/* ------------------------------------- */
+/*  logo_area	*/
+/*--------------------------------- */
+@media (max-width: 768px) {
+  #logo_area {
+    text-align: center;
+    margin-bottom: 20px; } }
+
+/*  header	*/
+/*--------------------------------- */
+#header {
+  width: 100%;
+  background-color: #ffffff; }
+  #header #logo_area h1 {
+    margin: 0;
+    color: #333; }
+    #header #logo_area h1 a {
+      font-weight: bold;
+      color: #333; }
+      #header #logo_area h1 a:hover {
+        text-decoration: none; }
+
+/*  header_navi	*/
+/*--------------------------------- */
+/* ------------------------------------- */
+/*	  Footer	*/
+/* ------------------------------------- */
+/*  fotoer	*/
+/*--------------------------------- */
+#footer_wrap {
+  padding: 20px 0;
+  border-top: 1px solid #ccc; }

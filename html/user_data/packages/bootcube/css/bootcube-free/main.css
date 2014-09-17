@@ -1,0 +1,156 @@
+/* ------------------------------------- */
+/*	  Common	*/
+/* ------------------------------------- */
+/*  contents	*/
+/*--------------------------------- */
+#contents {
+  padding-top: 10px;
+  padding-bottom: 40px;
+  border-top: 1px solid #ccc; }
+
+/* ------------------------------------- */
+/*	Page	*/
+/*                                       */
+/*  各ページのスタイルの設定  */
+/* ------------------------------------- */
+/*  Index	*/
+/*--------------------------------- */
+#main_image img {
+  width: 100%; }
+
+/*  Abouts	*/
+/*--------------------------------- */
+#undercolumn_aboutus table > tbody > tr > th {
+  background-color: #f4f4f4; }
+
+/*  Cart	*/
+/*--------------------------------- */
+#undercolumn_cart table > tbody > tr th {
+  background-color: #f4f4f4; }
+#undercolumn_cart table > tbody > tr td input {
+  margin-bottom: 10px; }
+#undercolumn_cart table > tbody > tr td select {
+  margin-bottom: 10px; }
+
+/*  contact	*/
+/*--------------------------------- */
+#undercolumn_contact table > tbody > tr th {
+  background-color: #f4f4f4; }
+#undercolumn_contact table > tbody > tr td input {
+  margin-bottom: 10px; }
+#undercolumn_contact table > tbody > tr td select {
+  margin-bottom: 10px; }
+
+/*  entry	*/
+/*--------------------------------- */
+#undercolumn_entry #form1 textarea {
+  width: 100%;
+  margin-bottom: 40px; }
+#undercolumn_entry table > tbody > tr th {
+  background-color: #f4f4f4; }
+#undercolumn_entry table > tbody > tr td input {
+  margin-bottom: 10px; }
+#undercolumn_entry table > tbody > tr td select {
+  margin-bottom: 10px; }
+
+/*  forgot	*/
+/*--------------------------------- */
+#window_area table > tbody > tr th {
+  background-color: #f4f4f4; }
+#window_area table > tbody > tr td input {
+  margin-bottom: 10px; }
+#window_area table > tbody > tr td select {
+  margin-bottom: 10px; }
+
+/*  frontparts	*/
+/*--------------------------------- */
+/*  guide	*/
+/*--------------------------------- */
+/*  mypage	*/
+/*--------------------------------- */
+#mycontents_area table > tbody > tr th {
+  background-color: #f4f4f4; }
+#mycontents_area table > tbody > tr td input {
+  margin-bottom: 10px; }
+#mycontents_area table > tbody > tr td select {
+  margin-bottom: 10px; }
+
+/*  order	*/
+/*--------------------------------- */
+#undercolumn_order table > tbody > tr th {
+  background-color: #f4f4f4; }
+#undercolumn_order table > tbody > tr td input {
+  margin-bottom: 10px; }
+#undercolumn_order table > tbody > tr td select {
+  margin-bottom: 10px; }
+
+/*  products	*/
+/*--------------------------------- */
+.list_area {
+  margin-bottom: 40px; }
+  .list_area .listphoto {
+    text-align: center; }
+    .list_area .listphoto img {
+      width: 100%; }
+      @media (max-width: 768px) {
+        .list_area .listphoto img {
+          width: 50%; } }
+
+.detail_area .detail_btn {
+  padding: 10px 0; }
+
+.cart_area .classlist {
+  margin-bottom: 10px; }
+  .cart_area .classlist dl {
+    display: inline-block;
+    margin-right: 10px; }
+  .cart_area .classlist ul {
+    display: inline-block;
+    margin-right: 10px; }
+.cart_area .cartin div {
+  display: inline-block;
+  margin-bottom: 10px; }
+
+.product_code dt, .product_code dd {
+  display: inline-block; }
+
+#detailphotobloc img {
+  width: 100%;
+  height: 100%; }
+
+#detailarea {
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc; }
+
+#customervoice_area {
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc; }
+  #customervoice_area .title {
+    margin-top: 0;
+    font-size: 16px; }
+
+#whobought_area {
+  padding: 20px 0; }
+  #whobought_area .title {
+    margin-top: 0;
+    font-size: 16px; }
+  #whobought_area .product_item img {
+    width: 100%;
+    height: 100%; }
+  #whobought_area .product_item .title {
+    font-size: 14px; }
+
+/*  shopping	*/
+/*--------------------------------- */
+#undercolumn_shopping .pay_area .title {
+  font-size: 18px; }
+#undercolumn_shopping .pay_area02 .title {
+  font-size: 18px; }
+#undercolumn_shopping .point_area .title {
+  font-size: 18px; }
+#undercolumn_shopping table > tbody > tr th {
+  background-color: #f4f4f4; }
+#undercolumn_shopping table > tbody > tr td input {
+  margin-bottom: 10px; }
+#undercolumn_shopping table > tbody > tr td select {
+  margin-bottom: 10px; }

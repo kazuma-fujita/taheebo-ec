@@ -1,0 +1,164 @@
+/*  
+Template : BOOTCUBE2.1
+Author : @takeshi-du
+Website : http://designup.jp
+Note: All content are copyrighted by author. Please, don't steal anything.
+
+共通エリアのスタイル
+
+01. Common
+02. top_bar
+03. Header
+	03-1. logo_area
+	03-2. header_wrap
+	03-3. header
+	03-4. headerInternalColumn
+	03-5. header_navi
+04. topcolumn
+05. Footer
+*/
+
+/* ------------------------------------- */
+/*	  01.common	*/
+/* ------------------------------------- */
+body{
+	font-size: 12px;
+	background-color: #f5f5f5;
+	}
+
+	.frame_outer{
+	text-align: left;
+	}
+
+	a{
+	color: #1c83e1;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+	&:hover{
+		color: #1c83e1;
+	}
+}
+
+/* ------------------------------------- */
+/*	  02.top_bar	*/
+/* ------------------------------------- */
+#top_bar{
+	padding: 3px 0;
+	border-bottom: 1px solid #eee;
+	background-color: #1c83e1;;
+	ul{
+		margin-bottom: 0;
+		li{
+			a{
+				color: #fff;
+				&:hover{
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}
+
+/* ------------------------------------- */
+/*	  03.header	*/
+/* ------------------------------------- */
+
+/*  logo_area	*/
+/*--------------------------------- */
+#logo_area{
+	@media (max-width: 768px){
+		text-align: center;
+		margin-bottom: 20px;
+	}	
+}
+
+/*  header_wrap  */
+/*--------------------------------- */
+#header_wrap{
+	background-color: #fff;
+}
+
+/*  header	*/
+/*--------------------------------- */
+#header {
+	width: 100%;
+	padding: 20px 0;
+	padding-top: 30px;
+	#logo_area{
+		h1{
+			margin: 0;
+			color: #333;
+			line-height: 24px;
+			a{
+				font-weight: bold;
+				color: #555;
+				font-size: 28px;
+				&:hover{
+					text-decoration: none;
+					color: #1c83e1;
+				}
+				img{
+					width: 100%;
+				}
+			}
+		}
+		p{
+			display: inline-block;
+			margin-left: 20px;
+			margin-bottom: 0;
+		}
+	}
+}
+
+/*  headerInternalColumn  */
+/*--------------------------------- */
+#headerInternalColumn{
+	>div:last-child{
+		padding-right: 0;
+		@media (max-width : 768px){
+			padding-right: 15px;
+		}
+	}
+}
+
+/*  header_navi  */
+/*--------------------------------- */
+#header_navi {
+	margin-top: 20px;
+	@media (max-width: 768px){
+	margin-top: 0;
+	margin-bottom: 20px;
+	text-align: center;
+	}
+	.btn-default {
+		color: #1c83e1;
+		background-color: #FFF;
+		border-color: #1c83e1;
+		&:hover{
+			color: #fff;
+			background-color: #48A0F0;
+		}
+	}
+}
+
+/* ------------------------------------- */
+/*	 04.topcolumn 	*/
+/* ------------------------------------- */
+
+/* ------------------------------------- */
+/*	  05.footer	*/
+/* ------------------------------------- */
+
+/*  fotoer	*/
+/*--------------------------------- */
+#footer_wrap{
+	padding: 20px 0;
+	border-top: 1px solid #ddd;
+	background-color: #FFFFFF;
+	#guide_list{
+		text-align: center;
+	}
+}

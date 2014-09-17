@@ -1,0 +1,927 @@
+/*  
+Template : BOOTCUBE2.1
+Author : @takeshi-du
+Website : http://designup.jp
+Note: All content are copyrighted by author. Please, don't steal anything.
+
+ブロックのスタイル
+
+01. bc_banner
+02. bc_calendar
+03. bc_carousel
+04. bc_category_mega_menu
+05. bc_categoryList
+06. bc_footer_guide
+07. bc_globalNav
+08. bc_headCart
+09. bc_headerlogin
+10. bc_headSearch
+11. bc_infomation
+12. bc_login_button
+13. bc_newProducts
+14. bc_qrCode
+15. bc_ranking
+16. bc_recommend
+17. bc_sidelogin
+18. bc_sideranking
+19. bc_slider
+*/
+
+$key_color: #1c83e1;
+
+/* ------------------------------------- */
+/*	 common 	*/
+/* ------------------------------------- */
+#topcolumn{
+	.block_outer{
+		background-color: #fff;
+		padding: 0;
+		margin-bottom: 20px;
+		border-top: 1px solid #eee;
+		border-bottom: 1px solid #ccc;
+	}
+}
+#contents{
+	.block_outer{
+		padding: 10px;
+		margin-bottom: 30px;
+		background-color: #fff;
+		box-shadow: 0 0 3px #ddd;
+	}
+	#main_column{
+		.item_panel{
+			min-height: 180px;
+			@media (max-width: 768px){
+				min-height: 222px;
+			}
+		}
+	}
+}
+
+/* ------------------------------------- */
+/*	 01.bc_banner 	*/
+/* ------------------------------------- */
+.bc_banner{
+	margin-bottom: 10px;
+	img{
+		width: 100%;
+		height: 100%;
+		margin-bottom: 10px;
+	}
+}
+
+/* ------------------------------------- */
+/*	 02.bc_calendar 	*/
+/* ------------------------------------- */
+#bc_calendar{
+	.title{
+		padding: 10px 0;
+		margin: 0;
+		margin-bottom: 10px;
+		border-bottom: 1px solid #eee;
+		font-size: 16px;
+		color: #555;
+		font-weight: bold;
+	}
+	table{
+		font-size: 12px;
+	}
+	caption {
+	padding: 6px;
+	background-color: #FFFFFF;
+	color: #6A6A6A;
+	}
+	.table>thead>tr>th,
+	.table>tbody>tr>th,
+	.table>tfoot>tr>th,
+	.table>thead>tr>td,
+	.table>tbody>tr>td,
+	.table>tfoot>tr>td {
+	padding: 0;
+	text-align: center;
+	}
+	.information{
+		font-size: 12px;
+		color: #aaa;
+	}
+}
+
+/* ------------------------------------- */
+/*	 03.bc_carousel 	*/
+/* ------------------------------------- */
+#bc_carousel{
+	.title{
+		padding: 10px 0;
+		margin: 0;
+		margin-bottom: 10px;
+		border-bottom: 1px solid #eee;
+		font-size: 16px;
+		color: #555;
+		font-weight: bold;
+	}
+	.carousel-inner>.item {
+		padding: 10px 0;
+		img{
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.carousel-control {
+		top: -48px;
+		left: auto;
+		right: 39px;
+		width: 30px;
+		height: 30px;
+		opacity: 1;
+		text-shadow: none;
+		&.left{
+			background-color: #fafafa;
+			border: 1px solid #ccc;
+			background-image: none;
+			&:hover{
+				background-color: #f4f4f4;
+			}
+		}
+		&.right{
+			right: 0;
+			background-color: #fafafa;
+			border: 1px solid #ccc;
+			background-image: none;
+			&:hover{
+				background-color: #f4f4f4;
+			}
+		}
+		.glyphicon{
+			top: 77%;
+			color: #ccc;
+			font-size: 16px;
+		}
+		.glyphicon-chevron-right {
+			left: 48%;
+			top: 75%;
+			color: #ccc;
+			font-size: 16px;
+		}
+	}
+}
+
+/* ------------------------------------- */
+/*	 04.bc_category_mega_menu 	*/
+/* ------------------------------------- */
+#bc_category_mega_menu{
+	ul{
+		margin: 0;
+	}
+	a{
+		font-size: 14px;
+		color: #555;
+	}
+	.dropdown-toggle {
+		display: inline-block;
+		padding: 20px;
+		border-right: 1px solid #eee;
+		-webkit-transition: all 0s;
+		-moz-transition: all 0s;
+		-ms-transition: all 0s;
+		-o-transition: all 0s;
+		transition: all 0s;
+		&.first{
+			border-left: 1px solid #eee;
+		}
+		&:hover,
+		&:focus{
+			margin-top: -2px;
+			border-top: 2px solid #1c83e1;
+			color: #1c83e1;
+			text-decoration: none;
+		}
+	}
+	.dropdown-menu.mega_menu{
+		width: 400px;
+		padding: 15px;
+		>li{
+			margin-bottom: 20px;
+			.title{
+				margin-bottom: 10px;
+				border-bottom: 1px solid #333;
+			}
+		}
+	}
+	// カテゴリを多層表示するCSS
+	// http://www.bootply.com/86684
+	.dropdown-submenu{position:relative;}
+	.dropdown-submenu>.dropdown-menu{top:0;left:100%;margin-top:-6px;margin-left:-1px;-webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;}
+	.dropdown-submenu:hover>.dropdown-menu{display:block;}
+	.dropdown-submenu>a:after{display:block;content:" ";float:right;width:0;height:0;border-color:transparent;border-style:solid;border-width:5px 0 5px 5px;border-left-color:#cccccc;margin-top:5px;margin-right:-10px;}
+	.dropdown-submenu:hover>a:after{border-left-color:#ffffff;}
+	.dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px;}
+}
+
+/* ------------------------------------- */
+/*	 05.bc_categoryList	*/
+/* ------------------------------------- */
+#bc_categoryList{
+	.title{
+		padding: 10px 0;
+		margin: 0;
+		margin-bottom: 10px;
+		border-bottom: 1px solid #eee;
+		font-size: 16px;
+		color: #555;
+		font-weight: bold;
+	}
+	.list_group{
+		.list_item{
+			margin-bottom: 10px;
+			.glyphicon{
+				margin-right: 20px;
+				color: #888;
+			}
+			a{
+				color: #555;
+				font-size: 13px;
+				&:hover{
+					color: #1c83e1;
+					text-decoration: none;
+				}
+			}
+		}
+		.level2{
+			margin-top: 10px;
+			margin-left: 10px;
+		}
+		.level3{
+			margin-top: 10px;
+			margin-left: 10px;
+		}
+	}
+}
+
+/* ------------------------------------- */
+/*	 06.bc_footer_guide 	*/
+/* ------------------------------------- */
+#bc_footer_guide{
+	.guide_panel{
+		padding: 15px;
+		.title{
+			padding-top: 6px;
+			padding-bottom: 6px;
+			padding-left: 10px;
+			border-left: 4px solid #555
+		}
+	}
+}
+
+
+/* ------------------------------------- */
+/*	 07.bc_globalNav 	*/
+/* ------------------------------------- */
+#bc_globalnav{
+	a{
+		font-size: 14px;
+		color: #555;
+	}
+	.container-fluid {
+		padding-left: 0;
+		padding-right: 0;
+		@media (max-width: 768px){
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+	}
+	.navbar-default {
+		background-color: rgba(0,0,0,0);
+		border-color: rgba(0,0,0,0);
+	}
+	.navbar{
+		margin-bottom: 0;
+	}
+	.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+	background-color: rgba(0,0,0,0);
+	border-color: #eee;
+	}
+	.dropdown-toggle {
+		border-right: 1px solid #eee;
+		-webkit-transition: all 0s;
+		-moz-transition: all 0s;
+		-ms-transition: all 0s;
+		-o-transition: all 0s;
+		transition: all 0s;
+		&.first{
+			border-left: 1px solid #eee;
+		}
+		&:hover,
+		&:focus{
+			margin-top: -2px;
+			border-top: 2px solid #1c83e1;
+			color: #1c83e1;
+		}
+	}
+	.dropdown-menu.mobile{
+		margin: 10px 0;
+		.level3.mobile{
+			padding-left: 40px;
+			margin-top: 10px;
+		}
+	}
+
+	// カテゴリを多層表示するCSS
+	// http://www.bootply.com/86684
+	.dropdown-submenu{position:relative;}
+	.dropdown-submenu>.dropdown-menu{top:0;left:100%;margin-top:-6px;margin-left:-1px;-webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;}
+	.dropdown-submenu:hover>.dropdown-menu{display:block;}
+	.dropdown-submenu>a:after{display:block;content:" ";float:right;width:0;height:0;border-color:transparent;border-style:solid;border-width:5px 0 5px 5px;border-left-color:#cccccc;margin-top:5px;margin-right:-10px;}
+	.dropdown-submenu:hover>a:after{border-left-color:#ffffff;}
+	.dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px;}
+}
+
+/* ------------------------------------- */
+/*	 08.bc_headCart 	*/
+/* ------------------------------------- */
+#bc_headCart{
+	margin-top: 5px;
+	.icon{
+		padding: 7px 10px;
+		color: #fff;
+		font-size: 19px;
+		background-color: #1c83e1;
+	}
+	.count{
+		position: relative;
+		top: -2px;
+		padding: 9px 16px;
+		border: 1px solid #ccc;
+		border-left: none;
+		font-size: 14px;
+		color: #555;
+	}
+	.link{
+		position: relative;
+		top: -3px;
+		padding: 10px 16px;
+		border: 1px solid #ccc;
+		border-left: none;
+		font-size: 12px;
+		a{
+			color: #555;
+		}
+	}
+}
+
+/* ------------------------------------- */
+/*	 09.bc_headLogin 	*/
+/* ------------------------------------- */
+#header_navi{
+	.account {
+		color: #fff;
+	}
+	.logout{
+		position: relative;
+		top: -10px;
+	}
+}
+
+/* ------------------------------------- */
+/*	 10.bc_headSearch 	*/
+/* ------------------------------------- */
+#bc_headSearch{
+	form{
+		display: inline-flex;
+		.category_select{
+			position: relative;
+			cursor: pointer;
+			padding-right: 0;
+			select{
+				width: 100%;
+				height: 36px;
+				cursor: pointer;
+				-webkit-border-radius: 0;
+				-moz-border-radius: 0;
+				border-radius: 0;
+				-webkit-appearance: none;
+				-moz-appearance: none;
+				appearance: none;
+				border-right: none;
+			}
+			.carat {
+				cursor: pointer;
+				position: absolute;
+				right: 12px;
+				top: 50%;
+				margin-top: -2px;
+				border: 4px solid transparent;
+				border-top: 6px solid #777;
+			}
+		}
+		.input-group{
+			padding-right: 15px;
+			input{
+				height: 36px;
+				-webkit-border-radius: 0;
+				-moz-border-radius: 0;
+				border-radius: 0;
+				border-right: none;
+			}
+			.input-group-btn button{
+				width: 38px;
+				height: 36px;
+				-webkit-border-radius: 0;
+				-moz-border-radius: 0;
+				border-radius: 0;
+				border-color: #1c83e1;
+				color: #fff;
+				background-color: #1c83e1;
+			}
+		}
+	}
+	.textinput{
+
+	}
+}
+
+/* ------------------------------------- */
+/*	 11.bc_infomation 	*/
+/* ------------------------------------- */
+#bc_infomation{
+	.title{
+		padding: 10px 0;
+		margin: 0;
+		margin-bottom: 10px;
+		border-bottom: 1px solid #eee;
+		font-size: 18px;
+		color: #555;
+		font-weight: bold;
+	}
+	.newslist{
+		padding-bottom: 5px;
+		margin-bottom: 15px;
+		border-bottom: 1px dashed #aaa;
+		color: #555;
+		font-size: 14px;
+		.date{
+			margin-bottom: 5px;
+			font-size: 12px;
+			font-family: sans-serif;
+		}
+		.text{
+			a{
+				color: #888;
+				&:hover{
+					color: #1c83e1;
+				}
+			}
+		}
+}
+}
+
+/* ------------------------------------- */
+/*	 12.bc_login_button 	*/
+/* ------------------------------------- */
+#bc_login_button{
+	display: inline-block;
+	border-right: 1px solid #eee;
+	border-left: 1px solid #eee;
+	.login_btn{
+		margin-bottom: 0;
+		.dropdown-toggle{
+			display: inline-block;
+			padding: 10px;
+			padding-right: 20px;
+			color: #555;
+			&:hover,&:focus{
+				text-decoration: none;
+			}
+			.user_name{
+				font-size: 10px;
+			}
+			.title{
+				font-size: 16px;
+			}
+		}
+		i.fa{
+			position: absolute;
+			top: 48%;
+			right: 5px;
+		}
+		.dropdown-menu{
+			text-align: center;
+			li{
+				padding: 15px 0;
+				border-bottom: 1px solid #eee;
+				&:last-child{
+					border-bottom: none;
+				}
+			}
+		}
+	}
+}
+
+/* ------------------------------------- */
+/*	 13.bc_newProducts 	*/
+/* ------------------------------------- */
+#bc_newProducts{
+	>.title{
+		padding: 10px 0;
+		margin: 0;
+		margin-bottom: 10px;
+		border-bottom: 1px solid #eee;
+		font-size: 18px;
+		color: #555;
+		font-weight: bold;
+	}
+	.content_panel{
+		.item_panel{
+			.item_image{
+				margin-bottom: 5px;
+				text-align: center;
+				img{
+					width: 100%;
+					@media (max-width: 768px){
+						width: inherit;
+					}
+				}
+			}
+			.item_meta{
+				text-align: center;
+				.title{
+					margin-bottom: 2px;
+					border: none;
+					font-size: 12px;
+					a{
+						color: #333;
+						&:hover{
+							color: #1c83e1;
+						}
+					}
+				}
+				.review{
+					margin-bottom: 0px;
+					i{
+						color: #EBBF29;
+						&.fa-star-o{
+							color: #ccc;
+						}
+					}
+					.count{
+						color: #3A65AB;
+					}
+				}
+				.sale_price{
+					color: #D50A0A;
+					font-size: 14px;
+				}
+			}
+		}
+	}
+}
+
+/* ------------------------------------- */
+/*	 14.bc_qrCode 	*/
+/* ------------------------------------- */
+#bc_qrCode{
+	.title{
+		padding: 10px 0;
+		margin: 0;
+		margin-bottom: 10px;
+		border-bottom: 1px solid #eee;
+		font-size: 16px;
+		color: #555;
+		font-weight: bold;
+	}
+	.bloc_body{
+		text-align: center;
+		img{
+			width: 50%;
+			@media (man-width: 768px){
+				width: 100%;
+			}
+		}
+	}
+}
+
+/* ------------------------------------- */
+/*	 15.bc_ranking 	*/
+/* ------------------------------------- */
+#bc_ranking{
+	>.title{
+		padding: 10px 0;
+		margin: 0;
+		margin-bottom: 10px;
+		border-bottom: 1px solid #eee;
+		font-size: 18px;
+		color: #555;
+		font-weight: bold;
+	}
+	.content_panel{
+		.item_panel{
+
+			.rank_num{
+				font-size: 13px;
+				&.num-1{
+					color: #DA0000;
+				}
+				&.num-2{
+					color: #C19600;
+				}
+				&.num-3{
+					color: #008E74;
+				}
+				&.num-4{
+					color: #888888;
+				}
+			}
+			.item_image{
+				margin-bottom: 5px;
+				text-align: center;
+				img{
+					width: 100%;
+					@media (max-width: 768px){
+						width: inherit;
+					}
+				}
+			}
+			.item_meta{
+				text-align: center;
+				.title{
+					margin-bottom: 2px;
+					border: none;
+					font-size: 12px;
+					a{
+						color: #333;
+						&:hover{
+							color: #1c83e1;
+						}
+					}
+				}
+				.review{
+					margin-bottom: 0px;
+					i{
+						color: #EBBF29;
+						&.fa-star-o{
+							color: #ccc;
+						}
+					}
+					.count{
+						color: #3A65AB;
+					}
+				}
+				.sale_price{
+					color: #D50A0A;
+					font-size: 14px;
+				}
+			}
+		}
+	}
+}
+
+/* ------------------------------------- */
+/*	 16.bc_recommend 	*/
+/* ------------------------------------- */
+#bc_recommend{
+	>.title{
+		padding: 10px 0;
+		margin: 0;
+		margin-bottom: 10px;
+		border-bottom: 1px solid #eee;
+		font-size: 18px;
+		color: #555;
+		font-weight: bold;
+	}
+	.content_panel{
+		.item_panel{
+			.item_image{
+				margin-bottom: 5px;
+				text-align: center;
+				img{
+					width: 100%;
+					@media (max-width: 768px){
+						width: inherit;
+					}
+				}
+			}
+			.item_meta{
+				text-align: center;
+				.title{
+					margin-bottom: 2px;
+					border: none;
+					font-size: 12px;
+					a{
+						color: #333;
+						&:hover{
+							color: #1c83e1;
+						}
+					}
+				}
+				.review{
+					margin-bottom: 0px;
+					i{
+						color: #EBBF29;
+						&.fa-star-o{
+							color: #ccc;
+						}
+					}
+					.count{
+						color: #3A65AB;
+					}
+				}
+				.sale_price{
+					color: #D50A0A;
+					font-size: 14px;
+				}
+			}
+		}
+	}
+}
+
+/* ------------------------------------- */
+/*	 17.bc_sidelogin 	*/
+/* ------------------------------------- */
+#bc_sidelogin{
+	.title{
+		padding: 10px 0;
+		margin: 0;
+		border-bottom: 1px solid #eee;
+		font-size: 16px;
+		color: #555;
+		font-weight: bold;
+		i{
+			color: #555;
+		}
+	}
+	.item_panel{
+		padding: 15px;
+		.forgot{
+			margin-top: 4px;
+			a{
+				color: #aaa;
+				&:hover{
+					color: #1c83e1;
+				}
+			}
+		}
+		.btn_login{
+			margin-bottom: 10px;
+			.btn{
+				padding: 5px 57px;
+				-webkit-border-radius: 0;
+				-moz-border-radius: 0;
+				border-radius: 0;
+				@media (max-width: 992px){
+					padding: 5px 29px;
+				}
+				&.btn-primary{
+					border-color: #1c83e1;
+					background-color: #1c83e1;
+					&:hover{
+						background-color: #3C98EB;
+					}
+				}
+			}
+		}
+		.btn_entry{
+			.btn{
+				padding: 5px 45px;
+				-webkit-border-radius: 0;
+				-moz-border-radius: 0;
+				border-radius: 0;
+				@media (max-width: 992px){
+					padding: 5px 17px;
+				}
+			}
+		}
+		input{
+			-webkit-border-radius: 0;
+			-moz-border-radius: 0;
+			border-radius: 0;
+		}
+	}
+}
+
+/* ------------------------------------- */
+/*	 18.bc_sideranking 	*/
+/* ------------------------------------- */
+#bc_sideranking{
+	>.title{
+		padding: 10px 0;
+		margin: 0;
+		border-bottom: 1px solid #eee;
+		font-size: 16px;
+		color: #555;
+		font-weight: bold;
+	}
+	.content_panel{
+		.item_panel{
+			padding-top: 10px;
+			padding-bottom: 10px;
+			border-bottom: 1px solid #eee;
+			.rank_num{
+				text-align: center;
+				padding: 2px;
+				margin-bottom: 10px;
+				border: 1px solid #ccc;
+				&.num-1{
+					color: #DA0000;
+				}
+				&.num-2{
+					color: #C19600;
+				}
+				&.num-3{
+					color: #008E74;
+				}
+				&.num-4{
+					color: #888888;
+				}
+			}
+			.item_image{
+				padding: 0 8px;
+				@media (max-width: 992px) {
+					padding-left: 0;
+				}
+				img{
+					width: 100%;
+				}
+			}
+			.item_meta{
+				.title{
+					margin-bottom: 2px;
+					border: none;
+					font-size: 12px;
+					a{
+						color: #333;
+						&:hover{
+							color: #1c83e1;
+						}
+					}
+				}
+				.review{
+					margin-bottom: 0px;
+					i{
+						color: #EBBF29;
+						&.fa-star-o{
+							color: #ccc;
+						}
+					}
+					.count{
+						color: #3A65AB;
+					}
+				}
+				.sale_price{
+					color: #D50A0A;
+					font-size: 14px;
+				}
+			}
+		}
+	}
+}
+
+/* ------------------------------------- */
+/*	 19.bc_slider 	*/
+/* ------------------------------------- */
+#bc_slider{
+	margin-bottom: 20px;
+	.carousel-inner{
+		.item{
+			img{
+				width: 100%;
+			}
+		}
+	}
+	.carousel-indicators {
+		bottom: 0px;
+		margin-bottom: 0;
+		li{
+			border: 1px solid #aaa;
+		}
+		.active{
+			width: 10px;
+			height: 10px;
+			margin: 1px;
+			background-color: #aaa;
+		}
+	}
+	.carousel-control {
+		width: inherit;
+		opacity: .2;
+		text-shadow: none;
+		&:hover{
+			opacity: 1;
+		}
+		i{
+			position: absolute;
+			top: 46%;
+			font-size: 24px;
+			padding: 4px 12px;
+			color: #fff;
+			background-color: #aaa;
+			-webkit-border-radius: 100px;
+			-moz-border-radius: 100px;
+			border-radius: 100px;
+		}
+		&.left{
+			left: 10px;
+		}
+		&.right{
+			right: 44px;
+		}
+	}
+}

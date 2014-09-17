@@ -1,0 +1,20 @@
+body {
+  color: #ff4f4f;
+}
+.block_body dl {
+  margin: 10px 0;
+}
+ul.button_like li {
+  background: none;
+}
+ul.button_like li a {
+  border: none;
+}
+.news_contents dl dt {
+  font-size: 24px;
+  color: #333;
+}
+.news_contents dl dd {
+  font-size: 16px;
+  color: #888;
+}

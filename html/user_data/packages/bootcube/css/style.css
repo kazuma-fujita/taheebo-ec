@@ -1,0 +1,44 @@
+/*
+  Name: BOOTCUBE
+  Author: Designup.jp
+  Author URL: http://designup.jp/
+  Version: 2.1.0
+  Note: All content are copyrighted by author. Please, don't steal anything.
+*/
+
+/* ------------------------------------- */
+/*	 DEFAULT CSS 	*/
+/* ------------------------------------- */
+
+/* @import url("./default/import.css"); */
+
+/* ------------------------------------- */
+/*	 Bootstrap3 	*/
+/* ------------------------------------- */
+
+@import url("../bootstrap/css/bootstrap.min.css");
+
+/* ------------------------------------- */
+/*	 BOOTCUBE - FREE 	*/
+/*
+/*   BootCubeフリー版のスタイル読み込み */
+/*   デフォルトのブロックはフリー版のものを使用 */
+/* ------------------------------------- */
+
+/*@import url("./bootcube-free/block.css");*/
+
+/* ------------------------------------- */
+/*	 BOOTCUBE 	*/
+/* ------------------------------------- */
+
+/*  ヘッダー、サイド、フッターなどグローバルエリアのCSS	*/
+/*--------------------------------- */
+@import url("bc_global.css");
+
+/*  メインエリア、各ページのCSS	*/
+/*--------------------------------- */
+@import url("bc_main.css");
+
+/*  ブロック（コンポーネント）のCSS	*/
+/*--------------------------------- */
+@import url("bc_block.css");

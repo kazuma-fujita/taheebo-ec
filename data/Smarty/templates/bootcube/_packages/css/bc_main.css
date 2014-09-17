@@ -1,0 +1,608 @@
+/* 
+Template : BOOTCUBE2.1
+Author : @takeshi-du
+Website : http://designup.jp
+Note: All content are copyrighted by author. Please, don't steal anything.
+
+メインエリアのスタイル
+
+01. Common
+	01-0. main_column
+	01-1. contents
+	01-2. title
+02. Index(top)
+03. Abouts
+04. Cart
+05. Contact
+06. Entry
+07. Forgot
+08. Frontparts
+09. Guide
+10. Mail_templates
+11. Mypage
+	11-1.navi
+	11-2.mycontents_area
+	11-3.login
+12. Order
+13. Products
+	13-1.list
+	13-2.detail
+14. Regist
+15. RSS
+16. Shopping
+	16-1.undercolumn_shopping
+	16-2.undercolumn_login
+*/
+/* ------------------------------------- */
+/*	 01.Common	*/
+/* ------------------------------------- */
+#undercolumn {
+  padding: 15px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  box-shadow: 0 0 3px #ddd;
+}
+
+#window_area {
+  background-color: #fff;
+}
+
+/*  main  */
+/*--------------------------------- */
+#main_column {
+  margin-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#leftcolumn {
+  padding-right: 10px;
+}
+
+#rightcolumn {
+  padding-left: 10px;
+}
+
+/*  contents	*/
+/*--------------------------------- */
+#contents {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+/*  h2.title  */
+/*--------------------------------- */
+.cat_title {
+  margin: 40px 0;
+  font-size: 24px;
+  color: #555;
+}
+
+/* ------------------------------------- */
+/*	 02.Index 	*/
+/* ------------------------------------- */
+#main_image img {
+  width: 100%;
+}
+
+/* ------------------------------------- */
+/*	 03.Abouts 	*/
+/* ------------------------------------- */
+#undercolumn_aboutus table > tbody > tr > th {
+  background-color: #f4f4f4;
+}
+
+/* ------------------------------------- */
+/*	 04.Cart 	*/
+/* ------------------------------------- */
+#undercolumn_cart .point_announce {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #eee;
+}
+#undercolumn_cart .point_announce p {
+  margin: 0;
+}
+#undercolumn_cart .point_announce .point {
+  color: #f00;
+}
+#undercolumn_cart table > tbody > tr th {
+  background-color: #f4f4f4;
+}
+#undercolumn_cart table > tbody > tr td input {
+  margin-bottom: 10px;
+}
+#undercolumn_cart table > tbody > tr td select {
+  margin-bottom: 10px;
+}
+
+/* ------------------------------------- */
+/*	 05.Contact 	*/
+/* ------------------------------------- */
+#undercolumn_contact table > tbody > tr th {
+  width: 21%;
+  background-color: #f4f4f4;
+}
+#undercolumn_contact table > tbody > tr td input {
+  margin-bottom: 10px;
+}
+#undercolumn_contact table > tbody > tr td input.min {
+  width: 80px;
+}
+#undercolumn_contact table > tbody > tr td input .form-control {
+  height: 30px;
+}
+#undercolumn_contact table > tbody > tr td select {
+  margin-bottom: 10px;
+}
+#undercolumn_contact .btn_area {
+  text-align: center;
+}
+
+/* ------------------------------------- */
+/*	 06.Entry 	*/
+/* ------------------------------------- */
+#undercolumn_entry p {
+  font-size: 12px;
+  color: #666;
+}
+#undercolumn_entry p.message {
+  font-size: 14px;
+}
+#undercolumn_entry #form1 textarea {
+  width: 100%;
+  margin-bottom: 40px;
+}
+#undercolumn_entry table > tbody > tr th {
+  width: 21%;
+  background-color: #f4f4f4;
+}
+#undercolumn_entry table > tbody > tr th .attention {
+  color: #f00;
+}
+#undercolumn_entry table > tbody > tr td input {
+  margin-bottom: 10px;
+}
+#undercolumn_entry table > tbody > tr td input.min {
+  width: 80px;
+}
+#undercolumn_entry table > tbody > tr td input .form-control {
+  height: 30px;
+}
+#undercolumn_entry table > tbody > tr td select {
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+#undercolumn_entry table > tbody > tr td select:first-child {
+  margin-left: 0;
+}
+#undercolumn_entry .btn_area {
+  text-align: center;
+}
+
+/* ------------------------------------- */
+/*	 07.Forgot 	*/
+/* ------------------------------------- */
+#window_area .title {
+  font-size: 24px;
+}
+#window_area .information {
+  font-size: 12px;
+}
+#window_area table > tbody > tr th {
+  background-color: #f4f4f4;
+}
+#window_area table > tbody > tr td input {
+  margin-bottom: 10px;
+}
+#window_area table > tbody > tr td select {
+  margin-bottom: 10px;
+}
+#window_area table > tbody > tr .attention {
+  color: #f00;
+}
+
+/* ------------------------------------- */
+/*	 08.Frontparts 	*/
+/* ------------------------------------- */
+/* ------------------------------------- */
+/*	 09.Guide 	*/
+/* ------------------------------------- */
+/* ------------------------------------- */
+/*	 10.Mail_templates 	*/
+/* ------------------------------------- */
+/* ------------------------------------- */
+/*	 11.Mypage 	*/
+/* ------------------------------------- */
+#mycontents_area table > tbody > tr th {
+  background-color: #f4f4f4;
+}
+#mycontents_area table > tbody > tr td input {
+  margin-bottom: 10px;
+}
+#mycontents_area table > tbody > tr td select {
+  margin-bottom: 10px;
+}
+
+/*  navi  */
+/*--------------------------------- */
+#mynavi_area {
+  margin-bottom: 40px;
+}
+#mynavi_area .mynavi_list i {
+  color: #FFCD95;
+}
+#mynavi_area .point_announce {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #eee;
+}
+#mynavi_area .point_announce p {
+  margin: 0;
+}
+#mynavi_area .point_announce p .point {
+  color: #f00;
+}
+
+/*  mycontents_area  */
+/*--------------------------------- */
+#mycontents_area .title {
+  margin: 0 0 10px 0;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  color: #666;
+  font-size: 18px;
+}
+#mycontents_area p {
+  font-size: 12px;
+}
+#mycontents_area .attention {
+  color: #f00;
+}
+
+/*  login  */
+/*--------------------------------- */
+#login_mypage .login_area {
+  margin-bottom: 40px;
+}
+#login_mypage .login_area .title {
+  margin: 0 0 10px 0;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  color: #666;
+  font-size: 18px;
+}
+#login_mypage .login_area .inputbox {
+  margin-bottom: 20px;
+}
+#login_mypage .login_area dt, #login_mypage .login_area dd {
+  display: inline-block;
+}
+#login_mypage .login_area p {
+  font-size: 12px;
+}
+
+/* ------------------------------------- */
+/*	 12.Order 	*/
+/* ------------------------------------- */
+#undercolumn_order table > tbody > tr th {
+  background-color: #f4f4f4;
+}
+#undercolumn_order table > tbody > tr td input {
+  margin-bottom: 10px;
+}
+#undercolumn_order table > tbody > tr td select {
+  margin-bottom: 10px;
+}
+
+/* ------------------------------------- */
+/*	 13.Products 	*/
+/* ------------------------------------- */
+/*  page_infomation  */
+/*--------------------------------- */
+.page_infomation {
+  padding: 10px 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.page_infomation ul {
+  margin-bottom: 0;
+}
+
+/*  products list  */
+/*--------------------------------- */
+.list_area {
+  padding: 30px 0;
+  border-bottom: 1px solid #eee;
+}
+.list_area .listphoto {
+  text-align: center;
+}
+.list_area .listphoto img {
+  width: 100%;
+  border: 1px solid #aaa;
+}
+@media (max-width: 768px) {
+  .list_area .listphoto img {
+    width: 50%;
+  }
+}
+.list_area .listrightbloc .title {
+  margin: 0 0 10px 0;
+  line-height: 16px;
+}
+.list_area .listrightbloc .title a {
+  color: #39c;
+  font-size: 16px;
+}
+.list_area .listrightbloc .pricebox {
+  margin: 0 0 10px 0;
+  color: #f00;
+}
+
+#page_navi_bottom {
+  padding: 20px;
+}
+
+.detail_area .listcomment {
+  margin-bottom: 10px;
+}
+.detail_area .detail_btn {
+  margin-bottom: 20px;
+}
+
+.cart_area {
+  margin-bottom: 20px;
+}
+.cart_area .classlist {
+  margin-bottom: 10px;
+}
+.cart_area .classlist dl {
+  display: inline-block;
+  margin-right: 10px;
+}
+.cart_area .classlist ul {
+  display: inline-block;
+  margin-right: 10px;
+}
+.cart_area .cartin div {
+  display: inline-block;
+}
+
+/*  products detail  */
+/*--------------------------------- */
+#detailphotobloc img {
+  width: 100%;
+  height: 100%;
+}
+
+#detailarea {
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+#detailrightbloc .product_code {
+  margin-bottom: 10px;
+}
+#detailrightbloc .product_code dt, #detailrightbloc .product_code dd {
+  display: inline-block;
+  font-size: 14px;
+  color: #888;
+}
+#detailrightbloc .title {
+  margin: 0 0 10px 0;
+  color: #666;
+  font-size: 22px;
+}
+#detailrightbloc .sale_price {
+  margin: 0;
+  padding-top: 10px;
+  border-top: 1px dashed #ccc;
+  font-size: 14px;
+}
+#detailrightbloc .sale_price dt, #detailrightbloc .sale_price dd {
+  display: inline-block;
+  color: #f00;
+}
+#detailrightbloc .point {
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #ccc;
+  color: #f00;
+  font-size: 14px;
+}
+#detailrightbloc .relative_cat {
+  padding: 10px 0;
+  margin-bottom: 10px;
+  border-bottom: 1px dashed #ccc;
+  font-size: 12px;
+}
+#detailrightbloc .relative_cat dt, #detailrightbloc .relative_cat dd {
+  display: inline-block;
+}
+#detailrightbloc .main_comment {
+  margin-bottom: 10px;
+  color: #666;
+  font-size: 12px;
+}
+
+#customervoice_area {
+  padding: 20px 0;
+}
+#customervoice_area .title {
+  padding: 10px;
+  margin: 0;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background-color: #eee;
+}
+#customervoice_area .review_bloc {
+  padding: 20px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  font-size: 12px;
+}
+#customervoice_area .user_voice {
+  margin: 0;
+  padding: 20px 0;
+  border-bottom: 1px dashed #ccc;
+}
+#customervoice_area .user_voice:last-child {
+  border-bottom: 1px solid #ccc;
+}
+#customervoice_area .user_voice .voicedate {
+  font-size: 12px;
+}
+#customervoice_area .user_voice .voicedate .recommend_level {
+  color: #ecbd00;
+}
+
+#whobought_area {
+  padding: 20px 0;
+}
+#whobought_area .title {
+  margin-top: 0;
+  font-size: 16px;
+}
+#whobought_area .product_item img {
+  width: 100%;
+  height: 100%;
+}
+#whobought_area .product_item .title {
+  font-size: 14px;
+}
+
+#window_area .windowtext {
+  font-size: 12px;
+}
+
+/* ------------------------------------- */
+/*	 14.Regist 	*/
+/* ------------------------------------- */
+/* ------------------------------------- */
+/*	 15.RSS 	*/
+/* ------------------------------------- */
+/* ------------------------------------- */
+/*	 16.Shopping 	*/
+/* ------------------------------------- */
+/*  undercolumn_shopping  */
+/*--------------------------------- */
+#undercolumn_shopping #address_area {
+  margin-bottom: 20px;
+}
+#undercolumn_shopping #address_area p {
+  font-size: 12px;
+}
+#undercolumn_shopping .addbtn {
+  margin-bottom: 20px;
+}
+#undercolumn_shopping .title {
+  padding: 10px 0;
+  margin: 0 0 20px 0;
+  border-bottom: 1px solid #ccc;
+  font-size: 18px;
+  color: #666;
+}
+#undercolumn_shopping p {
+  font-size: 12px;
+}
+#undercolumn_shopping .pay_area {
+  margin-bottom: 40px;
+}
+#undercolumn_shopping .pay_area02 {
+  margin-bottom: 40px;
+}
+#undercolumn_shopping .point_area {
+  margin-bottom: 40px;
+}
+#undercolumn_shopping .point_area .attention {
+  color: #f00;
+}
+#undercolumn_shopping .point_area .point_announce {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+#undercolumn_shopping .point_area .point_announce ul {
+  margin: 0;
+}
+#undercolumn_shopping .point_area .point_announce ul li {
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+#undercolumn_shopping .point_area .point_announce ul li:last-child {
+  margin: 0;
+}
+#undercolumn_shopping .information {
+  margin-bottom: 20px;
+}
+#undercolumn_shopping .btn_area {
+  margin-bottom: 20px;
+  text-align: center;
+}
+#undercolumn_shopping table > thead > tr th {
+  background-color: #f4f4f4;
+}
+#undercolumn_shopping table > thead > tr th.alignC {
+  text-align: center;
+}
+#undercolumn_shopping table > tbody > tr th {
+  background-color: #f4f4f4;
+}
+#undercolumn_shopping table > tbody > tr td.alignC {
+  text-align: center;
+}
+#undercolumn_shopping table > tbody > tr td input {
+  margin-bottom: 10px;
+}
+#undercolumn_shopping table > tbody > tr td select {
+  margin-bottom: 10px;
+}
+
+/*  undercolumn_login  */
+/*--------------------------------- */
+#undercolumn_login .login_area {
+  margin-bottom: 40px;
+}
+#undercolumn_login .login_area .title {
+  margin: 0 0 10px 0;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  color: #666;
+  font-size: 18px;
+}
+#undercolumn_login .login_area .sub_title {
+  font-size: 14px;
+}
+#undercolumn_login .login_area .inputbox {
+  margin-bottom: 20px;
+}
+#undercolumn_login .login_area .inputbox .btn_area {
+  margin-bottom: 20px;
+}
+#undercolumn_login .login_area .inputtext {
+  margin-bottom: 20px;
+}
+#undercolumn_login .login_area dt, #undercolumn_login .login_area dd {
+  display: inline-block;
+}
+#undercolumn_login .login_area p {
+  font-size: 12px;
+}
+
+/*  customer  */
+/*--------------------------------- */
+#undercolumn_customer .attention {
+  color: #f00;
+}
+#undercolumn_customer table > tbody > tr th {
+  background-color: #f4f4f4;
+}
+#undercolumn_customer table > tbody > tr td.alignC {
+  text-align: center;
+}
+#undercolumn_customer table > tbody > tr td input {
+  margin-bottom: 10px;
+}
+#undercolumn_customer table > tbody > tr td select {
+  margin-bottom: 10px;
+}

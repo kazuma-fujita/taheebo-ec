@@ -1,0 +1,1859 @@
+2014/09/01 14:16:24 [/preview/index.php] access : user=taheebo auth=0 sid=l6hqd6q7rrbdsjsvjqlq593sq0 from 211.129.80.16
+2014/09/01 14:16:44 [/preview/index.php] access : user=taheebo auth=0 sid=l6hqd6q7rrbdsjsvjqlq593sq0 from 211.129.80.16
+2014/09/01 14:17:23 [/preview/index.php] access : user=taheebo auth=0 sid=l6hqd6q7rrbdsjsvjqlq593sq0 from 211.129.80.16
+2014/09/01 14:17:48 [/preview/index.php] access : user=taheebo auth=0 sid=l6hqd6q7rrbdsjsvjqlq593sq0 from 211.129.80.16
+2014/09/01 14:18:10 [/preview/index.php] access : user=taheebo auth=0 sid=l6hqd6q7rrbdsjsvjqlq593sq0 from 211.129.80.16
+2014/09/01 14:18:56 [/preview/index.php] access : user=taheebo auth=0 sid=l6hqd6q7rrbdsjsvjqlq593sq0 from 211.129.80.16
+2014/09/01 14:19:42 [/preview/index.php] access : user=taheebo auth=0 sid=l6hqd6q7rrbdsjsvjqlq593sq0 from 211.129.80.16
+2014/09/01 14:21:56 [/preview/index.php] access : user=taheebo auth=0 sid=l6hqd6q7rrbdsjsvjqlq593sq0 from 211.129.80.16
+2014/09/01 14:23:09 [/preview/index.php] access : user=taheebo auth=0 sid=l6hqd6q7rrbdsjsvjqlq593sq0 from 211.129.80.16
+2014/09/01 14:24:36 [/preview/index.php] access : user=taheebo auth=0 sid=l6hqd6q7rrbdsjsvjqlq593sq0 from 211.129.80.16
+2014/09/01 14:26:07 [/preview/index.php] access : user=taheebo auth=0 sid=l6hqd6q7rrbdsjsvjqlq593sq0 from 211.129.80.16
+2014/09/01 14:40:15 [/preview/index.php] access : user=taheebo auth=0 sid=l6hqd6q7rrbdsjsvjqlq593sq0 from 211.129.80.16
+2014/09/01 14:40:56 [/preview/index.php] access : user=taheebo auth=0 sid=l6hqd6q7rrbdsjsvjqlq593sq0 from 211.129.80.16
+2014/09/01 14:40:59 [/preview/index.php] access : user=taheebo auth=0 sid=l6hqd6q7rrbdsjsvjqlq593sq0 from 211.129.80.16
+2014/09/01 14:44:29 [/preview/index.php] access : user=taheebo auth=0 sid=l6hqd6q7rrbdsjsvjqlq593sq0 from 211.129.80.16
+2014/09/01 14:56:25 [/preview/index.php] access : user=taheebo auth=0 sid=l6hqd6q7rrbdsjsvjqlq593sq0 from 211.129.80.16
+2014/09/01 22:39:58 [/preview/index.php] access : user=taheebo auth=0 sid=k9kaskr3b5fqg4iu9le35n5ad6 from 122.130.129.113
+2014/09/01 22:40:09 [/preview/index.php] access : user=taheebo auth=0 sid=k9kaskr3b5fqg4iu9le35n5ad6 from 122.130.129.113
+2014/09/01 22:40:14 [/preview/index.php] access : user=taheebo auth=0 sid=k9kaskr3b5fqg4iu9le35n5ad6 from 122.130.129.113
+2014/09/01 22:41:17 [/preview/index.php] access : user=taheebo auth=0 sid=k9kaskr3b5fqg4iu9le35n5ad6 from 122.130.129.113
+2014/09/02 00:28:31 [/preview/index.php] access : user=taheebo auth=0 sid=k9kaskr3b5fqg4iu9le35n5ad6 from 122.130.129.113
+2014/09/02 00:29:08 [/preview/index.php] access : user=taheebo auth=0 sid=k9kaskr3b5fqg4iu9le35n5ad6 from 122.130.129.113
+2014/09/02 02:51:35 [/index.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 02:51:35 [/index.php] DEBUG
+/index.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 02:51:35 [/index.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 02:52:08 [/index.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 02:52:08 [/index.php] DEBUG
+/index.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 02:52:08 [/index.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 02:53:08 [/index.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 02:53:08 [/index.php] DEBUG
+/index.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 02:53:08 [/index.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 02:55:41 [/index.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 02:55:41 [/index.php] DEBUG
+/index.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 02:55:41 [/index.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 02:55:41 [/index.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(126): GC_Utils->gfDebugLog
+2014/09/02 02:55:41 [/index.php] DEBUG
+-----test 2222----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(138): GC_Utils->gfDebugLog
+2014/09/02 02:57:10 [/index.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 02:57:10 [/index.php] DEBUG
+/index.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 02:57:10 [/index.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 02:57:10 [/index.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(126): GC_Utils->gfDebugLog
+2014/09/02 02:57:10 [/index.php] DEBUG
+-----test 2222----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(138): GC_Utils->gfDebugLog
+2014/09/02 02:57:10 [/index.php] DEBUG
+/index.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(140): GC_Utils->gfDebugLog
+2014/09/02 02:57:39 [/index.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 02:57:39 [/index.php] DEBUG
+/ from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 02:57:39 [/index.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 02:57:39 [/index.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(126): GC_Utils->gfDebugLog
+2014/09/02 02:57:39 [/index.php] DEBUG
+-----test 2222----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(138): GC_Utils->gfDebugLog
+2014/09/02 02:57:39 [/index.php] DEBUG
+/index.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(140): GC_Utils->gfDebugLog
+2014/09/02 02:57:51 [/index.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 02:57:51 [/index.php] DEBUG
+/ from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 02:57:51 [/index.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 02:57:51 [/index.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(126): GC_Utils->gfDebugLog
+2014/09/02 02:57:51 [/index.php] DEBUG
+-----test 2222----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(138): GC_Utils->gfDebugLog
+2014/09/02 02:57:51 [/index.php] DEBUG
+/index.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(140): GC_Utils->gfDebugLog
+2014/09/02 02:58:43 [/index.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 02:58:43 [/index.php] DEBUG
+/ from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 02:58:43 [/index.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 02:58:43 [/index.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(126): GC_Utils->gfDebugLog
+2014/09/02 02:58:43 [/index.php] DEBUG
+-----test 2222----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(138): GC_Utils->gfDebugLog
+2014/09/02 02:58:43 [/index.php] DEBUG
+/index.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(140): GC_Utils->gfDebugLog
+2014/09/02 02:59:37 [/index.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 02:59:37 [/index.php] DEBUG
+/ from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 02:59:37 [/index.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 02:59:37 [/index.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(126): GC_Utils->gfDebugLog
+2014/09/02 02:59:37 [/index.php] DEBUG
+-----test 2222----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(139): GC_Utils->gfDebugLog
+2014/09/02 02:59:37 [/index.php] DEBUG
+/index.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(141): GC_Utils->gfDebugLog
+2014/09/02 02:59:37 [/index.php] DEBUG
+-----test 3333----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(146): GC_Utils->gfDebugLog
+2014/09/02 02:59:37 [/mypage/login.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 02:59:37 [/mypage/login.php] DEBUG
+/mypage/login.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 02:59:37 [/mypage/login.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 02:59:37 [/mypage/login.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(126): GC_Utils->gfDebugLog
+2014/09/02 02:59:39 [/index.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 02:59:39 [/index.php] DEBUG
+/ from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 02:59:39 [/index.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 02:59:39 [/index.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(126): GC_Utils->gfDebugLog
+2014/09/02 02:59:39 [/index.php] DEBUG
+-----test 2222----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(139): GC_Utils->gfDebugLog
+2014/09/02 02:59:39 [/index.php] DEBUG
+/index.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(141): GC_Utils->gfDebugLog
+2014/09/02 02:59:39 [/index.php] DEBUG
+-----test 3333----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(146): GC_Utils->gfDebugLog
+2014/09/02 02:59:39 [/mypage/login.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 02:59:39 [/mypage/login.php] DEBUG
+/mypage/login.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 02:59:39 [/mypage/login.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 02:59:39 [/mypage/login.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(126): GC_Utils->gfDebugLog
+2014/09/02 02:59:40 [/index.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 02:59:40 [/index.php] DEBUG
+/ from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 02:59:40 [/index.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 02:59:40 [/index.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(126): GC_Utils->gfDebugLog
+2014/09/02 02:59:40 [/index.php] DEBUG
+-----test 2222----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(139): GC_Utils->gfDebugLog
+2014/09/02 02:59:40 [/index.php] DEBUG
+/index.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(141): GC_Utils->gfDebugLog
+2014/09/02 02:59:40 [/index.php] DEBUG
+-----test 3333----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(146): GC_Utils->gfDebugLog
+2014/09/02 02:59:40 [/mypage/login.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 02:59:40 [/mypage/login.php] DEBUG
+/mypage/login.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 02:59:40 [/mypage/login.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 02:59:40 [/mypage/login.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(126): GC_Utils->gfDebugLog
+2014/09/02 02:59:59 [/index.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 02:59:59 [/index.php] DEBUG
+/ from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 02:59:59 [/index.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 02:59:59 [/index.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(126): GC_Utils->gfDebugLog
+2014/09/02 02:59:59 [/mypage/login.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 02:59:59 [/mypage/login.php] DEBUG
+/mypage/login.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 02:59:59 [/mypage/login.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 02:59:59 [/mypage/login.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(126): GC_Utils->gfDebugLog
+2014/09/02 03:00:04 [/index.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 03:00:04 [/index.php] DEBUG
+/ from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 03:00:04 [/index.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 03:00:04 [/index.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(126): GC_Utils->gfDebugLog
+2014/09/02 03:00:04 [/mypage/login.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 03:00:04 [/mypage/login.php] DEBUG
+/mypage/login.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 03:00:04 [/mypage/login.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 03:00:04 [/mypage/login.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(126): GC_Utils->gfDebugLog
+2014/09/02 03:01:18 [/contact/index.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/contact/index.php(27): LC_Page_Contact_Ex->init
+/var/www/eccube/data/class_extends/page_extends/contact/LC_Page_Contact_Ex.php(44): LC_Page_Contact->init
+/var/www/eccube/data/class/pages/contact/LC_Page_Contact.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 03:01:18 [/contact/index.php] DEBUG
+/contact/ from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/contact/index.php(27): LC_Page_Contact_Ex->init
+/var/www/eccube/data/class_extends/page_extends/contact/LC_Page_Contact_Ex.php(44): LC_Page_Contact->init
+/var/www/eccube/data/class/pages/contact/LC_Page_Contact.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 03:01:18 [/contact/index.php] DEBUG
+/contact/index.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/contact/index.php(27): LC_Page_Contact_Ex->init
+/var/www/eccube/data/class_extends/page_extends/contact/LC_Page_Contact_Ex.php(44): LC_Page_Contact->init
+/var/www/eccube/data/class/pages/contact/LC_Page_Contact.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 03:01:18 [/contact/index.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/contact/index.php(27): LC_Page_Contact_Ex->init
+/var/www/eccube/data/class_extends/page_extends/contact/LC_Page_Contact_Ex.php(44): LC_Page_Contact->init
+/var/www/eccube/data/class/pages/contact/LC_Page_Contact.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(87): GC_Utils->gfDebugLog
+2014/09/02 03:01:18 [/mypage/login.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 03:01:18 [/mypage/login.php] DEBUG
+/mypage/login.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 03:01:18 [/mypage/login.php] DEBUG
+/mypage/login.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 03:01:18 [/mypage/login.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(87): GC_Utils->gfDebugLog
+2014/09/02 03:02:16 [/abouts/index.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/abouts/index.php(28): LC_Page_Abouts_Ex->init
+/var/www/eccube/data/class_extends/page_extends/abouts/LC_Page_Abouts_Ex.php(44): LC_Page_Abouts->init
+/var/www/eccube/data/class/pages/abouts/LC_Page_Abouts.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 03:02:16 [/abouts/index.php] DEBUG
+/abouts/ from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/abouts/index.php(28): LC_Page_Abouts_Ex->init
+/var/www/eccube/data/class_extends/page_extends/abouts/LC_Page_Abouts_Ex.php(44): LC_Page_Abouts->init
+/var/www/eccube/data/class/pages/abouts/LC_Page_Abouts.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 03:02:16 [/abouts/index.php] DEBUG
+/abouts/index.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/abouts/index.php(28): LC_Page_Abouts_Ex->init
+/var/www/eccube/data/class_extends/page_extends/abouts/LC_Page_Abouts_Ex.php(44): LC_Page_Abouts->init
+/var/www/eccube/data/class/pages/abouts/LC_Page_Abouts.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 03:02:16 [/abouts/index.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/abouts/index.php(28): LC_Page_Abouts_Ex->init
+/var/www/eccube/data/class_extends/page_extends/abouts/LC_Page_Abouts_Ex.php(44): LC_Page_Abouts->init
+/var/www/eccube/data/class/pages/abouts/LC_Page_Abouts.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(87): GC_Utils->gfDebugLog
+2014/09/02 03:02:17 [/mypage/login.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 03:02:17 [/mypage/login.php] DEBUG
+/mypage/login.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 03:02:17 [/mypage/login.php] DEBUG
+/mypage/login.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 03:02:17 [/mypage/login.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(87): GC_Utils->gfDebugLog
+2014/09/02 03:05:27 [/mypage/login.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 03:05:27 [/mypage/login.php] DEBUG
+/mypage/login.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 03:05:27 [/mypage/login.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 03:05:27 [/mypage/login.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(126): GC_Utils->gfDebugLog
+2014/09/02 03:05:27 [/mypage/login.php] DEBUG
+-----test 222 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(134): GC_Utils->gfDebugLog
+2014/09/02 03:05:27 [/mypage/login.php] DEBUG
+-----test 333 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(137): GC_Utils->gfDebugLog
+2014/09/02 03:05:28 [/index.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 03:05:28 [/index.php] DEBUG
+/ from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 03:05:28 [/index.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 03:05:28 [/index.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(126): GC_Utils->gfDebugLog
+2014/09/02 03:05:28 [/index.php] DEBUG
+-----test 222 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(134): GC_Utils->gfDebugLog
+2014/09/02 03:06:10 [/index.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 03:06:10 [/index.php] DEBUG
+/ from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 03:06:10 [/index.php] DEBUG
+/index.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 03:06:10 [/index.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(87): GC_Utils->gfDebugLog
+2014/09/02 03:06:10 [/index.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(127): GC_Utils->gfDebugLog
+2014/09/02 03:06:10 [/index.php] DEBUG
+-----test 222 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(135): GC_Utils->gfDebugLog
+2014/09/02 03:06:54 [/index.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 03:06:54 [/index.php] DEBUG
+/ from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 03:06:54 [/index.php] DEBUG
+/index.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 03:06:54 [/index.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(87): GC_Utils->gfDebugLog
+2014/09/02 03:06:54 [/index.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(127): GC_Utils->gfDebugLog
+2014/09/02 03:06:54 [/index.php] DEBUG
+-----test 222 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(135): GC_Utils->gfDebugLog
+2014/09/02 03:06:54 [/index.php] DEBUG
+-----test 444 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(143): GC_Utils->gfDebugLog
+2014/09/02 03:10:40 [/index.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 03:10:40 [/index.php] DEBUG
+/ from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 03:10:40 [/index.php] DEBUG
+/index.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 03:10:40 [/index.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(87): GC_Utils->gfDebugLog
+2014/09/02 03:10:40 [/index.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(127): GC_Utils->gfDebugLog
+2014/09/02 03:10:40 [/index.php] DEBUG
+-----test 222 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(135): GC_Utils->gfDebugLog
+2014/09/02 03:10:40 [/index.php] DEBUG
+-----test 555 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(142): GC_Utils->gfDebugLog
+2014/09/02 03:10:48 [/mypage/login.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 03:10:48 [/mypage/login.php] DEBUG
+/mypage/login.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 03:10:48 [/mypage/login.php] DEBUG
+/mypage/login.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 03:10:48 [/mypage/login.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(87): GC_Utils->gfDebugLog
+2014/09/02 03:10:48 [/mypage/login.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(127): GC_Utils->gfDebugLog
+2014/09/02 03:10:48 [/mypage/login.php] DEBUG
+-----test 222 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(135): GC_Utils->gfDebugLog
+2014/09/02 03:10:48 [/mypage/login.php] DEBUG
+-----test 444 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(139): GC_Utils->gfDebugLog
+2014/09/02 03:10:50 [/abouts/index.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/abouts/index.php(28): LC_Page_Abouts_Ex->init
+/var/www/eccube/data/class_extends/page_extends/abouts/LC_Page_Abouts_Ex.php(44): LC_Page_Abouts->init
+/var/www/eccube/data/class/pages/abouts/LC_Page_Abouts.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 03:10:50 [/abouts/index.php] DEBUG
+/abouts/ from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/abouts/index.php(28): LC_Page_Abouts_Ex->init
+/var/www/eccube/data/class_extends/page_extends/abouts/LC_Page_Abouts_Ex.php(44): LC_Page_Abouts->init
+/var/www/eccube/data/class/pages/abouts/LC_Page_Abouts.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 03:10:50 [/abouts/index.php] DEBUG
+/abouts/index.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/abouts/index.php(28): LC_Page_Abouts_Ex->init
+/var/www/eccube/data/class_extends/page_extends/abouts/LC_Page_Abouts_Ex.php(44): LC_Page_Abouts->init
+/var/www/eccube/data/class/pages/abouts/LC_Page_Abouts.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 03:10:50 [/abouts/index.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/abouts/index.php(28): LC_Page_Abouts_Ex->init
+/var/www/eccube/data/class_extends/page_extends/abouts/LC_Page_Abouts_Ex.php(44): LC_Page_Abouts->init
+/var/www/eccube/data/class/pages/abouts/LC_Page_Abouts.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(87): GC_Utils->gfDebugLog
+2014/09/02 03:10:50 [/abouts/index.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/abouts/index.php(28): LC_Page_Abouts_Ex->init
+/var/www/eccube/data/class_extends/page_extends/abouts/LC_Page_Abouts_Ex.php(44): LC_Page_Abouts->init
+/var/www/eccube/data/class/pages/abouts/LC_Page_Abouts.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(127): GC_Utils->gfDebugLog
+2014/09/02 03:10:50 [/abouts/index.php] DEBUG
+-----test 222 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/abouts/index.php(28): LC_Page_Abouts_Ex->init
+/var/www/eccube/data/class_extends/page_extends/abouts/LC_Page_Abouts_Ex.php(44): LC_Page_Abouts->init
+/var/www/eccube/data/class/pages/abouts/LC_Page_Abouts.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(135): GC_Utils->gfDebugLog
+2014/09/02 03:10:50 [/abouts/index.php] DEBUG
+-----test 444 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/abouts/index.php(28): LC_Page_Abouts_Ex->init
+/var/www/eccube/data/class_extends/page_extends/abouts/LC_Page_Abouts_Ex.php(44): LC_Page_Abouts->init
+/var/www/eccube/data/class/pages/abouts/LC_Page_Abouts.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(139): GC_Utils->gfDebugLog
+2014/09/02 03:10:53 [/order/index.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/order/index.php(28): LC_Page_Order_Ex->init
+/var/www/eccube/data/class_extends/page_extends/order/LC_Page_Order_Ex.php(44): LC_Page_Order->init
+/var/www/eccube/data/class/pages/order/LC_Page_Order.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 03:10:53 [/order/index.php] DEBUG
+/order/ from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/order/index.php(28): LC_Page_Order_Ex->init
+/var/www/eccube/data/class_extends/page_extends/order/LC_Page_Order_Ex.php(44): LC_Page_Order->init
+/var/www/eccube/data/class/pages/order/LC_Page_Order.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 03:10:53 [/order/index.php] DEBUG
+/order/index.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/order/index.php(28): LC_Page_Order_Ex->init
+/var/www/eccube/data/class_extends/page_extends/order/LC_Page_Order_Ex.php(44): LC_Page_Order->init
+/var/www/eccube/data/class/pages/order/LC_Page_Order.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 03:10:53 [/order/index.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/order/index.php(28): LC_Page_Order_Ex->init
+/var/www/eccube/data/class_extends/page_extends/order/LC_Page_Order_Ex.php(44): LC_Page_Order->init
+/var/www/eccube/data/class/pages/order/LC_Page_Order.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(87): GC_Utils->gfDebugLog
+2014/09/02 03:10:53 [/order/index.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/order/index.php(28): LC_Page_Order_Ex->init
+/var/www/eccube/data/class_extends/page_extends/order/LC_Page_Order_Ex.php(44): LC_Page_Order->init
+/var/www/eccube/data/class/pages/order/LC_Page_Order.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(127): GC_Utils->gfDebugLog
+2014/09/02 03:10:53 [/order/index.php] DEBUG
+-----test 222 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/order/index.php(28): LC_Page_Order_Ex->init
+/var/www/eccube/data/class_extends/page_extends/order/LC_Page_Order_Ex.php(44): LC_Page_Order->init
+/var/www/eccube/data/class/pages/order/LC_Page_Order.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(135): GC_Utils->gfDebugLog
+2014/09/02 03:10:53 [/order/index.php] DEBUG
+-----test 444 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/order/index.php(28): LC_Page_Order_Ex->init
+/var/www/eccube/data/class_extends/page_extends/order/LC_Page_Order_Ex.php(44): LC_Page_Order->init
+/var/www/eccube/data/class/pages/order/LC_Page_Order.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(139): GC_Utils->gfDebugLog
+2014/09/02 03:10:55 [/index.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 03:10:55 [/index.php] DEBUG
+/ from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 03:10:55 [/index.php] DEBUG
+/index.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 03:10:55 [/index.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(87): GC_Utils->gfDebugLog
+2014/09/02 03:10:55 [/index.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(127): GC_Utils->gfDebugLog
+2014/09/02 03:10:55 [/index.php] DEBUG
+-----test 222 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(135): GC_Utils->gfDebugLog
+2014/09/02 03:10:55 [/index.php] DEBUG
+-----test 555 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(142): GC_Utils->gfDebugLog
+2014/09/02 03:10:55 [/mypage/login.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 03:10:55 [/mypage/login.php] DEBUG
+/mypage/login.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 03:10:55 [/mypage/login.php] DEBUG
+/mypage/login.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 03:10:55 [/mypage/login.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(87): GC_Utils->gfDebugLog
+2014/09/02 03:10:55 [/mypage/login.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(127): GC_Utils->gfDebugLog
+2014/09/02 03:10:55 [/mypage/login.php] DEBUG
+-----test 222 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(135): GC_Utils->gfDebugLog
+2014/09/02 03:10:55 [/mypage/login.php] DEBUG
+-----test 444 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(139): GC_Utils->gfDebugLog
+2014/09/02 03:10:57 [/contact/index.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/contact/index.php(27): LC_Page_Contact_Ex->init
+/var/www/eccube/data/class_extends/page_extends/contact/LC_Page_Contact_Ex.php(44): LC_Page_Contact->init
+/var/www/eccube/data/class/pages/contact/LC_Page_Contact.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 03:10:57 [/contact/index.php] DEBUG
+/contact/ from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/contact/index.php(27): LC_Page_Contact_Ex->init
+/var/www/eccube/data/class_extends/page_extends/contact/LC_Page_Contact_Ex.php(44): LC_Page_Contact->init
+/var/www/eccube/data/class/pages/contact/LC_Page_Contact.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 03:10:57 [/contact/index.php] DEBUG
+/contact/index.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/contact/index.php(27): LC_Page_Contact_Ex->init
+/var/www/eccube/data/class_extends/page_extends/contact/LC_Page_Contact_Ex.php(44): LC_Page_Contact->init
+/var/www/eccube/data/class/pages/contact/LC_Page_Contact.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 03:10:57 [/contact/index.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/contact/index.php(27): LC_Page_Contact_Ex->init
+/var/www/eccube/data/class_extends/page_extends/contact/LC_Page_Contact_Ex.php(44): LC_Page_Contact->init
+/var/www/eccube/data/class/pages/contact/LC_Page_Contact.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(87): GC_Utils->gfDebugLog
+2014/09/02 03:10:57 [/contact/index.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/contact/index.php(27): LC_Page_Contact_Ex->init
+/var/www/eccube/data/class_extends/page_extends/contact/LC_Page_Contact_Ex.php(44): LC_Page_Contact->init
+/var/www/eccube/data/class/pages/contact/LC_Page_Contact.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(127): GC_Utils->gfDebugLog
+2014/09/02 03:10:57 [/contact/index.php] DEBUG
+-----test 222 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/contact/index.php(27): LC_Page_Contact_Ex->init
+/var/www/eccube/data/class_extends/page_extends/contact/LC_Page_Contact_Ex.php(44): LC_Page_Contact->init
+/var/www/eccube/data/class/pages/contact/LC_Page_Contact.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(135): GC_Utils->gfDebugLog
+2014/09/02 03:10:57 [/contact/index.php] DEBUG
+-----test 444 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/contact/index.php(27): LC_Page_Contact_Ex->init
+/var/www/eccube/data/class_extends/page_extends/contact/LC_Page_Contact_Ex.php(44): LC_Page_Contact->init
+/var/www/eccube/data/class/pages/contact/LC_Page_Contact.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(139): GC_Utils->gfDebugLog
+2014/09/02 03:11:00 [/index.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 03:11:00 [/index.php] DEBUG
+/ from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 03:11:00 [/index.php] DEBUG
+/index.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 03:11:00 [/index.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(87): GC_Utils->gfDebugLog
+2014/09/02 03:11:00 [/index.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(127): GC_Utils->gfDebugLog
+2014/09/02 03:11:00 [/index.php] DEBUG
+-----test 222 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(135): GC_Utils->gfDebugLog
+2014/09/02 03:11:00 [/index.php] DEBUG
+-----test 555 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(142): GC_Utils->gfDebugLog
+2014/09/02 03:11:00 [/mypage/login.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 03:11:00 [/mypage/login.php] DEBUG
+/mypage/login.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 03:11:00 [/mypage/login.php] DEBUG
+/mypage/login.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 03:11:00 [/mypage/login.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(87): GC_Utils->gfDebugLog
+2014/09/02 03:11:00 [/mypage/login.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(127): GC_Utils->gfDebugLog
+2014/09/02 03:11:00 [/mypage/login.php] DEBUG
+-----test 222 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(135): GC_Utils->gfDebugLog
+2014/09/02 03:11:00 [/mypage/login.php] DEBUG
+-----test 444 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(139): GC_Utils->gfDebugLog
+2014/09/02 03:11:02 [/abouts/index.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/abouts/index.php(28): LC_Page_Abouts_Ex->init
+/var/www/eccube/data/class_extends/page_extends/abouts/LC_Page_Abouts_Ex.php(44): LC_Page_Abouts->init
+/var/www/eccube/data/class/pages/abouts/LC_Page_Abouts.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 03:11:02 [/abouts/index.php] DEBUG
+/abouts/ from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/abouts/index.php(28): LC_Page_Abouts_Ex->init
+/var/www/eccube/data/class_extends/page_extends/abouts/LC_Page_Abouts_Ex.php(44): LC_Page_Abouts->init
+/var/www/eccube/data/class/pages/abouts/LC_Page_Abouts.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 03:11:02 [/abouts/index.php] DEBUG
+/abouts/index.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/abouts/index.php(28): LC_Page_Abouts_Ex->init
+/var/www/eccube/data/class_extends/page_extends/abouts/LC_Page_Abouts_Ex.php(44): LC_Page_Abouts->init
+/var/www/eccube/data/class/pages/abouts/LC_Page_Abouts.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 03:11:02 [/abouts/index.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/abouts/index.php(28): LC_Page_Abouts_Ex->init
+/var/www/eccube/data/class_extends/page_extends/abouts/LC_Page_Abouts_Ex.php(44): LC_Page_Abouts->init
+/var/www/eccube/data/class/pages/abouts/LC_Page_Abouts.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(87): GC_Utils->gfDebugLog
+2014/09/02 03:11:02 [/abouts/index.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/abouts/index.php(28): LC_Page_Abouts_Ex->init
+/var/www/eccube/data/class_extends/page_extends/abouts/LC_Page_Abouts_Ex.php(44): LC_Page_Abouts->init
+/var/www/eccube/data/class/pages/abouts/LC_Page_Abouts.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(127): GC_Utils->gfDebugLog
+2014/09/02 03:11:02 [/abouts/index.php] DEBUG
+-----test 222 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/abouts/index.php(28): LC_Page_Abouts_Ex->init
+/var/www/eccube/data/class_extends/page_extends/abouts/LC_Page_Abouts_Ex.php(44): LC_Page_Abouts->init
+/var/www/eccube/data/class/pages/abouts/LC_Page_Abouts.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(135): GC_Utils->gfDebugLog
+2014/09/02 03:11:02 [/abouts/index.php] DEBUG
+-----test 444 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/abouts/index.php(28): LC_Page_Abouts_Ex->init
+/var/www/eccube/data/class_extends/page_extends/abouts/LC_Page_Abouts_Ex.php(44): LC_Page_Abouts->init
+/var/www/eccube/data/class/pages/abouts/LC_Page_Abouts.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(139): GC_Utils->gfDebugLog
+2014/09/02 03:11:06 [/contact/index.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/contact/index.php(27): LC_Page_Contact_Ex->init
+/var/www/eccube/data/class_extends/page_extends/contact/LC_Page_Contact_Ex.php(44): LC_Page_Contact->init
+/var/www/eccube/data/class/pages/contact/LC_Page_Contact.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 03:11:06 [/contact/index.php] DEBUG
+/contact/ from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/contact/index.php(27): LC_Page_Contact_Ex->init
+/var/www/eccube/data/class_extends/page_extends/contact/LC_Page_Contact_Ex.php(44): LC_Page_Contact->init
+/var/www/eccube/data/class/pages/contact/LC_Page_Contact.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 03:11:06 [/contact/index.php] DEBUG
+/contact/index.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/contact/index.php(27): LC_Page_Contact_Ex->init
+/var/www/eccube/data/class_extends/page_extends/contact/LC_Page_Contact_Ex.php(44): LC_Page_Contact->init
+/var/www/eccube/data/class/pages/contact/LC_Page_Contact.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 03:11:06 [/contact/index.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/contact/index.php(27): LC_Page_Contact_Ex->init
+/var/www/eccube/data/class_extends/page_extends/contact/LC_Page_Contact_Ex.php(44): LC_Page_Contact->init
+/var/www/eccube/data/class/pages/contact/LC_Page_Contact.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(87): GC_Utils->gfDebugLog
+2014/09/02 03:11:06 [/contact/index.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/contact/index.php(27): LC_Page_Contact_Ex->init
+/var/www/eccube/data/class_extends/page_extends/contact/LC_Page_Contact_Ex.php(44): LC_Page_Contact->init
+/var/www/eccube/data/class/pages/contact/LC_Page_Contact.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(127): GC_Utils->gfDebugLog
+2014/09/02 03:11:06 [/contact/index.php] DEBUG
+-----test 222 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/contact/index.php(27): LC_Page_Contact_Ex->init
+/var/www/eccube/data/class_extends/page_extends/contact/LC_Page_Contact_Ex.php(44): LC_Page_Contact->init
+/var/www/eccube/data/class/pages/contact/LC_Page_Contact.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(135): GC_Utils->gfDebugLog
+2014/09/02 03:11:06 [/contact/index.php] DEBUG
+-----test 444 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/contact/index.php(27): LC_Page_Contact_Ex->init
+/var/www/eccube/data/class_extends/page_extends/contact/LC_Page_Contact_Ex.php(44): LC_Page_Contact->init
+/var/www/eccube/data/class/pages/contact/LC_Page_Contact.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(139): GC_Utils->gfDebugLog
+2014/09/02 03:11:09 [/contact/index.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/contact/index.php(27): LC_Page_Contact_Ex->init
+/var/www/eccube/data/class_extends/page_extends/contact/LC_Page_Contact_Ex.php(44): LC_Page_Contact->init
+/var/www/eccube/data/class/pages/contact/LC_Page_Contact.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 03:11:09 [/contact/index.php] DEBUG
+/contact/? from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/contact/index.php(27): LC_Page_Contact_Ex->init
+/var/www/eccube/data/class_extends/page_extends/contact/LC_Page_Contact_Ex.php(44): LC_Page_Contact->init
+/var/www/eccube/data/class/pages/contact/LC_Page_Contact.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 03:11:09 [/contact/index.php] DEBUG
+/contact/index.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/contact/index.php(27): LC_Page_Contact_Ex->init
+/var/www/eccube/data/class_extends/page_extends/contact/LC_Page_Contact_Ex.php(44): LC_Page_Contact->init
+/var/www/eccube/data/class/pages/contact/LC_Page_Contact.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 03:11:09 [/contact/index.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/contact/index.php(27): LC_Page_Contact_Ex->init
+/var/www/eccube/data/class_extends/page_extends/contact/LC_Page_Contact_Ex.php(44): LC_Page_Contact->init
+/var/www/eccube/data/class/pages/contact/LC_Page_Contact.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(87): GC_Utils->gfDebugLog
+2014/09/02 03:11:09 [/contact/index.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/contact/index.php(27): LC_Page_Contact_Ex->init
+/var/www/eccube/data/class_extends/page_extends/contact/LC_Page_Contact_Ex.php(44): LC_Page_Contact->init
+/var/www/eccube/data/class/pages/contact/LC_Page_Contact.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(127): GC_Utils->gfDebugLog
+2014/09/02 03:11:09 [/contact/index.php] DEBUG
+-----test 222 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/contact/index.php(27): LC_Page_Contact_Ex->init
+/var/www/eccube/data/class_extends/page_extends/contact/LC_Page_Contact_Ex.php(44): LC_Page_Contact->init
+/var/www/eccube/data/class/pages/contact/LC_Page_Contact.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(135): GC_Utils->gfDebugLog
+2014/09/02 03:11:09 [/contact/index.php] DEBUG
+-----test 444 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/contact/index.php(27): LC_Page_Contact_Ex->init
+/var/www/eccube/data/class_extends/page_extends/contact/LC_Page_Contact_Ex.php(44): LC_Page_Contact->init
+/var/www/eccube/data/class/pages/contact/LC_Page_Contact.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(139): GC_Utils->gfDebugLog
+2014/09/02 03:11:15 [/index.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 03:11:15 [/index.php] DEBUG
+/ from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 03:11:15 [/index.php] DEBUG
+/index.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 03:11:15 [/index.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(87): GC_Utils->gfDebugLog
+2014/09/02 03:11:15 [/index.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(127): GC_Utils->gfDebugLog
+2014/09/02 03:11:15 [/index.php] DEBUG
+-----test 222 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(135): GC_Utils->gfDebugLog
+2014/09/02 03:11:15 [/index.php] DEBUG
+-----test 555 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/index.php(27): LC_Page_Index_Ex->init
+/var/www/eccube/data/class_extends/page_extends/LC_Page_Index_Ex.php(44): LC_Page_Index->init
+/var/www/eccube/data/class/pages/LC_Page_Index.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(142): GC_Utils->gfDebugLog
+2014/09/02 03:11:15 [/mypage/login.php] DEBUG
+-----test----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(84): GC_Utils->gfDebugLog
+2014/09/02 03:11:15 [/mypage/login.php] DEBUG
+/mypage/login.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(85): GC_Utils->gfDebugLog
+2014/09/02 03:11:15 [/mypage/login.php] DEBUG
+/mypage/login.php from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(86): GC_Utils->gfDebugLog
+2014/09/02 03:11:15 [/mypage/login.php] DEBUG
+-----test end----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(87): GC_Utils->gfDebugLog
+2014/09/02 03:11:15 [/mypage/login.php] DEBUG
+-----test 1111----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(127): GC_Utils->gfDebugLog
+2014/09/02 03:11:15 [/mypage/login.php] DEBUG
+-----test 222 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(135): GC_Utils->gfDebugLog
+2014/09/02 03:11:15 [/mypage/login.php] DEBUG
+-----test 444 ----- from 122.130.129.113
+customer_id = 
+/var/www/eccube/html/mypage/login.php(28): LC_Page_Mypage_Login_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_Mypage_Login_Ex.php(44): LC_Page_Mypage_Login->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_Mypage_Login.php(42): LC_Page_AbstractMypage_Ex->init
+/var/www/eccube/data/class_extends/page_extends/mypage/LC_Page_AbstractMypage_Ex.php(44): LC_Page_AbstractMypage->init
+/var/www/eccube/data/class/pages/mypage/LC_Page_AbstractMypage.php(42): LC_Page->init
+/var/www/eccube/data/class/pages/LC_Page.php(139): GC_Utils->gfDebugLog
+2014/09/03 09:13:56 [/shopping/confirm.php] order complete. order_id=1 from 180.46.121.134
+customer_id = 3
+/var/www/eccube/html/shopping/confirm.php(29): LC_Page_Shopping_Confirm_Ex->process
+/var/www/eccube/data/class_extends/page_extends/shopping/LC_Page_Shopping_Confirm_Ex.php(54): LC_Page_Shopping_Confirm->process
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(63): LC_Page_Shopping_Confirm->action
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(167): SC_Helper_Purchase->completeOrder
+/var/www/eccube/data/class/helper/SC_Helper_Purchase.php(100): GC_Utils->gfPrintLog
+2014/09/03 09:15:37 [/shopping/confirm.php] order complete. order_id=2 from 180.46.121.134
+customer_id = 3
+/var/www/eccube/html/shopping/confirm.php(29): LC_Page_Shopping_Confirm_Ex->process
+/var/www/eccube/data/class_extends/page_extends/shopping/LC_Page_Shopping_Confirm_Ex.php(54): LC_Page_Shopping_Confirm->process
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(63): LC_Page_Shopping_Confirm->action
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(167): SC_Helper_Purchase->completeOrder
+/var/www/eccube/data/class/helper/SC_Helper_Purchase.php(100): GC_Utils->gfPrintLog
+2014/09/03 09:36:57 [/shopping/confirm.php] order complete. order_id=3 from 180.46.121.134
+customer_id = 3
+/var/www/eccube/html/shopping/confirm.php(29): LC_Page_Shopping_Confirm_Ex->process
+/var/www/eccube/data/class_extends/page_extends/shopping/LC_Page_Shopping_Confirm_Ex.php(54): LC_Page_Shopping_Confirm->process
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(63): LC_Page_Shopping_Confirm->action
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(167): SC_Helper_Purchase->completeOrder
+/var/www/eccube/data/class/helper/SC_Helper_Purchase.php(100): GC_Utils->gfPrintLog
+2014/09/03 09:54:12 [/shopping/confirm.php] order complete. order_id=4 from 180.46.121.134
+customer_id = 3
+/var/www/eccube/html/shopping/confirm.php(29): LC_Page_Shopping_Confirm_Ex->process
+/var/www/eccube/data/class_extends/page_extends/shopping/LC_Page_Shopping_Confirm_Ex.php(54): LC_Page_Shopping_Confirm->process
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(63): LC_Page_Shopping_Confirm->action
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(167): SC_Helper_Purchase->completeOrder
+/var/www/eccube/data/class/helper/SC_Helper_Purchase.php(100): GC_Utils->gfPrintLog
+2014/09/03 09:54:33 [/shopping/confirm.php] order complete. order_id=5 from 180.46.121.134
+customer_id = 4
+/var/www/eccube/html/shopping/confirm.php(29): LC_Page_Shopping_Confirm_Ex->process
+/var/www/eccube/data/class_extends/page_extends/shopping/LC_Page_Shopping_Confirm_Ex.php(54): LC_Page_Shopping_Confirm->process
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(63): LC_Page_Shopping_Confirm->action
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(167): SC_Helper_Purchase->completeOrder
+/var/www/eccube/data/class/helper/SC_Helper_Purchase.php(100): GC_Utils->gfPrintLog
+2014/09/03 10:41:45 [/shopping/confirm.php] order complete. order_id=6 from 180.46.121.134
+customer_id = 4
+/var/www/eccube/html/shopping/confirm.php(29): LC_Page_Shopping_Confirm_Ex->process
+/var/www/eccube/data/class_extends/page_extends/shopping/LC_Page_Shopping_Confirm_Ex.php(54): LC_Page_Shopping_Confirm->process
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(63): LC_Page_Shopping_Confirm->action
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(167): SC_Helper_Purchase->completeOrder
+/var/www/eccube/data/class/helper/SC_Helper_Purchase.php(100): GC_Utils->gfPrintLog
+2014/09/03 11:02:48 [/shopping/confirm.php] order complete. order_id=7 from 180.46.121.134
+customer_id = 5
+/var/www/eccube/html/shopping/confirm.php(29): LC_Page_Shopping_Confirm_Ex->process
+/var/www/eccube/data/class_extends/page_extends/shopping/LC_Page_Shopping_Confirm_Ex.php(54): LC_Page_Shopping_Confirm->process
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(63): LC_Page_Shopping_Confirm->action
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(167): SC_Helper_Purchase->completeOrder
+/var/www/eccube/data/class/helper/SC_Helper_Purchase.php(100): GC_Utils->gfPrintLog
+2014/09/03 11:20:05 [/shopping/confirm.php] order complete. order_id=8 from 180.46.121.134
+customer_id = 4
+/var/www/eccube/html/shopping/confirm.php(29): LC_Page_Shopping_Confirm_Ex->process
+/var/www/eccube/data/class_extends/page_extends/shopping/LC_Page_Shopping_Confirm_Ex.php(54): LC_Page_Shopping_Confirm->process
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(63): LC_Page_Shopping_Confirm->action
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(167): SC_Helper_Purchase->completeOrder
+/var/www/eccube/data/class/helper/SC_Helper_Purchase.php(100): GC_Utils->gfPrintLog
+2014/09/03 15:05:15 [/preview/index.php] access : user=taheebo auth=0 sid=ped09r20s5oeqcjd1hodp85m17 from 180.46.121.134
+customer_id = 3
+/var/www/eccube/html/preview/index.php(29): LC_Page_Preview_Ex->process
+/var/www/eccube/data/class_extends/page_extends/preview/LC_Page_Preview_Ex.php(54): LC_Page_Preview->process
+/var/www/eccube/data/class/pages/preview/LC_Page_Preview.php(55): SC_Session->__construct
+/var/www/eccube/data/class/SC_Session.php(61): GC_Utils->gfPrintLog
+2014/09/03 15:14:51 [/shopping/confirm.php] order complete. order_id=9 from 180.46.121.134
+customer_id = 5
+/var/www/eccube/html/shopping/confirm.php(29): LC_Page_Shopping_Confirm_Ex->process
+/var/www/eccube/data/class_extends/page_extends/shopping/LC_Page_Shopping_Confirm_Ex.php(54): LC_Page_Shopping_Confirm->process
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(63): LC_Page_Shopping_Confirm->action
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(167): SC_Helper_Purchase->completeOrder
+/var/www/eccube/data/class/helper/SC_Helper_Purchase.php(100): GC_Utils->gfPrintLog
+2014/09/03 15:53:58 [/preview/index.php] access : user=taheebo auth=0 sid=ped09r20s5oeqcjd1hodp85m17 from 180.46.121.134
+customer_id = 3
+/var/www/eccube/html/preview/index.php(29): LC_Page_Preview_Ex->process
+/var/www/eccube/data/class_extends/page_extends/preview/LC_Page_Preview_Ex.php(54): LC_Page_Preview->process
+/var/www/eccube/data/class/pages/preview/LC_Page_Preview.php(55): SC_Session->__construct
+/var/www/eccube/data/class/SC_Session.php(61): GC_Utils->gfPrintLog
+2014/09/03 17:59:58 [/shopping/confirm.php] order complete. order_id=10 from 180.46.121.134
+customer_id = 3
+/var/www/eccube/html/shopping/confirm.php(29): LC_Page_Shopping_Confirm_Ex->process
+/var/www/eccube/data/class_extends/page_extends/shopping/LC_Page_Shopping_Confirm_Ex.php(54): LC_Page_Shopping_Confirm->process
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(63): LC_Page_Shopping_Confirm->action
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(167): SC_Helper_Purchase->completeOrder
+/var/www/eccube/data/class/helper/SC_Helper_Purchase.php(100): GC_Utils->gfPrintLog
+2014/09/08 11:00:37 [/shopping/confirm.php] order complete. order_id=11 from 180.46.121.134
+customer_id = 4
+/var/www/eccube/html/shopping/confirm.php(29): LC_Page_Shopping_Confirm_Ex->process
+/var/www/eccube/data/class_extends/page_extends/shopping/LC_Page_Shopping_Confirm_Ex.php(54): LC_Page_Shopping_Confirm->process
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(63): LC_Page_Shopping_Confirm->action
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(167): SC_Helper_Purchase->completeOrder
+/var/www/eccube/data/class/helper/SC_Helper_Purchase.php(100): GC_Utils->gfPrintLog
+2014/09/08 11:44:09 [/shopping/confirm.php] order complete. order_id=12 from 180.46.121.134
+customer_id = 10
+/var/www/eccube/html/shopping/confirm.php(29): LC_Page_Shopping_Confirm_Ex->process
+/var/www/eccube/data/class_extends/page_extends/shopping/LC_Page_Shopping_Confirm_Ex.php(54): LC_Page_Shopping_Confirm->process
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(63): LC_Page_Shopping_Confirm->action
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(167): SC_Helper_Purchase->completeOrder
+/var/www/eccube/data/class/helper/SC_Helper_Purchase.php(100): GC_Utils->gfPrintLog
+2014/09/08 11:44:10 [/shopping/confirm.php] order complete. order_id=13 from 180.46.121.134
+customer_id = 11
+/var/www/eccube/html/shopping/confirm.php(29): LC_Page_Shopping_Confirm_Ex->process
+/var/www/eccube/data/class_extends/page_extends/shopping/LC_Page_Shopping_Confirm_Ex.php(54): LC_Page_Shopping_Confirm->process
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(63): LC_Page_Shopping_Confirm->action
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(167): SC_Helper_Purchase->completeOrder
+/var/www/eccube/data/class/helper/SC_Helper_Purchase.php(100): GC_Utils->gfPrintLog
+2014/09/08 11:50:45 [/shopping/confirm.php] order complete. order_id=14 from 180.46.121.134
+customer_id = 12
+/var/www/eccube/html/shopping/confirm.php(29): LC_Page_Shopping_Confirm_Ex->process
+/var/www/eccube/data/class_extends/page_extends/shopping/LC_Page_Shopping_Confirm_Ex.php(54): LC_Page_Shopping_Confirm->process
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(63): LC_Page_Shopping_Confirm->action
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(167): SC_Helper_Purchase->completeOrder
+/var/www/eccube/data/class/helper/SC_Helper_Purchase.php(100): GC_Utils->gfPrintLog
+2014/09/08 11:55:53 [/shopping/confirm.php] order complete. order_id=15 from 180.46.121.134
+customer_id = 13
+/var/www/eccube/html/shopping/confirm.php(29): LC_Page_Shopping_Confirm_Ex->process
+/var/www/eccube/data/class_extends/page_extends/shopping/LC_Page_Shopping_Confirm_Ex.php(54): LC_Page_Shopping_Confirm->process
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(63): LC_Page_Shopping_Confirm->action
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(167): SC_Helper_Purchase->completeOrder
+/var/www/eccube/data/class/helper/SC_Helper_Purchase.php(100): GC_Utils->gfPrintLog
+2014/09/08 11:59:39 [/shopping/confirm.php] order complete. order_id=16 from 180.46.121.134
+customer_id = 11
+/var/www/eccube/html/shopping/confirm.php(29): LC_Page_Shopping_Confirm_Ex->process
+/var/www/eccube/data/class_extends/page_extends/shopping/LC_Page_Shopping_Confirm_Ex.php(54): LC_Page_Shopping_Confirm->process
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(63): LC_Page_Shopping_Confirm->action
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(167): SC_Helper_Purchase->completeOrder
+/var/www/eccube/data/class/helper/SC_Helper_Purchase.php(100): GC_Utils->gfPrintLog
+2014/09/08 12:00:11 [/shopping/confirm.php] order complete. order_id=17 from 180.46.121.134
+customer_id = 3
+/var/www/eccube/html/shopping/confirm.php(29): LC_Page_Shopping_Confirm_Ex->process
+/var/www/eccube/data/class_extends/page_extends/shopping/LC_Page_Shopping_Confirm_Ex.php(54): LC_Page_Shopping_Confirm->process
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(63): LC_Page_Shopping_Confirm->action
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(167): SC_Helper_Purchase->completeOrder
+/var/www/eccube/data/class/helper/SC_Helper_Purchase.php(100): GC_Utils->gfPrintLog
+2014/09/08 12:33:10 [/shopping/confirm.php] order complete. order_id=18 from 49.96.245.107
+customer_id = 4
+/var/www/eccube/html/shopping/confirm.php(29): LC_Page_Shopping_Confirm_Ex->process
+/var/www/eccube/data/class_extends/page_extends/shopping/LC_Page_Shopping_Confirm_Ex.php(54): LC_Page_Shopping_Confirm->process
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(63): LC_Page_Shopping_Confirm->action
+/var/www/eccube/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(167): SC_Helper_Purchase->completeOrder
+/var/www/eccube/data/class/helper/SC_Helper_Purchase.php(100): GC_Utils->gfPrintLog

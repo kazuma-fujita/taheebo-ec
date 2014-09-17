@@ -1,0 +1,696 @@
+/* 
+Template : BOOTCUBE2.1
+Author : @takeshi-du
+Website : http://designup.jp
+Note: All content are copyrighted by author. Please, don't steal anything.
+
+メインエリアのスタイル
+
+01. Common
+	01-0. main_column
+	01-1. contents
+	01-2. title
+02. Index(top)
+03. Abouts
+04. Cart
+05. Contact
+06. Entry
+07. Forgot
+08. Frontparts
+09. Guide
+10. Mail_templates
+11. Mypage
+	11-1.navi
+	11-2.mycontents_area
+	11-3.login
+12. Order
+13. Products
+	13-1.list
+	13-2.detail
+14. Regist
+15. RSS
+16. Shopping
+	16-1.undercolumn_shopping
+	16-2.undercolumn_login
+*/
+
+/* ------------------------------------- */
+/*	 01.Common	*/
+/* ------------------------------------- */
+#undercolumn{
+	padding: 15px;
+	margin-bottom: 30px;
+	background-color: #fff;
+	box-shadow: 0 0 3px #ddd;
+}
+#window_area{
+	background-color: #fff;
+}
+
+/*  main  */
+/*--------------------------------- */
+#main_column{
+	margin-bottom: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#leftcolumn {
+	padding-right: 10px;
+}
+#rightcolumn {
+	padding-left: 10px;
+}
+
+
+/*  contents	*/
+/*--------------------------------- */
+#contents{
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+
+/*  h2.title  */
+/*--------------------------------- */
+.cat_title {
+	margin: 40px 0;
+	font-size: 24px;
+	color: #555;
+}
+
+/* ------------------------------------- */
+/*	 02.Index 	*/
+/* ------------------------------------- */
+#main_image img{
+	width: 100%;
+}
+#header{
+
+}
+/* ------------------------------------- */
+/*	 03.Abouts 	*/
+/* ------------------------------------- */
+#undercolumn_aboutus{
+table > tbody > tr > th{
+	background-color: #f4f4f4;
+}
+}
+
+/* ------------------------------------- */
+/*	 04.Cart 	*/
+/* ------------------------------------- */
+#undercolumn_cart{
+	.point_announce{
+		padding: 10px;
+		border: 1px solid #ccc;
+		background-color: #eee;
+		p{
+			margin: 0;
+		}
+		.point{
+			color: #f00;
+		}
+	}
+	table > tbody > tr{
+		th{
+		background-color: #f4f4f4;
+		}
+		td{
+			input{
+				margin-bottom: 10px;
+			}
+			select{
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
+
+/* ------------------------------------- */
+/*	 05.Contact 	*/
+/* ------------------------------------- */
+#undercolumn_contact{
+	table > tbody > tr{
+		th{
+		width: 21%;
+		background-color: #f4f4f4;
+		}
+		td{
+			input{
+				margin-bottom: 10px;
+				&.min{
+					width: 80px;
+				}
+				.form-control {
+					height: 30px;
+				}
+			}
+			select{
+				margin-bottom: 10px;
+			}
+		}
+	}
+	.btn_area {
+		text-align: center;
+	}
+}
+
+/* ------------------------------------- */
+/*	 06.Entry 	*/
+/* ------------------------------------- */
+#undercolumn_entry{
+	p{
+		font-size: 12px;
+		color: #666;
+		&.message{
+			font-size: 14px;
+		}
+	}
+	#form1{
+		textarea {
+		width: 100%;
+		margin-bottom: 40px;
+		}
+	}
+	table > tbody > tr{
+		th{
+		width: 21%;
+		background-color: #f4f4f4;
+		.attention{
+			color: #f00;
+		}
+		}
+		td{
+			input{
+				margin-bottom: 10px;
+				&.min{
+					width: 80px;
+				}
+				.form-control {
+					height: 30px;
+				}
+			}
+			select{
+				margin-left: 10px;
+				margin-right: 5px;
+				margin-bottom: 10px;
+				&:first-child{
+					margin-left: 0;
+				}
+			}
+		}
+	}
+	.btn_area{
+		text-align: center;
+	}
+}
+
+/* ------------------------------------- */
+/*	 07.Forgot 	*/
+/* ------------------------------------- */
+#window_area{
+	.title{
+		font-size: 24px;
+	}
+	.information {
+		font-size: 12px;
+	}
+	table > tbody > tr{
+		th{
+		background-color: #f4f4f4;
+		}
+		td{
+			input{
+				margin-bottom: 10px;
+			}
+			select{
+				margin-bottom: 10px;
+			}
+		}
+		.attention{
+			color: #f00;
+		}
+	}
+}
+
+/* ------------------------------------- */
+/*	 08.Frontparts 	*/
+/* ------------------------------------- */
+
+/* ------------------------------------- */
+/*	 09.Guide 	*/
+/* ------------------------------------- */
+
+/* ------------------------------------- */
+/*	 10.Mail_templates 	*/
+/* ------------------------------------- */
+
+/* ------------------------------------- */
+/*	 11.Mypage 	*/
+/* ------------------------------------- */
+#mycontents_area{
+	table > tbody > tr{
+		th{
+		background-color: #f4f4f4;
+		}
+		td{
+			input{
+				margin-bottom: 10px;
+			}
+			select{
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
+
+/*  navi  */
+/*--------------------------------- */
+#mynavi_area{
+	margin-bottom: 40px;
+	.mynavi_list{
+		i{
+			color: #FFCD95;
+		}
+	}
+	.point_announce{
+		padding: 10px;
+		border: 1px solid #ccc;
+		background-color: #eee;
+		p{
+			margin: 0;
+			.point{
+				color: #f00;
+			}
+		}
+	}
+}
+
+/*  mycontents_area  */
+/*--------------------------------- */
+#mycontents_area{
+	.title {
+		margin: 0 0 10px 0;
+		padding: 10px 0;
+		border-bottom: 1px solid #ccc;
+		color: #666;
+		font-size: 18px;
+	}
+	p{
+		font-size: 12px;
+	}
+	.attention{
+		color: #f00;
+	}
+}
+
+/*  login  */
+/*--------------------------------- */
+#login_mypage{
+	.login_area{
+		margin-bottom: 40px;
+		.title {
+			margin: 0 0 10px 0;
+			padding: 10px 0;
+			border-bottom: 1px solid #ccc;
+			color: #666;
+			font-size: 18px;
+		}
+		.inputbox{
+			margin-bottom: 20px;
+		}
+		dt,dd{
+			display: inline-block;
+		}
+		p{
+			font-size: 12px;
+		}
+	}
+}
+
+
+/* ------------------------------------- */
+/*	 12.Order 	*/
+/* ------------------------------------- */
+#undercolumn_order{
+	table > tbody > tr{
+		th{
+		background-color: #f4f4f4;
+		}
+		td{
+			input{
+				margin-bottom: 10px;
+			}
+			select{
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
+
+/* ------------------------------------- */
+/*	 13.Products 	*/
+/* ------------------------------------- */
+
+/*  page_infomation  */
+/*--------------------------------- */
+.page_infomation{
+	padding: 10px 0;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	ul{
+		margin-bottom: 0;
+	}
+}
+
+
+/*  products list  */
+/*--------------------------------- */
+.list_area{
+	padding: 30px 0;
+	border-bottom: 1px solid #eee;
+	.listphoto{
+		text-align: center;
+		img{
+			width: 100%;
+			border: 1px solid #aaa;
+			@media (max-width: 768px){
+				width: 50%;
+			}
+		}
+	}
+	.listrightbloc{
+		.title{
+			margin: 0 0 10px 0;
+			line-height: 16px;
+			a{
+				color: #39c;
+				font-size: 16px;
+			}
+		}
+		.pricebox {
+			margin: 0 0 10px 0;
+			color: #f00;
+		}
+	}
+}
+
+#page_navi_bottom{
+	padding: 20px;
+}
+
+.detail_area{
+	.listcomment{
+		margin-bottom: 10px;
+	}
+	.detail_btn {
+		margin-bottom: 20px;
+	}
+}
+
+.cart_area{
+	margin-bottom: 20px;
+	.classlist{
+		margin-bottom: 10px;
+		dl{
+			display: inline-block;
+			margin-right: 10px;
+		}
+		ul{
+			display: inline-block;
+			margin-right: 10px;
+		}
+	}
+	.cartin{
+		div{
+			display: inline-block;
+		}
+	}
+}
+
+
+/*  products detail  */
+/*--------------------------------- */
+#detailphotobloc{
+	img{
+		width: 100%;
+		height: 100%;
+	}
+}
+
+#detailarea{
+	padding: 20px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+#detailrightbloc{
+	.product_code{
+		margin-bottom: 10px;
+		dt,dd{
+			display: inline-block;
+			font-size: 14px;
+			color: #888;
+		}
+	}
+	.title{
+		margin: 0 0 10px 0;
+		color: #666;
+		font-size: 22px;
+	}
+	.sale_price{
+		margin: 0;
+		padding-top: 10px;
+		border-top: 1px dashed #ccc;
+		font-size: 14px;
+		dt,dd{
+			display: inline-block;
+			color: #f00;
+		}
+	}
+	.point{
+		padding-bottom: 10px;
+		border-bottom: 1px dashed #ccc;
+		color: #f00;
+		font-size: 14px;
+	}
+	.relative_cat{
+		padding: 10px 0;
+		margin-bottom: 10px;
+		border-bottom: 1px dashed #ccc;
+		font-size: 12px;
+		dt,dd{
+			display: inline-block;
+		}
+	}
+	.main_comment{
+		margin-bottom: 10px;
+		color: #666;
+		font-size: 12px;
+	}
+}
+//detailrightbloc
+
+#customervoice_area{
+	padding: 20px 0;
+	.title{
+		padding: 10px;
+		margin: 0;
+		border: 1px solid #ccc;
+		font-size: 16px;
+		background-color: #eee;
+	}
+	.review_bloc{
+		padding: 20px 0;
+		margin-bottom: 20px;
+		border-bottom: 1px solid #ccc;
+		font-size: 12px;
+	}
+	.user_voice{
+		margin: 0;
+		padding: 20px 0;
+		border-bottom: 1px dashed #ccc;
+		&:last-child{
+			border-bottom: 1px solid #ccc;
+		}
+		.voicedate{
+			font-size: 12px;
+			.recommend_level {
+				color: #ecbd00;
+			}
+		}
+	}
+}
+//customervoice_area
+
+#whobought_area{
+	padding: 20px 0;
+	.title{
+		margin-top: 0;
+		font-size: 16px;
+	}
+	.product_item{
+		img{
+			width: 100%;
+			height: 100%;
+		}
+		.title{
+			font-size: 14px;
+		}
+	}
+}
+
+#window_area{
+	.windowtext{
+		font-size: 12px;
+	}
+}
+
+/* ------------------------------------- */
+/*	 14.Regist 	*/
+/* ------------------------------------- */
+
+/* ------------------------------------- */
+/*	 15.RSS 	*/
+/* ------------------------------------- */
+
+/* ------------------------------------- */
+/*	 16.Shopping 	*/
+/* ------------------------------------- */
+
+/*  undercolumn_shopping  */
+/*--------------------------------- */
+#undercolumn_shopping{
+	#address_area{
+		margin-bottom: 20px;
+		p{
+			font-size: 12px;
+		}
+	}
+	.addbtn{
+		margin-bottom: 20px;
+	}
+	.title{
+		padding: 10px 0;
+		margin: 0 0 20px 0;
+		border-bottom: 1px solid #ccc;
+		font-size: 18px;
+		color: #666;
+	}
+	p{
+		font-size: 12px;
+	}
+	.pay_area{
+		margin-bottom: 40px;
+	}
+	.pay_area02{
+		margin-bottom: 40px;
+	}
+	.point_area{
+		margin-bottom: 40px;
+		.attention{
+			color: #f00;
+		}
+		.point_announce{
+			padding: 20px;
+			border: 1px solid #ccc;
+			ul{
+				margin: 0;
+				li{
+					margin-bottom: 20px;
+					font-size: 12px;
+					&:last-child{
+						margin: 0;
+					}
+				}
+			}
+		}
+	}
+	.information{
+		margin-bottom: 20px;
+	}
+	.btn_area{
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	table > thead > tr{
+		th{
+			background-color: #f4f4f4;
+			&.alignC{
+				text-align: center;
+			}
+		}	
+	}
+	table > tbody > tr{
+		th{
+		background-color: #f4f4f4;
+		}
+		td{
+			&.alignC{
+				text-align: center;
+			}
+			input{
+				margin-bottom: 10px;
+			}
+			select{
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
+
+/*  undercolumn_login  */
+/*--------------------------------- */
+#undercolumn_login{
+	.login_area{
+		margin-bottom: 40px;
+		.title {
+			margin: 0 0 10px 0;
+			padding: 10px 0;
+			border-bottom: 1px solid #ccc;
+			color: #666;
+			font-size: 18px;
+		}
+		.sub_title{
+			font-size: 14px;
+		}
+		.inputbox{
+			margin-bottom: 20px;
+			.btn_area{
+				margin-bottom: 20px;
+			}
+		}
+		.inputtext{
+			margin-bottom: 20px;
+		}
+		dt,dd{
+			display: inline-block;
+		}
+		p{
+			font-size: 12px;
+		}
+	}
+}
+
+/*  customer  */
+/*--------------------------------- */
+#undercolumn_customer{
+	.attention{
+		color: #f00;
+	}
+	table > tbody > tr{
+		th{
+		background-color: #f4f4f4;
+		}
+		td{
+			&.alignC{
+				text-align: center;
+			}
+			input{
+				margin-bottom: 10px;
+			}
+			select{
+				margin-bottom: 10px;
+			}
+		}
+	}
+}

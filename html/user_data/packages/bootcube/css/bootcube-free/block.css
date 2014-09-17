@@ -1,0 +1,98 @@
+/* ------------------------------------- */
+/*	Default-Block	*/
+/*
+/*  デフォルトコンポーネントのスタイル */
+/* ------------------------------------- */
+/*  calender_area	*/
+/*--------------------------------- */
+#calender_area .title {
+  text-align: center;
+  margin: 0;
+  font-size: 14px; }
+#calender_area .table > thead > tr > th, #calender_area .table > tbody > tr > th, #calender_area .table > tfoot > tr > th, #calender_area .table > thead > tr > td, #calender_area .table > tbody > tr > td, #calender_area .table > tfoot > tr > td {
+  padding: 0;
+  text-align: center; }
+
+/*  cart_area	*/
+/*--------------------------------- */
+#cart_area .title {
+  text-align: center;
+  margin: 0;
+  font-size: 14px; }
+
+/*  category_area	*/
+/*--------------------------------- */
+#category_area .title {
+  text-align: center;
+  margin: 0;
+  font-size: 14px; }
+#category_area ul {
+  margin: 0; }
+  #category_area ul li {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+
+/*  guide_area	*/
+/*--------------------------------- */
+#guide_area .title {
+  text-align: left;
+  margin: 0;
+  font-size: 14px; }
+#guide_area ul {
+  margin: 0; }
+
+/*  header_login_area	*/
+/*--------------------------------- */
+#header_login_area {
+  padding: 10px 0;
+  font-size: 12px; }
+  #header_login_area .title {
+    text-align: center;
+    margin: 0;
+    font-size: 14px; }
+  #header_login_area a {
+    font-size: 12px; }
+  #header_login_area ul {
+    margin: 0; }
+    #header_login_area ul li {
+      margin-bottom: 10px; }
+  #header_login_area .form-control {
+    height: 30px; }
+  #header_login_area .checkbox {
+    margin: 0; }
+  #header_login_area .btn {
+    position: relative;
+    top: -2px;
+    padding: 5px 12px;
+    font-size: 12px; }
+
+/*  login_area	*/
+/*--------------------------------- */
+#login_area .title {
+  text-align: center;
+  margin: 0;
+  font-size: 14px; }
+
+/*  news_area	*/
+/*--------------------------------- */
+#news_area .title {
+  text-align: left;
+  margin: 0;
+  font-size: 14px; }
+
+/*  recommend_area	*/
+/*--------------------------------- */
+#recommend_area .title {
+  text-align: left;
+  margin: 0;
+  font-size: 14px; }
+#recommend_area .title a {
+  font-size: 16px;
+  color: #333; }
+
+/*  search_area	*/
+/*--------------------------------- */
+#search_area .title {
+  text-align: center;
+  margin: 0;
+  font-size: 14px; }
