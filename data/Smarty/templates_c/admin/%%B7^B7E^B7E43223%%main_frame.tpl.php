@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-01 21:52:17
+<?php /* Smarty version 2.6.27, created on 2014-09-18 15:56:23
          compiled from main_frame.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'printXMLDeclaration', 'main_frame.tpl', 1, false),array('modifier', 'script_escape', 'main_frame.tpl', 28, false),array('modifier', 'count', 'main_frame.tpl', 60, false),array('modifier', 'h', 'main_frame.tpl', 88, false),array('modifier', 'date_format', 'main_frame.tpl', 156, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('function', 'printXMLDeclaration', 'main_frame.tpl', 1, false),array('modifier', 'script_escape', 'main_frame.tpl', 28, false),array('modifier', 'count', 'main_frame.tpl', 60, false),array('modifier', 'h', 'main_frame.tpl', 88, false),array('modifier', 'sfDispDBDate', 'main_frame.tpl', 89, false),array('modifier', 'date_format', 'main_frame.tpl', 157, false),)), $this); ?>
 <?php echo GC_Utils_Ex::printXMLDeclaration(array(), $this);?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -88,8 +88,10 @@ smarty_core_smarty_include_php(array('smarty_file' => ((is_array($_tmp=$this->_t
 "><img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 img/header/logo.jpg" width="172" height="25" alt="EC-CUBE" /></a></div>
         <div id="site-check">
-            <p class="info"><span>ログイン&nbsp;:&nbsp;<?php echo ((is_array($_tmp=((is_array($_tmp=$_SESSION['login_name'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('h', true, $_tmp) : smarty_modifier_h($_tmp)); ?>
-</span>&nbsp;様&nbsp;</p>
+            <p class="info"><span><strong>ログイン&nbsp;:&nbsp;</strong><?php echo ((is_array($_tmp=((is_array($_tmp=$_SESSION['login_name'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('h', true, $_tmp) : smarty_modifier_h($_tmp)); ?>
+</span>&nbsp;様,&nbsp;&nbsp;
+            <span><strong>最終ログイン日時&nbsp;:&nbsp;</strong><?php echo ((is_array($_tmp=((is_array($_tmp=((is_array($_tmp=$_SESSION['last_login'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('sfDispDBDate', true, $_tmp, true) : SC_Utils_Ex::sfDispDBDate($_tmp, true)))) ? $this->_run_mod_handler('h', true, $_tmp) : smarty_modifier_h($_tmp)); ?>
+</span></p>
             <ul>
                 <li><a href="<?php echo ((is_array($_tmp=@HTTP_URL)) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 <?php echo ((is_array($_tmp=@DIR_INDEX_PATH)) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>

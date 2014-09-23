@@ -68,7 +68,7 @@
 				<div id="logo_area" class="col-xs-12 col-sm-3">
 					<h1>
 						<a href="<!--{$smarty.const.TOP_URL}-->">
-							<img src="<!--{$TPL_URLPATH}-->img/taheebo/taheebo_logo.png"/>
+							<img src="<!--{$TPL_URLPATH}-->img/taheebo/iinet_main_logo.png"/>
 						</a>
 					</h1>
 				</div>

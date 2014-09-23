@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-02 17:14:25
+<?php /* Smarty version 2.6.27, created on 2014-09-19 16:18:00
          compiled from forgot/index.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'forgot/index.tpl', 33, false),array('modifier', 'default', 'forgot/index.tpl', 44, false),array('modifier', 'h', 'forgot/index.tpl', 44, false),array('modifier', 'sfGetErrorColor', 'forgot/index.tpl', 44, false),)), $this); ?>

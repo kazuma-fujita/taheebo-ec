@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-02 23:00:18
+<?php /* Smarty version 2.6.27, created on 2014-09-19 13:22:42
          compiled from mail/template.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'mail/template.tpl', 26, false),array('modifier', 'date_format', 'mail/template.tpl', 49, false),array('modifier', 'h', 'mail/template.tpl', 49, false),)), $this); ?>

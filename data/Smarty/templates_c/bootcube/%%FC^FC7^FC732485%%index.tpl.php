@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-03 03:00:29
+<?php /* Smarty version 2.6.27, created on 2014-09-22 11:26:24
          compiled from rss/index.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'rss/index.tpl', 2, false),array('modifier', 'sfMbConvertEncoding', 'rss/index.tpl', 28, false),array('modifier', 'h', 'rss/index.tpl', 28, false),array('modifier', 'truncate', 'rss/index.tpl', 43, false),)), $this); ?>

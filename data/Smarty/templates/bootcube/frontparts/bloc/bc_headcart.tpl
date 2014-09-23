@@ -1,5 +1,5 @@
 <!--{strip}-->
-<div class="block_outer col-sm-12 text-right">
+<div class="block_outer col-sm-4 text-right">
 	<div id="bc_headCart">
 		<div class="block_body information">
 				<span class="icon"><i class="fa fa-shopping-cart"></i></span>

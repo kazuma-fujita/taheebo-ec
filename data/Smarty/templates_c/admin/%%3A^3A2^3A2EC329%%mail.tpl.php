@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-01 22:36:55
+<?php /* Smarty version 2.6.27, created on 2014-09-18 17:33:51
          compiled from basis/mail.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'basis/mail.tpl', 49, false),array('modifier', 'sfGetErrorColor', 'basis/mail.tpl', 60, false),array('modifier', 'h', 'basis/mail.tpl', 73, false),array('function', 'html_options', 'basis/mail.tpl', 62, false),)), $this); ?>

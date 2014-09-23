@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-01 21:52:17
+<?php /* Smarty version 2.6.27, created on 2014-09-18 16:14:53
          compiled from design/main_edit.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'design/main_edit.tpl', 35, false),array('modifier', 'h', 'design/main_edit.tpl', 37, false),array('modifier', 'sfGetErrorColor', 'design/main_edit.tpl', 53, false),array('modifier', 'u', 'design/main_edit.tpl', 140, false),array('modifier', 'strlen', 'design/main_edit.tpl', 162, false),array('modifier', 'escape', 'design/main_edit.tpl', 168, false),)), $this); ?>

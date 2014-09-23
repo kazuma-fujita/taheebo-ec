@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-01 22:31:04
+<?php /* Smarty version 2.6.27, created on 2014-09-18 15:56:23
          compiled from ownersstore/plugin.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'ownersstore/plugin.tpl', 119, false),array('modifier', 'sfGetErrorColor', 'ownersstore/plugin.tpl', 132, false),array('modifier', 'h', 'ownersstore/plugin.tpl', 132, false),array('modifier', 'default', 'ownersstore/plugin.tpl', 168, false),)), $this); ?>
@@ -183,8 +183,8 @@ $this->_sections['data']['last']       = ($this->_sections['data']['iteration'] 
 ','plugin_site_url','620','760',{menubar:'no'}); return false;"><?php echo ((is_array($_tmp=((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['plugin']['plugin_name'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('default', true, $_tmp, ((is_array($_tmp=$this->_tpl_vars['plugin']['plugin_code'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp))) : smarty_modifier_default($_tmp, ((is_array($_tmp=$this->_tpl_vars['plugin']['plugin_code'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))))) ? $this->_run_mod_handler('h', true, $_tmp) : smarty_modifier_h($_tmp)); ?>
 </a>&nbsp;
                                 <?php else: ?>
-                                    <sapn><?php echo ((is_array($_tmp=((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['plugin']['plugin_name'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('default', true, $_tmp, ((is_array($_tmp=$this->_tpl_vars['plugin']['plugin_code'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp))) : smarty_modifier_default($_tmp, ((is_array($_tmp=$this->_tpl_vars['plugin']['plugin_code'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))))) ? $this->_run_mod_handler('h', true, $_tmp) : smarty_modifier_h($_tmp)); ?>
-&nbsp;</sapn>
+                                    <span><?php echo ((is_array($_tmp=((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['plugin']['plugin_name'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('default', true, $_tmp, ((is_array($_tmp=$this->_tpl_vars['plugin']['plugin_code'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp))) : smarty_modifier_default($_tmp, ((is_array($_tmp=$this->_tpl_vars['plugin']['plugin_code'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))))) ? $this->_run_mod_handler('h', true, $_tmp) : smarty_modifier_h($_tmp)); ?>
+&nbsp;</span>
                                 <?php endif; ?>
                                 </span>
                             <!-- プラグインバージョン -->

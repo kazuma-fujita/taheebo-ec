@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-01 21:58:47
+<?php /* Smarty version 2.6.27, created on 2014-09-18 17:33:41
          compiled from basis/index.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'basis/index.tpl', 107, false),array('modifier', 'h', 'basis/index.tpl', 118, false),array('modifier', 'sfGetErrorColor', 'basis/index.tpl', 244, false),array('function', 'html_options', 'basis/index.tpl', 170, false),array('function', 'html_checkboxes', 'basis/index.tpl', 265, false),)), $this); ?>

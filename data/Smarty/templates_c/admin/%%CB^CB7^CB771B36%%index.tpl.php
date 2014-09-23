@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-01 22:04:42
+<?php /* Smarty version 2.6.27, created on 2014-09-19 11:39:36
          compiled from mail/index.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'mail/index.tpl', 27, false),array('modifier', 'default', 'mail/index.tpl', 46, false),array('modifier', 'h', 'mail/index.tpl', 74, false),array('modifier', 'sfDispDBDate', 'mail/index.tpl', 116, false),array('function', 'html_radios', 'mail/index.tpl', 39, false),array('function', 'html_options', 'mail/index.tpl', 56, false),)), $this); ?>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-01 22:14:55
+<?php /* Smarty version 2.6.27, created on 2014-09-18 15:57:47
          compiled from products/confirm.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'products/confirm.tpl', 26, false),array('modifier', 'h', 'products/confirm.tpl', 31, false),array('modifier', 'sfTrim', 'products/confirm.tpl', 64, false),array('modifier', 'default', 'products/confirm.tpl', 165, false),array('modifier', 'nl2br', 'products/confirm.tpl', 189, false),array('modifier', 'nl2br_html', 'products/confirm.tpl', 201, false),array('modifier', 'function_exists', 'products/confirm.tpl', 233, false),array('modifier', 'strlen', 'products/confirm.tpl', 280, false),array('modifier', 'sfNoImageMainList', 'products/confirm.tpl', 281, false),)), $this); ?>

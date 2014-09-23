@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-01 22:25:15
+<?php /* Smarty version 2.6.27, created on 2014-09-18 15:57:57
          compiled from contents/recommend.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'contents/recommend.tpl', 53, false),array('modifier', 'h', 'contents/recommend.tpl', 53, false),array('modifier', 'sfNoImageMainList', 'contents/recommend.tpl', 109, false),array('modifier', 'sfGetErrorColor', 'contents/recommend.tpl', 125, false),array('modifier', 'sfGetEnabled', 'contents/recommend.tpl', 125, false),)), $this); ?>

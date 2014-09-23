@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-02 17:14:25
+<?php /* Smarty version 2.6.27, created on 2014-09-19 16:18:00
          compiled from /var/www/eccube/html/../data/Smarty/templates/bootcube/popup_footer.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', '/var/www/eccube/html/../data/Smarty/templates/bootcube/popup_footer.tpl', 26, false),)), $this); ?>

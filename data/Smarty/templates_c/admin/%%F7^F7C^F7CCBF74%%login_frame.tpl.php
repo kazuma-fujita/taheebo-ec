@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-01 22:05:26
+<?php /* Smarty version 2.6.27, created on 2014-09-18 15:56:34
          compiled from login_frame.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'printXMLDeclaration', 'login_frame.tpl', 1, false),array('modifier', 'script_escape', 'login_frame.tpl', 28, false),)), $this); ?>
@@ -11,6 +11,7 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'printXMLDec
 ">
 <meta http-equiv="content-script-type" content="text/javascript">
 <meta http-equiv="content-style-type" content="text/css">
+<meta name="robots" content="noindex,nofollow" />
 <link rel="stylesheet" href="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 css/reset.css" type="text/css" media="all" />
 <link rel="stylesheet" href="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-01 22:25:23
+<?php /* Smarty version 2.6.27, created on 2014-09-18 15:57:58
          compiled from contents/recommend_search.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'contents/recommend_search.tpl', 31, false),array('modifier', 'h', 'contents/recommend_search.tpl', 31, false),array('modifier', 'sfNoImageMainList', 'contents/recommend_search.tpl', 104, false),array('function', 'html_options', 'contents/recommend_search.tpl', 55, false),)), $this); ?>

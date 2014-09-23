@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-17 01:48:29
+<?php /* Smarty version 2.6.27, created on 2014-09-18 15:57:53
          compiled from /var/www/eccube/html/../data/Smarty/templates/bootcube/frontparts/bloc/news.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', '/var/www/eccube/html/../data/Smarty/templates/bootcube/frontparts/bloc/news.tpl', 30, false),array('modifier', 'explode', '/var/www/eccube/html/../data/Smarty/templates/bootcube/frontparts/bloc/news.tpl', 37, false),array('modifier', 'h', '/var/www/eccube/html/../data/Smarty/templates/bootcube/frontparts/bloc/news.tpl', 46, false),array('modifier', 'nl2br', '/var/www/eccube/html/../data/Smarty/templates/bootcube/frontparts/bloc/news.tpl', 46, false),)), $this); ?>

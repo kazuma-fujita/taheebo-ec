@@ -1,5 +1,3 @@
-<!--{if $tpl_login}-->
-
 <script type="text/javascript">
 		$(function(){
 				//下層カテゴリがない場合、ul、class-nameを削除
@@ -103,5 +101,3 @@
 </div>
 <!-- /bloc_outer -->
 <!--{/strip}-->
-
-<!--{/if}-->

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-03 09:05:53
+<?php /* Smarty version 2.6.27, created on 2014-09-18 16:20:35
          compiled from mypage/navi.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'mypage/navi.tpl', 30, false),array('modifier', 'h', 'mypage/navi.tpl', 65, false),array('modifier', 'number_format', 'mypage/navi.tpl', 67, false),array('modifier', 'default', 'mypage/navi.tpl', 67, false),)), $this); ?>

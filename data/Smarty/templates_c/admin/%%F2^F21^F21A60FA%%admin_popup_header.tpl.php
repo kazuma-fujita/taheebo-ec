@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-01 22:25:23
+<?php /* Smarty version 2.6.27, created on 2014-09-18 15:57:58
          compiled from /var/www/eccube/html/../data/Smarty/templates/admin/admin_popup_header.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'printXMLDeclaration', '/var/www/eccube/html/../data/Smarty/templates/admin/admin_popup_header.tpl', 1, false),array('modifier', 'script_escape', '/var/www/eccube/html/../data/Smarty/templates/admin/admin_popup_header.tpl', 29, false),)), $this); ?>
