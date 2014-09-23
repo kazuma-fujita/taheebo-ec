@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-18 16:27:31
+<?php /* Smarty version 2.6.27, created on 2014-09-23 15:58:38
          compiled from customer/edit.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'customer/edit.tpl', 28, false),array('modifier', 'h', 'customer/edit.tpl', 43, false),array('modifier', 'default', 'customer/edit.tpl', 116, false),array('modifier', 'sfDispDBDate', 'customer/edit.tpl', 290, false),array('modifier', 'number_format', 'customer/edit.tpl', 292, false),array('function', 'sfSetErrorStyle', 'customer/edit.tpl', 82, false),array('function', 'html_radios', 'customer/edit.tpl', 83, false),array('function', 'html_options', 'customer/edit.tpl', 116, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'customer/edit.tpl', 28, false),array('modifier', 'h', 'customer/edit.tpl', 43, false),array('modifier', 'default', 'customer/edit.tpl', 116, false),array('modifier', 'sfDispDBDate', 'customer/edit.tpl', 299, false),array('modifier', 'number_format', 'customer/edit.tpl', 301, false),array('function', 'sfSetErrorStyle', 'customer/edit.tpl', 82, false),array('function', 'html_radios', 'customer/edit.tpl', 83, false),array('function', 'html_options', 'customer/edit.tpl', 116, false),)), $this); ?>
 
 <script type="text/javascript">
 <!--
@@ -381,6 +381,18 @@ smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_esca
 <?php endif; ?> /> pt
                 </td>
             </tr>
+
+            <tr>
+                <th>代理店コード<span class="attention"> *</span></th>
+                <td>
+                    <span class="attention"><?php echo ((is_array($_tmp=$this->_tpl_vars['arrErr']['agency_code'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+</span>
+                    <input type="text" name="agency_code" value="<?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['arrForm']['agency_code'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('h', true, $_tmp) : smarty_modifier_h($_tmp)); ?>
+" size="30" class="box30" <?php if (((is_array($_tmp=$this->_tpl_vars['arrErr']['agency_code'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)) != ""): ?><?php echo SC_Utils_Ex::sfSetErrorStyle(array(), $this);?>
+<?php endif; ?> />
+                </td>
+            </tr>
+
         </table>
 
         <div class="btn-area">

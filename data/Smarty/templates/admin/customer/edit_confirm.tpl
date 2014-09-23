@@ -148,6 +148,10 @@ function func_return(){
                 <th>所持ポイント</th>
                 <td><!--{$arrForm.point|default:"0"|h}--> pt</td>
             </tr>
+            <tr>
+                <th>代理店コード</th>
+                <td><!--{$arrForm.agency_code|h}--></td>
+            </tr>
         </table>
         <div class="btn-area">
             <ul>

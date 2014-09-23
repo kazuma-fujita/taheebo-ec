@@ -233,3 +233,11 @@
         </select>
     </td>
 </tr>
+<tr>
+    <th>代理店コード</th>
+    <td colspan="3">
+    <!--{assign var=key value="search_agency_code"}-->
+    <!--{if $arrErr[$key]}--><span class="attention"><!--{$arrErr[$key]}--></span><!--{/if}-->
+    <input type="text" name="<!--{$key}-->" maxlength="<!--{$arrForm[$key].length}-->" value="<!--{$arrForm[$key].value|h}-->" size="60" class="box60" <!--{if $arrErr[$key]}--><!--{sfSetErrorStyle}--><!--{/if}-->/>
+    </td>
+</tr>

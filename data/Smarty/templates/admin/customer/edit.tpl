@@ -257,6 +257,15 @@
                     <input type="text" name="point" value="<!--{$arrForm.point|h}-->" maxlength="<!--{$smarty.const.TEL_LEN}-->" size="6" class="box6" <!--{if $arrErr.point != ""}--><!--{sfSetErrorStyle}--><!--{/if}--> /> pt
                 </td>
             </tr>
+
+            <tr>
+                <th>代理店コード<span class="attention"> *</span></th>
+                <td>
+                    <span class="attention"><!--{$arrErr.agency_code}--></span>
+                    <input type="text" name="agency_code" value="<!--{$arrForm.agency_code|h}-->" size="30" class="box30" <!--{if $arrErr.agency_code != ""}--><!--{sfSetErrorStyle}--><!--{/if}--> />
+                </td>
+            </tr>
+
         </table>
 
         <div class="btn-area">

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-23 00:10:03
+<?php /* Smarty version 2.6.27, created on 2014-09-23 14:39:34
          compiled from mypage/login.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'mypage/login.tpl', 3, false),array('modifier', 'h', 'mypage/login.tpl', 9, false),array('modifier', 'sfGetErrorColor', 'mypage/login.tpl', 21, false),array('modifier', 'sfGetChecked', 'mypage/login.tpl', 29, false),)), $this); ?>

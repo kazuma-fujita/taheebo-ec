@@ -230,6 +230,10 @@
 							<!--{$arrForm.order_birth|regex_replace:"/ .+/":""|regex_replace:"/-/":"/"|default:'(未登録)'|h}-->
 						</td>
 					</tr>
+					<tr>
+						<th scope="row">代理店コード</th>
+						<td><!--{$arrForm.agency_code|h}--></td>
+					</tr>
 				</tbody>
 			</table>
 

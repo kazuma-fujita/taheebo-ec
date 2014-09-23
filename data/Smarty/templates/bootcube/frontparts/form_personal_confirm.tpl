@@ -187,6 +187,15 @@
 					<!--{$arrMAILMAGATYPE[$mailmaga_flg_id]|h}-->
 				</td>
 			</tr>
+
+	<tr>
+		<th>会社名</th>
+		<td>
+			<!--{assign var=key1 value="`$prefix`agency_code"}-->
+			<!--{$arrForm[$key1].value|h}-->
+		</td>
+	</tr>
+
 		<!--{/if}-->
 	<!--{/if}-->
 <!--{/strip}-->

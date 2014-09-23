@@ -321,13 +321,21 @@ class SC_CustomerList extends SC_SelectSql_Ex
             }
         }
 
+        // 代理店コード 
+        if (!isset($this->arrSql['search_agency_code'])) $this->arrSql['search_agency_code'] = '';
+        if (strlen($this->arrSql['search_agency_code']) > 0) {
+            $this->setWhere('agency_code =  ?');
+            $this->arrVal[] = $this->arrSql['search_agency_code'];
+        }
+
+
         $this->setOrder('customer_id DESC');
     }
 
     // 検索用SQL
     public function getList()
     {
-        $this->select = 'SELECT customer_id,name01,name02,kana01,kana02,sex,email,email_mobile,tel01,tel02,tel03,pref,status,update_date,mailmaga_flg FROM dtb_customer ';
+        $this->select = 'SELECT customer_id,name01,name02,kana01,kana02,sex,email,email_mobile,tel01,tel02,tel03,pref,status,update_date,mailmaga_flg,agency_code FROM dtb_customer ';
 
         return $this->getSql(2);
     }

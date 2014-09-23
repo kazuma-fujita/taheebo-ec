@@ -354,6 +354,22 @@
 					</span>
 				</td>
 			</tr>
+
+	<tr>
+		<th>代理店コード<span class="attention">※</span></th>
+		<td>
+			<!--{assign var=key1 value="`$prefix`agency_code"}-->
+			<!--{if $arrErr[$key1]}-->
+				<div class="attention"><!--{$arrErr[$key1]}--></div>
+			<!--{/if}-->
+			<div class="form-group">
+			  <div class="col-sm-12">
+				<input type="text" name="<!--{$key1}-->" value="<!--{$arrForm[$key1].value|h}-->" maxlength="<!--{$arrForm[$key1].length}-->" style="<!--{$arrErr[$key1]|sfGetErrorColor}-->; ime-mode: active;" class="box300 form-control" />
+			  </div>
+			</div>
+		</td>
+	</tr>
+
 		<!--{/if}-->
 	<!--{/if}-->
 <!--{/strip}-->

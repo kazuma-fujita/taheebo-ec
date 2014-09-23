@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-18 16:28:10
+<?php /* Smarty version 2.6.27, created on 2014-09-23 15:05:24
          compiled from customer/edit_confirm.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'customer/edit_confirm.tpl', 38, false),array('modifier', 'h', 'customer/edit_confirm.tpl', 43, false),array('modifier', 'default', 'customer/edit_confirm.tpl', 122, false),array('modifier', 'nl2br', 'customer/edit_confirm.tpl', 145, false),)), $this); ?>
@@ -174,6 +174,11 @@ function func_return(){
                 <th>所持ポイント</th>
                 <td><?php echo ((is_array($_tmp=((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['arrForm']['point'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('default', true, $_tmp, '0') : smarty_modifier_default($_tmp, '0')))) ? $this->_run_mod_handler('h', true, $_tmp) : smarty_modifier_h($_tmp)); ?>
  pt</td>
+            </tr>
+            <tr>
+                <th>代理店コード</th>
+                <td><?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['arrForm']['agency_code'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('h', true, $_tmp) : smarty_modifier_h($_tmp)); ?>
+</td>
             </tr>
         </table>
         <div class="btn-area">
