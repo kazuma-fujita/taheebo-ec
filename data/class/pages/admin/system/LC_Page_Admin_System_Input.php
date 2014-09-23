@@ -196,6 +196,10 @@ class LC_Page_Admin_System_Input extends LC_Page_Admin_Ex
         $objFormParam->addParam('稼働/非稼働', 'work', INT_LEN, '', array('EXIST_CHECK', 'NUM_CHECK', 'MAX_LENGTH_CHECK'));
         $objFormParam->addParam('ページ', 'pageno', INT_LEN, 'n', array('EXIST_CHECK', 'NUM_CHECK', 'MAX_LENGTH_CHECK'));
 
+
+        $objFormParam->addParam('代理店名', 'agency_name', STEXT_LEN, 'aKV', array('NO_SPTAB', 'SPTAB_CHECK', 'MAX_LENGTH_CHECK'));
+        $objFormParam->addParam('代理店名(フリガナ)', 'agency_name_kana', STEXT_LEN, 'CKV', array('NO_SPTAB', 'SPTAB_CHECK' ,'MAX_LENGTH_CHECK', 'KANA_CHECK'));
+
         $objFormParam->setParam($arrParams);
         $objFormParam->convParam();
     }

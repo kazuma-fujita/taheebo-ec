@@ -5065,3 +5065,6 @@ login_id = taheebo(0)[o060ju8eej0maq2bfl0uvm8ji0]
 2014/09/23 18:23:35 [/admin/system/masterdata.php] access : user=taheebo auth=0 sid=dt3nuteuiiqha2hmd77c9m3cl5 from 192.168.218.1
 2014/09/23 18:24:24 [/admin/system/masterdata.php] access : user=taheebo auth=0 sid=jjtg4pi2chh61l2eetjli75dc5 from 192.168.218.1
 2014/09/23 18:24:26 [/admin/system/masterdata.php] access : user=taheebo auth=0 sid=jjtg4pi2chh61l2eetjli75dc5 from 192.168.218.1
+2014/09/23 18:52:05 [/admin/system/index.php] access : user=taheebo auth=0 sid=jjtg4pi2chh61l2eetjli75dc5 from 192.168.218.1
+2014/09/23 18:52:10 [/admin/system/input.php] access : user=taheebo auth=0 sid=jjtg4pi2chh61l2eetjli75dc5 from 192.168.218.1
+2014/09/23 18:56:31 [/admin/system/input.php] access : user=taheebo auth=0 sid=jjtg4pi2chh61l2eetjli75dc5 from 192.168.218.1
