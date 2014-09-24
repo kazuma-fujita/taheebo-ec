@@ -304,7 +304,7 @@
 					<div class="form-group">
 						<div class="col-sm-12">
 						  <input type="password" name="<!--{$key1}-->" value="<!--{$arrForm[$key1].value|h}-->" maxlength="<!--{$arrForm[$key1].length}-->" style="<!--{$arrErr[$key1]|sfGetErrorColor}-->" class="box120 form-control" />
-						  <p><span class="attention mini">半角英数字<!--{$smarty.const.PASSWORD_MIN_LEN}-->～<!--{$smarty.const.PASSWORD_MAX_LEN}-->文字でお願いします。（記号可）</span></p>
+						  <p><span class="attention mini">半角英数字<!--{$smarty.const.PASSWORD_MIN_LEN}-->～<!--{$smarty.const.PASSWORD_MAX_LEN}-->文字でお願いします。</span></p>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -356,7 +356,7 @@
 			</tr>
 
 	<tr>
-		<th>代理店コード<span class="attention">※</span></th>
+		<th>登録コード<span class="attention">※</span></th>
 		<td>
 			<!--{assign var=key1 value="`$prefix`agency_code"}-->
 			<!--{if $arrErr[$key1]}-->

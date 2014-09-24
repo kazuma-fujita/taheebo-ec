@@ -100,6 +100,68 @@ self.moveTo(20,20);self.focus();
                 <span class="attention">※必須入力</span>
             </td>
         </tr>
+<!-- ---------------------------- -->
+        <tr>
+            <th>代理店名<span class="attention"> *</span></th>
+            <td>
+                <!--{if $arrErr.agency_name}--><span class="attention"><!--{$arrErr.agency_name}--></span><!--{/if}-->
+                <input type="text" name="agency_name" size="30" class="box30" value="<!--{$arrForm.agency_name|h}-->" maxlength="<!--{$smarty.const.STEXT_LEN}-->" style="<!--{$arrErr.agency_name|sfGetErrorColor}-->" />
+            </td>
+        </tr>
+        <tr>
+            <th>代理店（カナ）<span class="attention"> *</span></th>
+            <td>
+                <!--{if $arrErr.agency_name_kana}--><span class="attention"><!--{$arrErr.agency_name_kana}--></span><!--{/if}-->
+                <input type="text" name="agency_name_kana" size="30" class="box30" value="<!--{$arrForm.agency_name_kana|h}-->" maxlength="<!--{$smarty.const.STEXT_LEN}-->" style="<!--{$arrErr.agency_name_kana|sfGetErrorColor}-->" />
+            </td>
+        </tr>
+
+            <tr>
+                <th>区分<span class="attention"> *</span></th>
+                <td>
+                    <span class="attention"><!--{$arrErr.agency_product_category_id}--></span>
+                    <span <!--{if $arrErr.agency_product_category_id != ""}--><!--{sfSetErrorStyle}--><!--{/if}-->>
+                        <!--{html_radios name="agency_product_category_id" options=$arrAgencyCategory separator=" " selected=$arrForm.agency_product_category_id}-->
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <th>郵便番号<!--{if !$smarty.const.FORM_COUNTRY_ENABLE}--><span class="attention"> *</span><!--{/if}--></th>
+                <td>
+                    <span class="attention"><!--{$arrErr.zip01}--><!--{$arrErr.zip02}--></span>
+                    〒 <input type="text" name="zip01" value="<!--{$arrForm.zip01|h}-->" maxlength="<!--{$smarty.const.ZIP01_LEN}-->" size="6" class="box6" <!--{if $arrErr.zip01 != ""}--><!--{sfSetErrorStyle}--><!--{/if}--> /> - <input type="text" name="zip02" value="<!--{$arrForm.zip02|h}-->" maxlength="<!--{$smarty.const.ZIP02_LEN}-->" size="6" class="box6" <!--{if $arrErr.zip02 != ""}--><!--{sfSetErrorStyle}--><!--{/if}--> />
+                    <a class="btn-normal" href="javascript:;" name="address_input" onclick="eccube.getAddress('<!--{$smarty.const.INPUT_ZIP_URLPATH}-->', 'zip01', 'zip02', 'pref', 'addr01'); return false;">住所入力</a>
+                </td>
+            </tr>
+            <tr>
+                <th>住所<span class="attention"> *</span></th>
+                <td>
+                    <span class="attention"><!--{$arrErr.pref}--><!--{$arrErr.addr01}--><!--{$arrErr.addr02}--></span>
+                    <select class="top" name="pref" <!--{if $arrErr.pref != ""}--><!--{sfSetErrorStyle}--><!--{/if}-->>
+                        <option class="top" value="" selected="selected">都道府県を選択</option>
+                        <!--{html_options options=$arrPref selected=$arrForm.pref}-->
+                    </select><br />
+                    <input type="text" name="addr01" value="<!--{$arrForm.addr01|h}-->" size="60" class="box60" <!--{if $arrErr.addr01 != ""}--><!--{sfSetErrorStyle}--><!--{/if}--> /><br />
+                    <!--{$smarty.const.SAMPLE_ADDRESS1}--><br />
+                    <input type="text" name="addr02" value="<!--{$arrForm.addr02|h}-->" size="60" class="box60" <!--{if $arrErr.addr02 != ""}--><!--{sfSetErrorStyle}--><!--{/if}--> /><br />
+                    <!--{$smarty.const.SAMPLE_ADDRESS2}-->
+                </td>
+            </tr>
+            <tr>
+                <th>メールアドレス<span class="attention"> *</span></th>
+                <td>
+                    <span class="attention"><!--{$arrErr.email}--></span>
+                    <input type="text" name="email" value="<!--{$arrForm.email|h}-->" size="60" class="box60" <!--{if $arrErr.email != ""}--><!--{sfSetErrorStyle}--><!--{/if}--> />
+                </td>
+            </tr>
+            <tr>
+                <th>電話番号<span class="attention"> *</span></th>
+                <td>
+                    <span class="attention"><!--{$arrErr.tel01}--><!--{$arrErr.tel02}--><!--{$arrErr.tel03}--></span>
+                    <input type="text" name="tel01" value="<!--{$arrForm.tel01|h}-->" maxlength="<!--{$smarty.const.TEL_ITEM_LEN}-->" size="6" class="box6" <!--{if $arrErr.tel01 != ""}--><!--{sfSetErrorStyle}--><!--{/if}--> /> - <input type="text" name="tel02" value="<!--{$arrForm.tel02|h}-->" maxlength="<!--{$smarty.const.TEL_ITEM_LEN}-->" size="6" class="box6" <!--{if $arrErr.tel01 != "" || $arrErr.tel02 != ""}--><!--{sfSetErrorStyle}--><!--{/if}--> /> - <input type="text" name="tel03" value="<!--{$arrForm.tel03|h}-->" maxlength="<!--{$smarty.const.TEL_ITEM_LEN}-->" size="6" class="box6" <!--{if $arrErr.tel01 != "" || $arrErr.tel03 != ""}--><!--{sfSetErrorStyle}--><!--{/if}--> />
+                </td>
+            </tr>
+<!-- ---------------------------- -->
     </table>
 
     <div class="btn-area">

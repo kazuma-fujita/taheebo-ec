@@ -52,6 +52,7 @@ class LC_Page_Admin_Products extends LC_Page_Admin_Ex
         $this->arrDISP = $masterData->getMasterData('mtb_disp');
         $this->arrSTATUS = $masterData->getMasterData('mtb_status');
         $this->arrPRODUCTSTATUS_COLOR = $masterData->getMasterData('mtb_product_status_color');
+        $this->arrAgencyCategory = $masterData->getMasterData('mtb_agency_product_category');
 
         $objDate = new SC_Date_Ex();
         // 登録・更新検索開始年
@@ -204,8 +205,10 @@ class LC_Page_Admin_Products extends LC_Page_Admin_Ex
         $objFormParam->addParam('終了年', 'search_endyear', INT_LEN, 'n', array('MAX_LENGTH_CHECK', 'NUM_CHECK'));
         $objFormParam->addParam('終了月', 'search_endmonth', INT_LEN, 'n', array('MAX_LENGTH_CHECK', 'NUM_CHECK'));
         $objFormParam->addParam('終了日', 'search_endday', INT_LEN, 'n', array('MAX_LENGTH_CHECK', 'NUM_CHECK'));
-
         $objFormParam->addParam('商品ステータス', 'search_product_statuses', INT_LEN, 'n', array('MAX_LENGTH_CHECK'));
+
+        $objFormParam->addParam('区分', 'search_agency_product_category_id', INT_LEN, 'n', array('NUM_CHECK', 'MAX_LENGTH_CHECK'));
+
     }
 
     /**
@@ -354,6 +357,12 @@ class LC_Page_Admin_Products extends LC_Page_Admin_Ex
                     $arrValues = array_merge($arrValues, $arrPartVal);
                 }
                 break;
+            // 代理店商品区分 
+            case 'search_agency_product_category_id':
+                $where .= ' AND agency_product_category_id = ?';
+                $arrValues[] = sprintf('%d', $objFormParam->getValue($key));
+                break;
+
             default:
                 break;
         }
@@ -389,7 +398,8 @@ class LC_Page_Admin_Products extends LC_Page_Admin_Ex
         $objQuery =& SC_Query_Ex::getSingletonInstance();
 
         // 読み込む列とテーブルの指定
-        $col = 'product_id, name, main_list_image, status, product_code_min, product_code_max, price02_min, price02_max, stock_min, stock_max, stock_unlimited_min, stock_unlimited_max, update_date';
+        $col = 'product_id, name, main_list_image, status, product_code_min, product_code_max, price02_min, price02_max, stock_min, stock_max, stock_unlimited_min, stock_unlimited_max, update_date, agency_product_category_id';
+        //$col = 'product_id, name, main_list_image, status, product_code_min, product_code_max, price02_min, price02_max, stock_min, stock_max, stock_unlimited_min, stock_unlimited_max, update_date';
         $from = $objProduct->alldtlSQL();
 
         $objQuery->setLimitOffset($limit, $offset);

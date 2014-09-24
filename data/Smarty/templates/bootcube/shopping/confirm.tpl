@@ -231,7 +231,7 @@
 						</td>
 					</tr>
 					<tr>
-						<th scope="row">代理店コード</th>
+						<th scope="row">登録コード</th>
 						<td><!--{$arrForm.agency_code|h}--></td>
 					</tr>
 				</tbody>

@@ -151,6 +151,12 @@ function selectAll(target) {
             </td>
         </tr>
         <tr>
+            <th>区分<span class="attention"> *</span></th>
+            <td>
+                <!--{html_radios name="agency_product_category_id" options=$arrAgencyCategory selected=$arrForm.agency_product_category_id separator='&nbsp;&nbsp;'}-->
+            </td>
+        </tr>
+        <tr>
             <th>ダウンロード商品ファイル名<span class="attention"> *</span></th>
             <td>
                 <span class="attention"><!--{$arrErr.down_filename}--></span>

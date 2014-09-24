@@ -47,6 +47,8 @@ class LC_Page_Admin_System_Input extends LC_Page_Admin_Ex
         $masterData = new SC_DB_MasterData_Ex();
         $this->arrAUTHORITY = $masterData->getMasterData('mtb_authority');
         $this->arrWORK = $masterData->getMasterData('mtb_work');
+        $this->arrPref = $masterData->getMasterData('mtb_pref');
+        $this->arrAgencyCategory = $masterData->getMasterData('mtb_agency_product_category');
 
         $this->tpl_subtitle = 'メンバー登録/編集';
         $this->httpCacheControl('nocache');
@@ -196,9 +198,20 @@ class LC_Page_Admin_System_Input extends LC_Page_Admin_Ex
         $objFormParam->addParam('稼働/非稼働', 'work', INT_LEN, '', array('EXIST_CHECK', 'NUM_CHECK', 'MAX_LENGTH_CHECK'));
         $objFormParam->addParam('ページ', 'pageno', INT_LEN, 'n', array('EXIST_CHECK', 'NUM_CHECK', 'MAX_LENGTH_CHECK'));
 
+        $objFormParam->addParam('代理店名', 'agency_name', STEXT_LEN, 'aKV', array('EXIST_CHECK','NO_SPTAB', 'SPTAB_CHECK', 'MAX_LENGTH_CHECK'));
+        $objFormParam->addParam('代理店名(フリガナ)', 'agency_name_kana', STEXT_LEN, 'CKV', array('EXIST_CHECK','NO_SPTAB', 'SPTAB_CHECK' ,'MAX_LENGTH_CHECK', 'KANA_CHECK'));
 
-        $objFormParam->addParam('代理店名', 'agency_name', STEXT_LEN, 'aKV', array('NO_SPTAB', 'SPTAB_CHECK', 'MAX_LENGTH_CHECK'));
-        $objFormParam->addParam('代理店名(フリガナ)', 'agency_name_kana', STEXT_LEN, 'CKV', array('NO_SPTAB', 'SPTAB_CHECK' ,'MAX_LENGTH_CHECK', 'KANA_CHECK'));
+        $objFormParam->addParam('郵便番号1', 'zip01', ZIP01_LEN, 'n', array('EXIST_CHECK', 'SPTAB_CHECK' ,'NUM_CHECK', 'NUM_COUNT_CHECK'));
+        $objFormParam->addParam('郵便番号2', 'zip02', ZIP02_LEN, 'n', array('EXIST_CHECK', 'SPTAB_CHECK' ,'NUM_CHECK', 'NUM_COUNT_CHECK'));
+        $objFormParam->addParam('都道府県', 'pref', INT_LEN, 'n', array('EXIST_CHECK', 'NUM_CHECK'));
+
+        $objFormParam->addParam('住所1', 'addr01', MTEXT_LEN, 'aKV', array('EXIST_CHECK', 'SPTAB_CHECK', 'MAX_LENGTH_CHECK'));
+        $objFormParam->addParam('住所2', 'addr02', MTEXT_LEN, 'aKV', array('EXIST_CHECK', 'SPTAB_CHECK', 'MAX_LENGTH_CHECK'));
+        $objFormParam->addParam('お電話番号1', 'tel01', TEL_ITEM_LEN, 'n', array('EXIST_CHECK', 'SPTAB_CHECK', 'NUM_CHECK', 'MAX_LENGTH_CHECK'));
+        $objFormParam->addParam('お電話番号2', 'tel02', TEL_ITEM_LEN, 'n', array('EXIST_CHECK', 'SPTAB_CHECK', 'NUM_CHECK', 'MAX_LENGTH_CHECK'));
+        $objFormParam->addParam('お電話番号3', 'tel03', TEL_ITEM_LEN, 'n', array('EXIST_CHECK', 'SPTAB_CHECK', 'NUM_CHECK', 'MAX_LENGTH_CHECK'));
+        $objFormParam->addParam('メールアドレス', 'email', null, 'a', array('NO_SPTAB', 'EXIST_CHECK', 'EMAIL_CHECK', 'SPTAB_CHECK' ,'EMAIL_CHAR_CHECK'));
+        $objFormParam->addParam('区分', 'agency_product_category_id', INT_LEN, 'n', array('EXIST_CHECK', 'NUM_CHECK', 'MAX_LENGTH_CHECK'));
 
         $objFormParam->setParam($arrParams);
         $objFormParam->convParam();
@@ -262,7 +275,8 @@ class LC_Page_Admin_System_Input extends LC_Page_Admin_Ex
     public function getMemberData($id)
     {
         $table   = 'dtb_member';
-        $columns = 'name,department,login_id,authority, work';
+        $columns = 'name,department,login_id,authority,work, agency_name, agency_name_kana,zip01, zip02, zipcode, pref, addr01, addr02, email, tel01, tel02, tel03, agency_product_category_id, agency_code';
+        //$columns = 'name,department,login_id,authority, work';
         $where   = 'member_id = ?';
 
         $objQuery =& SC_Query_Ex::getSingletonInstance();
@@ -338,6 +352,23 @@ class LC_Page_Admin_System_Input extends LC_Page_Admin_Ex
         $sqlVal['create_date'] = 'CURRENT_TIMESTAMP';
         $sqlVal['update_date'] = 'CURRENT_TIMESTAMP';
 
+        $sqlVal['agency_name'] = $arrMemberData['agency_name'];
+        $sqlVal['agency_name_kana'] = $arrMemberData['agency_name_kana'];
+        $sqlVal['zip01'] = $arrMemberData['zip01'];
+        $sqlVal['zip02'] = $arrMemberData['zip02'];
+        $sqlVal['zipcode'] = $arrMemberData['zipcode'];
+        $sqlVal['pref'] = $arrMemberData['pref'];
+        $sqlVal['addr01'] = $arrMemberData['addr01'];
+        $sqlVal['addr02'] = $arrMemberData['addr02'];
+        $sqlVal['email'] = $arrMemberData['email'];
+        $sqlVal['tel01'] = $arrMemberData['tel01'];
+        $sqlVal['tel02'] = $arrMemberData['tel02'];
+        $sqlVal['tel03'] = $arrMemberData['tel03'];
+        $sqlVal['agency_code'] = $arrMemberData['agency_code'];
+        $sqlVal['agency_product_category_id'] = $arrMemberData['agency_product_category_id'];
+        // TODO 一回selectしてユニークの値にしたい
+        $sqlVal['agency_code'] = sprintf("%08d", mt_rand(0,99999999));
+
         // INSERTの実行
         $sqlVal['member_id'] = $objQuery->nextVal('dtb_member_member_id');
         $objQuery->insert('dtb_member', $sqlVal);
@@ -366,6 +397,21 @@ class LC_Page_Admin_System_Input extends LC_Page_Admin_Ex
             $sqlVal['salt']     = $salt;
             $sqlVal['password'] = SC_Utils_Ex::sfGetHashString($arrMemberData['password'], $salt);
         }
+
+        $sqlVal['agency_name'] = $arrMemberData['agency_name'];
+        $sqlVal['agency_name_kana'] = $arrMemberData['agency_name_kana'];
+        $sqlVal['zip01'] = $arrMemberData['zip01'];
+        $sqlVal['zip02'] = $arrMemberData['zip02'];
+        $sqlVal['zipcode'] = $arrMemberData['zipcode'];
+        $sqlVal['pref'] = $arrMemberData['pref'];
+        $sqlVal['addr01'] = $arrMemberData['addr01'];
+        $sqlVal['addr02'] = $arrMemberData['addr02'];
+        $sqlVal['email'] = $arrMemberData['email'];
+        $sqlVal['tel01'] = $arrMemberData['tel01'];
+        $sqlVal['tel02'] = $arrMemberData['tel02'];
+        $sqlVal['tel03'] = $arrMemberData['tel03'];
+        $sqlVal['agency_product_category_id'] = $arrMemberData['agency_product_category_id'];
+        //$sqlVal['agency_code'] = $arrMemberData['agency_code'];
 
         $where = 'member_id = ?';
 

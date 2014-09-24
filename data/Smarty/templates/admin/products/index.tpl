@@ -66,12 +66,18 @@ function lfnDispChange(){
         <table>
             <tr>
                 <th>商品ID</th>
-                <td colspan="3">
+                <td colspan="1">
                     <!--{assign var=key value="search_product_id"}-->
                     <!--{if $arrErr[$key]}-->
                         <span class="attention"><!--{$arrErr[$key]}--></span>
                     <!--{/if}-->
                     <input type="text" name="<!--{$key}-->" value="<!--{$arrForm[$key].value|h}-->" maxlength="<!--{$arrForm[$key].length}-->" style="<!--{$arrErr[$key]|sfGetErrorColor}-->" size="30" class="box30"/>
+                </td>
+                <th>区分</th>
+                <td>
+                    <!--{assign var=key value="search_agency_product_category_id"}-->
+                    <span class="attention"><!--{$arrErr[$key]|h}--></span>
+                    <!--{html_radios name="$key" options=$arrAgencyCategory selected=$arrForm[$key].value}-->
                 </td>
             </tr>
             <tr>
@@ -217,6 +223,7 @@ function lfnDispChange(){
                     <col width="5%" />
                     <col width="5%" />
                     <col width="5%" />
+                    <col width="5%" />
                     <tr>
                         <th rowspan="2">商品ID</th>
                         <th rowspan="2">商品画像</th>
@@ -225,6 +232,7 @@ function lfnDispChange(){
                         <th>商品名</th>
                         <th rowspan="2">在庫</th>
                         <th rowspan="2">種別</th>
+                        <th rowspan="2">区分</th>
                         <th rowspan="2">編集</th>
                         <th rowspan="2">確認</th>
                         <!--{if $smarty.const.OPTION_CLASS_REGIST == 1}-->
@@ -267,6 +275,8 @@ function lfnDispChange(){
                             <!--{* 表示 *}-->
                             <!--{assign var=key value=$arrProducts[cnt].status}-->
                             <td class="menu" rowspan="2"><!--{$arrDISP[$key]}--></td>
+                            <!--{assign var=key value=$arrProducts[cnt].agency_product_category_id}-->
+                            <td class="menu" rowspan="2"><!--{$arrAgencyCategory[$key]}--></td>
                             <td class="menu" rowspan="2"><span class="icon_edit"><a href="javascript:;" onclick="eccube.changeAction('./product.php'); eccube.setModeAndSubmit('pre_edit', 'product_id', <!--{$arrProducts[cnt].product_id}-->); return false;" >編集</a></span></td>
                             <td class="menu" rowspan="2"><span class="icon_confirm"><a href="<!--{$smarty.const.HTTP_URL}-->products/detail.php?product_id=<!--{$arrProducts[cnt].product_id}-->&amp;admin=on" target="_blank">確認</a></span></td>
                             <!--{if $smarty.const.OPTION_CLASS_REGIST == 1}-->

@@ -90,6 +90,12 @@
                 </td>
             </tr>
             <tr>
+                <th>区分</th>
+                <td>
+                    <!--{$arrAgencyCategory[$arrForm.agency_product_category_id]}-->
+                </td>
+            </tr>
+            <tr>
                 <th>ダウンロード商品ファイル名</th>
                 <td>
                     <!--{$arrForm.down_filename|h}-->

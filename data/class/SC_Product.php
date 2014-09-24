@@ -143,6 +143,7 @@ class SC_Product
             ,status
             ,del_flg
             ,update_date
+            ,agency_product_category_id
 __EOS__;
         $res = $objQuery->select($col, $this->alldtlSQL());
 
@@ -190,6 +191,44 @@ __EOS__;
 
         return $arrProducts;
     }
+
+    public function getListByProductIdsWithAgencyCode(&$objQuery, $arrProductId = array())
+    {
+        $agency_code = $_SESSION['customer']['agency_code'];
+        GC_Utils_Ex::gfDebugLog("agency_code[$agency_code]");
+
+        if (empty($arrProductId) || empty($agency_code)) {
+            return array();
+        }
+
+        $where = 'alldtl.product_id IN (' . SC_Utils_Ex::repeatStrWithSeparator('?', count($arrProductId)) . ')';
+        $where .= ' AND alldtl.del_flg = 0';
+        $where .= ' AND alldtl.agency_product_category_id IN (SELECT DISTINCT(agency_product_category_id) FROM dtb_member WHERE agency_code = ? )';
+
+
+        $arrProductId[] = $agency_code;
+        $objQuery->setWhere($where,$arrProductId );
+
+        $arrProducts = $this->lists($objQuery);
+
+        // 配列のキーを商品IDに
+        $arrProducts = SC_Utils_Ex::makeArrayIDToKey('product_id', $arrProducts);
+
+        // SC_Query::setOrder() の指定がない場合、$arrProductId で指定された商品IDの順に配列要素を並び替え
+        if (strlen($objQuery->order) === 0) {
+            $arrTmp = array();
+            foreach ($arrProductId as $product_id) {
+                $arrTmp[$product_id] = $arrProducts[$product_id];
+            }
+            $arrProducts =& $arrTmp;
+            unset($arrTmp);
+        }
+        // 税込金額を設定する
+        SC_Product_Ex::setIncTaxToProducts($arrProducts);
+
+        return $arrProducts;
+    }
+
 
     /**
      * 商品詳細を取得する.
@@ -678,6 +717,7 @@ __EOS__;
                     ,dtb_products.create_date
                     ,dtb_products.update_date
                     ,dtb_products.deliv_date_id
+                    ,dtb_products.agency_product_category_id
                     ,T4.product_code_min
                     ,T4.product_code_max
                     ,T4.price01_min

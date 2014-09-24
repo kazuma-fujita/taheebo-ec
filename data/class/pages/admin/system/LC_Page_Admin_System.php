@@ -54,6 +54,7 @@ class LC_Page_Admin_System extends LC_Page_Admin_Ex
         $masterData = new SC_DB_MasterData_Ex();
         $this->arrAUTHORITY = $masterData->getMasterData('mtb_authority');
         $this->arrWORK = $masterData->getMasterData('mtb_work');
+        $this->arrAgencyCategory = $masterData->getMasterData('mtb_agency_product_category');
     }
 
     /**
@@ -117,7 +118,8 @@ class LC_Page_Admin_System extends LC_Page_Admin_Ex
      */
     public function getMemberData($startno)
     {
-        $col = 'member_id,name,department,login_id,authority,rank,work';
+        //$col = 'member_id,name,department,login_id,authority,rank,work';
+        $col = 'member_id,name,department,login_id,authority,rank,work,agency_name, agency_name_kana,zip01, zip02, zipcode, pref, addr01, addr02, email, tel01, tel02, tel03, agency_product_category_id, agency_code';
         $from = 'dtb_member';
         $where = 'del_flg <> 1 AND member_id <> ?';
         $objQuery =& SC_Query_Ex::getSingletonInstance();

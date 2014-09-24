@@ -54,6 +54,8 @@ class LC_Page_Admin_Products_Product extends LC_Page_Admin_Products_Ex
         $this->arrDELIVERYDATE = $masterData->getMasterData('mtb_delivery_date');
         $this->arrMaker = SC_Helper_Maker_Ex::getIDValueList();
         $this->arrAllowedTag = $masterData->getMasterData('mtb_allowed_tag');
+
+        $this->arrAgencyCategory = $masterData->getMasterData('mtb_agency_product_category');
     }
 
     /**
@@ -367,6 +369,8 @@ class LC_Page_Admin_Products_Product extends LC_Page_Admin_Products_Ex
 
         $objFormParam->addParam('has_product_class', 'has_product_class', INT_LEN, 'n', array('NUM_CHECK', 'MAX_LENGTH_CHECK'));
         $objFormParam->addParam('product_class_id', 'product_class_id', INT_LEN, 'n', array('NUM_CHECK', 'MAX_LENGTH_CHECK'));
+
+        $objFormParam->addParam('区分', 'agency_product_category_id', INT_LEN, 'n', array('EXIST_CHECK', 'NUM_CHECK', 'MAX_LENGTH_CHECK'));
 
         $objFormParam->setParam($arrPost);
         $objFormParam->convParam();
@@ -1024,6 +1028,9 @@ __EOF__;
         $sqlval['note'] = $arrList['note'];
         $sqlval['update_date'] = 'CURRENT_TIMESTAMP';
         $sqlval['creator_id'] = $_SESSION['member_id'];
+
+        $sqlval['agency_product_category_id'] = $arrList['agency_product_category_id'];
+
         $arrRet = $objUpFile->getDBFileList();
         $sqlval = array_merge($sqlval, $arrRet);
 

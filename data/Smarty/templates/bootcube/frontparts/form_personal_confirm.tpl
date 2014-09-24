@@ -189,7 +189,7 @@
 			</tr>
 
 	<tr>
-		<th>会社名</th>
+		<th>登録コード</th>
 		<td>
 			<!--{assign var=key1 value="`$prefix`agency_code"}-->
 			<!--{$arrForm[$key1].value|h}-->

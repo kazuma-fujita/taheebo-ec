@@ -84,7 +84,7 @@
 
 　メールアドレス：<!--{$arrOrder.order_email}-->
 
-　代理店コード：<!--{$arrOrder.agency_code}-->
+　登録コード：<!--{$arrOrder.agency_code}-->
 
 <!--{if count($arrShipping) >= 1}-->
 ************************************************

@@ -225,6 +225,19 @@ class SC_Helper_Customer
         return $return;
     }
 
+    public function sfCustomerAgencyCodeDuplicationCheck($agency_code)
+    {
+        $objQuery =& SC_Query_Ex::getSingletonInstance();
+
+        $arrResults = $objQuery->getRow('agency_code',
+                                        'dtb_membermember', 'agency_code = ?',
+                                        array($agency_code));
+
+        $return = strlen($arrResults['agency_code']) >= 1 && $agency_code === $arrResults['agency_code'];
+
+        return $return;
+    }
+
     /**
      * customer_idから会員情報を取得する
      *
@@ -412,7 +425,7 @@ class SC_Helper_Customer
         $objFormParam->addParam('FAX番号1', $prefix . 'fax01', TEL_ITEM_LEN, 'n', array('SPTAB_CHECK', 'NUM_CHECK', 'MAX_LENGTH_CHECK'));
         $objFormParam->addParam('FAX番号2', $prefix . 'fax02', TEL_ITEM_LEN, 'n', array('SPTAB_CHECK', 'NUM_CHECK', 'MAX_LENGTH_CHECK'));
         $objFormParam->addParam('FAX番号3', $prefix . 'fax03', TEL_ITEM_LEN, 'n', array('SPTAB_CHECK', 'NUM_CHECK', 'MAX_LENGTH_CHECK'));
-        $objFormParam->addParam('代理店コード', $prefix . 'agency_code', 4, 'n', array('EXIST_CHECK', 'SPTAB_CHECK' ,'NUM_CHECK', 'NUM_COUNT_CHECK'));
+        $objFormParam->addParam('登録コード', $prefix . 'agency_code', 8, 'n', array('EXIST_CHECK', 'SPTAB_CHECK' ,'NUM_CHECK', 'NUM_COUNT_CHECK'));
     }
 
     /**
@@ -473,6 +486,11 @@ class SC_Helper_Customer
         if ($objCustomer->isLoginSuccess(true)
             && SC_Helper_Customer_Ex::sfCustomerEmailDuplicationCheck($objCustomer->getValue('customer_id'), $objFormParam->getValue('email_mobile'))) {
             $objErr->arrErr['email_mobile'] .= '※ すでに会員登録で使用されているメールアドレスです。<br />';
+        }
+
+        //if ($objCustomer->isLoginSuccess(true)
+        if ( !SC_Helper_Customer_Ex::sfCustomerAgencyCodeDuplicationCheck( $objFormParam->getValue('agency_code')) ) {
+            $objErr->arrErr['agency_code'] .= '※ 正しい登録コードを入力してください。<br />';
         }
 
         return $objErr->arrErr;
@@ -609,7 +627,7 @@ class SC_Helper_Customer
         $objFormParam->addParam('性別', 'search_sex', INT_LEN, 'n', array('MAX_LENGTH_CHECK'));
         $objFormParam->addParam('会員状態', 'search_status', INT_LEN, 'n', array('MAX_LENGTH_CHECK'));
         $objFormParam->addParam('職業', 'search_job', INT_LEN, 'n', array('MAX_LENGTH_CHECK'));
-        $objFormParam->addParam('代理店コード', 'search_agency_code', 4, 'n', array('NUM_CHECK','MAX_LENGTH_CHECK'));
+        $objFormParam->addParam('代理店コード', 'search_agency_code', 8, 'n', array('NUM_CHECK','MAX_LENGTH_CHECK'));
     }
 
     /**
