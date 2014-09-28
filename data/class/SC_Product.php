@@ -195,7 +195,8 @@ __EOS__;
     public function getListByProductIdsWithAgencyCode(&$objQuery, $arrProductId = array())
     {
         $agency_code = $_SESSION['customer']['agency_code'];
-        GC_Utils_Ex::gfDebugLog("agency_code[$agency_code]");
+        //GC_Utils_Ex::gfDebugLog("agency_code[$agency_code]");
+        //GC_Utils_Ex::gfDebugLog("session".var_dump($_SESSION));
 
         if (empty($arrProductId) || empty($agency_code)) {
             return array();
@@ -205,9 +206,8 @@ __EOS__;
         $where .= ' AND alldtl.del_flg = 0';
         $where .= ' AND alldtl.agency_product_category_id IN (SELECT DISTINCT(agency_product_category_id) FROM dtb_member WHERE agency_code = ? )';
 
-
         $arrProductId[] = $agency_code;
-        $objQuery->setWhere($where,$arrProductId );
+        $objQuery->setWhere($where,$arrProductId);
 
         $arrProducts = $this->lists($objQuery);
 

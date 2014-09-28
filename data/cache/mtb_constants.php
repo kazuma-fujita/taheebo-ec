@@ -76,7 +76,7 @@ define('ORDER_STATUS_MAX', 50);
 /** フロントレビュー書き込み最大数 */
 define('REVIEW_REGIST_MAX', 5);
 /** デバッグモード(true：sfPrintRやDBのエラーメッセージ、ログレベルがDebugのログを出力する、false：出力しない) */
-define('DEBUG_MODE', false);
+define('DEBUG_MODE', true);
 /** ログを冗長とするか(true:利用する、false:利用しない) */
 define('USE_VERBOSE_LOG', DEBUG_MODE);
 /** 管理ユーザID(メンテナンス用表示されない。) */
@@ -477,7 +477,7 @@ define('USE_NORMALIZE_HOSTNAME', true);
 /** 各種フォームで国の指定を有効にする(true:有効 false:無効) */
 define('FORM_COUNTRY_ENABLE', false);
 /** 商品ごとの税率設定(軽減税率対応 有効:1 無効:0) */
-define('OPTION_PRODUCT_TAX_RULE', 1);
+define('OPTION_PRODUCT_TAX_RULE', 0);
 /** 複数箇所の税率設定時における優先度設定。カンマ区切りスペース不可で記述。後に書いてあるキーに一致するほど優先される。デフォルト：'product_id,product_class_id,pref_id,country_id'（国＞地域（県）＞規格単位＞商品単位） */
 define('TAX_RULE_PRIORITY', "product_id,product_class_id,pref_id,country_id");
 /** 決済処理中ステータスのロールバックを行う時間の設定(秒) */

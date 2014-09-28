@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-23 12:30:39
+<?php /* Smarty version 2.6.27, created on 2014-09-29 03:34:29
          compiled from home.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'home.tpl', 29, false),array('modifier', 'sfDispDBDate', 'home.tpl', 31, false),array('modifier', 'h', 'home.tpl', 31, false),array('modifier', 'default', 'home.tpl', 71, false),array('modifier', 'number_format', 'home.tpl', 71, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'home.tpl', 29, false),array('modifier', 'sfDispDBDate', 'home.tpl', 31, false),array('modifier', 'h', 'home.tpl', 31, false),array('modifier', 'default', 'home.tpl', 73, false),array('modifier', 'number_format', 'home.tpl', 73, false),)), $this); ?>
 
 <div id="home">
 
@@ -26,7 +26,8 @@ smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_esca
 " value="<?php echo ((is_array($_tmp=$this->_tpl_vars['transactionid'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 " />
 
-                        <h2>システム情報</h2>
+                        <?php if (((is_array($_tmp=$_SESSION['authority'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)) == 0): ?>
+            <h2>システム情報</h2>
             <table summary="システム情報" class="shop-info">
                 <tr>
                     <th>EC-CUBEバージョン</th>
@@ -50,6 +51,7 @@ smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_esca
 system/system.php">システム設定＞システム情報</a></td>
                 </tr>
             </table>
+            <?php endif; ?>
             
                         <h2>ショップの状況</h2>
             <table summary="ショップの状況" class="shop-info">
@@ -59,9 +61,10 @@ system/system.php">システム設定＞システム情報</a></td>
 名</td>
                 </tr>
                 <tr>
-                    <th>昨日の売上高</th>
+                    <th>昨日の売上高(使用pt)</th>
                     <td><?php echo ((is_array($_tmp=((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['order_yesterday_amount'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('default', true, $_tmp, '0') : smarty_modifier_default($_tmp, '0')))) ? $this->_run_mod_handler('number_format', true, $_tmp) : number_format($_tmp)); ?>
-円</td>
+円 (<?php echo ((is_array($_tmp=((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['order_yesterday_point'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('default', true, $_tmp, '0') : smarty_modifier_default($_tmp, '0')))) ? $this->_run_mod_handler('number_format', true, $_tmp) : number_format($_tmp)); ?>
+pt)</td>
                 </tr>
                 <tr>
                     <th>昨日の売上件数</th>
@@ -69,12 +72,13 @@ system/system.php">システム設定＞システム情報</a></td>
 件</td>
                 </tr>
                 <tr>
-                    <th><span>今月の売上高</span><span>(昨日まで) </span></th>
+                    <th><span>今月の売上高</span><span>(使用pt)</span></th>
                     <td><?php echo ((is_array($_tmp=((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['order_month_amount'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('default', true, $_tmp, '0') : smarty_modifier_default($_tmp, '0')))) ? $this->_run_mod_handler('number_format', true, $_tmp) : number_format($_tmp)); ?>
-円</td>
+円 (<?php echo ((is_array($_tmp=((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['order_month_amount'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('default', true, $_tmp, '0') : smarty_modifier_default($_tmp, '0')))) ? $this->_run_mod_handler('number_format', true, $_tmp) : number_format($_tmp)); ?>
+pt)</td>
                 </tr>
                 <tr>
-                    <th><span>今月の売上件数 </span><span>(昨日まで) </span></th>
+                    <th><span>今月の売上件数 </span></th>
                     <td><?php echo ((is_array($_tmp=((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['order_month_cnt'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('default', true, $_tmp, '0') : smarty_modifier_default($_tmp, '0')))) ? $this->_run_mod_handler('number_format', true, $_tmp) : number_format($_tmp)); ?>
 件</td>
                 </tr>
@@ -93,6 +97,7 @@ pt</td>
                     <td><?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['review_nondisp_cnt'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('default', true, $_tmp, '0') : smarty_modifier_default($_tmp, '0')); ?>
 件</td>
                 </tr>
+<?php if (false): ?>
                 <tr>
                     <th>品切れ商品</th>
                     <td>
@@ -126,6 +131,7 @@ $this->_sections['i']['last']       = ($this->_sections['i']['iteration'] == $th
                     <?php endfor; endif; ?>
                     </td>
                 </tr>
+<?php endif; ?>
             </table>
             
                         <h2>新規受付一覧</h2>
@@ -136,6 +142,7 @@ $this->_sections['i']['last']       = ($this->_sections['i']['iteration'] == $th
                     <th class="center">購入商品</th>
                     <th class="center">支払方法</th>
                     <th class="center">購入金額(円)</th>
+                    <th class="center">使用pt</th>
                 </tr>
                 <?php unset($this->_sections['i']);
 $this->_sections['i']['name'] = 'i';
@@ -173,6 +180,8 @@ $this->_sections['i']['last']       = ($this->_sections['i']['iteration'] == $th
 </td>
                     <td class="right"><?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['arrNewOrder'][$this->_sections['i']['index']]['total'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('number_format', true, $_tmp) : number_format($_tmp)); ?>
 円</td>
+                    <td class="right"><?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['arrNewOrder'][$this->_sections['i']['index']]['use_point'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('number_format', true, $_tmp) : number_format($_tmp)); ?>
+pt</td>
                 </tr>
                 <?php endfor; endif; ?>
             </table>

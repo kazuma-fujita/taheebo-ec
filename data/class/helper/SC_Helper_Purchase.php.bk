@@ -295,12 +295,6 @@ class SC_Helper_Purchase
         //国ID追加
         $sqlval['order_country_id'] = DEFAULT_COUNTRY_ID;
 
-        ///////// add
-        $agency_code = $_SESSION['customer']['agency_code'];
-        if ( !empty($agency_code) ) {
-            $sqlval['agency_code'] = $agency_code;
-        }
-
         if (SC_Utils_Ex::isBlank($exists)) {
             $sqlval['order_temp_id'] = $uniqId;
             $sqlval['create_date'] = 'CURRENT_TIMESTAMP';

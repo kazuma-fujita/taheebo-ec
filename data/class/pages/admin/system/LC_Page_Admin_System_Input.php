@@ -367,7 +367,12 @@ class LC_Page_Admin_System_Input extends LC_Page_Admin_Ex
         $sqlVal['agency_code'] = $arrMemberData['agency_code'];
         $sqlVal['agency_product_category_id'] = $arrMemberData['agency_product_category_id'];
         // TODO 一回selectしてユニークの値にしたい
-        $sqlVal['agency_code'] = sprintf("%08d", mt_rand(0,99999999));
+        $ransu = '';
+        for($i = 0; $i < 5; $i++){
+            $num = mt_rand(0,9);
+            $ransu .= $num; 
+        }
+        $sqlVal['agency_code'] = $ransu;
 
         // INSERTの実行
         $sqlVal['member_id'] = $objQuery->nextVal('dtb_member_member_id');

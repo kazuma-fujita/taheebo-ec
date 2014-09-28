@@ -42,7 +42,6 @@
             <input type="hidden" name="<!--{$smarty.const.TRANSACTION_ID_NAME}-->" value="<!--{$transactionid}-->" />
 
             <!--{* システム情報ここから *}-->
-            <!--{if $smarty.session.authority == 0}-->
             <h2>システム情報</h2>
             <table summary="システム情報" class="shop-info">
                 <tr>
@@ -62,7 +61,6 @@
                     <td><a href="<!--{$smarty.const.ROOT_URLPATH}--><!--{$smarty.const.ADMIN_DIR}-->system/system.php">システム設定＞システム情報</a></td>
                 </tr>
             </table>
-            <!--{/if}-->
             <!--{* システム情報ここまで *}-->
 
             <!--{* ショップの状況ここから *}-->
@@ -73,19 +71,19 @@
                     <td><!--{$customer_cnt|default:"0"|number_format}-->名</td>
                 </tr>
                 <tr>
-                    <th>昨日の売上高(使用pt)</th>
-                    <td><!--{$order_yesterday_amount|default:"0"|number_format}-->円 (<!--{$order_yesterday_point|default:"0"|number_format}-->pt)</td>
+                    <th>昨日の売上高</th>
+                    <td><!--{$order_yesterday_amount|default:"0"|number_format}-->円</td>
                 </tr>
                 <tr>
                     <th>昨日の売上件数</th>
                     <td><!--{$order_yesterday_cnt|default:"0"|number_format}-->件</td>
                 </tr>
                 <tr>
-                    <th><span>今月の売上高</span><span>(使用pt)</span></th>
-                    <td><!--{$order_month_amount|default:"0"|number_format}-->円 (<!--{$order_month_amount|default:"0"|number_format}-->pt)</td>
+                    <th><span>今月の売上高</span><span>(昨日まで) </span></th>
+                    <td><!--{$order_month_amount|default:"0"|number_format}-->円</td>
                 </tr>
                 <tr>
-                    <th><span>今月の売上件数 </span></th>
+                    <th><span>今月の売上件数 </span><span>(昨日まで) </span></th>
                     <td><!--{$order_month_cnt|default:"0"|number_format}-->件</td>
                 </tr>
                 <tr>
@@ -100,7 +98,6 @@
                     <th>レビュー書き込み非表示数</th>
                     <td><!--{$review_nondisp_cnt|default:"0"}-->件</td>
                 </tr>
-<!--{if false}-->
                 <tr>
                     <th>品切れ商品</th>
                     <td>
@@ -109,7 +106,6 @@
                     <!--{/section}-->
                     </td>
                 </tr>
-<!--{/if}-->
             </table>
             <!--{* ショップの状況ここまで *}-->
 
@@ -122,7 +118,6 @@
                     <th class="center">購入商品</th>
                     <th class="center">支払方法</th>
                     <th class="center">購入金額(円)</th>
-                    <th class="center">使用pt</th>
                 </tr>
                 <!--{section name=i loop=$arrNewOrder}-->
                 <tr>
@@ -131,7 +126,6 @@
                     <td><!--{$arrNewOrder[i].product_name|h}--></td>
                     <td><!--{$arrNewOrder[i].payment_method|h}--></td>
                     <td class="right"><!--{$arrNewOrder[i].total|number_format}-->円</td>
-                    <td class="right"><!--{$arrNewOrder[i].use_point|number_format}-->pt</td>
                 </tr>
                 <!--{/section}-->
             </table>

@@ -324,3 +324,169 @@ customer_id = 2
 /var/www/data/class/SC_Query.php(1087): trigger_error
 2014/09/24 22:32:59 [/preview/index.php] Warning(E_USER_WARNING): ページ情報を取得できませんでした。 on [/var/www/data/class/helper/SC_Helper_PageLayout.php(59)] from 192.168.218.1
 2014/09/24 22:32:59 [/preview/index.php] Warning(E_USER_WARNING): メイン部のテンプレートが存在しません。[/var/www/html/../data/Smarty/templates/bootcube/.tpl] on [/var/www/data/class/helper/SC_Helper_PageLayout.php(66)] from 192.168.218.1
+2014/09/28 23:28:46 [/index.php] Warning(E_USER_WARNING): Smarty error: unable to read resource: &quot;/var/www/html/../data/Smarty/templates/default/frontparts/bloc/bc_recommend.tpl&quot; on [/var/www/data/module/Smarty/libs/Smarty.class.php(1094)] from 192.168.218.1
+customer_id = 
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(54): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(247): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/default/%%F1^F15^F158E3F4%%site_frame.tpl.php(84): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/default/%%58^587^5876E692%%site_main.tpl.php(45): smarty_core_smarty_include_php
+/var/www/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1924): include
+/var/www/html/frontparts/bloc/recommend.php(30): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/var/www/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(54): LC_Page_FrontParts_Bloc_Recommend->process
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(53): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(247): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1262): Smarty->_compile_resource
+/var/www/data/module/Smarty/libs/Smarty.class.php(1416): Smarty->_fetch_resource_info
+/var/www/data/module/Smarty/libs/Smarty.class.php(1590): Smarty->trigger_error
+/var/www/data/module/Smarty/libs/Smarty.class.php(1094): trigger_error
+2014/09/28 23:38:42 [/admin/design/up_down.php] Warning(E_WARNING): move_uploaded_file(/var/www/html/upload/temp_template/tpl_package_bootcube_20140729165436.tar.gz): failed to open stream: No such file or directory on [/var/www/data/class/SC_UploadFile.php(130)] from 192.168.218.1
+login_id = taheebo(0)[pkedtgvh0k9rsa30gd0moq9if4]
+/var/www/html/admin/design/up_down.php(29): LC_Page_Admin_Design_UpDown_Ex->process
+/var/www/data/class_extends/page_extends/admin/design/LC_Page_Admin_Design_UpDown_Ex.php(54): LC_Page_Admin_Design_UpDown->process
+/var/www/data/class/pages/admin/design/LC_Page_Admin_Design_UpDown.php(62): LC_Page_Admin_Design_UpDown->action
+/var/www/data/class/pages/admin/design/LC_Page_Admin_Design_UpDown.php(86): LC_Page_Admin_Design_UpDown->lfCheckError
+/var/www/data/class/pages/admin/design/LC_Page_Admin_Design_UpDown.php(174): SC_UploadFile->makeTempFile
+/var/www/data/class/SC_UploadFile.php(130): move_uploaded_file
+2014/09/28 23:38:42 [/admin/design/up_down.php] Warning(E_WARNING): move_uploaded_file(): Unable to move '/tmp/phpXIGwAA' to '/var/www/html/upload/temp_template/tpl_package_bootcube_20140729165436.tar.gz' on [/var/www/data/class/SC_UploadFile.php(130)] from 192.168.218.1
+login_id = taheebo(0)[pkedtgvh0k9rsa30gd0moq9if4]
+/var/www/html/admin/design/up_down.php(29): LC_Page_Admin_Design_UpDown_Ex->process
+/var/www/data/class_extends/page_extends/admin/design/LC_Page_Admin_Design_UpDown_Ex.php(54): LC_Page_Admin_Design_UpDown->process
+/var/www/data/class/pages/admin/design/LC_Page_Admin_Design_UpDown.php(62): LC_Page_Admin_Design_UpDown->action
+/var/www/data/class/pages/admin/design/LC_Page_Admin_Design_UpDown.php(86): LC_Page_Admin_Design_UpDown->lfCheckError
+/var/www/data/class/pages/admin/design/LC_Page_Admin_Design_UpDown.php(174): SC_UploadFile->makeTempFile
+/var/www/data/class/SC_UploadFile.php(130): move_uploaded_file
+2014/09/28 23:39:37 [/admin/design/up_down.php] Warning(E_WARNING): move_uploaded_file(/var/www/html/upload/temp_template/tpl_package_bootcube_20140729165436.tar.gz): failed to open stream: No such file or directory on [/var/www/data/class/SC_UploadFile.php(130)] from 192.168.218.1
+login_id = taheebo(0)[pkedtgvh0k9rsa30gd0moq9if4]
+/var/www/html/admin/design/up_down.php(29): LC_Page_Admin_Design_UpDown_Ex->process
+/var/www/data/class_extends/page_extends/admin/design/LC_Page_Admin_Design_UpDown_Ex.php(54): LC_Page_Admin_Design_UpDown->process
+/var/www/data/class/pages/admin/design/LC_Page_Admin_Design_UpDown.php(62): LC_Page_Admin_Design_UpDown->action
+/var/www/data/class/pages/admin/design/LC_Page_Admin_Design_UpDown.php(86): LC_Page_Admin_Design_UpDown->lfCheckError
+/var/www/data/class/pages/admin/design/LC_Page_Admin_Design_UpDown.php(174): SC_UploadFile->makeTempFile
+/var/www/data/class/SC_UploadFile.php(130): move_uploaded_file
+2014/09/28 23:39:37 [/admin/design/up_down.php] Warning(E_WARNING): move_uploaded_file(): Unable to move '/tmp/phpRTj8TW' to '/var/www/html/upload/temp_template/tpl_package_bootcube_20140729165436.tar.gz' on [/var/www/data/class/SC_UploadFile.php(130)] from 192.168.218.1
+login_id = taheebo(0)[pkedtgvh0k9rsa30gd0moq9if4]
+/var/www/html/admin/design/up_down.php(29): LC_Page_Admin_Design_UpDown_Ex->process
+/var/www/data/class_extends/page_extends/admin/design/LC_Page_Admin_Design_UpDown_Ex.php(54): LC_Page_Admin_Design_UpDown->process
+/var/www/data/class/pages/admin/design/LC_Page_Admin_Design_UpDown.php(62): LC_Page_Admin_Design_UpDown->action
+/var/www/data/class/pages/admin/design/LC_Page_Admin_Design_UpDown.php(86): LC_Page_Admin_Design_UpDown->lfCheckError
+/var/www/data/class/pages/admin/design/LC_Page_Admin_Design_UpDown.php(174): SC_UploadFile->makeTempFile
+/var/www/data/class/SC_UploadFile.php(130): move_uploaded_file
+2014/09/28 23:55:21 [/preview/index.php] Warning(E_USER_WARNING): ページ情報を取得できませんでした。 on [/var/www/data/class/helper/SC_Helper_PageLayout.php(59)] from 192.168.218.1
+customer_id = 2
+/var/www/html/preview/index.php(28): LC_Page_Preview_Ex->init
+/var/www/data/class_extends/page_extends/preview/LC_Page_Preview_Ex.php(44): LC_Page_Preview->init
+/var/www/data/class/pages/preview/LC_Page_Preview.php(42): LC_Page->init
+/var/www/data/class/pages/LC_Page.php(101): SC_Helper_PageLayout->sfGetPageLayout
+/var/www/data/class/helper/SC_Helper_PageLayout.php(59): trigger_error
+2014/09/28 23:55:21 [/preview/index.php] Warning(E_USER_WARNING): メイン部のテンプレートが存在しません。[/var/www/html/../data/Smarty/templates/bootcube/.tpl] on [/var/www/data/class/helper/SC_Helper_PageLayout.php(66)] from 192.168.218.1
+customer_id = 2
+/var/www/html/preview/index.php(28): LC_Page_Preview_Ex->init
+/var/www/data/class_extends/page_extends/preview/LC_Page_Preview_Ex.php(44): LC_Page_Preview->init
+/var/www/data/class/pages/preview/LC_Page_Preview.php(42): LC_Page->init
+/var/www/data/class/pages/LC_Page.php(101): SC_Helper_PageLayout->sfGetPageLayout
+/var/www/data/class/helper/SC_Helper_PageLayout.php(66): trigger_error
+2014/09/29 00:14:39 [/entry/index.php] Fatal error(E_USER_ERROR): DB処理でエラーが発生しました。
+SQL: [SELECT agency_code FROM dtb_membermember WHERE agency_code = ?   ]
+MDB2 Error: no such table
+_doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysql_138cd9995b437766ac429e8ed05a7d76bddceb6bdb FROM 'SELECT agency_code FROM dtb_membermember WHERE agency_code = ?   ']
+[Native code: 1146]
+[Native message: Table 'taheebo_db.dtb_membermember' doesn't exist]
+ on [/var/www/data/class/SC_Query.php(1087)] from 192.168.218.1
+customer_id = 
+/var/www/html/entry/index.php(29): LC_Page_Entry_Ex->process
+/var/www/data/class_extends/page_extends/entry/LC_Page_Entry_Ex.php(54): LC_Page_Entry->process
+/var/www/data/class/pages/entry/LC_Page_Entry.php(67): LC_Page_Entry->action
+/var/www/data/class/pages/entry/LC_Page_Entry.php(124): SC_Helper_Customer->sfCustomerEntryErrorCheck
+/var/www/data/class/helper/SC_Helper_Customer.php(492): SC_Helper_Customer->sfCustomerAgencyCodeDuplicationCheck
+/var/www/data/class/helper/SC_Helper_Customer.php(234): SC_Query->getRow
+/var/www/data/class/SC_Query.php(725): SC_Query->prepare
+/var/www/data/class/SC_Query.php(1016): SC_Query->error
+/var/www/data/class/SC_Query.php(1087): trigger_error
+2014/09/29 01:53:20 [/admin/order/disp.php] Warning(E_WARNING): number_format() expects parameter 1 to be double, string given on [/var/www/data/Smarty/templates_c/admin/%%32^32B^32BC8ADE%%disp.tpl.php(156)] from 192.168.218.1
+login_id = taheebo(0)[2f416ut1okmr67ggqvismknsf2]
+/var/www/html/admin/order/disp.php(29): LC_Page_Admin_Order_Disp_Ex->process
+/var/www/data/class_extends/page_extends/admin/order/LC_Page_Admin_Order_Disp_Ex.php(54): LC_Page_Admin_Order_Disp->process
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Disp.php(108): LC_Page_Admin->sendResponse
+/var/www/data/class/pages/admin/LC_Page_Admin.php(112): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/admin/%%32^32B^32BC8ADE%%disp.tpl.php(156): number_format
+2014/09/29 01:55:08 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 647 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450)] from 192.168.218.1
+login_id = taheebo(0)[2f416ut1okmr67ggqvismknsf2]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(647): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450): SC_Helper_HandleError::handle_warning
+2014/09/29 01:55:09 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 647 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450)] from 192.168.218.1
+login_id = taheebo(0)[2f416ut1okmr67ggqvismknsf2]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(647): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450): SC_Helper_HandleError::handle_warning
+2014/09/29 01:56:37 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 647 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450)] from 192.168.218.1
+login_id = taheebo(0)[2f416ut1okmr67ggqvismknsf2]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(647): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450): SC_Helper_HandleError::handle_warning
+2014/09/29 01:56:38 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 647 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450)] from 192.168.218.1
+login_id = taheebo(0)[2f416ut1okmr67ggqvismknsf2]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(647): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450): SC_Helper_HandleError::handle_warning
+2014/09/29 03:12:27 [/admin/order/edit.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(862)] from 192.168.218.1
+login_id = taheebo(0)[2f416ut1okmr67ggqvismknsf2]
+/var/www/html/admin/order/edit.php(29): LC_Page_Admin_Order_Edit_Ex->process
+/var/www/data/class_extends/page_extends/admin/order/LC_Page_Admin_Order_Edit_Ex.php(54): LC_Page_Admin_Order_Edit->process
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(133): LC_Page_Admin_Order_Edit->action
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(195): LC_Page_Admin_Order_Edit->doRegister
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(862): SC_Helper_HandleError::handle_warning
+2014/09/29 03:12:27 [/admin/order/edit.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(862)] from 192.168.218.1
+login_id = taheebo(0)[2f416ut1okmr67ggqvismknsf2]
+/var/www/html/admin/order/edit.php(29): LC_Page_Admin_Order_Edit_Ex->process
+/var/www/data/class_extends/page_extends/admin/order/LC_Page_Admin_Order_Edit_Ex.php(54): LC_Page_Admin_Order_Edit->process
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(133): LC_Page_Admin_Order_Edit->action
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(195): LC_Page_Admin_Order_Edit->doRegister
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(862): SC_Helper_HandleError::handle_warning
+2014/09/29 03:33:55 [/admin/home.php] Fatal error(E_USER_ERROR): DB処理でエラーが発生しました。
+SQL: [SELECT             dtb_order.order_id,             dtb_order.customer_id,             dtb_order.order_name01 AS name01,             dtb_order.order_name02 AS name02,             dtb_order.total,             dtb_order.create_date,             dtb_order.use_point, // add             (SELECT product_name FROM dtb_order_detail WHERE order_id = dtb_order.order_id  ORDER BY order_detail_id  LIMIT 1 OFFSET 0) AS product_name,             (SELECT                 pay.payment_method             FROM                 dtb_payment AS pay             WHERE                 dtb_order.payment_id = pay.payment_id             ) AS payment_method FROM dtb_order WHERE del_flg = 0 AND status <> ?  ORDER BY create_date DESC ]
+MDB2 Error: syntax error
+_doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysql_19be06e127bab8c28079f13956456d5f266569147d FROM 'SELECT             dtb_order.order_id,             dtb_order.customer_id,             dtb_order.order_name01 AS name01,             dtb_order.order_name02 AS name02,             dtb_order.total,             dtb_order.create_date,             dtb_order.use_point, // add             (SELECT product_name FROM dtb_order_detail WHERE order_id = dtb_order.order_id  ORDER BY order_detail_id  LIMIT 1 OFFSET 0) AS product_name,             (SELECT                 pay.payment_method             FROM                 dtb_payment AS pay             WHERE                 dtb_order.payment_id = pay.payment_id             ) AS payment_method FROM dtb_order WHERE del_flg = 0 AND status <> ?  ORDER BY create_date DESC LIMIT 0, 10']
+[Native code: 1064]
+[Native message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '// add             (SELECT product_name FROM dtb_order_detail WHERE order_id = d' at line 1]
+ on [/var/www/data/class/SC_Query.php(1087)] from 192.168.218.1
+login_id = taheebo(0)[2f416ut1okmr67ggqvismknsf2]
+/var/www/html/admin/home.php(28): LC_Page_Admin_Home_Ex->process
+/var/www/data/class_extends/page_extends/admin/LC_Page_Admin_Home_Ex.php(54): LC_Page_Admin_Home->process
+/var/www/data/class/pages/admin/LC_Page_Admin_Home.php(55): LC_Page_Admin_Home->action
+/var/www/data/class/pages/admin/LC_Page_Admin_Home.php(106): LC_Page_Admin_Home->lfGetNewOrder
+/var/www/data/class/pages/admin/LC_Page_Admin_Home.php(305): SC_Query->select
+/var/www/data/class/SC_Query.php(176): SC_Query->getAll
+/var/www/data/class/SC_Query.php(296): SC_Query->prepare
+/var/www/data/class/SC_Query.php(1016): SC_Query->error
+/var/www/data/class/SC_Query.php(1087): trigger_error

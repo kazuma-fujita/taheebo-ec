@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-24 21:23:18
+<?php /* Smarty version 2.6.27, created on 2014-09-29 03:53:11
          compiled from /var/www/html/../data/Smarty/templates/bootcube/frontparts/bloc/bc_recommend.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', '/var/www/html/../data/Smarty/templates/bootcube/frontparts/bloc/bc_recommend.tpl', 2, false),array('modifier', 'u', '/var/www/html/../data/Smarty/templates/bootcube/frontparts/bloc/bc_recommend.tpl', 11, false),array('modifier', 'sfNoImageMainList', '/var/www/html/../data/Smarty/templates/bootcube/frontparts/bloc/bc_recommend.tpl', 12, false),array('modifier', 'h', '/var/www/html/../data/Smarty/templates/bootcube/frontparts/bloc/bc_recommend.tpl', 12, false),array('modifier', 'number_format', '/var/www/html/../data/Smarty/templates/bootcube/frontparts/bloc/bc_recommend.tpl', 21, false),array('modifier', 'nl2br', '/var/www/html/../data/Smarty/templates/bootcube/frontparts/bloc/bc_recommend.tpl', 24, false),)), $this); ?>

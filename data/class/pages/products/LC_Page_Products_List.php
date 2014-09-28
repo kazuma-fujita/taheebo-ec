@@ -253,7 +253,8 @@ class LC_Page_Products_List extends LC_Page_Ex
         $arrProductId = $objProduct->findProductIdsOrder($objQuery, array_merge($searchCondition['arrval'], $arrOrderVal));
 
         $objQuery =& SC_Query_Ex::getSingletonInstance();
-        $arrProducts = $objProduct->getListByProductIds($objQuery, $arrProductId);
+        //$arrProducts = $objProduct->getListByProductIds($objQuery, $arrProductId);
+        $arrProducts = $objProduct->getListByProductIdsWithAgencyCode($objQuery, $arrProductId);
 
         // 規格を設定
         $objProduct->setProductsClassByProductIds($arrProductId);

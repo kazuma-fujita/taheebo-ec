@@ -78,17 +78,11 @@ class LC_Page_Admin_Home extends LC_Page_Admin_Ex
         // 昨日の売上件数
         $this->order_yesterday_cnt = $this->lfGetOrderYesterday('COUNT');
 
-        // 昨日の使用pt
-        $this->order_yesterday_point = $this->lfGetOrderYesterdayPoint();
-
         // 今月の売上高
         $this->order_month_amount = $this->lfGetOrderMonth('SUM');
 
         // 今月の売上件数
         $this->order_month_cnt = $this->lfGetOrderMonth('COUNT');
-
-        // 今月の使用pt
-        $this->order_month_point = $this->lfGetOrderMonthPoint();
 
         // 会員の累計ポイント
         $this->customer_point = $this->lfGetTotalCustomerPoint();
@@ -163,15 +157,6 @@ class LC_Page_Admin_Home extends LC_Page_Admin_Ex
         return $objQuery->getOne($sql);
     }
 
-    public function lfGetOrderYesterdayPoint()
-    {
-        $objQuery =& SC_Query_Ex::getSingletonInstance();
-        $dbFactory = SC_DB_DBFactory_Ex::getInstance();
-        $sql = $dbFactory->getOrderYesterdayPointSql();
-
-        return $objQuery->getOne($sql);
-    }
-
     /**
      * 今月の売上データの取得
      *
@@ -186,18 +171,6 @@ class LC_Page_Admin_Home extends LC_Page_Admin_Ex
         // TODO: DBFactory使わないでも共通化できそうな気もしますが
         $dbFactory = SC_DB_DBFactory_Ex::getInstance();
         $sql = $dbFactory->getOrderMonthSql($method);
-
-        return $objQuery->getOne($sql, array($month));
-    }
-
-    public function lfGetOrderMonthPoint()
-    {
-        $objQuery =& SC_Query_Ex::getSingletonInstance();
-        $month = date('Y/m', mktime());
-
-        // TODO: DBFactory使わないでも共通化できそうな気もしますが
-        $dbFactory = SC_DB_DBFactory_Ex::getInstance();
-        $sql = $dbFactory->getOrderMonthPointSql();
 
         return $objQuery->getOne($sql, array($month));
     }
@@ -288,7 +261,6 @@ class LC_Page_Admin_Home extends LC_Page_Admin_Ex
             dtb_order.order_name02 AS name02,
             dtb_order.total,
             dtb_order.create_date,
-            dtb_order.use_point,
             ($sql_product_name) AS product_name,
             (SELECT
                 pay.payment_method

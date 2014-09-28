@@ -246,7 +246,8 @@ class LC_Page_Rss_Products extends LC_Page_Ex
             $objQuery->setOrder('product_id');
             $arrProductLsit = $objProduct->lists($objQuery);
         } else {
-            $arrProductLsit = $objProduct->getListByProductIds($objQuery, array($product_id));
+            //$arrProductLsit = $objProduct->getListByProductIds($objQuery, array($product_id));
+            $arrProductLsit = $objProduct->getListByProductIdsWithAgencyCode($objQuery, array($product_id));
         }
 
         // 各商品のカテゴリIDとランクの取得

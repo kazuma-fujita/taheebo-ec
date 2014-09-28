@@ -389,7 +389,8 @@ class LC_Page_Products_Detail extends LC_Page_Ex
         }
 
         $objQuery =& SC_Query_Ex::getSingletonInstance();
-        $arrProducts = $objProduct->getListByProductIds($objQuery, $recommendProductIds);
+        //$arrProducts = $objProduct->getListByProductIds($objQuery, $recommendProductIds);
+        $arrProducts = $objProduct->getListByProductIdsWithAgencyCode($objQuery, $recommendProductIds);
 
         foreach ($arrRecommendData as $key => $arrRow) {
             $arrRecommendData[$key] = array_merge($arrRow, $arrProducts[$arrRow['recommend_product_id']]);

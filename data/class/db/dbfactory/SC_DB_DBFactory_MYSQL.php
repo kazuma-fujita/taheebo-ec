@@ -101,6 +101,14 @@ class SC_DB_DBFactory_MYSQL extends SC_DB_DBFactory
                . 'AND status <> ' . ORDER_CANCEL;
     }
 
+    public function getOrderYesterdayPointSql()
+    {
+        return 'SELECT SUM(use_point) FROM dtb_order '
+               . 'WHERE del_flg = 0 '
+               . 'AND cast(create_date as date) = DATE_ADD(current_date, interval -1 day) '
+               . 'AND status <> ' . ORDER_CANCEL;
+    }
+
     /**
      * 当月の売上高・売上件数を算出する SQL を返す.
      *
@@ -110,6 +118,15 @@ class SC_DB_DBFactory_MYSQL extends SC_DB_DBFactory
     public function getOrderMonthSql($method)
     {
         return 'SELECT '.$method.'(total) FROM dtb_order '
+               . 'WHERE del_flg = 0 '
+               . "AND date_format(create_date, '%Y/%m') = ? "
+               . "AND date_format(create_date, '%Y/%m/%d') <> date_format(CURRENT_TIMESTAMP, '%Y/%m/%d') "
+               . 'AND status <> ' . ORDER_CANCEL;
+    }
+
+    public function getOrderMonthPointSql()
+    {
+        return 'SELECT SUM(use_point) FROM dtb_order '
                . 'WHERE del_flg = 0 '
                . "AND date_format(create_date, '%Y/%m') = ? "
                . "AND date_format(create_date, '%Y/%m/%d') <> date_format(CURRENT_TIMESTAMP, '%Y/%m/%d') "

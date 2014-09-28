@@ -98,7 +98,8 @@ class LC_Page_FrontParts_Bloc_BcRanking extends LC_Page_FrontParts_Bloc_Ex
             foreach ($arrRanking as $key => $val) {
                 $arrProductId[] = $val['product_id'];
             }
-            $arrProducts = $objProduct->getListByProductIds($objQuery, $arrProductId);
+            //$arrProducts = $objProduct->getListByProductIds($objQuery, $arrProductId);
+            $arrProducts = $objProduct->getListByProductIdsWithAgencyCode($objQuery, $arrProductId);
 
             // 税込金額を設定する
             SC_Product_Ex::setIncTaxToProducts($arrProducts);
