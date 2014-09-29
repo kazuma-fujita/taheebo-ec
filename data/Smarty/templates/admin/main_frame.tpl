@@ -98,6 +98,7 @@
 
 <!--{* ▼NAVI *}-->
 <div id="navi-wrap">
+<!--{if $smarty.session.authority == 0}-->
     <ul id="navi" class="clearfix">
         <li id="navi-basis" class="<!--{if $tpl_mainno eq "basis"}-->on<!--{/if}-->">
             <a href="<!--{$smarty.const.ROOT_URLPATH}--><!--{$smarty.const.ADMIN_DIR}-->basis/<!--{$smarty.const.DIR_INDEX_PATH}-->"><span class="level1">基本情報管理</span></a>
@@ -115,6 +116,11 @@
             <a href="<!--{$smarty.const.ROOT_URLPATH}--><!--{$smarty.const.ADMIN_DIR}-->order/<!--{$smarty.const.DIR_INDEX_PATH}-->"><span>受注管理</span></a>
             <!--{include file="`$smarty.const.TEMPLATE_ADMIN_REALDIR`order/subnavi.tpl"}-->
         </li>
+
+        <li id="navi-system" class="<!--{if $tpl_mainno eq "system"}-->on<!--{/if}-->">
+            <a href="<!--{$smarty.const.ROOT_URLPATH}--><!--{$smarty.const.ADMIN_DIR}-->system/<!--{$smarty.const.DIR_INDEX_PATH}-->"><span>代理店管理</span></a>
+        </li>
+
         <li id="navi-total" class="<!--{if $tpl_mainno eq "total"}-->on<!--{/if}-->">
             <a href="<!--{$smarty.const.ROOT_URLPATH}--><!--{$smarty.const.ADMIN_DIR}-->total/<!--{$smarty.const.DIR_INDEX_PATH}-->"><span>売上集計</span></a>
             <!--{include file="`$smarty.const.TEMPLATE_ADMIN_REALDIR`total/subnavi.tpl"}-->
@@ -140,6 +146,7 @@
             <!--{include file="`$smarty.const.TEMPLATE_ADMIN_REALDIR`ownersstore/subnavi.tpl"}-->
         </li>
     </ul>
+<!--{/if}-->
 </div>
 <!--{* ▲NAVI *}-->
 

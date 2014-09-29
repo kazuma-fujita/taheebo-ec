@@ -499,7 +499,8 @@ a[href]:hover {
 /* ヘッダーナビ
 ----------------------------------------------- */
 #navi-wrap {
-    width: 1030px;
+    /* width: 1030px; */
+    width: 1070px;
 }
 #navi {
     z-index: 90;

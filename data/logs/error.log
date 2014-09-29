@@ -490,3 +490,27 @@ login_id = taheebo(0)[2f416ut1okmr67ggqvismknsf2]
 /var/www/data/class/SC_Query.php(296): SC_Query->prepare
 /var/www/data/class/SC_Query.php(1016): SC_Query->error
 /var/www/data/class/SC_Query.php(1087): trigger_error
+2014/09/29 12:34:52 [/admin/home.php] Fatal error(E_PARSE): syntax error, unexpected '$sql' (T_VARIABLE) on [/var/www/data/class/db/dbfactory/SC_DB_DBFactory_MYSQL.php(99)] from 192.168.218.1
+login_id = ()[filckf95n7fnh0lef76p6jl4b6]
+2014/09/29 12:35:47 [/admin/home.php] Fatal error(E_PARSE): syntax error, unexpected '$sql' (T_VARIABLE) on [/var/www/data/class/pages/admin/LC_Page_Admin_Home.php(149)] from 192.168.218.1
+login_id = taheebo(0)[filckf95n7fnh0lef76p6jl4b6]
+2014/09/29 12:36:10 [/admin/home.php] Fatal error(E_ERROR): Call to undefined method SC_DB_DBFactory_MYSQL_Ex::createByAgencySql() on [/var/www/data/class/db/dbfactory/SC_DB_DBFactory_MYSQL.php(99)] from 192.168.218.1
+login_id = taheebo(0)[filckf95n7fnh0lef76p6jl4b6]
+2014/09/29 15:01:52 [/admin/home.php] Fatal error(E_USER_ERROR): DB処理でエラーが発生しました。
+SQL: [SELECT SUM(point) FROM DUAL WHERE del_flg = 0   ]
+MDB2 Error: no such field
+_doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysql_136bdb27b08e8a14d3e8f5741829592f95a71bce5d FROM 'SELECT SUM(point) FROM DUAL WHERE del_flg = 0   ']
+[Native code: 1054]
+[Native message: Unknown column 'point' in 'field list']
+ on [/var/www/data/class/SC_Query.php(1087)] from 192.168.218.1
+login_id = taheebo(0)[rce7jbmof2flmsj2fjftd3qj92]
+/var/www/html/admin/home.php(28): LC_Page_Admin_Home_Ex->process
+/var/www/data/class_extends/page_extends/admin/LC_Page_Admin_Home_Ex.php(54): LC_Page_Admin_Home->process
+/var/www/data/class/pages/admin/LC_Page_Admin_Home.php(55): LC_Page_Admin_Home->action
+/var/www/data/class/pages/admin/LC_Page_Admin_Home.php(94): LC_Page_Admin_Home->lfGetTotalCustomerPoint
+/var/www/data/class/pages/admin/LC_Page_Admin_Home.php(275): SC_Query->get
+/var/www/data/class/SC_Query.php(675): SC_Query->getOne
+/var/www/data/class/SC_Query.php(691): SC_Query->prepare
+/var/www/data/class/SC_Query.php(1016): SC_Query->error
+/var/www/data/class/SC_Query.php(1087): trigger_error

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-18 22:40:16
+<?php /* Smarty version 2.6.27, created on 2014-09-29 11:53:14
          compiled from /var/www/html/../data/Smarty/templates/default/frontparts/bloc/recommend.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', '/var/www/html/../data/Smarty/templates/default/frontparts/bloc/recommend.tpl', 24, false),array('modifier', 'u', '/var/www/html/../data/Smarty/templates/default/frontparts/bloc/recommend.tpl', 32, false),array('modifier', 'sfNoImageMainList', '/var/www/html/../data/Smarty/templates/default/frontparts/bloc/recommend.tpl', 33, false),array('modifier', 'h', '/var/www/html/../data/Smarty/templates/default/frontparts/bloc/recommend.tpl', 33, false),array('modifier', 'number_format', '/var/www/html/../data/Smarty/templates/default/frontparts/bloc/recommend.tpl', 41, false),array('modifier', 'nl2br', '/var/www/html/../data/Smarty/templates/default/frontparts/bloc/recommend.tpl', 43, false),)), $this); ?>

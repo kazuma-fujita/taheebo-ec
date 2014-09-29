@@ -26,6 +26,8 @@
 
     <!--{* お知らせここから *}-->
     <div id="home-info">
+    <!--{if $smarty.session.authority == 0}-->
+
         <!--{foreach item=info from=$arrInfo}-->
             <dl class="home-info-item">
                 <dt class="date"><!--{$info.disp_date|sfDispDBDate:false|h}--></dt>
@@ -33,6 +35,8 @@
                 <dd class="body"><!--{$info.body}--></dd>
             </dl>
         <!--{/foreach}-->
+
+    <!--{/if}-->
     </div>
     <!--{* お知らせここまで *}-->
 
@@ -82,7 +86,7 @@
                 </tr>
                 <tr>
                     <th><span>今月の売上高</span><span>(使用pt)</span></th>
-                    <td><!--{$order_month_amount|default:"0"|number_format}-->円 (<!--{$order_month_amount|default:"0"|number_format}-->pt)</td>
+                    <td><!--{$order_month_amount|default:"0"|number_format}-->円 (<!--{$order_month_point|default:"0"|number_format}-->pt)</td>
                 </tr>
                 <tr>
                     <th><span>今月の売上件数 </span></th>

@@ -132,6 +132,21 @@ class LC_Page_Admin_Home extends LC_Page_Admin_Ex
     }
 
     /**
+     * 代理店用SQL発行
+     *
+     * @return integer sql文
+     */
+    public function createByAgencySql()
+    {
+        $authority = $_SESSION['authority'];
+        $sql = null;
+        if ( $authority == 1 ) {
+            $sql = ' AND agency_code IN(SELECT agency_code FROM dtb_member WHERE member_id = ? ) ';
+        }
+        return $sql;
+    }
+
+    /**
      * 現在の会員数の取得
      *
      * @return integer 会員数
@@ -143,7 +158,14 @@ class LC_Page_Admin_Home extends LC_Page_Admin_Ex
         $table = 'dtb_customer';
         $where = 'del_flg = 0 AND status = 2';
 
-        return $objQuery->get($col, $table, $where);
+        $agency_sql = $this->createByAgencySql();
+        if ( !empty($agency_sql) ) {
+            $where .= $agency_sql;
+            return $objQuery->get($col, $table, $where, array($_SESSION['member_id']) );
+        }
+        else {
+            return $objQuery->get($col, $table, $where);
+        }
     }
 
     /**
@@ -160,7 +182,14 @@ class LC_Page_Admin_Home extends LC_Page_Admin_Ex
         $dbFactory = SC_DB_DBFactory_Ex::getInstance();
         $sql = $dbFactory->getOrderYesterdaySql($method);
 
-        return $objQuery->getOne($sql);
+        $agency_sql = $this->createByAgencySql();
+        if ( !empty($agency_sql) ) {
+            $sql .= $agency_sql;
+            return $objQuery->getOne( $sql, array($_SESSION['member_id']) );
+        }
+        else {
+            return $objQuery->getOne($sql);
+        }
     }
 
     public function lfGetOrderYesterdayPoint()
@@ -169,7 +198,14 @@ class LC_Page_Admin_Home extends LC_Page_Admin_Ex
         $dbFactory = SC_DB_DBFactory_Ex::getInstance();
         $sql = $dbFactory->getOrderYesterdayPointSql();
 
-        return $objQuery->getOne($sql);
+        $agency_sql = $this->createByAgencySql();
+        if ( !empty($agency_sql) ) {
+            $sql .= $agency_sql;
+            return $objQuery->getOne( $sql, array($_SESSION['member_id']) );
+        }
+        else {
+            return $objQuery->getOne($sql);
+        }
     }
 
     /**
@@ -187,7 +223,15 @@ class LC_Page_Admin_Home extends LC_Page_Admin_Ex
         $dbFactory = SC_DB_DBFactory_Ex::getInstance();
         $sql = $dbFactory->getOrderMonthSql($method);
 
-        return $objQuery->getOne($sql, array($month));
+        $agency_sql = $this->createByAgencySql();
+        if ( !empty($agency_sql) ) {
+            $sql .= $agency_sql;
+            return $objQuery->getOne($sql, array($month, $_SESSION['member_id']));
+        }
+        else {
+            return $objQuery->getOne($sql, array($month));
+        }
+        //return $objQuery->getOne($sql, array($month));
     }
 
     public function lfGetOrderMonthPoint()
@@ -199,7 +243,14 @@ class LC_Page_Admin_Home extends LC_Page_Admin_Ex
         $dbFactory = SC_DB_DBFactory_Ex::getInstance();
         $sql = $dbFactory->getOrderMonthPointSql();
 
-        return $objQuery->getOne($sql, array($month));
+        $agency_sql = $this->createByAgencySql();
+        if ( !empty($agency_sql) ) {
+            $sql .= $agency_sql;
+            return $objQuery->getOne($sql, array($month, $_SESSION['member_id']));
+        }
+        else {
+            return $objQuery->getOne($sql, array($month));
+        }
     }
 
     /**
@@ -215,7 +266,14 @@ class LC_Page_Admin_Home extends LC_Page_Admin_Ex
         $where = 'del_flg = 0';
         $from = 'dtb_customer';
 
-        return $objQuery->get($col, $from, $where);
+        $agency_sql = $this->createByAgencySql();
+        if ( !empty($agency_sql) ) {
+            $where .= $agency_sql;
+            return $objQuery->get($col, $from, $where, array($_SESSION['member_id']) );
+        }
+        else {
+            return $objQuery->get($col, $from, $where);
+        }
     }
 
     /**
@@ -231,7 +289,14 @@ class LC_Page_Admin_Home extends LC_Page_Admin_Ex
         $dbFactory = SC_DB_DBFactory_Ex::getInstance();
         $sql = $dbFactory->getReviewYesterdaySql();
 
-        return $objQuery->getOne($sql);
+        $agency_sql = $this->createByAgencySql();
+        if ( !empty($agency_sql) ) {
+            $sql .= $agency_sql;
+            return $objQuery->getOne($sql, array($_SESSION['member_id']));
+        }
+        else {
+            return $objQuery->getOne($sql);
+        }
     }
 
     /**
@@ -246,7 +311,14 @@ class LC_Page_Admin_Home extends LC_Page_Admin_Ex
         $table = 'dtb_review AS A LEFT JOIN dtb_products AS B ON A.product_id = B.product_id';
         $where = 'A.del_flg = 0 AND A.status = 2 AND B.del_flg = 0';
 
-        return $objQuery->count($table, $where);
+        $agency_sql = $this->createByAgencySql();
+        if ( !empty($agency_sql) ) {
+            $where .= $agency_sql;
+            return $objQuery->count($table, $where, array($_SESSION['member_id']) );
+        }
+        else {
+            return $objQuery->count($table, $where);
+        }
     }
 
     /**
@@ -300,9 +372,22 @@ class LC_Page_Admin_Home extends LC_Page_Admin_Ex
 __EOS__;
         $from = 'dtb_order';
         $where = 'del_flg = 0 AND status <> ?';
+
         $objQuery->setOrder('create_date DESC');
         $objQuery->setLimit(10);
-        $arrNewOrder = $objQuery->select($cols, $from, $where, ORDER_CANCEL);
+
+        $arrNewOrder = array();
+
+        $agency_sql = $this->createByAgencySql();
+        if ( !empty($agency_sql) ) {
+            $where .= $agency_sql;
+            $arrNewOrder = $objQuery->select($cols, $from, $where, array(ORDER_CANCEL, $_SESSION['member_id']));
+        }
+        else {
+            $arrNewOrder = $objQuery->select($cols, $from, $where, ORDER_CANCEL);
+        }
+
+        //$arrNewOrder = $objQuery->select($cols, $from, $where, ORDER_CANCEL);
 
         foreach ($arrNewOrder as $key => $val) {
             $arrNewOrder[$key]['create_date'] = str_replace('-', '/', substr($val['create_date'], 0,19));

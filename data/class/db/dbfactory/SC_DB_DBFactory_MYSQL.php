@@ -87,6 +87,14 @@ class SC_DB_DBFactory_MYSQL extends SC_DB_DBFactory
         return $arrRet;
     }
 
+    public function andStatusParam()
+    {
+         return   " AND status <> " . ORDER_CANCEL
+                . " AND status <> " . ORDER_NEW
+                . " AND status <> " . ORDER_PENDING
+                . " AND status <> " . ORDER_PAY_WAIT;
+    }
+
     /**
      * 昨日の売上高・売上件数を算出する SQL を返す.
      *
@@ -98,7 +106,8 @@ class SC_DB_DBFactory_MYSQL extends SC_DB_DBFactory
         return 'SELECT ' . $method . '(total) FROM dtb_order '
                . 'WHERE del_flg = 0 '
                . 'AND cast(create_date as date) = DATE_ADD(current_date, interval -1 day) '
-               . 'AND status <> ' . ORDER_CANCEL;
+               //. 'AND status <> ' . ORDER_CANCEL;
+               .$this->andStatusParam(); 
     }
 
     public function getOrderYesterdayPointSql()
@@ -106,7 +115,8 @@ class SC_DB_DBFactory_MYSQL extends SC_DB_DBFactory
         return 'SELECT SUM(use_point) FROM dtb_order '
                . 'WHERE del_flg = 0 '
                . 'AND cast(create_date as date) = DATE_ADD(current_date, interval -1 day) '
-               . 'AND status <> ' . ORDER_CANCEL;
+               //. 'AND status <> ' . ORDER_CANCEL;
+               .$this->andStatusParam(); 
     }
 
     /**
@@ -121,7 +131,8 @@ class SC_DB_DBFactory_MYSQL extends SC_DB_DBFactory
                . 'WHERE del_flg = 0 '
                . "AND date_format(create_date, '%Y/%m') = ? "
                . "AND date_format(create_date, '%Y/%m/%d') <> date_format(CURRENT_TIMESTAMP, '%Y/%m/%d') "
-               . 'AND status <> ' . ORDER_CANCEL;
+               //. 'AND status <> ' . ORDER_CANCEL;
+               .$this->andStatusParam(); 
     }
 
     public function getOrderMonthPointSql()
@@ -130,7 +141,8 @@ class SC_DB_DBFactory_MYSQL extends SC_DB_DBFactory
                . 'WHERE del_flg = 0 '
                . "AND date_format(create_date, '%Y/%m') = ? "
                . "AND date_format(create_date, '%Y/%m/%d') <> date_format(CURRENT_TIMESTAMP, '%Y/%m/%d') "
-               . 'AND status <> ' . ORDER_CANCEL;
+               //. 'AND status <> ' . ORDER_CANCEL;
+               .$this->andStatusParam(); 
     }
 
     /**

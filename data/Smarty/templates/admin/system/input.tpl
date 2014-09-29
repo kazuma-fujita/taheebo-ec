@@ -36,7 +36,7 @@ self.moveTo(20,20);self.focus();
     <input type="hidden" name="pageno" value="<!--{$tpl_pageno|h}-->" />
     <input type="hidden" name="old_login_id" value="<!--{$tpl_old_login_id|h}-->" />
 
-    <h2>メンバー登録/編集</h2>
+    <h2>代理店登録/編集</h2>
 
     <table>
         <col width="20%" />

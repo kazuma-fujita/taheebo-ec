@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-29 03:33:56
+<?php /* Smarty version 2.6.27, created on 2014-09-29 15:47:40
          compiled from login_frame.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'printXMLDeclaration', 'login_frame.tpl', 1, false),array('modifier', 'script_escape', 'login_frame.tpl', 28, false),)), $this); ?>

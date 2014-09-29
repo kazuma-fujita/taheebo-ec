@@ -674,3 +674,17 @@ customer_id = 5
 /var/www/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(63): LC_Page_Shopping_Confirm->action
 /var/www/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(167): SC_Helper_Purchase->completeOrder
 /var/www/data/class/helper/SC_Helper_Purchase.php(100): GC_Utils->gfPrintLog
+2014/09/29 15:23:16 [/shopping/confirm.php] order complete. order_id=1 from 192.168.218.1
+customer_id = 3
+/var/www/html/shopping/confirm.php(29): LC_Page_Shopping_Confirm_Ex->process
+/var/www/data/class_extends/page_extends/shopping/LC_Page_Shopping_Confirm_Ex.php(54): LC_Page_Shopping_Confirm->process
+/var/www/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(63): LC_Page_Shopping_Confirm->action
+/var/www/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(167): SC_Helper_Purchase->completeOrder
+/var/www/data/class/helper/SC_Helper_Purchase.php(100): GC_Utils->gfPrintLog
+2014/09/29 16:41:49 [/shopping/confirm.php] order complete. order_id=2 from 192.168.218.1
+customer_id = 4
+/var/www/html/shopping/confirm.php(29): LC_Page_Shopping_Confirm_Ex->process
+/var/www/data/class_extends/page_extends/shopping/LC_Page_Shopping_Confirm_Ex.php(54): LC_Page_Shopping_Confirm->process
+/var/www/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(63): LC_Page_Shopping_Confirm->action
+/var/www/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(167): SC_Helper_Purchase->completeOrder
+/var/www/data/class/helper/SC_Helper_Purchase.php(100): GC_Utils->gfPrintLog

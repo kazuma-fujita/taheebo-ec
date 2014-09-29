@@ -49,7 +49,8 @@ class LC_Page_Admin_System extends LC_Page_Admin_Ex
         $this->tpl_subno    = 'index';
         $this->tpl_onload   = 'eccube.getRadioChecked();';
         $this->tpl_maintitle = 'システム設定';
-        $this->tpl_subtitle = 'メンバー管理';
+        //$this->tpl_subtitle = 'メンバー管理';
+        $this->tpl_subtitle = '代理店管理';
 
         $masterData = new SC_DB_MasterData_Ex();
         $this->arrAUTHORITY = $masterData->getMasterData('mtb_authority');

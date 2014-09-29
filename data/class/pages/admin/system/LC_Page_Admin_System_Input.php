@@ -50,7 +50,8 @@ class LC_Page_Admin_System_Input extends LC_Page_Admin_Ex
         $this->arrPref = $masterData->getMasterData('mtb_pref');
         $this->arrAgencyCategory = $masterData->getMasterData('mtb_agency_product_category');
 
-        $this->tpl_subtitle = 'メンバー登録/編集';
+        //$this->tpl_subtitle = 'メンバー登録/編集';
+        $this->tpl_subtitle = '代理店登録/編集';
         $this->httpCacheControl('nocache');
     }
 

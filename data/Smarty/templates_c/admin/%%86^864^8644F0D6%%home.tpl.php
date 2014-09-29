@@ -1,11 +1,13 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-29 03:34:29
+<?php /* Smarty version 2.6.27, created on 2014-09-29 15:46:20
          compiled from home.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'home.tpl', 29, false),array('modifier', 'sfDispDBDate', 'home.tpl', 31, false),array('modifier', 'h', 'home.tpl', 31, false),array('modifier', 'default', 'home.tpl', 73, false),array('modifier', 'number_format', 'home.tpl', 73, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'home.tpl', 29, false),array('modifier', 'sfDispDBDate', 'home.tpl', 33, false),array('modifier', 'h', 'home.tpl', 33, false),array('modifier', 'default', 'home.tpl', 77, false),array('modifier', 'number_format', 'home.tpl', 77, false),)), $this); ?>
 
 <div id="home">
 
         <div id="home-info">
+    <?php if (((is_array($_tmp=$_SESSION['authority'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)) == 0): ?>
+
         <?php $_from = ((is_array($_tmp=$this->_tpl_vars['arrInfo'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
     foreach ($_from as $this->_tpl_vars['info']):
 ?>
@@ -18,6 +20,8 @@ smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_esca
 </dd>
             </dl>
         <?php endforeach; endif; unset($_from); ?>
+
+    <?php endif; ?>
     </div>
     
         <div id="home-main">
@@ -74,7 +78,7 @@ pt)</td>
                 <tr>
                     <th><span>今月の売上高</span><span>(使用pt)</span></th>
                     <td><?php echo ((is_array($_tmp=((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['order_month_amount'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('default', true, $_tmp, '0') : smarty_modifier_default($_tmp, '0')))) ? $this->_run_mod_handler('number_format', true, $_tmp) : number_format($_tmp)); ?>
-円 (<?php echo ((is_array($_tmp=((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['order_month_amount'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('default', true, $_tmp, '0') : smarty_modifier_default($_tmp, '0')))) ? $this->_run_mod_handler('number_format', true, $_tmp) : number_format($_tmp)); ?>
+円 (<?php echo ((is_array($_tmp=((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['order_month_point'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('default', true, $_tmp, '0') : smarty_modifier_default($_tmp, '0')))) ? $this->_run_mod_handler('number_format', true, $_tmp) : number_format($_tmp)); ?>
 pt)</td>
                 </tr>
                 <tr>

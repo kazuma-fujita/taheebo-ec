@@ -198,6 +198,9 @@ class LC_Page_Products_Review extends LC_Page_Ex
 
         if ($objCustomer->isLoginSuccess(true)) {
             $arrRegist['customer_id'] = $objCustomer->getValue('customer_id');
+            // add 
+            $agency_code = $_SESSION['customer']['agency_code'];
+            $arrRegist['agency_code'] = $agency_code;
         }
 
         //-- 登録実行
