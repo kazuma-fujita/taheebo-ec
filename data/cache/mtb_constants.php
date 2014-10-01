@@ -8,7 +8,7 @@ define('USER_DIR', "user_data/");
 /** ユーザファイル保存先 */
 define('USER_REALDIR', HTML_REALDIR . USER_DIR);
 /** ユーザー作成ページ等 */
-define('USER_URL', HTTP_URL . USER_DIR);
+define('USER_URL', HTTPS_URL . USER_DIR);
 /** 認証方式 */
 define('AUTH_TYPE', "HMAC");
 /** テンプレートファイル保存先 */
@@ -186,9 +186,9 @@ define('IMAGE_TEMP_URLPATH', ROOT_URLPATH . "upload/temp_image/");
 /** 画像保存先URL */
 define('IMAGE_SAVE_URLPATH', ROOT_URLPATH . "upload/save_image/");
 /** RSS用画像一時保存URL */
-define('IMAGE_TEMP_RSS_URL', HTTP_URL . "upload/temp_image/");
+define('IMAGE_TEMP_RSS_URL', HTTPS_URL . "upload/temp_image/");
 /** RSS用画像保存先URL */
-define('IMAGE_SAVE_RSS_URL', HTTP_URL . "upload/save_image/");
+define('IMAGE_SAVE_RSS_URL', HTTPS_URL . "upload/save_image/");
 /** エンコードCSVの一時保存先 */
 define('CSV_TEMP_REALDIR', DATA_REALDIR . "upload/csv/");
 /** 画像がない場合に表示 */
@@ -275,9 +275,9 @@ define('SHOPPING_URL', HTTPS_URL . "shopping/" . DIR_INDEX_PATH);
 /** 会員登録ページTOP */
 define('ENTRY_URL', HTTPS_URL . "entry/" . DIR_INDEX_PATH);
 /** サイトトップ */
-define('TOP_URL', HTTP_URL . DIR_INDEX_PATH);
+define('TOP_URL', HTTPS_URL . DIR_INDEX_PATH);
 /** カートトップ */
-define('CART_URL', HTTP_URL . "cart/" . DIR_INDEX_PATH);
+define('CART_URL', HTTPS_URL . "cart/" . DIR_INDEX_PATH);
 /** お届け先設定 */
 define('DELIV_URLPATH', ROOT_URLPATH . "shopping/deliv.php");
 /** 複数お届け先設定 */

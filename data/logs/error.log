@@ -514,3 +514,712 @@ login_id = taheebo(0)[rce7jbmof2flmsj2fjftd3qj92]
 /var/www/data/class/SC_Query.php(691): SC_Query->prepare
 /var/www/data/class/SC_Query.php(1016): SC_Query->error
 /var/www/data/class/SC_Query.php(1087): trigger_error
+2014/09/29 23:16:17 [/preview/index.php] Warning(E_USER_WARNING): ページ情報を取得できませんでした。 on [/var/www/data/class/helper/SC_Helper_PageLayout.php(59)] from 192.168.218.1
+customer_id = 
+/var/www/html/preview/index.php(28): LC_Page_Preview_Ex->init
+/var/www/data/class_extends/page_extends/preview/LC_Page_Preview_Ex.php(44): LC_Page_Preview->init
+/var/www/data/class/pages/preview/LC_Page_Preview.php(42): LC_Page->init
+/var/www/data/class/pages/LC_Page.php(101): SC_Helper_PageLayout->sfGetPageLayout
+/var/www/data/class/helper/SC_Helper_PageLayout.php(59): trigger_error
+2014/09/29 23:16:17 [/preview/index.php] Warning(E_USER_WARNING): メイン部のテンプレートが存在しません。[/var/www/html/../data/Smarty/templates/bootcube/.tpl] on [/var/www/data/class/helper/SC_Helper_PageLayout.php(66)] from 192.168.218.1
+customer_id = 
+/var/www/html/preview/index.php(28): LC_Page_Preview_Ex->init
+/var/www/data/class_extends/page_extends/preview/LC_Page_Preview_Ex.php(44): LC_Page_Preview->init
+/var/www/data/class/pages/preview/LC_Page_Preview.php(42): LC_Page->init
+/var/www/data/class/pages/LC_Page.php(101): SC_Helper_PageLayout->sfGetPageLayout
+/var/www/data/class/helper/SC_Helper_PageLayout.php(66): trigger_error
+2014/09/29 23:17:28 [/preview/index.php] Warning(E_USER_WARNING): ページ情報を取得できませんでした。 on [/var/www/data/class/helper/SC_Helper_PageLayout.php(59)] from 192.168.218.1
+customer_id = 
+/var/www/html/preview/index.php(28): LC_Page_Preview_Ex->init
+/var/www/data/class_extends/page_extends/preview/LC_Page_Preview_Ex.php(44): LC_Page_Preview->init
+/var/www/data/class/pages/preview/LC_Page_Preview.php(42): LC_Page->init
+/var/www/data/class/pages/LC_Page.php(101): SC_Helper_PageLayout->sfGetPageLayout
+/var/www/data/class/helper/SC_Helper_PageLayout.php(59): trigger_error
+2014/09/29 23:17:28 [/preview/index.php] Warning(E_USER_WARNING): メイン部のテンプレートが存在しません。[/var/www/html/../data/Smarty/templates/bootcube/.tpl] on [/var/www/data/class/helper/SC_Helper_PageLayout.php(66)] from 192.168.218.1
+customer_id = 
+/var/www/html/preview/index.php(28): LC_Page_Preview_Ex->init
+/var/www/data/class_extends/page_extends/preview/LC_Page_Preview_Ex.php(44): LC_Page_Preview->init
+/var/www/data/class/pages/preview/LC_Page_Preview.php(42): LC_Page->init
+/var/www/data/class/pages/LC_Page.php(101): SC_Helper_PageLayout->sfGetPageLayout
+/var/www/data/class/helper/SC_Helper_PageLayout.php(66): trigger_error
+2014/09/29 23:20:20 [/preview/index.php] Warning(E_USER_WARNING): ページ情報を取得できませんでした。 on [/var/www/data/class/helper/SC_Helper_PageLayout.php(59)] from 192.168.218.1
+customer_id = 
+/var/www/html/preview/index.php(28): LC_Page_Preview_Ex->init
+/var/www/data/class_extends/page_extends/preview/LC_Page_Preview_Ex.php(44): LC_Page_Preview->init
+/var/www/data/class/pages/preview/LC_Page_Preview.php(42): LC_Page->init
+/var/www/data/class/pages/LC_Page.php(101): SC_Helper_PageLayout->sfGetPageLayout
+/var/www/data/class/helper/SC_Helper_PageLayout.php(59): trigger_error
+2014/09/29 23:20:20 [/preview/index.php] Warning(E_USER_WARNING): メイン部のテンプレートが存在しません。[/var/www/html/../data/Smarty/templates/bootcube/.tpl] on [/var/www/data/class/helper/SC_Helper_PageLayout.php(66)] from 192.168.218.1
+customer_id = 
+/var/www/html/preview/index.php(28): LC_Page_Preview_Ex->init
+/var/www/data/class_extends/page_extends/preview/LC_Page_Preview_Ex.php(44): LC_Page_Preview->init
+/var/www/data/class/pages/preview/LC_Page_Preview.php(42): LC_Page->init
+/var/www/data/class/pages/LC_Page.php(101): SC_Helper_PageLayout->sfGetPageLayout
+/var/www/data/class/helper/SC_Helper_PageLayout.php(66): trigger_error
+2014/09/29 23:20:55 [/preview/index.php] Warning(E_USER_WARNING): ページ情報を取得できませんでした。 on [/var/www/data/class/helper/SC_Helper_PageLayout.php(59)] from 192.168.218.1
+customer_id = 
+/var/www/html/preview/index.php(28): LC_Page_Preview_Ex->init
+/var/www/data/class_extends/page_extends/preview/LC_Page_Preview_Ex.php(44): LC_Page_Preview->init
+/var/www/data/class/pages/preview/LC_Page_Preview.php(42): LC_Page->init
+/var/www/data/class/pages/LC_Page.php(101): SC_Helper_PageLayout->sfGetPageLayout
+/var/www/data/class/helper/SC_Helper_PageLayout.php(59): trigger_error
+2014/09/29 23:20:55 [/preview/index.php] Warning(E_USER_WARNING): メイン部のテンプレートが存在しません。[/var/www/html/../data/Smarty/templates/bootcube/.tpl] on [/var/www/data/class/helper/SC_Helper_PageLayout.php(66)] from 192.168.218.1
+customer_id = 
+/var/www/html/preview/index.php(28): LC_Page_Preview_Ex->init
+/var/www/data/class_extends/page_extends/preview/LC_Page_Preview_Ex.php(44): LC_Page_Preview->init
+/var/www/data/class/pages/preview/LC_Page_Preview.php(42): LC_Page->init
+/var/www/data/class/pages/LC_Page.php(101): SC_Helper_PageLayout->sfGetPageLayout
+/var/www/data/class/helper/SC_Helper_PageLayout.php(66): trigger_error
+2014/09/29 23:21:41 [/preview/index.php] Warning(E_USER_WARNING): ページ情報を取得できませんでした。 on [/var/www/data/class/helper/SC_Helper_PageLayout.php(59)] from 192.168.218.1
+customer_id = 
+/var/www/html/preview/index.php(28): LC_Page_Preview_Ex->init
+/var/www/data/class_extends/page_extends/preview/LC_Page_Preview_Ex.php(44): LC_Page_Preview->init
+/var/www/data/class/pages/preview/LC_Page_Preview.php(42): LC_Page->init
+/var/www/data/class/pages/LC_Page.php(101): SC_Helper_PageLayout->sfGetPageLayout
+/var/www/data/class/helper/SC_Helper_PageLayout.php(59): trigger_error
+2014/09/29 23:21:41 [/preview/index.php] Warning(E_USER_WARNING): メイン部のテンプレートが存在しません。[/var/www/html/../data/Smarty/templates/bootcube/.tpl] on [/var/www/data/class/helper/SC_Helper_PageLayout.php(66)] from 192.168.218.1
+customer_id = 
+/var/www/html/preview/index.php(28): LC_Page_Preview_Ex->init
+/var/www/data/class_extends/page_extends/preview/LC_Page_Preview_Ex.php(44): LC_Page_Preview->init
+/var/www/data/class/pages/preview/LC_Page_Preview.php(42): LC_Page->init
+/var/www/data/class/pages/LC_Page.php(101): SC_Helper_PageLayout->sfGetPageLayout
+/var/www/data/class/helper/SC_Helper_PageLayout.php(66): trigger_error
+2014/09/29 23:25:43 [/preview/index.php] Warning(E_USER_WARNING): ページ情報を取得できませんでした。 on [/var/www/data/class/helper/SC_Helper_PageLayout.php(59)] from 192.168.218.1
+customer_id = 
+/var/www/html/preview/index.php(28): LC_Page_Preview_Ex->init
+/var/www/data/class_extends/page_extends/preview/LC_Page_Preview_Ex.php(44): LC_Page_Preview->init
+/var/www/data/class/pages/preview/LC_Page_Preview.php(42): LC_Page->init
+/var/www/data/class/pages/LC_Page.php(101): SC_Helper_PageLayout->sfGetPageLayout
+/var/www/data/class/helper/SC_Helper_PageLayout.php(59): trigger_error
+2014/09/29 23:25:43 [/preview/index.php] Warning(E_USER_WARNING): メイン部のテンプレートが存在しません。[/var/www/html/../data/Smarty/templates/bootcube/.tpl] on [/var/www/data/class/helper/SC_Helper_PageLayout.php(66)] from 192.168.218.1
+customer_id = 
+/var/www/html/preview/index.php(28): LC_Page_Preview_Ex->init
+/var/www/data/class_extends/page_extends/preview/LC_Page_Preview_Ex.php(44): LC_Page_Preview->init
+/var/www/data/class/pages/preview/LC_Page_Preview.php(42): LC_Page->init
+/var/www/data/class/pages/LC_Page.php(101): SC_Helper_PageLayout->sfGetPageLayout
+/var/www/data/class/helper/SC_Helper_PageLayout.php(66): trigger_error
+2014/09/30 18:25:32 [/admin/system/input.php] Warning(E_WARNING): strcasecmp() expects parameter 2 to be string, array given on [/var/www/data/class/SC_Query.php(590)] from 192.168.218.1
+login_id = taheebo(0)[c8lhfdd9rv9b59itpn22n053r6]
+/var/www/html/admin/system/input.php(29): LC_Page_Admin_System_Input_Ex->process
+/var/www/data/class_extends/page_extends/admin/system/LC_Page_Admin_System_Input_Ex.php(54): LC_Page_Admin_System_Input->process
+/var/www/data/class/pages/admin/system/LC_Page_Admin_System_Input.php(65): LC_Page_Admin_System_Input->action
+/var/www/data/class/pages/admin/system/LC_Page_Admin_System_Input.php(121): LC_Page_Admin_System_Input->updateMemberData
+/var/www/data/class/pages/admin/system/LC_Page_Admin_System_Input.php(425): SC_Query->update
+/var/www/data/class/SC_Query.php(590): strcasecmp
+2014/09/30 18:25:32 [/admin/system/input.php] Warning(E_WARNING): strcasecmp() expects parameter 2 to be string, array given on [/var/www/data/class/SC_Query.php(592)] from 192.168.218.1
+login_id = taheebo(0)[c8lhfdd9rv9b59itpn22n053r6]
+/var/www/html/admin/system/input.php(29): LC_Page_Admin_System_Input_Ex->process
+/var/www/data/class_extends/page_extends/admin/system/LC_Page_Admin_System_Input_Ex.php(54): LC_Page_Admin_System_Input->process
+/var/www/data/class/pages/admin/system/LC_Page_Admin_System_Input.php(65): LC_Page_Admin_System_Input->action
+/var/www/data/class/pages/admin/system/LC_Page_Admin_System_Input.php(121): LC_Page_Admin_System_Input->updateMemberData
+/var/www/data/class/pages/admin/system/LC_Page_Admin_System_Input.php(425): SC_Query->update
+/var/www/data/class/SC_Query.php(592): strcasecmp
+2014/09/30 22:01:47 [/admin/system/input.php] Warning(E_WARNING): implode(): Invalid arguments passed on [/var/www/data/class/pages/admin/system/LC_Page_Admin_System_Input.php(370)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/system/input.php(29): LC_Page_Admin_System_Input_Ex->process
+/var/www/data/class_extends/page_extends/admin/system/LC_Page_Admin_System_Input_Ex.php(54): LC_Page_Admin_System_Input->process
+/var/www/data/class/pages/admin/system/LC_Page_Admin_System_Input.php(65): LC_Page_Admin_System_Input->action
+/var/www/data/class/pages/admin/system/LC_Page_Admin_System_Input.php(94): LC_Page_Admin_System_Input->insertMemberData
+/var/www/data/class/pages/admin/system/LC_Page_Admin_System_Input.php(370): implode
+2014/09/30 22:24:39 [/admin/system/index.php] Warning(E_WARNING): print_r() expects at least 1 parameter, 0 given on [/var/www/data/class/pages/admin/system/LC_Page_Admin_System.php(98)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/system/index.php(29): LC_Page_Admin_System_Ex->process
+/var/www/data/class_extends/page_extends/admin/system/LC_Page_Admin_System_Ex.php(54): LC_Page_Admin_System->process
+/var/www/data/class/pages/admin/system/LC_Page_Admin_System.php(68): LC_Page_Admin_System->action
+/var/www/data/class/pages/admin/system/LC_Page_Admin_System.php(98): print_r
+2014/09/30 22:24:39 [/admin/system/index.php] Warning(E_WARNING): print_r() expects at least 1 parameter, 0 given on [/var/www/data/class/pages/admin/system/LC_Page_Admin_System.php(98)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/system/index.php(29): LC_Page_Admin_System_Ex->process
+/var/www/data/class_extends/page_extends/admin/system/LC_Page_Admin_System_Ex.php(54): LC_Page_Admin_System->process
+/var/www/data/class/pages/admin/system/LC_Page_Admin_System.php(68): LC_Page_Admin_System->action
+/var/www/data/class/pages/admin/system/LC_Page_Admin_System.php(98): print_r
+2014/09/30 22:24:39 [/admin/system/index.php] Warning(E_WARNING): print_r() expects at least 1 parameter, 0 given on [/var/www/data/class/pages/admin/system/LC_Page_Admin_System.php(98)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/system/index.php(29): LC_Page_Admin_System_Ex->process
+/var/www/data/class_extends/page_extends/admin/system/LC_Page_Admin_System_Ex.php(54): LC_Page_Admin_System->process
+/var/www/data/class/pages/admin/system/LC_Page_Admin_System.php(68): LC_Page_Admin_System->action
+/var/www/data/class/pages/admin/system/LC_Page_Admin_System.php(98): print_r
+2014/09/30 22:24:39 [/admin/system/index.php] Warning(E_WARNING): print_r() expects at least 1 parameter, 0 given on [/var/www/data/class/pages/admin/system/LC_Page_Admin_System.php(98)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/system/index.php(29): LC_Page_Admin_System_Ex->process
+/var/www/data/class_extends/page_extends/admin/system/LC_Page_Admin_System_Ex.php(54): LC_Page_Admin_System->process
+/var/www/data/class/pages/admin/system/LC_Page_Admin_System.php(68): LC_Page_Admin_System->action
+/var/www/data/class/pages/admin/system/LC_Page_Admin_System.php(98): print_r
+2014/09/30 22:24:39 [/admin/system/index.php] Warning(E_WARNING): print_r() expects at least 1 parameter, 0 given on [/var/www/data/class/pages/admin/system/LC_Page_Admin_System.php(98)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/system/index.php(29): LC_Page_Admin_System_Ex->process
+/var/www/data/class_extends/page_extends/admin/system/LC_Page_Admin_System_Ex.php(54): LC_Page_Admin_System->process
+/var/www/data/class/pages/admin/system/LC_Page_Admin_System.php(68): LC_Page_Admin_System->action
+/var/www/data/class/pages/admin/system/LC_Page_Admin_System.php(98): print_r
+2014/09/30 22:24:39 [/admin/system/index.php] Warning(E_WARNING): print_r() expects at least 1 parameter, 0 given on [/var/www/data/class/pages/admin/system/LC_Page_Admin_System.php(98)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/system/index.php(29): LC_Page_Admin_System_Ex->process
+/var/www/data/class_extends/page_extends/admin/system/LC_Page_Admin_System_Ex.php(54): LC_Page_Admin_System->process
+/var/www/data/class/pages/admin/system/LC_Page_Admin_System.php(68): LC_Page_Admin_System->action
+/var/www/data/class/pages/admin/system/LC_Page_Admin_System.php(98): print_r
+2014/09/30 22:24:39 [/admin/system/index.php] Warning(E_WARNING): print_r() expects at least 1 parameter, 0 given on [/var/www/data/class/pages/admin/system/LC_Page_Admin_System.php(98)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/system/index.php(29): LC_Page_Admin_System_Ex->process
+/var/www/data/class_extends/page_extends/admin/system/LC_Page_Admin_System_Ex.php(54): LC_Page_Admin_System->process
+/var/www/data/class/pages/admin/system/LC_Page_Admin_System.php(68): LC_Page_Admin_System->action
+/var/www/data/class/pages/admin/system/LC_Page_Admin_System.php(98): print_r
+2014/09/30 22:24:39 [/admin/system/index.php] Warning(E_WARNING): print_r() expects at least 1 parameter, 0 given on [/var/www/data/class/pages/admin/system/LC_Page_Admin_System.php(98)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/system/index.php(29): LC_Page_Admin_System_Ex->process
+/var/www/data/class_extends/page_extends/admin/system/LC_Page_Admin_System_Ex.php(54): LC_Page_Admin_System->process
+/var/www/data/class/pages/admin/system/LC_Page_Admin_System.php(68): LC_Page_Admin_System->action
+/var/www/data/class/pages/admin/system/LC_Page_Admin_System.php(98): print_r
+2014/10/01 00:37:52 [/admin/products/product.php] Warning(E_WARNING): explode() expects parameter 2 to be string, array given on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(289)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(289): explode
+2014/10/01 00:37:52 [/admin/products/product.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(292)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(292): SC_Helper_HandleError::handle_warning
+2014/10/01 00:38:21 [/admin/products/product.php] Warning(E_WARNING): explode() expects parameter 2 to be string, array given on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(289)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(289): explode
+2014/10/01 00:38:21 [/admin/products/product.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(292)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(292): SC_Helper_HandleError::handle_warning
+2014/10/01 00:38:54 [/admin/products/product.php] Warning(E_WARNING): explode() expects parameter 2 to be string, array given on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(150)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(150): explode
+2014/10/01 00:38:54 [/admin/products/product.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(153)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(153): SC_Helper_HandleError::handle_warning
+2014/10/01 00:47:38 [/admin/products/product.php] Warning(E_WARNING): explode() expects parameter 2 to be string, array given on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(156)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(156): explode
+2014/10/01 00:47:38 [/admin/products/product.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(159)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(159): SC_Helper_HandleError::handle_warning
+2014/10/01 00:49:58 [/admin/products/product.php] Warning(E_WARNING): explode() expects parameter 2 to be string, array given on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(156)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(156): explode
+2014/10/01 00:49:58 [/admin/products/product.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(159)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(159): SC_Helper_HandleError::handle_warning
+2014/10/01 00:49:58 [/admin/products/product.php] Warning(E_WARNING): Illegal offset type on [/var/www/data/Smarty/templates_c/admin/%%9F^9FA^9FA75449%%confirm.tpl.php(123)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(69): LC_Page_Admin->sendResponse
+/var/www/data/class/pages/admin/LC_Page_Admin.php(112): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/admin/%%B7^B7E^B7E43223%%main_frame.tpl.php(239): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/admin/%%9F^9FA^9FA75449%%confirm.tpl.php(123): SC_Helper_HandleError::handle_warning
+2014/10/01 00:50:10 [/admin/products/product.php] Warning(E_WARNING): explode() expects parameter 2 to be string, array given on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(156)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(156): explode
+2014/10/01 00:50:10 [/admin/products/product.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(159)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(159): SC_Helper_HandleError::handle_warning
+2014/10/01 00:50:11 [/admin/products/product.php] Warning(E_WARNING): Illegal offset type on [/var/www/data/Smarty/templates_c/admin/%%9F^9FA^9FA75449%%confirm.tpl.php(123)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(69): LC_Page_Admin->sendResponse
+/var/www/data/class/pages/admin/LC_Page_Admin.php(112): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/admin/%%B7^B7E^B7E43223%%main_frame.tpl.php(239): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/admin/%%9F^9FA^9FA75449%%confirm.tpl.php(123): SC_Helper_HandleError::handle_warning
+2014/10/01 00:50:54 [/admin/products/product.php] Warning(E_WARNING): explode() expects parameter 2 to be string, array given on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(156)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(156): explode
+2014/10/01 00:50:54 [/admin/products/product.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(159)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(159): SC_Helper_HandleError::handle_warning
+2014/10/01 00:51:28 [/admin/products/product.php] Warning(E_WARNING): explode() expects parameter 2 to be string, array given on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(156)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(156): explode
+2014/10/01 00:51:28 [/admin/products/product.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(159)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(159): SC_Helper_HandleError::handle_warning
+2014/10/01 00:52:58 [/admin/products/product.php] Warning(E_WARNING): explode() expects parameter 2 to be string, array given on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(156)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(156): explode
+2014/10/01 00:52:58 [/admin/products/product.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(159)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(159): SC_Helper_HandleError::handle_warning
+2014/10/01 01:16:55 [/admin/products/product.php] Warning(E_WARNING): explode() expects parameter 2 to be string, array given on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(156)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(156): explode
+2014/10/01 01:16:55 [/admin/products/product.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(159)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(159): SC_Helper_HandleError::handle_warning
+2014/10/01 01:32:28 [/admin/products/product.php] Warning(E_WARNING): explode() expects parameter 2 to be string, array given on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(651)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(146): LC_Page_Admin_Products_Product->lfSetViewParam_ConfirmPage
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(651): explode
+2014/10/01 01:32:28 [/admin/products/product.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(653)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(146): LC_Page_Admin_Products_Product->lfSetViewParam_ConfirmPage
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(653): SC_Helper_HandleError::handle_warning
+2014/10/01 01:32:58 [/admin/products/product.php] Warning(E_WARNING): explode() expects parameter 2 to be string, array given on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(651)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(146): LC_Page_Admin_Products_Product->lfSetViewParam_ConfirmPage
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(651): explode
+2014/10/01 01:32:58 [/admin/products/product.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(653)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(146): LC_Page_Admin_Products_Product->lfSetViewParam_ConfirmPage
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(653): SC_Helper_HandleError::handle_warning
+2014/10/01 01:35:36 [/admin/products/product.php] Warning(E_WARNING): explode() expects parameter 2 to be string, array given on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(653)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(146): LC_Page_Admin_Products_Product->lfSetViewParam_ConfirmPage
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(653): explode
+2014/10/01 01:35:36 [/admin/products/product.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(656)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(146): LC_Page_Admin_Products_Product->lfSetViewParam_ConfirmPage
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(656): SC_Helper_HandleError::handle_warning
+2014/10/01 01:36:14 [/admin/products/product.php] Warning(E_WARNING): explode() expects parameter 2 to be string, array given on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(653)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(146): LC_Page_Admin_Products_Product->lfSetViewParam_ConfirmPage
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(653): explode
+2014/10/01 01:36:14 [/admin/products/product.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(657)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(146): LC_Page_Admin_Products_Product->lfSetViewParam_ConfirmPage
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(657): SC_Helper_HandleError::handle_warning
+2014/10/01 01:56:50 [/admin/products/product.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(275)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(275): SC_Helper_HandleError::handle_warning
+2014/10/01 01:57:12 [/admin/products/product.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(275)] from 192.168.218.1
+login_id = taheebo(0)[s5e6o06ld41vtf1qicq5b5udp6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(275): SC_Helper_HandleError::handle_warning
+2014/10/01 13:48:54 [/admin/products/product.php] Warning(E_WARNING): implode(): Invalid arguments passed on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(1045)] from 192.168.218.1
+login_id = taheebo(0)[c8lhfdd9rv9b59itpn22n053r6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(164): LC_Page_Admin_Products_Product->lfRegistProduct
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(1045): implode
+2014/10/01 14:02:00 [/admin/products/product.php] Warning(E_WARNING): implode(): Invalid arguments passed on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(1048)] from 192.168.218.1
+login_id = taheebo(0)[c8lhfdd9rv9b59itpn22n053r6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(164): LC_Page_Admin_Products_Product->lfRegistProduct
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(1048): implode
+2014/10/01 14:05:56 [/admin/products/product.php] Warning(E_WARNING): explode() expects parameter 2 to be string, array given on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(629)] from 192.168.218.1
+login_id = taheebo(0)[c8lhfdd9rv9b59itpn22n053r6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(121): LC_Page_Admin_Products_Product->lfSetViewParam_InputPage
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(629): explode
+2014/10/01 14:06:01 [/admin/products/product.php] Warning(E_WARNING): explode() expects parameter 2 to be string, array given on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(629)] from 192.168.218.1
+login_id = taheebo(0)[c8lhfdd9rv9b59itpn22n053r6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(121): LC_Page_Admin_Products_Product->lfSetViewParam_InputPage
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(629): explode
+2014/10/01 14:07:08 [/admin/products/product.php] Warning(E_WARNING): implode(): Invalid arguments passed on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(1048)] from 192.168.218.1
+login_id = taheebo(0)[c8lhfdd9rv9b59itpn22n053r6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(164): LC_Page_Admin_Products_Product->lfRegistProduct
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(1048): implode
+2014/10/01 14:08:17 [/admin/products/product.php] Fatal error(E_USER_ERROR): DB処理でエラーが発生しました。
+SQL: [SELECT recommend_product_id, FROM dtb_recommend_products WHERE product_id = ?  ORDER BY rank DESC ]
+MDB2 Error: syntax error
+_doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysql_111333cf1e5d0ef5bdd332ba816bbaaacaa9d90d30 FROM 'SELECT recommend_product_id, FROM dtb_recommend_products WHERE product_id = ?  ORDER BY rank DESC ']
+[Native code: 1064]
+[Native message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dtb_recommend_products WHERE product_id = ?  ORDER BY rank DESC' at line 1]
+ on [/var/www/data/class/SC_Query.php(1087)] from 192.168.218.1
+login_id = taheebo(0)[c8lhfdd9rv9b59itpn22n053r6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(164): LC_Page_Admin_Products_Product->lfRegistProduct
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(1117): LC_Page_Admin_Products_Product->lfGetProductData_FromDB
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(912): LC_Page_Admin_Products_Product->lfGetRecommendProductsData_FromDB
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(937): SC_Query->select
+/var/www/data/class/SC_Query.php(176): SC_Query->getAll
+/var/www/data/class/SC_Query.php(296): SC_Query->prepare
+/var/www/data/class/SC_Query.php(1016): SC_Query->error
+/var/www/data/class/SC_Query.php(1087): trigger_error
+2014/10/01 14:12:17 [/admin/products/product.php] Fatal error(E_USER_ERROR): DB処理でエラーが発生しました。
+SQL: [SELECT recommend_product_id, FROM dtb_recommend_products WHERE product_id = ?  ORDER BY rank DESC ]
+MDB2 Error: syntax error
+_doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysql_11dd55b8f13fd9e7aa053b6fe14e72f332da40a6f3 FROM 'SELECT recommend_product_id, FROM dtb_recommend_products WHERE product_id = ?  ORDER BY rank DESC ']
+[Native code: 1064]
+[Native message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dtb_recommend_products WHERE product_id = ?  ORDER BY rank DESC' at line 1]
+ on [/var/www/data/class/SC_Query.php(1087)] from 192.168.218.1
+login_id = taheebo(0)[c8lhfdd9rv9b59itpn22n053r6]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(164): LC_Page_Admin_Products_Product->lfRegistProduct
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(1117): LC_Page_Admin_Products_Product->lfGetProductData_FromDB
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(912): LC_Page_Admin_Products_Product->lfGetRecommendProductsData_FromDB
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(937): SC_Query->select
+/var/www/data/class/SC_Query.php(176): SC_Query->getAll
+/var/www/data/class/SC_Query.php(296): SC_Query->prepare
+/var/www/data/class/SC_Query.php(1016): SC_Query->error
+/var/www/data/class/SC_Query.php(1087): trigger_error
+2014/10/01 14:13:03 [/admin/products/product.php] Warning(E_WARNING): explode() expects parameter 2 to be string, array given on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(629)] from 192.168.218.1
+login_id = taheebo(0)[ghcr4ajtj13sf5sk9c6mm0aq85]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(245): LC_Page_Admin_Products_Product->lfSetViewParam_InputPage
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(629): explode
+2014/10/01 14:13:51 [/admin/products/product.php] Warning(E_WARNING): explode() expects parameter 2 to be string, array given on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(629)] from 192.168.218.1
+login_id = taheebo(0)[ghcr4ajtj13sf5sk9c6mm0aq85]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(150): LC_Page_Admin_Products_Product->lfSetViewParam_InputPage
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(629): explode
+2014/10/01 14:18:52 [/admin/products/product.php] Fatal error(E_USER_ERROR): DB処理でエラーが発生しました。
+SQL: [SELECT recommend_product_id, FROM dtb_recommend_products WHERE product_id = ?  ORDER BY rank DESC ]
+MDB2 Error: syntax error
+_doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysql_1160dc390e7840dcd6bd6d744447c196c37c3b5ee6 FROM 'SELECT recommend_product_id, FROM dtb_recommend_products WHERE product_id = ?  ORDER BY rank DESC ']
+[Native code: 1064]
+[Native message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dtb_recommend_products WHERE product_id = ?  ORDER BY rank DESC' at line 1]
+ on [/var/www/data/class/SC_Query.php(1087)] from 192.168.218.1
+login_id = taheebo(0)[ghcr4ajtj13sf5sk9c6mm0aq85]
+/var/www/html/admin/products/product.php(29): LC_Page_Admin_Products_Product_Ex->process
+/var/www/data/class_extends/page_extends/admin/products/LC_Page_Admin_Products_Product_Ex.php(54): LC_Page_Admin_Products_Product->process
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(68): LC_Page_Admin_Products_Product->action
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(109): LC_Page_Admin_Products_Product->lfGetFormParam_PreEdit
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(553): LC_Page_Admin_Products_Product->lfGetProductData_FromDB
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(913): LC_Page_Admin_Products_Product->lfGetRecommendProductsData_FromDB
+/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(938): SC_Query->select
+/var/www/data/class/SC_Query.php(176): SC_Query->getAll
+/var/www/data/class/SC_Query.php(296): SC_Query->prepare
+/var/www/data/class/SC_Query.php(1016): SC_Query->error
+/var/www/data/class/SC_Query.php(1087): trigger_error
+2014/10/01 14:31:46 [/admin/products/product.php] Fatal error(E_PARSE): syntax error, unexpected '$where' (T_VARIABLE) on [/var/www/data/class/pages/admin/products/LC_Page_Admin_Products_Product.php(937)] from 192.168.218.1
+login_id = taheebo(0)[ghcr4ajtj13sf5sk9c6mm0aq85]
+2014/10/01 15:55:58 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(202)] from 192.168.218.1
+customer_id = 3
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(54): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(247): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/bootcube/%%F1^F15^F158E3F4%%site_frame.tpl.php(95): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/bootcube/%%58^587^5876E692%%site_main.tpl.php(45): smarty_core_smarty_include_php
+/var/www/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1924): include
+/var/www/html/frontparts/bloc/recommend.php(30): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/var/www/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(54): LC_Page_FrontParts_Bloc_Recommend->process
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(52): LC_Page_FrontParts_Bloc_Recommend->action
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(68): LC_Page_FrontParts_Bloc_Recommend->lfGetRanking
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(220): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(202): SC_Helper_HandleError::handle_warning
+2014/10/01 15:57:36 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(202)] from 192.168.218.1
+customer_id = 3
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(54): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(247): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/bootcube/%%F1^F15^F158E3F4%%site_frame.tpl.php(95): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/bootcube/%%58^587^5876E692%%site_main.tpl.php(45): smarty_core_smarty_include_php
+/var/www/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1924): include
+/var/www/html/frontparts/bloc/recommend.php(30): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/var/www/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(54): LC_Page_FrontParts_Bloc_Recommend->process
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(52): LC_Page_FrontParts_Bloc_Recommend->action
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(68): LC_Page_FrontParts_Bloc_Recommend->lfGetRanking
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(220): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(202): SC_Helper_HandleError::handle_warning
+2014/10/01 15:57:39 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(202)] from 192.168.218.1
+customer_id = 3
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(54): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(247): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/bootcube/%%F1^F15^F158E3F4%%site_frame.tpl.php(95): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/bootcube/%%58^587^5876E692%%site_main.tpl.php(45): smarty_core_smarty_include_php
+/var/www/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1924): include
+/var/www/html/frontparts/bloc/recommend.php(30): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/var/www/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(54): LC_Page_FrontParts_Bloc_Recommend->process
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(52): LC_Page_FrontParts_Bloc_Recommend->action
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(68): LC_Page_FrontParts_Bloc_Recommend->lfGetRanking
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(220): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(202): SC_Helper_HandleError::handle_warning
+2014/10/01 15:58:31 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(202)] from 192.168.218.1
+customer_id = 3
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(54): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(247): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/bootcube/%%F1^F15^F158E3F4%%site_frame.tpl.php(95): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/bootcube/%%58^587^5876E692%%site_main.tpl.php(45): smarty_core_smarty_include_php
+/var/www/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1924): include
+/var/www/html/frontparts/bloc/recommend.php(30): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/var/www/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(54): LC_Page_FrontParts_Bloc_Recommend->process
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(52): LC_Page_FrontParts_Bloc_Recommend->action
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(68): LC_Page_FrontParts_Bloc_Recommend->lfGetRanking
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(221): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(202): SC_Helper_HandleError::handle_warning
+2014/10/01 15:59:26 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(202)] from 192.168.218.1
+customer_id = 3
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(54): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(247): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/bootcube/%%F1^F15^F158E3F4%%site_frame.tpl.php(95): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/bootcube/%%58^587^5876E692%%site_main.tpl.php(45): smarty_core_smarty_include_php
+/var/www/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1924): include
+/var/www/html/frontparts/bloc/recommend.php(30): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/var/www/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(54): LC_Page_FrontParts_Bloc_Recommend->process
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(52): LC_Page_FrontParts_Bloc_Recommend->action
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(68): LC_Page_FrontParts_Bloc_Recommend->lfGetRanking
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(221): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(202): SC_Helper_HandleError::handle_warning
+2014/10/01 16:01:43 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(202)] from 192.168.218.1
+customer_id = 3
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(54): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(247): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/bootcube/%%F1^F15^F158E3F4%%site_frame.tpl.php(95): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/bootcube/%%58^587^5876E692%%site_main.tpl.php(45): smarty_core_smarty_include_php
+/var/www/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1924): include
+/var/www/html/frontparts/bloc/recommend.php(30): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/var/www/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(54): LC_Page_FrontParts_Bloc_Recommend->process
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(52): LC_Page_FrontParts_Bloc_Recommend->action
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(68): LC_Page_FrontParts_Bloc_Recommend->lfGetRanking
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(221): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(202): SC_Helper_HandleError::handle_warning
+2014/10/01 16:07:32 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(202)] from 192.168.218.1
+customer_id = 3
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(54): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(247): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/bootcube/%%F1^F15^F158E3F4%%site_frame.tpl.php(95): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/bootcube/%%58^587^5876E692%%site_main.tpl.php(45): smarty_core_smarty_include_php
+/var/www/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1924): include
+/var/www/html/frontparts/bloc/recommend.php(30): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/var/www/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(54): LC_Page_FrontParts_Bloc_Recommend->process
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(52): LC_Page_FrontParts_Bloc_Recommend->action
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(68): LC_Page_FrontParts_Bloc_Recommend->lfGetRanking
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(226): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(202): SC_Helper_HandleError::handle_warning
+2014/10/01 16:09:58 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(202)] from 192.168.218.1
+customer_id = 3
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(54): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(247): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/bootcube/%%F1^F15^F158E3F4%%site_frame.tpl.php(95): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/bootcube/%%58^587^5876E692%%site_main.tpl.php(45): smarty_core_smarty_include_php
+/var/www/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1924): include
+/var/www/html/frontparts/bloc/recommend.php(30): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/var/www/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(54): LC_Page_FrontParts_Bloc_Recommend->process
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(52): LC_Page_FrontParts_Bloc_Recommend->action
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(68): LC_Page_FrontParts_Bloc_Recommend->lfGetRanking
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(226): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(202): SC_Helper_HandleError::handle_warning
+2014/10/01 16:10:29 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(202)] from 192.168.218.1
+customer_id = 3
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(54): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(247): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/bootcube/%%F1^F15^F158E3F4%%site_frame.tpl.php(95): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/bootcube/%%58^587^5876E692%%site_main.tpl.php(45): smarty_core_smarty_include_php
+/var/www/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1924): include
+/var/www/html/frontparts/bloc/recommend.php(30): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/var/www/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(54): LC_Page_FrontParts_Bloc_Recommend->process
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(52): LC_Page_FrontParts_Bloc_Recommend->action
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(68): LC_Page_FrontParts_Bloc_Recommend->lfGetRanking
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(226): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(202): SC_Helper_HandleError::handle_warning
+2014/10/01 16:11:03 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(202)] from 192.168.218.1
+customer_id = 3
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(54): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(247): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/bootcube/%%F1^F15^F158E3F4%%site_frame.tpl.php(95): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/bootcube/%%58^587^5876E692%%site_main.tpl.php(45): smarty_core_smarty_include_php
+/var/www/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1924): include
+/var/www/html/frontparts/bloc/recommend.php(30): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/var/www/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(54): LC_Page_FrontParts_Bloc_Recommend->process
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(52): LC_Page_FrontParts_Bloc_Recommend->action
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(68): LC_Page_FrontParts_Bloc_Recommend->lfGetRanking
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(226): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(202): SC_Helper_HandleError::handle_warning
+2014/10/01 16:12:57 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(202)] from 192.168.218.1
+customer_id = 3
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(54): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(247): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/bootcube/%%F1^F15^F158E3F4%%site_frame.tpl.php(95): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/bootcube/%%58^587^5876E692%%site_main.tpl.php(45): smarty_core_smarty_include_php
+/var/www/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1924): include
+/var/www/html/frontparts/bloc/recommend.php(30): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/var/www/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(54): LC_Page_FrontParts_Bloc_Recommend->process
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(52): LC_Page_FrontParts_Bloc_Recommend->action
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(68): LC_Page_FrontParts_Bloc_Recommend->lfGetRanking
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(226): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(202): SC_Helper_HandleError::handle_warning

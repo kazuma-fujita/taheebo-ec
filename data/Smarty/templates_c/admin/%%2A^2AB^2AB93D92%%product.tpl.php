@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-29 15:20:38
+<?php /* Smarty version 2.6.27, created on 2014-10-01 01:54:31
          compiled from products/product.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'products/product.tpl', 39, false),array('modifier', 'h', 'products/product.tpl', 77, false),array('modifier', 'sfGetErrorColor', 'products/product.tpl', 177, false),array('modifier', 'default', 'products/product.tpl', 238, false),array('modifier', 'function_exists', 'products/product.tpl', 352, false),array('modifier', 'sfNoImageMainList', 'products/product.tpl', 439, false),array('function', 'html_options', 'products/product.tpl', 127, false),array('function', 'html_radios', 'products/product.tpl', 137, false),array('function', 'html_checkboxes', 'products/product.tpl', 143, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'products/product.tpl', 39, false),array('modifier', 'h', 'products/product.tpl', 77, false),array('modifier', 'sfGetErrorColor', 'products/product.tpl', 178, false),array('modifier', 'default', 'products/product.tpl', 239, false),array('modifier', 'function_exists', 'products/product.tpl', 353, false),array('modifier', 'sfNoImageMainList', 'products/product.tpl', 440, false),array('function', 'html_options', 'products/product.tpl', 127, false),array('function', 'html_radios', 'products/product.tpl', 137, false),array('function', 'html_checkboxes', 'products/product.tpl', 143, false),)), $this); ?>
 <script type="text/javascript">
 // 表示非表示切り替え
 function lfDispSwitch(id){
@@ -165,7 +165,9 @@ function selectAll(target) {
         <tr>
             <th>区分<span class="attention"> *</span></th>
             <td>
-                <?php echo smarty_function_html_radios(array('name' => 'agency_product_category_id','options' => ((is_array($_tmp=$this->_tpl_vars['arrAgencyCategory'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)),'selected' => ((is_array($_tmp=$this->_tpl_vars['arrForm']['agency_product_category_id'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)),'separator' => '&nbsp;&nbsp;'), $this);?>
+                <span class="attention"><?php echo ((is_array($_tmp=$this->_tpl_vars['arrErr']['agency_product_category_id'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+</span>
+                <?php echo smarty_function_html_checkboxes(array('name' => 'agency_product_category_id','options' => ((is_array($_tmp=$this->_tpl_vars['arrAgencyCategory'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)),'selected' => ((is_array($_tmp=$this->_tpl_vars['arrForm']['agency_product_category_id'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)),'separator' => '&nbsp;&nbsp;'), $this);?>
 
             </td>
         </tr>

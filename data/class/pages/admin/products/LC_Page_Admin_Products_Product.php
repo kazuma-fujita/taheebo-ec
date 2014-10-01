@@ -136,6 +136,7 @@ class LC_Page_Admin_Products_Product extends LC_Page_Admin_Products_Ex
                 // パラメーター初期化, 取得
                 $this->lfInitFormParam($objFormParam, $_POST);
                 $arrForm = $objFormParam->getHashArray();
+                // add
                 // エラーチェック
                 $this->arrErr = $this->lfCheckError_Edit($objFormParam, $objUpFile, $objDownFile, $arrForm);
                 if (count($this->arrErr) == 0) {
@@ -143,6 +144,7 @@ class LC_Page_Admin_Products_Product extends LC_Page_Admin_Products_Ex
                     $this->tpl_mainpage = 'products/confirm.tpl';
                     $this->arrCatList = $this->lfGetCategoryList_Edit();
                     $this->arrForm = $this->lfSetViewParam_ConfirmPage($objUpFile, $objDownFile, $arrForm);
+
                 } else {
                     // 入力画面表示設定
                     $this->arrForm = $this->lfSetViewParam_InputPage($objUpFile, $objDownFile, $arrForm);
@@ -254,7 +256,6 @@ class LC_Page_Admin_Products_Product extends LC_Page_Admin_Products_Ex
                 $arrForm = $objFormParam->getHashArray();
                 // 入力画面表示設定
                 $this->arrForm = $this->lfSetViewParam_InputPage($objUpFile, $objDownFile, $arrForm);
-
                 // 選択された関連商品IDがすでに登録している関連商品と重複していないかチェック
                 $this->lfCheckError_RecommendSelect($this->arrForm, $this->arrErr);
 
@@ -370,7 +371,7 @@ class LC_Page_Admin_Products_Product extends LC_Page_Admin_Products_Ex
         $objFormParam->addParam('has_product_class', 'has_product_class', INT_LEN, 'n', array('NUM_CHECK', 'MAX_LENGTH_CHECK'));
         $objFormParam->addParam('product_class_id', 'product_class_id', INT_LEN, 'n', array('NUM_CHECK', 'MAX_LENGTH_CHECK'));
 
-        $objFormParam->addParam('区分', 'agency_product_category_id', INT_LEN, 'n', array('EXIST_CHECK', 'NUM_CHECK', 'MAX_LENGTH_CHECK'));
+        $objFormParam->addParam('区分', 'agency_product_category_id', STEXT_LEN, 'n', array('EXIST_CHECK', 'MAX_LENGTH_CHECK'));
 
         $objFormParam->setParam($arrPost);
         $objFormParam->convParam();
@@ -624,6 +625,10 @@ class LC_Page_Admin_Products_Product extends LC_Page_Admin_Products_Ex
         // サブ情報ありなしフラグ
         $arrForm['sub_find'] = $this->hasSubProductData($arrForm);
 
+        $ids = $arrForm['agency_product_category_id'];
+        if ( !empty($ids) && !is_array($ids) ) {
+            $arrForm['agency_product_category_id'] = explode(',', $ids);
+        }
         return $arrForm;
     }
 
@@ -646,6 +651,14 @@ class LC_Page_Admin_Products_Product extends LC_Page_Admin_Products_Ex
         $arrForm['arrFile'] = $objUpFile->getFormFileList(IMAGE_TEMP_URLPATH, IMAGE_SAVE_URLPATH);
         // ダウンロード商品実ファイル名取得
         $arrForm['down_realfilename'] = $objDownFile->getFormDownFile();
+
+        $ids = $arrForm['agency_product_category_id'];
+        $agency_product_category = '';
+        foreach ( $ids as $id ) {
+            $agency_product_category .= $this->arrAgencyCategory[$id] . ' ';
+        }
+        $arrForm['agency_product_category'] = $agency_product_category;
+        $arrForm['agency_product_category_id'] = implode(',', $ids);
 
         return $arrForm;
     }
@@ -900,6 +913,9 @@ __EOF__;
         $arrRecommend = $this->lfGetRecommendProductsData_FromDB($product_id);
         $arrProduct[0] = array_merge($arrProduct[0], $arrRecommend);
 
+        //$ids = $arrProduct[0]['agency_product_category_id'];
+        //$arrProduct[0]['agency_product_category_id'] = explode(',',$ids);
+
         return $arrProduct[0];
     }
 
@@ -914,6 +930,7 @@ __EOF__;
         $objQuery =& SC_Query_Ex::getSingletonInstance();
         $arrRecommendProducts = array();
 
+        //$col = 'recommend_product_id,';
         $col = 'recommend_product_id,';
         $col.= 'comment';
         $table = 'dtb_recommend_products';
@@ -1030,6 +1047,7 @@ __EOF__;
         $sqlval['creator_id'] = $_SESSION['member_id'];
 
         $sqlval['agency_product_category_id'] = $arrList['agency_product_category_id'];
+        // $sqlVal['agency_product_category_id'] = implode(",", $arrList['agency_product_category_id']);
 
         $arrRet = $objUpFile->getDBFileList();
         $sqlval = array_merge($sqlval, $arrRet);

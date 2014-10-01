@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-29 15:20:23
+<?php /* Smarty version 2.6.27, created on 2014-10-01 15:53:24
          compiled from products/index.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'products/index.tpl', 61, false),array('modifier', 'h', 'products/index.tpl', 74, false),array('modifier', 'sfGetErrorColor', 'products/index.tpl', 74, false),array('modifier', 'sfNoImageMainList', 'products/index.tpl', 254, false),array('modifier', 'number_format', 'products/index.tpl', 263, false),array('modifier', 'sfTrim', 'products/index.tpl', 293, false),array('modifier', 'count', 'products/index.tpl', 307, false),array('function', 'html_radios', 'products/index.tpl', 80, false),array('function', 'html_options', 'products/index.tpl', 108, false),array('function', 'html_checkboxes', 'products/index.tpl', 115, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'products/index.tpl', 61, false),array('modifier', 'h', 'products/index.tpl', 74, false),array('modifier', 'sfGetErrorColor', 'products/index.tpl', 74, false),array('modifier', 'sfNoImageMainList', 'products/index.tpl', 254, false),array('modifier', 'number_format', 'products/index.tpl', 263, false),array('modifier', 'sfTrim', 'products/index.tpl', 296, false),array('modifier', 'count', 'products/index.tpl', 310, false),array('function', 'html_radios', 'products/index.tpl', 80, false),array('function', 'html_options', 'products/index.tpl', 108, false),array('function', 'html_checkboxes', 'products/index.tpl', 115, false),)), $this); ?>
 
 <script type="text/javascript">
 // URLの表示非表示切り替え
@@ -348,8 +348,12 @@ $this->_sections['cnt']['last']       = ($this->_sections['cnt']['iteration'] ==
                                                         <?php $this->assign('key', ((is_array($_tmp=$this->_tpl_vars['arrProducts'][$this->_sections['cnt']['index']]['status'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp))); ?>
                             <td class="menu" rowspan="2"><?php echo ((is_array($_tmp=$this->_tpl_vars['arrDISP'][$this->_tpl_vars['key']])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 </td>
+<?php if (false): ?>
                             <?php $this->assign('key', ((is_array($_tmp=$this->_tpl_vars['arrProducts'][$this->_sections['cnt']['index']]['agency_product_category_id'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp))); ?>
                             <td class="menu" rowspan="2"><?php echo ((is_array($_tmp=$this->_tpl_vars['arrAgencyCategory'][$this->_tpl_vars['key']])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+</td>
+<?php endif; ?>
+                            <td class="menu" rowspan="2"><?php echo ((is_array($_tmp=$this->_tpl_vars['arrProducts'][$this->_sections['cnt']['index']]['agency_product_category'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 </td>
                             <td class="menu" rowspan="2"><span class="icon_edit"><a href="javascript:;" onclick="eccube.changeAction('./product.php'); eccube.setModeAndSubmit('pre_edit', 'product_id', <?php echo ((is_array($_tmp=$this->_tpl_vars['arrProducts'][$this->_sections['cnt']['index']]['product_id'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 ); return false;" >編集</a></span></td>

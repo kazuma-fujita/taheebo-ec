@@ -275,8 +275,11 @@ function lfnDispChange(){
                             <!--{* 表示 *}-->
                             <!--{assign var=key value=$arrProducts[cnt].status}-->
                             <td class="menu" rowspan="2"><!--{$arrDISP[$key]}--></td>
+<!--{if false}-->
                             <!--{assign var=key value=$arrProducts[cnt].agency_product_category_id}-->
                             <td class="menu" rowspan="2"><!--{$arrAgencyCategory[$key]}--></td>
+<!--{/if}-->
+                            <td class="menu" rowspan="2"><!--{$arrProducts[cnt].agency_product_category}--></td>
                             <td class="menu" rowspan="2"><span class="icon_edit"><a href="javascript:;" onclick="eccube.changeAction('./product.php'); eccube.setModeAndSubmit('pre_edit', 'product_id', <!--{$arrProducts[cnt].product_id}-->); return false;" >編集</a></span></td>
                             <td class="menu" rowspan="2"><span class="icon_confirm"><a href="<!--{$smarty.const.HTTP_URL}-->products/detail.php?product_id=<!--{$arrProducts[cnt].product_id}-->&amp;admin=on" target="_blank">確認</a></span></td>
                             <!--{if $smarty.const.OPTION_CLASS_REGIST == 1}-->

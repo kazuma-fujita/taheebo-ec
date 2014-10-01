@@ -166,6 +166,13 @@ class LC_Page_Admin_Products extends LC_Page_Admin_Ex
                                 foreach ($this->arrProducts as $key => $val) {
                                     $this->arrProducts[$key]['categories'] = $objDb->sfGetCategoryId($val['product_id'], 0, true);
                                     $objDb->g_category_on = false;
+                                    // add
+                                    $ids = explode(',', $this->arrProducts[$key]['agency_product_category_id']);
+                                    $agency_product_category = '';
+                                    foreach ( $ids as $id ) {
+                                        $agency_product_category .= $this->arrAgencyCategory[$id] . ' ';
+                                    }
+                                    $this->arrProducts[$key]['agency_product_category'] = $agency_product_category;
                                 }
                             }
                     }
@@ -359,8 +366,10 @@ class LC_Page_Admin_Products extends LC_Page_Admin_Ex
                 break;
             // 代理店商品区分 
             case 'search_agency_product_category_id':
-                $where .= ' AND agency_product_category_id = ?';
-                $arrValues[] = sprintf('%d', $objFormParam->getValue($key));
+                //$where .= ' AND agency_product_category_id = ?';
+                $where .= ' AND agency_product_category_id LIKE ?';
+                //$arrValues[] = sprintf('%d', $objFormParam->getValue($key));
+                $arrValues[] = sprintf('%%%s%%', $objFormParam->getValue($key));
                 break;
 
             default:

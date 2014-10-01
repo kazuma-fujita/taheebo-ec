@@ -157,6 +157,7 @@ class LC_Page_Admin_System_Input extends LC_Page_Admin_Ex
                         $this->tpl_member_id = $clean_id;
                         $this->tpl_onfocus   = 'eccube.clearValue(this.name);';
                         $this->arrForm       = $this->getMemberData($clean_id);
+                        // $this->arrForm['agency_product_category_ids'] = explode(',', $this->arrForm['agency_product_category_id']);
                         $this->arrForm['password'] = DEFAULT_PASSWORD;
                         $this->arrForm['password02'] = DEFAULT_PASSWORD;
                         $this->tpl_old_login_id    = $this->arrForm['login_id'];
@@ -367,6 +368,7 @@ class LC_Page_Admin_System_Input extends LC_Page_Admin_Ex
         $sqlVal['tel03'] = $arrMemberData['tel03'];
         $sqlVal['agency_code'] = $arrMemberData['agency_code'];
         $sqlVal['agency_product_category_id'] = $arrMemberData['agency_product_category_id'];
+        //$sqlVal['agency_product_category_id'] = implode(",", $arrMemberData['agency_product_category_id']);
         // TODO 一回selectしてユニークの値にしたい
         $ransu = '';
         for($i = 0; $i < 5; $i++){
@@ -417,6 +419,7 @@ class LC_Page_Admin_System_Input extends LC_Page_Admin_Ex
         $sqlVal['tel02'] = $arrMemberData['tel02'];
         $sqlVal['tel03'] = $arrMemberData['tel03'];
         $sqlVal['agency_product_category_id'] = $arrMemberData['agency_product_category_id'];
+        //$sqlVal['agency_product_category_id'] = implode(",", $arrMemberData['agency_product_category_id']);
         //$sqlVal['agency_code'] = $arrMemberData['agency_code'];
 
         $where = 'member_id = ?';

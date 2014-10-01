@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-29 15:20:02
+<?php /* Smarty version 2.6.27, created on 2014-10-01 15:39:35
          compiled from system/index.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'system/index.tpl', 26, false),array('modifier', 'h', 'system/index.tpl', 62, false),)), $this); ?>
@@ -81,6 +81,8 @@ $this->_sections['data']['last']       = ($this->_sections['data']['iteration'] 
 </td>
                 <?php $this->assign('agency_product_category_id', ((is_array($_tmp=$this->_tpl_vars['list_data'][$this->_sections['data']['index']]['agency_product_category_id'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp))); ?><td><?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['arrAgencyCategory'][$this->_tpl_vars['agency_product_category_id']])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('h', true, $_tmp) : smarty_modifier_h($_tmp)); ?>
 </td>
+                <!--td><?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['list_data'][$this->_sections['data']['index']]['agency_product_category'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('h', true, $_tmp) : smarty_modifier_h($_tmp)); ?>
+</td-->
                 <td align="center"><a href="#" onclick="eccube.openWindow('./input.php?id=<?php echo ((is_array($_tmp=$this->_tpl_vars['list_data'][$this->_sections['data']['index']]['member_id'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 &amp;pageno=<?php echo ((is_array($_tmp=$this->_tpl_vars['tpl_disppage'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 ','member_edit','620','450'); return false;">編集</a></td>

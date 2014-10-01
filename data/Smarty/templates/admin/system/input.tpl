@@ -121,6 +121,9 @@ self.moveTo(20,20);self.focus();
                 <td>
                     <span class="attention"><!--{$arrErr.agency_product_category_id}--></span>
                     <span <!--{if $arrErr.agency_product_category_id != ""}--><!--{sfSetErrorStyle}--><!--{/if}-->>
+<!--{if false}-->
+                        <!--{html_checkboxes name="agency_product_category_id" options=$arrAgencyCategory separator=" " selected=$arrForm.agency_product_category_ids}-->
+<!--{/if}-->
                         <!--{html_radios name="agency_product_category_id" options=$arrAgencyCategory separator=" " selected=$arrForm.agency_product_category_id}-->
                     </span>
                 </td>

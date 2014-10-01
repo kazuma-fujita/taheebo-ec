@@ -66,6 +66,7 @@
                 <td><!--{$list_data[data].agency_name|h}--></td>
                 <td><!--{$list_data[data].agency_code|h}--></td>
                 <!--{assign var="agency_product_category_id" value=$list_data[data].agency_product_category_id}--><td><!--{$arrAgencyCategory[$agency_product_category_id]|h}--></td>
+                <!--td><!--{$list_data[data].agency_product_category|h}--></td-->
                 <td align="center"><a href="#" onclick="eccube.openWindow('./input.php?id=<!--{$list_data[data].member_id}-->&amp;pageno=<!--{$tpl_disppage}-->','member_edit','620','450'); return false;">編集</a></td>
                 <td align="center"><!--{if $workmax > 1}--><a href="#" onclick="eccube.deleteMember(<!--{$list_data[data].member_id}-->,<!--{$tpl_disppage}-->); return false;">削除</a><!--{else}-->-<!--{/if}--></td>
                 <td align="center">

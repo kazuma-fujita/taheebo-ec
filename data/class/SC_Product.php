@@ -192,6 +192,17 @@ __EOS__;
         return $arrProducts;
     }
 
+    private function getAgencyProductCategoryIdByAgencyCode( $agency_code ) {
+
+        $objQuery =& SC_Query_Ex::getSingletonInstance();
+        $col = 'agency_product_category_id';
+        $table = 'dtb_member';
+        $where = 'agency_code = ?';
+        $object = $objQuery->get($col, $table, $where, array($agency_code) );
+        $agency_product_category_id = $object['agency_product_category_id'];
+        return $agency_product_category_id;
+    }
+
     public function getListByProductIdsWithAgencyCode(&$objQuery, $arrProductId = array())
     {
         $agency_code = $_SESSION['customer']['agency_code'];
@@ -202,12 +213,16 @@ __EOS__;
             return array();
         }
 
+
         $where = 'alldtl.product_id IN (' . SC_Utils_Ex::repeatStrWithSeparator('?', count($arrProductId)) . ')';
         $where .= ' AND alldtl.del_flg = 0';
-        $where .= ' AND alldtl.agency_product_category_id IN (SELECT DISTINCT(agency_product_category_id) FROM dtb_member WHERE agency_code = ? )';
+        //$where .= ' AND alldtl.agency_product_category_id IN (SELECT agency_product_category_id FROM dtb_member WHERE agency_code = ? )';
+        $where .= ' AND alldtl.agency_product_category_id LIKE ?';
 
-        $arrProductId[] = $agency_code;
-        $objQuery->setWhere($where,$arrProductId);
+        $agency_product_category_id = $this->getAgencyProductCategoryIdByAgencyCode($agency_code);
+        $arrProductId[] = sprintf('%%%s%%', $agency_product_category_id);
+
+        $objQuery->setWhere($where, $arrProductId);
 
         $arrProducts = $this->lists($objQuery);
 

@@ -153,7 +153,8 @@ function selectAll(target) {
         <tr>
             <th>区分<span class="attention"> *</span></th>
             <td>
-                <!--{html_radios name="agency_product_category_id" options=$arrAgencyCategory selected=$arrForm.agency_product_category_id separator='&nbsp;&nbsp;'}-->
+                <span class="attention"><!--{$arrErr.agency_product_category_id}--></span>
+                <!--{html_checkboxes name="agency_product_category_id" options=$arrAgencyCategory selected=$arrForm.agency_product_category_id separator='&nbsp;&nbsp;'}-->
             </td>
         </tr>
         <tr>

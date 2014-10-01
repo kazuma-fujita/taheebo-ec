@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-29 15:46:24
+<?php /* Smarty version 2.6.27, created on 2014-10-01 15:39:38
          compiled from system/input.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'system/input.tpl', 33, false),array('modifier', 'h', 'system/input.tpl', 34, false),array('modifier', 'sfGetErrorColor', 'system/input.tpl', 48, false),array('modifier', 'sfGetChecked', 'system/input.tpl', 97, false),array('function', 'html_options', 'system/input.tpl', 86, false),array('function', 'sfSetErrorStyle', 'system/input.tpl', 123, false),array('function', 'html_radios', 'system/input.tpl', 124, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'system/input.tpl', 33, false),array('modifier', 'h', 'system/input.tpl', 34, false),array('modifier', 'sfGetErrorColor', 'system/input.tpl', 48, false),array('modifier', 'sfGetChecked', 'system/input.tpl', 97, false),array('function', 'html_options', 'system/input.tpl', 86, false),array('function', 'sfSetErrorStyle', 'system/input.tpl', 123, false),array('function', 'html_checkboxes', 'system/input.tpl', 125, false),array('function', 'html_radios', 'system/input.tpl', 127, false),)), $this); ?>
 <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => (@TEMPLATE_ADMIN_REALDIR)."admin_popup_header.tpl", 'smarty_include_vars' => array()));
 $this->_tpl_vars = $_smarty_tpl_vars;
@@ -163,6 +163,10 @@ _0"><?php echo ((is_array($_tmp=$this->_tpl_vars['arrWORK']['0'])) ? $this->_run
 </span>
                     <span <?php if (((is_array($_tmp=$this->_tpl_vars['arrErr']['agency_product_category_id'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)) != ""): ?><?php echo SC_Utils_Ex::sfSetErrorStyle(array(), $this);?>
 <?php endif; ?>>
+<?php if (false): ?>
+                        <?php echo smarty_function_html_checkboxes(array('name' => 'agency_product_category_id','options' => ((is_array($_tmp=$this->_tpl_vars['arrAgencyCategory'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)),'separator' => ' ','selected' => ((is_array($_tmp=$this->_tpl_vars['arrForm']['agency_product_category_ids'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp))), $this);?>
+
+<?php endif; ?>
                         <?php echo smarty_function_html_radios(array('name' => 'agency_product_category_id','options' => ((is_array($_tmp=$this->_tpl_vars['arrAgencyCategory'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)),'separator' => ' ','selected' => ((is_array($_tmp=$this->_tpl_vars['arrForm']['agency_product_category_id'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp))), $this);?>
 
                     </span>

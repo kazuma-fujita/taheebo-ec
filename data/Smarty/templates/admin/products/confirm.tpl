@@ -92,7 +92,10 @@
             <tr>
                 <th>区分</th>
                 <td>
+<!--{if false}-->
                     <!--{$arrAgencyCategory[$arrForm.agency_product_category_id]}-->
+<!--{/if}-->
+                    <!--{$arrForm.agency_product_category|h}-->
                 </td>
             </tr>
             <tr>
