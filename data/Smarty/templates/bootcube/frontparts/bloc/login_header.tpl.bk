@@ -49,52 +49,17 @@
                     <!--{if $tpl_login}-->
                         <ul class="list-inline">
                             <li>
-                            	<!--{if $smarty.const.USE_POINT !== false}-->
-                            	    <span class="btn btn-danger" style="cursor:default;"> <!--{$tpl_user_point|number_format|default:0}--> pt</span>&nbsp;&nbsp;
-                            	<!--{/if}-->
-                            </li>
-                            <li>
-                            	<span class="fs17">タヒボとは</span>
-                            </li>
-                            <li>
-                            	<span class="">飲み方</span>
-                            </li>
-                            <li>
-                            	<span style="padding-right:15px">Q&amp;A</span>
-                            </li>
-                            <li>
-                            	<span class="btn btn-success">お気に入り</span>
-                            </li>
-<!--{if false}-->
-                            <li>
                             	ようこそ <span class="user_name"><!--{$tpl_name1|h}--> <!--{$tpl_name2|h}--> 様</span>
+                            </li>
+                            <li>
+                            	<!--{if $smarty.const.USE_POINT !== false}-->
+                            	    / 所持ポイント: <span class="point"> <!--{$tpl_user_point|number_format|default:0}--> pt</span>&nbsp;&nbsp;
+                            	<!--{/if}-->
                             </li>
                             <li>
                             	<!--{if !$tpl_disable_logout}-->
                             	    <input type="submit" class="btn btn-default" value="ログアウト" onclick="eccube.fnFormModeSubmit('header_login_form', 'logout', '', ''); return false;" />
                             	<!--{/if}-->
-                            </li>
-<!--{/if}-->
-                        </ul>
-
-                        <ul class="list-inline">
-                            <li>
-                                <a href="/mypage/" class="btn btn-default">
-                                    <span class="glyphicon glyphicon-user"></span>&nbsp;マイページ
-                                </a>
-                            </li>
-                            <li>
-                                <a href="<!--{$smarty.const.CART_URL}-->" class="btn btn-default">
-                                    <span class="glyphicon glyphicon-shopping-cart"></span>
-                                </a>
-                            </li>
-                            <li>
-                            	<span class="btn active" style="cursor:default;">合計&nbsp;:&nbsp;<!--{$arrCartList.0.ProductsTotal|number_format|default:0}-->円</span>
-                            </li>
-                            <li>
-                                <a href="/shopping/deliv.php">
-                            	<span class="btn btn-danger">購入手続きへ</span>
-                                </a>
                             </li>
                         </ul>
                     <!--{else}-->

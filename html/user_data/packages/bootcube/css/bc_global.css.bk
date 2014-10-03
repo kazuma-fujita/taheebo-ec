@@ -27,7 +27,6 @@ body {
   background-repeat: repeat;
   background-position: center top;
   background-attachment: fixed;
-  padding-top: 150px;
 }
 
 .frame_outer {

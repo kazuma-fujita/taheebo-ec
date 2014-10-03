@@ -10,7 +10,7 @@
 		</ol>
 		<div class="carousel-inner">
 			<div class="item active">
-				<img alt="slider1" src="<!--{$TPL_URLPATH}-->test-img/slider1.png">
+				<img alt="slider1" src="<!--{$TPL_URLPATH}-->test-img/iinet_slider1.jpg">
 			</div>
 			<div class="item">
 				<img alt="slider2" src="<!--{$TPL_URLPATH}-->test-img/slider2.png">

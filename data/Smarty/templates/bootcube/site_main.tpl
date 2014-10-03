@@ -19,9 +19,8 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
  *}-->
-
 <!--{strip}-->
-<body class="<!--{$tpl_page_class_name|h}-->">
+<body class="<!--{$tpl_page_class_name|h}-->" <!--{if $tpl_login}--><!--{else}-->style="padding-top:0px;"<!--{/if}-->>
 
 	<!--{$GLOBAL_ERR}-->
 	<noscript>

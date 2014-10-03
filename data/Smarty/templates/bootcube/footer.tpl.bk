@@ -41,11 +41,10 @@
 												プライバシーポリシー</a></li>
 							</ul>
 						</div>
-						<!--div id="pagetop" class="text-right"><a href="#top"><img src="<!--{$TPL_URLPATH}-->img/taheebo/scrollup.gif"/></a></div-->
-						<div id="pagetop" class="text-right"><a href="#top" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-arrow-up"></span></a></div>
+						<div id="pagetop" class="text-right"><a href="#top"><img src="<!--{$TPL_URLPATH}-->img/taheebo/scrollup.gif"/></a></div>
 						<div id="copyright" class="text-center">Copyright ©
 								&nbsp;<!--{$smarty.now|date_format:"%Y"}-->
-								&nbsp;いいねっと All rights reserved.
+								&nbsp;タヒボe株式会社 All rights reserved.
 						</div>
 				</div>
 		</div>

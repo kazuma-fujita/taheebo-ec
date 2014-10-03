@@ -22,7 +22,7 @@
 
 <!--▼HEADER-->
 <!--{strip}-->
-	<div id="header_wrap" class="navbar-fixed-top">
+	<div id="header_wrap">
 <!--		
 		<div id="top_bar">
 			<div class="container">

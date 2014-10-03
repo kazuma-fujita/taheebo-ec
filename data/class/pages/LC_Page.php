@@ -127,7 +127,7 @@ GC_Utils_Ex::gfDebugLog("-----test end-----",DATA_PATH.'logs/test.log',true);
         $login_checked = true;
         
         //ログインを強要するURLリスト
-       $force_login_page = array(
+        $force_login_page = array(
             'products/',    //商品ページ、検索等
             'cart/',        //買い物かご
             'shopping/'     //購入ページ
@@ -142,10 +142,15 @@ GC_Utils_Ex::gfDebugLog("-----test end-----",DATA_PATH.'logs/test.log',true);
         
         //ログインチェックし、ログイン状態であれば何もしない
         $objCustomer = new SC_Customer();
+
+        if ( $objCustomer->isLoginSuccess() ) {
+            $this->tpl_login = true;
+        }       
+
         if ( preg_match('|/admin|', $_SERVER['PHP_SELF']) || $objCustomer->isLoginSuccess() ) {
             return true;
         }
-        
+
         //ログイン状態でなければリダイレクト
         //$this->sendRedirect(SITE_URL);
         header("location: https://taheebo-e.net/mypage/login.php");

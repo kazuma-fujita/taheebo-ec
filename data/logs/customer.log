@@ -12,3 +12,8 @@
 2014/09/29 15:20:11 [/entry/index.php] access : user=3	ip=192.168.218.1 from 192.168.218.1
 2014/09/29 15:22:39 [/frontparts/login_check.php] access : user=3	ip=192.168.218.1 from 192.168.218.1
 2014/09/29 16:40:46 [/entry/index.php] access : user=4	ip=192.168.218.1 from 192.168.218.1
+2014/10/01 22:41:31 [/frontparts/login_check.php] access : user=2	ip=192.168.218.1 from 192.168.218.1
+2014/10/01 23:42:14 [/frontparts/login_check.php] access : user=2	ip=192.168.218.1 from 192.168.218.1
+2014/10/02 00:05:49 [/frontparts/login_check.php] access : user=2	ip=192.168.218.1 from 192.168.218.1
+2014/10/03 15:08:21 [/frontparts/login_check.php] access : user=3	ip=192.168.218.1 from 192.168.218.1
+2014/10/03 15:31:24 [/frontparts/login_check.php] access : user=3	ip=192.168.218.1 from 192.168.218.1
