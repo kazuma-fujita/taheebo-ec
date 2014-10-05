@@ -21,3 +21,4 @@
 2014/10/04 22:25:11 [/entry/index.php] access : user=6	ip=192.168.218.1 from 192.168.218.1
 2014/10/05 01:51:37 [/frontparts/login_check.php] logout : user=6	ip=192.168.218.1 from 192.168.218.1
 2014/10/05 01:52:05 [/frontparts/login_check.php] access : user=6	ip=192.168.218.1 from 192.168.218.1
+2014/10/06 03:04:14 [/frontparts/login_check.php] logout : user=2	ip=192.168.218.1 from 192.168.218.1
