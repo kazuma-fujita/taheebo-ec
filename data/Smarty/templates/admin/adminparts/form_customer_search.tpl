@@ -104,7 +104,7 @@
         <!--{if $arrErr[$key]}--><span class="attention"><!--{$arrErr[$key]}--></span><!--{/if}-->
         <input type="text" name="<!--{$key}-->" maxlength="<!--{$arrForm[$key].length}-->" value="<!--{$arrForm[$key].value|h}-->" size="60" class="box60" /></td>
 </tr>
-<tr>
+<tr style="display:none;">
     <th>職業</th>
     <td colspan="3">
         <!--{assign var=key value="search_job"}-->

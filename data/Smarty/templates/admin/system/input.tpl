@@ -41,15 +41,18 @@ self.moveTo(20,20);self.focus();
     <table>
         <col width="20%" />
         <col width="80%" />
-        <tr>
+        <tr style="display:none;">
             <th>名前</th>
             <td>
                 <!--{if $arrErr.name}--><span class="attention"><!--{$arrErr.name}--></span><!--{/if}-->
+<!--{if false}-->
                 <input type="text" name="name" size="30" class="box30" value="<!--{$arrForm.name|h}-->" maxlength="<!--{$smarty.const.STEXT_LEN}-->" style="<!--{$arrErr.name|sfGetErrorColor}-->" />
+<!--{/if}-->
+                <input type="text" name="name" size="30" class="box30" value="dummy" maxlength="<!--{$smarty.const.STEXT_LEN}-->" style="<!--{$arrErr.name|sfGetErrorColor}-->" />
                 <span class="attention">※必須入力</span>
             </td>
         </tr>
-        <tr>
+        <tr style="display:none;">
             <th>所属</th>
             <td>
                 <!--{if $arrErr.department}--><span class="attention"><!--{$arrErr.department}--></span><!--{/if}-->
@@ -77,13 +80,16 @@ self.moveTo(20,20);self.focus();
                 <p><span class="attention mini">確認のために2度入力してください。</span></p>
             </td>
         </tr>
-        <tr>
+        <tr style="display:none;">
             <th>権限</th>
             <td>
                 <!--{if $arrErr.authority}--><span class="attention"><!--{$arrErr.authority}--></span><!--{/if}-->
                 <select name="authority" style="<!--{$arrErr.authority|sfGetErrorColor}-->">
                     <option value="">選択してください</option>
+<!--{if false}-->
                     <!--{html_options options=$arrAUTHORITY selected=$arrForm.authority}-->
+<!--{/if}-->
+                    <!--{html_options options=$arrAUTHORITY selected=1}-->
                 </select>
                 <span class="attention">※必須入力</span>
             </td>

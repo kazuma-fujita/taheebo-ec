@@ -98,7 +98,7 @@
                     <input type="text" name="kana01" value="<!--{$arrForm.kana01|h}-->" maxlength="<!--{$smarty.const.STEXT_LEN}-->" size="30" class="box30" <!--{if $arrErr.kana01 != ""}--><!--{sfSetErrorStyle}--><!--{/if}--> />&nbsp;&nbsp;<input type="text" name="kana02" value="<!--{$arrForm.kana02|h}-->" maxlength="<!--{$smarty.const.STEXT_LEN}-->" size="30" class="box30" <!--{if $arrErr.kana02 != ""}--><!--{sfSetErrorStyle}--><!--{/if}--> />
                 </td>
             </tr>
-            <tr>
+            <tr style="display:none;">
                 <th>会社名</th>
                 <td>
                     <span class="attention"><!--{$arrErr.company_name}--></span>
@@ -168,7 +168,7 @@
                     <input type="text" name="tel01" value="<!--{$arrForm.tel01|h}-->" maxlength="<!--{$smarty.const.TEL_ITEM_LEN}-->" size="6" class="box6" <!--{if $arrErr.tel01 != ""}--><!--{sfSetErrorStyle}--><!--{/if}--> /> - <input type="text" name="tel02" value="<!--{$arrForm.tel02|h}-->" maxlength="<!--{$smarty.const.TEL_ITEM_LEN}-->" size="6" class="box6" <!--{if $arrErr.tel01 != "" || $arrErr.tel02 != ""}--><!--{sfSetErrorStyle}--><!--{/if}--> /> - <input type="text" name="tel03" value="<!--{$arrForm.tel03|h}-->" maxlength="<!--{$smarty.const.TEL_ITEM_LEN}-->" size="6" class="box6" <!--{if $arrErr.tel01 != "" || $arrErr.tel03 != ""}--><!--{sfSetErrorStyle}--><!--{/if}--> />
                 </td>
             </tr>
-            <tr>
+            <tr style="display:none;">
                 <th>FAX</th>
                 <td>
                     <span class="attention"><!--{$arrErr.fax01}--><!--{$arrErr.fax02}--><!--{$arrErr.fax03}--></span>
@@ -184,7 +184,7 @@
                     </span>
                 </td>
             </tr>
-            <tr>
+            <tr style="display:none;">
                 <th>ご職業</th>
                 <td>
                     <span class="attention"><!--{$arrErr.job}--></span>
@@ -221,17 +221,23 @@
                     <p><span class="attention mini">確認のために2度入力してください。</span></p>
                 </td>
             </tr>
-            <tr>
+            <tr style="display:none;">
                 <th>パスワードを忘れたときのヒント<span class="attention"> *</span></th>
                 <td>
                     <span class="attention"><!--{$arrErr.reminder}--><!--{$arrErr.reminder_answer}--></span>
                     質問：
                     <select class="top" name="reminder" <!--{if $arrErr.reminder != ""}--><!--{sfSetErrorStyle}--><!--{/if}--> >
                         <option value="" selected="selected">選択してください</option>
+<!--{if false}-->
                         <!--{html_options options=$arrReminder selected=$arrForm.reminder}-->
+<!--{/if}-->
+                        <!--{html_options options=$arrReminder selected=1}-->
                     </select><br />
                     答え：
+<!--{if false}-->
                     <input type="text" name="reminder_answer" value="<!--{$arrForm.reminder_answer|h}-->" size="30" class="box30" <!--{if $arrErr.reminder_answer != ""}--><!--{sfSetErrorStyle}--><!--{/if}--> />
+<!--{/if}-->
+                    <input type="text" name="reminder_answer" value="dummy" size="30" class="box30" <!--{if $arrErr.reminder_answer != ""}--><!--{sfSetErrorStyle}--><!--{/if}--> />
                 </td>
             </tr>
             <tr>

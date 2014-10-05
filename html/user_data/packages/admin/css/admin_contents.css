@@ -8,7 +8,8 @@ body {
     width: 100%;
     height: 100%;
     background: #fff;
-    font-family: "ＭＳ Ｐゴシック","Hiragino Maru Gothic Pro","ヒラギノ丸ゴ Pro W4",Osaka,sans-serif;
+    /* font-family: "ＭＳ Ｐゴシック","Hiragino Maru Gothic Pro","ヒラギノ丸ゴ Pro W4",Osaka,sans-serif; */
+    font-family:'メイリオ', 'Meiryo', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic Pro', 'MS Pゴシック', 'MS P Gothic', 'Osaka', 'Helvetica', 'Arial', 'Gothic', 'sans-serif';
     font-size: 80%;
     line-height: 120%;
 }

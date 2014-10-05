@@ -47,7 +47,7 @@
 -->
             <tr>
                 <th>権限</th>
-                <th>名前</th>
+                <!--th>名前</th-->
                 <!--th>所属</th-->
                 <th>稼働</th>
                 <th>代理店名</th>
@@ -60,8 +60,10 @@
             <!--{section name=data loop=$list_data}--><!--▼メンバー<!--{$smarty.section.data.iteration}-->-->
             <tr>
                 <!--{assign var="auth" value=$list_data[data].authority}--><td><!--{$arrAUTHORITY[$auth]|h}--></td>
+<!--{if false}-->
                 <td><!--{$list_data[data].name|h}--></td>
-                <!--td><!--{$list_data[data].department|h}--></td-->
+                <td><!--{$list_data[data].department|h}--></td>
+<!--{/if}-->
                 <!--{assign var="work" value=$list_data[data].work}--><td><!--{$arrWORK[$work]|h}--></td>
                 <td><!--{$list_data[data].agency_name|h}--></td>
                 <td><!--{$list_data[data].agency_code|h}--></td>

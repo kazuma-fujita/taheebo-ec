@@ -75,7 +75,7 @@ function func_return(){
                 <th>お名前(フリガナ)</th>
                 <td><!--{$arrForm.kana01|h}--><!--{$arrForm.kana02|h}-->　様</td>
             </tr>
-            <tr>
+            <tr style="display:none;">
                 <th>会社名</th>
                 <td><!--{$arrForm.company_name|h}--></td>
             </tr>
@@ -109,7 +109,7 @@ function func_return(){
                 <th>お電話番号</th>
                 <td><!--{$arrForm.tel01|h}--> - <!--{$arrForm.tel02|h}--> - <!--{$arrForm.tel03|h}--></td>
             </tr>
-            <tr>
+            <tr style="display:none;">
                 <th>FAX</th>
                 <td><!--{if strlen($arrForm.fax01) > 0}--><!--{$arrForm.fax01|h}--> - <!--{$arrForm.fax02|h}--> - <!--{$arrForm.fax03|h}--><!--{else}-->未登録<!--{/if}--></td>
             </tr>
@@ -117,7 +117,7 @@ function func_return(){
                 <th>性別</th>
                 <td><!--{$arrSex[$arrForm.sex]|h}--></td>
             </tr>
-            <tr>
+            <tr style="display:none;">
                 <th>ご職業</th>
                 <td><!--{$arrJob[$arrForm.job]|default:"未登録"|h}--></td>
             </tr>
@@ -129,7 +129,7 @@ function func_return(){
                 <th>パスワード</th>
                 <td><!--{$smarty.const.DEFAULT_PASSWORD}--></td>
             </tr>
-            <tr>
+            <tr style="display:none;">
                 <th>パスワードを忘れたときのヒント</th>
                 <td>
                     質問： <!--{$arrReminder[$arrForm.reminder]|h}--><br />

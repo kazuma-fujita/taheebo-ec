@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-29 15:18:23
+<?php /* Smarty version 2.6.27, created on 2014-10-05 18:25:38
          compiled from /var/www/html/../data/Smarty/templates/admin/total/subnavi.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', '/var/www/html/../data/Smarty/templates/admin/total/subnavi.tpl', 27, false),)), $this); ?>
@@ -27,7 +27,7 @@ total/<?php echo ((is_array($_tmp=@DIR_INDEX_PATH)) ? $this->_run_mod_handler('s
     ><a href="<?php echo ((is_array($_tmp=@ROOT_URLPATH)) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 <?php echo ((is_array($_tmp=@ADMIN_DIR)) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 total/<?php echo ((is_array($_tmp=@DIR_INDEX_PATH)) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
-?page=job"><span>職業別集計</span></a></li>
+?page=job"><span>代理店別集計</span></a></li>
     <li id="navi-total-member"
         class="<?php if (( ((is_array($_tmp=$this->_tpl_vars['tpl_mainno'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)) == 'total' && ((is_array($_tmp=$this->_tpl_vars['arrForm']['page']['value'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)) == 'member' )): ?>on<?php endif; ?>"
     ><a href="<?php echo ((is_array($_tmp=@ROOT_URLPATH)) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>

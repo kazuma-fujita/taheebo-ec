@@ -1,11 +1,12 @@
-<?php /* Smarty version 2.6.27, created on 2014-09-29 15:46:20
+<?php /* Smarty version 2.6.27, created on 2014-10-05 18:28:05
          compiled from home.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'home.tpl', 29, false),array('modifier', 'sfDispDBDate', 'home.tpl', 33, false),array('modifier', 'h', 'home.tpl', 33, false),array('modifier', 'default', 'home.tpl', 77, false),array('modifier', 'number_format', 'home.tpl', 77, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'home.tpl', 30, false),array('modifier', 'sfDispDBDate', 'home.tpl', 34, false),array('modifier', 'h', 'home.tpl', 34, false),array('modifier', 'default', 'home.tpl', 81, false),array('modifier', 'number_format', 'home.tpl', 81, false),)), $this); ?>
 
-<div id="home">
+<div id="home" style="width:1250px;">
 
-        <div id="home-info">
+    <?php if (false): ?>
+    <div id="home-info">
     <?php if (((is_array($_tmp=$_SESSION['authority'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)) == 0): ?>
 
         <?php $_from = ((is_array($_tmp=$this->_tpl_vars['arrInfo'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
@@ -23,6 +24,7 @@ smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_esca
 
     <?php endif; ?>
     </div>
+<?php endif; ?>
     
         <div id="home-main">
         <form name="form1" id="form1" method="post" action="#">
@@ -30,7 +32,8 @@ smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_esca
 " value="<?php echo ((is_array($_tmp=$this->_tpl_vars['transactionid'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 " />
 
-                        <?php if (((is_array($_tmp=$_SESSION['authority'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)) == 0): ?>
+            <?php if (false): ?>
+            <?php if (((is_array($_tmp=$_SESSION['authority'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)) == 0): ?>
             <h2>システム情報</h2>
             <table summary="システム情報" class="shop-info">
                 <tr>
@@ -56,6 +59,7 @@ system/system.php">システム設定＞システム情報</a></td>
                 </tr>
             </table>
             <?php endif; ?>
+<?php endif; ?>
             
                         <h2>ショップの状況</h2>
             <table summary="ショップの状況" class="shop-info">
@@ -65,13 +69,13 @@ system/system.php">システム設定＞システム情報</a></td>
 名</td>
                 </tr>
                 <tr>
-                    <th>昨日の売上高(使用pt)</th>
+                    <th>今日の売上高(使用pt)</th>
                     <td><?php echo ((is_array($_tmp=((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['order_yesterday_amount'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('default', true, $_tmp, '0') : smarty_modifier_default($_tmp, '0')))) ? $this->_run_mod_handler('number_format', true, $_tmp) : number_format($_tmp)); ?>
 円 (<?php echo ((is_array($_tmp=((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['order_yesterday_point'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('default', true, $_tmp, '0') : smarty_modifier_default($_tmp, '0')))) ? $this->_run_mod_handler('number_format', true, $_tmp) : number_format($_tmp)); ?>
 pt)</td>
                 </tr>
                 <tr>
-                    <th>昨日の売上件数</th>
+                    <th>今日の売上件数</th>
                     <td><?php echo ((is_array($_tmp=((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['order_yesterday_cnt'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('default', true, $_tmp, '0') : smarty_modifier_default($_tmp, '0')))) ? $this->_run_mod_handler('number_format', true, $_tmp) : number_format($_tmp)); ?>
 件</td>
                 </tr>
@@ -143,6 +147,7 @@ $this->_sections['i']['last']       = ($this->_sections['i']['iteration'] == $th
                 <tr>
                     <th class="center">受注日</th>
                     <th class="center">お名前</th>
+                    <th class="center">代理店名</th>
                     <th class="center">購入商品</th>
                     <th class="center">支払方法</th>
                     <th class="center">購入金額(円)</th>
@@ -177,6 +182,8 @@ $this->_sections['i']['last']       = ($this->_sections['i']['iteration'] == $th
 </td>
                     <td><?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['arrNewOrder'][$this->_sections['i']['index']]['name01'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('h', true, $_tmp) : smarty_modifier_h($_tmp)); ?>
  <?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['arrNewOrder'][$this->_sections['i']['index']]['name02'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('h', true, $_tmp) : smarty_modifier_h($_tmp)); ?>
+</td>
+                    <td><?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['arrNewOrder'][$this->_sections['i']['index']]['agency_name'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('h', true, $_tmp) : smarty_modifier_h($_tmp)); ?>
 </td>
                     <td><?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['arrNewOrder'][$this->_sections['i']['index']]['product_name'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('h', true, $_tmp) : smarty_modifier_h($_tmp)); ?>
 </td>

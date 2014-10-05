@@ -43,17 +43,10 @@
 			<!--{$arrForm[$key2].value|h}-->
 		</td>
 	</tr>
-	<tr>
+	<tr style="display:none;">
 		<th>会社名</th>
 		<td>
 			<!--{assign var=key1 value="`$prefix`company_name"}-->
-			<!--{$arrForm[$key1].value|h}-->
-		</td>
-	</tr>
-	<tr>
-		<th>会社名</th>
-		<td>
-			<!--{assign var=key1 value="`$prefix`test_text"}-->
 			<!--{$arrForm[$key1].value|h}-->
 		</td>
 	</tr>
@@ -101,7 +94,7 @@
 			<!--{$arrForm[$key1].value|h}--> - <!--{$arrForm[$key2].value|h}--> - <!--{$arrForm[$key3].value|h}-->
 		</td>
 	</tr>
-	<tr>
+    <tr style="display:none;">
 		<th>FAX</th>
 		<td>
 			<!--{assign var=key1 value="`$prefix`fax01"}-->
@@ -143,7 +136,7 @@
 				<!--{$arrSex[$sex_id]|h}-->
 			</td>
 		</tr>
-		<tr>
+        <tr style="display:none;">
 			<th>職業</th>
 			<td>
 				<!--{assign var=key1 value="`$prefix`job"}-->
@@ -169,7 +162,7 @@
 				<th>希望するパスワード</th>
 				<td><!--{$passlen}--></td>
 			</tr>
-			<tr>
+            <tr style="display:none;">
 				<th>パスワードを忘れた時のヒント</th>
 				<td>
 					<!--{assign var=key1 value="`$prefix`reminder"}-->
@@ -179,7 +172,7 @@
 					答え：<!--{$arrForm[$key2].value|h}-->
 				</td>
 			</tr>
-			<tr>
+            <tr style="display:none;">
 				<th>メールマガジン送付について</th>
 				<td>
 					<!--{assign var=key1 value="`$prefix`mailmaga_flg"}-->
@@ -187,6 +180,7 @@
 					<!--{$arrMAILMAGATYPE[$mailmaga_flg_id]|h}-->
 				</td>
 			</tr>
+		<!--{/if}-->
 
 	<tr>
 		<th>登録コード</th>
@@ -196,6 +190,5 @@
 		</td>
 	</tr>
 
-		<!--{/if}-->
 	<!--{/if}-->
 <!--{/strip}-->

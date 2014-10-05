@@ -91,7 +91,7 @@
                             <li>
                             	<span class="btn active" style="cursor:default;">合計&nbsp;:&nbsp;<!--{$arrCartList.0.ProductsTotal|number_format|default:0}-->円</span>
                             </li>
-                            <li>
+                            <li class="header-button-sf">
                                 <a href="/shopping/deliv.php">
                             	<span class="btn btn-danger">購入手続きへ</span>
                                 </a>

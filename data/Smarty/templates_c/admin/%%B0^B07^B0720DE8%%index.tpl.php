@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2014-10-01 15:39:35
+<?php /* Smarty version 2.6.27, created on 2014-10-05 17:48:51
          compiled from system/index.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'system/index.tpl', 26, false),array('modifier', 'h', 'system/index.tpl', 62, false),)), $this); ?>
@@ -31,7 +31,7 @@ smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_esca
 -->
             <tr>
                 <th>権限</th>
-                <th>名前</th>
+                <!--th>名前</th-->
                 <!--th>所属</th-->
                 <th>稼働</th>
                 <th>代理店名</th>
@@ -69,10 +69,12 @@ $this->_sections['data']['last']       = ($this->_sections['data']['iteration'] 
             <tr>
                 <?php $this->assign('auth', ((is_array($_tmp=$this->_tpl_vars['list_data'][$this->_sections['data']['index']]['authority'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp))); ?><td><?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['arrAUTHORITY'][$this->_tpl_vars['auth']])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('h', true, $_tmp) : smarty_modifier_h($_tmp)); ?>
 </td>
+<?php if (false): ?>
                 <td><?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['list_data'][$this->_sections['data']['index']]['name'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('h', true, $_tmp) : smarty_modifier_h($_tmp)); ?>
 </td>
-                <!--td><?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['list_data'][$this->_sections['data']['index']]['department'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('h', true, $_tmp) : smarty_modifier_h($_tmp)); ?>
-</td-->
+                <td><?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['list_data'][$this->_sections['data']['index']]['department'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('h', true, $_tmp) : smarty_modifier_h($_tmp)); ?>
+</td>
+<?php endif; ?>
                 <?php $this->assign('work', ((is_array($_tmp=$this->_tpl_vars['list_data'][$this->_sections['data']['index']]['work'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp))); ?><td><?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['arrWORK'][$this->_tpl_vars['work']])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('h', true, $_tmp) : smarty_modifier_h($_tmp)); ?>
 </td>
                 <td><?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['list_data'][$this->_sections['data']['index']]['agency_name'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('h', true, $_tmp) : smarty_modifier_h($_tmp)); ?>

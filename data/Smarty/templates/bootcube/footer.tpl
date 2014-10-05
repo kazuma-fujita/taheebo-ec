@@ -30,7 +30,7 @@
 									<a href="<!--{$smarty.const.ROOT_URLPATH}-->abouts/<!--{$smarty.const.DIR_INDEX_PATH}-->" class="<!--{if $tpl_page_class_name == "LC_Page_Abouts"}-->selected<!--{/if}-->">
 												当サイトについて</a>
 								</li>
-								<li>
+								<li style="display:none;">
 									<a href="<!--{$smarty.const.HTTPS_URL}-->contact/<!--{$smarty.const.DIR_INDEX_PATH}-->" class="<!--{if $tpl_page_class_name == "LC_Page_Contact" || $tpl_page_class_name == "LC_Page_Contact_Complete"}-->selected<!--{/if}-->">
 												お問い合わせ</a></li>
 								<li>

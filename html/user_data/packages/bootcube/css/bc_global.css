@@ -28,6 +28,13 @@ body {
   background-position: center top;
   background-attachment: fixed;
   padding-top: 150px;
+  font-family:'メイリオ', 'Meiryo', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic Pro', 'MS Pゴシック', 'MS P Gothic', 'Osaka', 'Helvetica', 'Arial', 'Gothic', 'sans-serif';
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 315px;
+  }
 }
 
 .frame_outer {
@@ -74,6 +81,14 @@ a:hover {
   #logo_area {
     text-align: center;
     margin-bottom: 20px;
+  }
+
+  .list-inline {
+    text-align: right;
+  }
+
+  .header-button-sf {
+    margin-top: 10px;
   }
 }
 

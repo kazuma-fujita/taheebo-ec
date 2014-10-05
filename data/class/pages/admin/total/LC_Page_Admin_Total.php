@@ -65,7 +65,8 @@ class LC_Page_Admin_Total extends LC_Page_Admin_Ex
         $this->arrTitle['term']     = '期間別集計';
         $this->arrTitle['products'] = '商品別集計';
         $this->arrTitle['age']      = '年代別集計';
-        $this->arrTitle['job']      = '職業別集計';
+        //$this->arrTitle['job']      = '職業別集計';
+        $this->arrTitle['job']      = '代理店別集計';
         $this->arrTitle['member']   = '会員別集計';
 
         // 月度集計のkey名
@@ -499,7 +500,7 @@ class LC_Page_Admin_Total extends LC_Page_Admin_Ex
         $where .= ' AND del_flg = 0 AND status <> ?';
         $arrWhereVal[] = ORDER_CANCEL;
 
-        // 会員集計の取得
+        // 会員集計の取
         $col = <<< __EOS__
             COUNT(order_id) AS order_count,
             SUM(total) AS total,
@@ -571,21 +572,22 @@ __EOS__;
         list($where, $arrWhereVal) = $this->lfGetWhereMember('dtb_order.create_date', $sdate, $edate, $type);
 
         $col = <<< __EOS__
-            job,
+            agency_code,
             COUNT(order_id) AS order_count,
             SUM(total) AS total,
             AVG(total) AS total_average
 __EOS__;
 
-        $from   = 'dtb_order JOIN dtb_customer ON dtb_order.customer_id = dtb_customer.customer_id';
+        // $from   = 'dtb_order JOIN dtb_customer ON dtb_order.customer_id = dtb_customer.customer_id';
+        $from   = 'dtb_order';
 
         $where .= ' AND dtb_order.del_flg = 0 AND dtb_order.status <> ?';
         $arrWhereVal[] = ORDER_CANCEL;
 
-        $objQuery->setGroupBy('job');
+        $objQuery->setGroupBy('agency_code');
         $objQuery->setOrder('total DESC');
         $arrTotalResults = $objQuery->select($col, $from, $where, $arrWhereVal);
-
+/*
         foreach ($arrTotalResults as $key => $value) {
             $arrResult =& $arrTotalResults[$key];
             $job_key = $arrResult['job'];
@@ -594,9 +596,20 @@ __EOS__;
             } else {
                 $arrResult['job_name'] = '未回答';
             }
-
         }
-        $tpl_image     = $this->lfGetGraphPie($arrTotalResults, 'job_name', 'job_' . $type, '(売上比率)', $sdate, $edate);
+*/
+        $objQuery2 =& SC_Query_Ex::getSingletonInstance();
+        $cols2 = 'agency_name';
+        $table2 = 'dtb_member';
+        $where2 = 'agency_code = ?';
+        foreach ($arrTotalResults as $key => $val) {
+            $arrResult =& $arrTotalResults[$key];
+            $obj = $objQuery2->select($cols2, $table2, $where2, array($arrResult['agency_code']));
+            $arrResult['agency_name'] = $obj[0]['agency_name'];
+        }
+
+        //$tpl_image = $this->lfGetGraphPie($arrTotalResults, 'job_name', 'job_' . $type, '(売上比率)', $sdate, $edate);
+        $tpl_image = $this->lfGetGraphPie($arrTotalResults, 'agency_name', 'agency_' . $type, '(売上比率)', $sdate, $edate);
 
         return array($arrTotalResults, $tpl_image);
     }
@@ -824,6 +837,7 @@ __EOS__;
                 break;
             // 職業別集計
             case 'job':
+/*
                 $arrTitleCol = array(
                     '職業',
                     '購入件数',
@@ -832,6 +846,19 @@ __EOS__;
                 );
                 $arrDataCol = array(
                     'job_name',
+                    'order_count',
+                    'total',
+                    'total_average',
+                );
+*/
+                $arrTitleCol = array(
+                    '代理店',
+                    '購入件数',
+                    '購入合計',
+                    '購入平均',
+                );
+                $arrDataCol = array(
+                    'agency_name',
                     'order_count',
                     'total',
                     'total_average',

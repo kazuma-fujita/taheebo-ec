@@ -23,6 +23,9 @@
 <!--▼HEADER-->
 <!--{strip}-->
 	<div id="header_wrap" class="navbar-fixed-top">
+
+<!--{if $tpl_login}-->
+
 <!--		
 		<div id="top_bar">
 			<div class="container">
@@ -104,6 +107,7 @@
 				</div><!-- /row -->
 			</div>
 		</div><!-- /header -->
+<!--{/if}-->
 	</div>
 <!--{/strip}-->
 <!--▲HEADER-->

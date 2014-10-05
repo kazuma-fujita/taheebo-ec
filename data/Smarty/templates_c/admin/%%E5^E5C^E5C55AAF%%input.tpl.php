@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.27, created on 2014-10-01 15:39:38
+<?php /* Smarty version 2.6.27, created on 2014-10-05 17:49:02
          compiled from system/input.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'system/input.tpl', 33, false),array('modifier', 'h', 'system/input.tpl', 34, false),array('modifier', 'sfGetErrorColor', 'system/input.tpl', 48, false),array('modifier', 'sfGetChecked', 'system/input.tpl', 97, false),array('function', 'html_options', 'system/input.tpl', 86, false),array('function', 'sfSetErrorStyle', 'system/input.tpl', 123, false),array('function', 'html_checkboxes', 'system/input.tpl', 125, false),array('function', 'html_radios', 'system/input.tpl', 127, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'system/input.tpl', 33, false),array('modifier', 'h', 'system/input.tpl', 34, false),array('modifier', 'sfGetErrorColor', 'system/input.tpl', 49, false),array('modifier', 'sfGetChecked', 'system/input.tpl', 103, false),array('function', 'html_options', 'system/input.tpl', 90, false),array('function', 'sfSetErrorStyle', 'system/input.tpl', 129, false),array('function', 'html_checkboxes', 'system/input.tpl', 131, false),array('function', 'html_radios', 'system/input.tpl', 133, false),)), $this); ?>
 <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => (@TEMPLATE_ADMIN_REALDIR)."admin_popup_header.tpl", 'smarty_include_vars' => array()));
 $this->_tpl_vars = $_smarty_tpl_vars;
@@ -32,19 +32,24 @@ self.moveTo(20,20);self.focus();
     <table>
         <col width="20%" />
         <col width="80%" />
-        <tr>
+        <tr style="display:none;">
             <th>名前</th>
             <td>
                 <?php if (((is_array($_tmp=$this->_tpl_vars['arrErr']['name'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp))): ?><span class="attention"><?php echo ((is_array($_tmp=$this->_tpl_vars['arrErr']['name'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 </span><?php endif; ?>
+<?php if (false): ?>
                 <input type="text" name="name" size="30" class="box30" value="<?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['arrForm']['name'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('h', true, $_tmp) : smarty_modifier_h($_tmp)); ?>
 " maxlength="<?php echo ((is_array($_tmp=@STEXT_LEN)) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+" style="<?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['arrErr']['name'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('sfGetErrorColor', true, $_tmp) : SC_Utils_Ex::sfGetErrorColor($_tmp)); ?>
+" />
+<?php endif; ?>
+                <input type="text" name="name" size="30" class="box30" value="dummy" maxlength="<?php echo ((is_array($_tmp=@STEXT_LEN)) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 " style="<?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['arrErr']['name'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('sfGetErrorColor', true, $_tmp) : SC_Utils_Ex::sfGetErrorColor($_tmp)); ?>
 " />
                 <span class="attention">※必須入力</span>
             </td>
         </tr>
-        <tr>
+        <tr style="display:none;">
             <th>所属</th>
             <td>
                 <?php if (((is_array($_tmp=$this->_tpl_vars['arrErr']['department'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp))): ?><span class="attention"><?php echo ((is_array($_tmp=$this->_tpl_vars['arrErr']['department'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
@@ -94,7 +99,7 @@ self.moveTo(20,20);self.focus();
                 <p><span class="attention mini">確認のために2度入力してください。</span></p>
             </td>
         </tr>
-        <tr>
+        <tr style="display:none;">
             <th>権限</th>
             <td>
                 <?php if (((is_array($_tmp=$this->_tpl_vars['arrErr']['authority'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp))): ?><span class="attention"><?php echo ((is_array($_tmp=$this->_tpl_vars['arrErr']['authority'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
@@ -102,7 +107,11 @@ self.moveTo(20,20);self.focus();
                 <select name="authority" style="<?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['arrErr']['authority'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('sfGetErrorColor', true, $_tmp) : SC_Utils_Ex::sfGetErrorColor($_tmp)); ?>
 ">
                     <option value="">選択してください</option>
+<?php if (false): ?>
                     <?php echo smarty_function_html_options(array('options' => ((is_array($_tmp=$this->_tpl_vars['arrAUTHORITY'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)),'selected' => ((is_array($_tmp=$this->_tpl_vars['arrForm']['authority'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp))), $this);?>
+
+<?php endif; ?>
+                    <?php echo smarty_function_html_options(array('options' => ((is_array($_tmp=$this->_tpl_vars['arrAUTHORITY'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)),'selected' => 1), $this);?>
 
                 </select>
                 <span class="attention">※必須入力</span>

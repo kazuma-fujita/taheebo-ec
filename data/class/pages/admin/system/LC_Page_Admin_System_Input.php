@@ -185,7 +185,7 @@ class LC_Page_Admin_System_Input extends LC_Page_Admin_Ex
     public function initForm(&$objFormParam, &$arrParams, $mode = '')
     {
         $objFormParam->addParam('メンバーID', 'member_id', INT_LEN, 'n', array('NUM_CHECK'));
-        $objFormParam->addParam('名前', 'name', STEXT_LEN, 'KV', array('EXIST_CHECK', 'MAX_LENGTH_CHECK'));
+        $objFormParam->addParam('名前', 'name', STEXT_LEN, 'KV', array('MAX_LENGTH_CHECK'));
         $objFormParam->addParam('所属', 'department', STEXT_LEN, 'KV', array('MAX_LENGTH_CHECK'));
         $objFormParam->addParam('ログインID', 'login_id', '' , '', array('EXIST_CHECK', 'ALNUM_CHECK'));
         $objFormParam->addParam('変更前ログインID', 'old_login_id', '' , '', array('ALNUM_CHECK'));

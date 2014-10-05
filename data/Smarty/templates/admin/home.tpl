@@ -22,9 +22,10 @@
  */
 *}-->
 
-<div id="home">
+<div id="home" style="width:1250px;">
 
     <!--{* お知らせここから *}-->
+<!--{if false}-->
     <div id="home-info">
     <!--{if $smarty.session.authority == 0}-->
 
@@ -38,6 +39,7 @@
 
     <!--{/if}-->
     </div>
+<!--{/if}-->
     <!--{* お知らせここまで *}-->
 
     <!--{* メインエリア *}-->
@@ -46,6 +48,7 @@
             <input type="hidden" name="<!--{$smarty.const.TRANSACTION_ID_NAME}-->" value="<!--{$transactionid}-->" />
 
             <!--{* システム情報ここから *}-->
+<!--{if false}-->
             <!--{if $smarty.session.authority == 0}-->
             <h2>システム情報</h2>
             <table summary="システム情報" class="shop-info">
@@ -67,6 +70,7 @@
                 </tr>
             </table>
             <!--{/if}-->
+<!--{/if}-->
             <!--{* システム情報ここまで *}-->
 
             <!--{* ショップの状況ここから *}-->
@@ -77,11 +81,11 @@
                     <td><!--{$customer_cnt|default:"0"|number_format}-->名</td>
                 </tr>
                 <tr>
-                    <th>昨日の売上高(使用pt)</th>
+                    <th>今日の売上高(使用pt)</th>
                     <td><!--{$order_yesterday_amount|default:"0"|number_format}-->円 (<!--{$order_yesterday_point|default:"0"|number_format}-->pt)</td>
                 </tr>
                 <tr>
-                    <th>昨日の売上件数</th>
+                    <th>今日の売上件数</th>
                     <td><!--{$order_yesterday_cnt|default:"0"|number_format}-->件</td>
                 </tr>
                 <tr>
@@ -123,6 +127,7 @@
                 <tr>
                     <th class="center">受注日</th>
                     <th class="center">お名前</th>
+                    <th class="center">代理店名</th>
                     <th class="center">購入商品</th>
                     <th class="center">支払方法</th>
                     <th class="center">購入金額(円)</th>
@@ -132,6 +137,7 @@
                 <tr>
                     <td><!--{$arrNewOrder[i].create_date}--></td>
                     <td><!--{$arrNewOrder[i].name01|h}--> <!--{$arrNewOrder[i].name02|h}--></td>
+                    <td><!--{$arrNewOrder[i].agency_name|h}--></td>
                     <td><!--{$arrNewOrder[i].product_name|h}--></td>
                     <td><!--{$arrNewOrder[i].payment_method|h}--></td>
                     <td class="right"><!--{$arrNewOrder[i].total|number_format}-->円</td>

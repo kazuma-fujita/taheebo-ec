@@ -67,7 +67,7 @@
 			</div>
 		</td>
 	</tr>
-	<tr>
+	<tr style="display:none;">
 		<th>会社名</th>
 		<td>
 			<!--{assign var=key1 value="`$prefix`company_name"}-->
@@ -190,7 +190,7 @@
 			</div>
 		</td>
 	</tr>
-	<tr>
+	<tr style="display:none;">
 		<th>FAX</th>
 		<td>
 			<!--{assign var=key1 value="`$prefix`fax01"}-->
@@ -257,7 +257,7 @@
 				</span>
 			</td>
 		</tr>
-		<tr>
+		<tr style="display:none;">
 			<th>職業</th>
 			<td>
 				<!--{assign var=key1 value="`$prefix`job"}-->
@@ -316,7 +316,7 @@
 					</div>
 				</td>
 			</tr>
-			<tr>
+			<tr style="display:none;">
 				<th>パスワードを忘れた時のヒント<span class="attention">※</span></th>
 				<td>
 					<!--{assign var=key1 value="`$prefix`reminder"}-->
@@ -329,7 +329,10 @@
 					  <div class="col-sm-9">
 						<select class="form-control" name="<!--{$key1}-->" style="<!--{$arrErr[$key1]|sfGetErrorColor}-->">
 							<option value="" selected="selected">選択してください</option>
+<!--{if false}-->
 							<!--{html_options options=$arrReminder selected=$arrForm[$key1].value}-->
+<!--{/if}-->
+							<!--{html_options options=$arrReminder selected=1}-->
 						</select>
 					  </div>
 					</div>
@@ -337,12 +340,15 @@
 					<div class="form-group">
 					  <label class="col-sm-3 control-label">答え</label>
 					  <div class="col-sm-9">
+<!--{if false}-->
 						<input type="text" name="<!--{$key2}-->" value="<!--{$arrForm[$key2].value|h}-->" style="<!--{$arrErr[$key2]|sfGetErrorColor}-->; ime-mode: active;" class="box260 form-control" />
+<!--{/if}-->
+						<input type="text" name="<!--{$key2}-->" value="dummy" style="<!--{$arrErr[$key2]|sfGetErrorColor}-->; ime-mode: active;" class="box260 form-control" />
 					  </div>
 					</div>
 				</td>
 			</tr>
-			<tr>
+			<tr style="display:none;">
 				<th>メールマガジン送付について<span class="attention">※</span></th>
 				<td>
 					<!--{assign var=key1 value="`$prefix`mailmaga_flg"}-->
@@ -350,7 +356,10 @@
 						<div class="attention"><!--{$arrErr[$key1]}--></div>
 					<!--{/if}-->
 					<span style="<!--{$arrErr[$key1]|sfGetErrorColor}-->">
+<!--{if false}-->
 						<!--{html_radios name=$key1 options=$arrMAILMAGATYPE selected=$arrForm[$key1].value separator='<br />'}-->
+<!--{/if}-->
+						<!--{html_radios name=$key1 options=$arrMAILMAGATYPE selected=1 separator='<br />'}-->
 					</span>
 				</td>
 			</tr>

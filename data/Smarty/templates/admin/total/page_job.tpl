@@ -25,7 +25,8 @@
 <table id="total-job" class="list">
     <tr>
         <th>順位</th>
-        <th>職業</th>
+        <!--th>職業</th-->
+        <th>代理店</th>
         <th>購入件数</th>
         <th>購入合計</th>
         <th>購入平均</th>
@@ -44,7 +45,10 @@
 
         <tr class="<!--{$color}-->">
             <td class="center"><!--{*順位*}--><!--{$smarty.section.cnt.iteration}--></td>
+<!--{if false}-->
             <td class="center"><!--{*職業*}--><!--{$arrResults[cnt].job_name}--></td>
+<!--{/if}-->
+            <td class="center"><!--{*代理店*}--><!--{$arrResults[cnt].agency_name}--></td>
             <td class="right"><!--{*購入件数*}--><!--{$arrResults[cnt].order_count}-->件</td>
             <td class="right"><!--{*購入合計*}--><!--{$arrResults[cnt].total|number_format}-->円</td>
             <td class="right"><!--{*購入平均*}--><!--{$arrResults[cnt].total_average|number_format}-->円</td>
@@ -53,7 +57,8 @@
 
     <tr>
         <th>順位</span></th>
-        <th>職業</span></th>
+        <!--th>職業</span></th-->
+        <th>代理店</span></th>
         <th>購入件数</span></th>
         <th>購入合計</span></th>
         <th>購入平均</span></th>

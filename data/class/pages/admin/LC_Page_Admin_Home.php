@@ -361,6 +361,7 @@ class LC_Page_Admin_Home extends LC_Page_Admin_Ex
             dtb_order.total,
             dtb_order.create_date,
             dtb_order.use_point,
+            dtb_order.agency_code,
             ($sql_product_name) AS product_name,
             (SELECT
                 pay.payment_method
@@ -372,7 +373,6 @@ class LC_Page_Admin_Home extends LC_Page_Admin_Ex
 __EOS__;
         $from = 'dtb_order';
         $where = 'del_flg = 0 AND status <> ?';
-
         $objQuery->setOrder('create_date DESC');
         $objQuery->setLimit(10);
 
@@ -388,11 +388,15 @@ __EOS__;
         }
 
         //$arrNewOrder = $objQuery->select($cols, $from, $where, ORDER_CANCEL);
-
+        $objQuery2 =& SC_Query_Ex::getSingletonInstance();
+        $cols2 = 'agency_name';
+        $table2 = 'dtb_member';
+        $where2 = 'agency_code = ?';
         foreach ($arrNewOrder as $key => $val) {
             $arrNewOrder[$key]['create_date'] = str_replace('-', '/', substr($val['create_date'], 0,19));
+            $obj = $objQuery2->select($cols2, $table2, $where2, array($arrNewOrder[$key]['agency_code']));
+            $arrNewOrder[$key]['agency_name'] = $obj[0]['agency_name'];
         }
-
         return $arrNewOrder;
     }
 
