@@ -731,3 +731,33 @@ customer_id = 6
 /var/www/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(63): LC_Page_Shopping_Confirm->action
 /var/www/data/class/pages/shopping/LC_Page_Shopping_Confirm.php(167): SC_Helper_Purchase->completeOrder
 /var/www/data/class/helper/SC_Helper_Purchase.php(100): GC_Utils->gfPrintLog
+2014/10/06 03:43:11 [/preview/index.php] access : user=taheebo auth=0 sid=at9gl9kbhitv5g3ngn2b07ip53 from 192.168.218.1
+customer_id = 7
+/var/www/html/preview/index.php(29): LC_Page_Preview_Ex->process
+/var/www/data/class_extends/page_extends/preview/LC_Page_Preview_Ex.php(54): LC_Page_Preview->process
+/var/www/data/class/pages/preview/LC_Page_Preview.php(55): SC_Session->__construct
+/var/www/data/class/SC_Session.php(61): GC_Utils->gfPrintLog
+2014/10/06 10:53:40 [/preview/index.php] access : user=taheebo auth=0 sid=eitb0gjiluv61av3g6l48skpj0 from 192.168.218.1
+customer_id = 3
+/var/www/html/preview/index.php(29): LC_Page_Preview_Ex->process
+/var/www/data/class_extends/page_extends/preview/LC_Page_Preview_Ex.php(54): LC_Page_Preview->process
+/var/www/data/class/pages/preview/LC_Page_Preview.php(55): SC_Session->__construct
+/var/www/data/class/SC_Session.php(61): GC_Utils->gfPrintLog
+2014/10/06 11:01:09 [/preview/index.php] access : user=taheebo auth=0 sid=eitb0gjiluv61av3g6l48skpj0 from 192.168.218.1
+customer_id = 3
+/var/www/html/preview/index.php(29): LC_Page_Preview_Ex->process
+/var/www/data/class_extends/page_extends/preview/LC_Page_Preview_Ex.php(54): LC_Page_Preview->process
+/var/www/data/class/pages/preview/LC_Page_Preview.php(55): SC_Session->__construct
+/var/www/data/class/SC_Session.php(61): GC_Utils->gfPrintLog
+2014/10/06 13:39:59 [/preview/index.php] access : user=taheebo auth=0 sid=eitb0gjiluv61av3g6l48skpj0 from 192.168.218.1
+customer_id = 3
+/var/www/html/preview/index.php(29): LC_Page_Preview_Ex->process
+/var/www/data/class_extends/page_extends/preview/LC_Page_Preview_Ex.php(54): LC_Page_Preview->process
+/var/www/data/class/pages/preview/LC_Page_Preview.php(55): SC_Session->__construct
+/var/www/data/class/SC_Session.php(61): GC_Utils->gfPrintLog
+2014/10/06 13:40:09 [/preview/index.php] access : user=taheebo auth=0 sid=eitb0gjiluv61av3g6l48skpj0 from 192.168.218.1
+customer_id = 3
+/var/www/html/preview/index.php(29): LC_Page_Preview_Ex->process
+/var/www/data/class_extends/page_extends/preview/LC_Page_Preview_Ex.php(54): LC_Page_Preview->process
+/var/www/data/class/pages/preview/LC_Page_Preview.php(55): SC_Session->__construct
+/var/www/data/class/SC_Session.php(61): GC_Utils->gfPrintLog

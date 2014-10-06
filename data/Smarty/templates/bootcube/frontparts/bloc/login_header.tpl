@@ -54,13 +54,13 @@
                             	<!--{/if}-->
                             </li>
                             <li>
-                            	<span class="fs17">タヒボとは</span>
+                            	<a href="/user_data/about_taheebo.php"><span>タヒボとは</span></a>
                             </li>
                             <li>
-                            	<span class="">飲み方</span>
+                                <a href="/user_data/about_drink.php"><span>飲み方</span></a>
                             </li>
                             <li>
-                            	<span style="padding-right:15px">Q&amp;A</span>
+                                <a href="/user_data/qa.php"><span style="padding-right:15px">Q&amp;A</span></a>
                             </li>
                             <li>
                             	<span class="btn btn-success">お気に入り</span>

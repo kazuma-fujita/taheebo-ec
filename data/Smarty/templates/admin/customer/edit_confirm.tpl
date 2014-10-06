@@ -125,7 +125,7 @@ function func_return(){
                 <th>生年月日</th>
                 <td><!--{if strlen($arrForm.year) > 0 && strlen($arrForm.month) > 0 && strlen($arrForm.day) > 0}--><!--{$arrForm.year|h}-->年<!--{$arrForm.month|h}-->月<!--{$arrForm.day|h}-->日<!--{else}-->未登録<!--{/if}--></td>
             </tr>
-            <tr>
+            <tr style="display:none;">
                 <th>パスワード</th>
                 <td><!--{$smarty.const.DEFAULT_PASSWORD}--></td>
             </tr>

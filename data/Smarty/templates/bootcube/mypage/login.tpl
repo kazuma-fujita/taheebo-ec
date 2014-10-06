@@ -52,7 +52,7 @@
 <!--{if false}-->
 							  <input type="checkbox" name="<!--{$key}-->" value="1"<!--{$tpl_login_memory|sfGetChecked:1}--> id="login_memory" />
 <!--{/if}-->
-							  <input type="checkbox" name="<!--{$key}-->" value="1" id="login_memory" checked="checked"/>
+							  <input type="checkbox" name="<!--{$key}-->" value="1" id="login_memory"/>
 							<label for="login_memory"> 次回から自動でログイン（未実装）
 							</label>
 						  </div>

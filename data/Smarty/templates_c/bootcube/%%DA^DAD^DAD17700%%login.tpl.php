@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2014-10-06 03:11:29
+<?php /* Smarty version 2.6.27, created on 2014-10-06 14:53:28
          compiled from mypage/login.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'mypage/login.tpl', 3, false),array('modifier', 'h', 'mypage/login.tpl', 9, false),array('modifier', 'sfGetErrorColor', 'mypage/login.tpl', 21, false),array('modifier', 'sfGetChecked', 'mypage/login.tpl', 29, false),)), $this); ?>
@@ -75,7 +75,7 @@ frontparts/login_check.php" onsubmit="return eccube.checkLoginFormInputted('logi
  id="login_memory" />
 <?php endif; ?>
 							  <input type="checkbox" name="<?php echo ((is_array($_tmp=$this->_tpl_vars['key'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
-" value="1" id="login_memory" checked="checked"/>
+" value="1" id="login_memory"/>
 							<label for="login_memory"> 次回から自動でログイン（未実装）
 							</label>
 						  </div>

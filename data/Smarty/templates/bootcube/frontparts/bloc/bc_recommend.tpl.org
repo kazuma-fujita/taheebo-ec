@@ -2,7 +2,7 @@
 <!--{if count($arrBestProducts) > 0}-->
 <div class="block_outer clearfix">
 	<div id="bc_recommend">
-		<h4 class="title">オススメ</h4>
+		<h4 class="title">おすすめ商品</h4>
 		<div class="content_panel co-xs-12">
 			<div class="row">
 			<!--{foreach from=$arrBestProducts item=arrProduct name="recommend_products"}-->
