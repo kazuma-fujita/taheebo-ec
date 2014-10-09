@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2014-10-05 18:34:26
+<?php /* Smarty version 2.6.27, created on 2014-10-06 17:35:02
          compiled from products/product.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'products/product.tpl', 39, false),array('modifier', 'h', 'products/product.tpl', 77, false),array('modifier', 'sfGetErrorColor', 'products/product.tpl', 178, false),array('modifier', 'default', 'products/product.tpl', 239, false),array('modifier', 'function_exists', 'products/product.tpl', 353, false),array('modifier', 'sfNoImageMainList', 'products/product.tpl', 440, false),array('function', 'html_options', 'products/product.tpl', 127, false),array('function', 'html_radios', 'products/product.tpl', 137, false),array('function', 'html_checkboxes', 'products/product.tpl', 143, false),)), $this); ?>
@@ -407,7 +407,7 @@ function selectAll(target) {
 文字)</span>
             </td>
         </tr>
-        <tr>
+        <tr style="display:none;">
             <?php $this->assign('key', 'main_list_image'); ?>
             <th>一覧-メイン画像<br />[<?php echo ((is_array($_tmp=@SMALL_IMAGE_WIDTH)) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 ×<?php echo ((is_array($_tmp=@SMALL_IMAGE_HEIGHT)) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
@@ -431,7 +431,7 @@ function selectAll(target) {
 '); return false;">アップロード</a>
             </td>
         </tr>
-        <tr>
+        <tr style="display:none;">
             <?php $this->assign('key', 'main_image'); ?>
             <th>詳細-メイン画像<br />[<?php echo ((is_array($_tmp=@NORMAL_IMAGE_WIDTH)) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 ×<?php echo ((is_array($_tmp=@NORMAL_IMAGE_HEIGHT)) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>

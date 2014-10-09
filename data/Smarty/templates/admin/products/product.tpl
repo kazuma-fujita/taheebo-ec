@@ -308,7 +308,7 @@ function selectAll(target) {
                 <span class="attention"> (上限<!--{$smarty.const.LLTEXT_LEN}-->文字)</span>
             </td>
         </tr>
-        <tr>
+        <tr style="display:none;">
             <!--{assign var=key value="main_list_image"}-->
             <th>一覧-メイン画像<br />[<!--{$smarty.const.SMALL_IMAGE_WIDTH}-->×<!--{$smarty.const.SMALL_IMAGE_HEIGHT}-->]</th>
             <td>
@@ -323,7 +323,7 @@ function selectAll(target) {
                 <a class="btn-normal" href="javascript:;" name="btn" onclick="selectAll('category_id'); eccube.setModeAndSubmit('upload_image', 'image_key', '<!--{$key}-->'); return false;">アップロード</a>
             </td>
         </tr>
-        <tr>
+        <tr style="display:none;">
             <!--{assign var=key value="main_image"}-->
             <th>詳細-メイン画像<br />[<!--{$smarty.const.NORMAL_IMAGE_WIDTH}-->×<!--{$smarty.const.NORMAL_IMAGE_HEIGHT}-->]</th>
             <td>

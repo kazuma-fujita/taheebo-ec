@@ -210,7 +210,7 @@
                 <!--{$arrForm.main_comment|nl2br_html}-->
             </td>
         </tr>
-        <tr>
+        <tr style="display:none;">
             <th>一覧-メイン画像</th>
             <td>
                 <!--{assign var=key value="main_list_image"}-->
@@ -219,7 +219,7 @@
                 <!--{/if}-->
             </td>
         </tr>
-        <tr>
+        <tr style="display:none;">
             <th>詳細-メイン画像</th>
             <td>
                 <!--{assign var=key value="main_image"}-->

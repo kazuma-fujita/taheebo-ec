@@ -63,7 +63,8 @@
                                 <a href="/user_data/qa.php"><span style="padding-right:15px">Q&amp;A</span></a>
                             </li>
                             <li>
-                            	<span class="btn btn-success">お気に入り</span>
+                                <!--a rel="sidebar" href="javascript:void favorite(location.href,document.title);"><span class="btn btn-success">お気に入り</span></a-->
+                                <a rel="sidebar" href="javascript:void favorite('<!--{$smarty.const.HTTPS_URL}-->','いいねっと');"><span class="btn btn-success">お気に入り</span></a>
                             </li>
 <!--{if false}-->
                             <li>

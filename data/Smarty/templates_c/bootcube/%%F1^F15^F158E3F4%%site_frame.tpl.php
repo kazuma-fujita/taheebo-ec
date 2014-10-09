@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.27, created on 2014-10-05 17:48:02
+<?php /* Smarty version 2.6.27, created on 2014-10-06 18:28:16
          compiled from site_frame.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'site_frame.tpl', 26, false),array('modifier', 'h', 'site_frame.tpl', 29, false),array('modifier', 'strlen', 'site_frame.tpl', 29, false),array('modifier', 'count', 'site_frame.tpl', 78, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'site_frame.tpl', 26, false),array('modifier', 'h', 'site_frame.tpl', 29, false),array('modifier', 'strlen', 'site_frame.tpl', 29, false),array('modifier', 'count', 'site_frame.tpl', 79, false),)), $this); ?>
 
 <!DOCTYPE html>
 <html lang="jp">
@@ -57,6 +57,8 @@ js/eccube.js"></script>
 		<!-- #2342 次期メジャーバージョン(2.14)にてeccube.legacy.jsは削除予定.モジュール、プラグインの互換性を考慮して2.13では残します. -->
 		<script type="text/javascript" src="<?php echo ((is_array($_tmp=@ROOT_URLPATH)) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 js/eccube.legacy.js"></script>
+		<script type="text/javascript" src="<?php echo ((is_array($_tmp=@ROOT_URLPATH)) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+user_data/packages/bootcube/js/taheebo.js"></script>
 		<?php if (((is_array($_tmp=$this->_tpl_vars['tpl_page_class_name'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)) === 'LC_Page_Abouts'): ?>
 			<?php if (( ((is_array($_tmp=$_SERVER['HTTPS'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)) != "" ) && ( ((is_array($_tmp=$_SERVER['HTTPS'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)) != 'off' )): ?>
 				<script type="text/javascript" src="https://maps-api-ssl.google.com/maps/api/js?sensor=false"></script>

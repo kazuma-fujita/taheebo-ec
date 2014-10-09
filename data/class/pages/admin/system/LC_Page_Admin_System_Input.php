@@ -246,9 +246,11 @@ class LC_Page_Admin_System_Input extends LC_Page_Admin_Ex
         switch ($mode) {
             case 'new':
                 // 管理者名が登録済みでないか
+/*
                 if ($this->memberDataExists('name = ? AND del_flg = 0', $arrParams['name'])) {
                     $arrErr['name'] = '既に登録されている名前なので利用できません。<br>';
                 }
+*/
                 // ログインIDが登録済みでないか
                 if ($this->memberDataExists('login_id = ? AND del_flg = 0', $arrParams['login_id'])) {
                     $arrErr['login_id'] = '既に登録されているIDなので利用できません。<br>';

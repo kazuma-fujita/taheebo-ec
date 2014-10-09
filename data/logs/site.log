@@ -761,3 +761,11 @@ customer_id = 3
 /var/www/data/class_extends/page_extends/preview/LC_Page_Preview_Ex.php(54): LC_Page_Preview->process
 /var/www/data/class/pages/preview/LC_Page_Preview.php(55): SC_Session->__construct
 /var/www/data/class/SC_Session.php(61): GC_Utils->gfPrintLog
+2014/10/06 17:46:15 [/index.php] order cancel.(time expire) order_id=2 from 192.168.218.1
+customer_id = 
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(53): LC_Page_Index->action
+/var/www/data/class/pages/LC_Page_Index.php(66): SC_Helper_Purchase->cancelPendingOrder
+/var/www/data/class/helper/SC_Helper_Purchase.php(1366): SC_Helper_Purchase->checkDbAllPendingOrder
+/var/www/data/class/helper/SC_Helper_Purchase.php(1388): GC_Utils->gfPrintLog
