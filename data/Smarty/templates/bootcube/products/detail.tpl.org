@@ -53,8 +53,8 @@
 					<!--{if $arrProduct.main_large_image|strlen >= 1}-->
 						<a data-toggle="modal" data-target="#large_photo">
 					<!--{/if}-->
-						<img src="<!--{$smarty.const.IMAGE_SAVE_URLPATH}--><!--{$arrProduct.main_large_image|h}-->" width="<!--{$arrFile[$key].width}-->" height="<!--{$arrFile[$key].height}-->" alt="<!--{$arrProduct.name|h}-->" class="picture" />
-					<!--{if $arrProduct.main_image|strlen >= 1}-->
+						<img src="<!--{$arrFile[$key].filepath|h}-->" width="<!--{$arrFile[$key].width}-->" height="<!--{$arrFile[$key].height}-->" alt="<!--{$arrProduct.name|h}-->" class="picture" />
+					<!--{if $arrProduct.main_large_image|strlen >= 1}-->
 						</a>
 					<!--{/if}-->
 				</div>

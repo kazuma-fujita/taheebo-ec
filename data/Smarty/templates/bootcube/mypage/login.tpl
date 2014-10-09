@@ -1,4 +1,4 @@
-<div id="undercolumn" class="well fs18" style="margin-top:100px;border-radius:50px;">
+<div id="undercolumn" class="well fs18" style="margin-top:50px;border-radius:50px;width:70%;margin-left:15%;">
 
 	<div class="col-sm-offset-3" style="padding:13px;"><img src="<!--{$TPL_URLPATH}-->img/taheebo/iinet_main_logo.png" class='img-responsive' width="60%"/></div>
 

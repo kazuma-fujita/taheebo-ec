@@ -3927,3 +3927,213 @@ login_id = taheebo(0)[utvc6ufv8gg3k6q3qfql1jg9o0]
 /var/www/data/module/Smarty/libs/Smarty.class.php(1094): trigger_error
 2014/10/07 02:32:35 [/admin/order/upload_csv_b2.php] Fatal error(E_PARSE): syntax error, unexpected ';', expecting function (T_FUNCTION) on [/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_UploadCSVB2.php(7)] from 192.168.218.1
 login_id = taheebo(0)[utvc6ufv8gg3k6q3qfql1jg9o0]
+2014/10/10 06:59:43 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(202)] from 192.168.218.1
+customer_id = 4
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(54): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(252): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/bootcube/%%F1^F15^F158E3F4%%site_frame.tpl.php(97): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/bootcube/%%58^587^5876E692%%site_main.tpl.php(44): smarty_core_smarty_include_php
+/var/www/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1924): include
+/var/www/html/frontparts/bloc/recommend.php(30): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/var/www/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(54): LC_Page_FrontParts_Bloc_Recommend->process
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(52): LC_Page_FrontParts_Bloc_Recommend->action
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(68): LC_Page_FrontParts_Bloc_Recommend->lfGetRanking
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(222): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(202): SC_Helper_HandleError::handle_warning
+2014/10/10 07:05:47 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(202)] from 192.168.218.1
+customer_id = 3
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(54): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(252): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/bootcube/%%F1^F15^F158E3F4%%site_frame.tpl.php(97): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/bootcube/%%58^587^5876E692%%site_main.tpl.php(44): smarty_core_smarty_include_php
+/var/www/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1924): include
+/var/www/html/frontparts/bloc/recommend.php(30): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/var/www/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(54): LC_Page_FrontParts_Bloc_Recommend->process
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(52): LC_Page_FrontParts_Bloc_Recommend->action
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(68): LC_Page_FrontParts_Bloc_Recommend->lfGetRanking
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(222): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(202): SC_Helper_HandleError::handle_warning
+2014/10/10 07:07:28 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(202)] from 192.168.218.1
+customer_id = 3
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(54): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(252): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/bootcube/%%F1^F15^F158E3F4%%site_frame.tpl.php(97): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/bootcube/%%58^587^5876E692%%site_main.tpl.php(44): smarty_core_smarty_include_php
+/var/www/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1924): include
+/var/www/html/frontparts/bloc/recommend.php(30): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/var/www/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(54): LC_Page_FrontParts_Bloc_Recommend->process
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(52): LC_Page_FrontParts_Bloc_Recommend->action
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(68): LC_Page_FrontParts_Bloc_Recommend->lfGetRanking
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(222): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(202): SC_Helper_HandleError::handle_warning
+2014/10/10 07:08:10 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(202)] from 192.168.218.1
+customer_id = 3
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(54): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(252): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/bootcube/%%F1^F15^F158E3F4%%site_frame.tpl.php(97): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/bootcube/%%58^587^5876E692%%site_main.tpl.php(44): smarty_core_smarty_include_php
+/var/www/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1924): include
+/var/www/html/frontparts/bloc/recommend.php(30): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/var/www/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(54): LC_Page_FrontParts_Bloc_Recommend->process
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(52): LC_Page_FrontParts_Bloc_Recommend->action
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(68): LC_Page_FrontParts_Bloc_Recommend->lfGetRanking
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(222): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(202): SC_Helper_HandleError::handle_warning
+2014/10/10 07:13:21 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 3
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(54): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(252): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/bootcube/%%F1^F15^F158E3F4%%site_frame.tpl.php(97): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/bootcube/%%58^587^5876E692%%site_main.tpl.php(44): smarty_core_smarty_include_php
+/var/www/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1924): include
+/var/www/html/frontparts/bloc/recommend.php(30): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/var/www/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(54): LC_Page_FrontParts_Bloc_Recommend->process
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(52): LC_Page_FrontParts_Bloc_Recommend->action
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(68): LC_Page_FrontParts_Bloc_Recommend->lfGetRanking
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/10/10 07:23:50 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 3
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(54): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(252): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/bootcube/%%F1^F15^F158E3F4%%site_frame.tpl.php(97): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/bootcube/%%58^587^5876E692%%site_main.tpl.php(44): smarty_core_smarty_include_php
+/var/www/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1924): include
+/var/www/html/frontparts/bloc/recommend.php(30): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/var/www/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(54): LC_Page_FrontParts_Bloc_Recommend->process
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(52): LC_Page_FrontParts_Bloc_Recommend->action
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(68): LC_Page_FrontParts_Bloc_Recommend->lfGetRanking
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/10/10 07:24:26 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 3
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(54): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(252): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/bootcube/%%F1^F15^F158E3F4%%site_frame.tpl.php(97): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/bootcube/%%58^587^5876E692%%site_main.tpl.php(44): smarty_core_smarty_include_php
+/var/www/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1924): include
+/var/www/html/frontparts/bloc/recommend.php(30): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/var/www/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(54): LC_Page_FrontParts_Bloc_Recommend->process
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(52): LC_Page_FrontParts_Bloc_Recommend->action
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(68): LC_Page_FrontParts_Bloc_Recommend->lfGetRanking
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/10/10 07:36:01 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 3
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(54): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(252): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/bootcube/%%F1^F15^F158E3F4%%site_frame.tpl.php(97): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/bootcube/%%58^587^5876E692%%site_main.tpl.php(44): smarty_core_smarty_include_php
+/var/www/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1924): include
+/var/www/html/frontparts/bloc/recommend.php(30): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/var/www/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(54): LC_Page_FrontParts_Bloc_Recommend->process
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(52): LC_Page_FrontParts_Bloc_Recommend->action
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(68): LC_Page_FrontParts_Bloc_Recommend->lfGetRanking
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/10/10 07:36:28 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 3
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(54): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(252): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/bootcube/%%F1^F15^F158E3F4%%site_frame.tpl.php(97): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/bootcube/%%58^587^5876E692%%site_main.tpl.php(44): smarty_core_smarty_include_php
+/var/www/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1924): include
+/var/www/html/frontparts/bloc/recommend.php(30): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/var/www/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(54): LC_Page_FrontParts_Bloc_Recommend->process
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(52): LC_Page_FrontParts_Bloc_Recommend->action
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(68): LC_Page_FrontParts_Bloc_Recommend->lfGetRanking
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/10/10 07:36:47 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 3
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(54): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(252): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/bootcube/%%F1^F15^F158E3F4%%site_frame.tpl.php(97): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/bootcube/%%58^587^5876E692%%site_main.tpl.php(44): smarty_core_smarty_include_php
+/var/www/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1924): include
+/var/www/html/frontparts/bloc/recommend.php(30): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/var/www/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(54): LC_Page_FrontParts_Bloc_Recommend->process
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(52): LC_Page_FrontParts_Bloc_Recommend->action
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(68): LC_Page_FrontParts_Bloc_Recommend->lfGetRanking
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning

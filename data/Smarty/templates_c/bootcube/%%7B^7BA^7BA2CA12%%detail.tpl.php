@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2014-10-05 18:35:34
+<?php /* Smarty version 2.6.27, created on 2014-10-10 07:35:57
          compiled from /var/www/html/../data/Smarty/templates/bootcube/products/detail.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', '/var/www/html/../data/Smarty/templates/bootcube/products/detail.tpl', 37, false),array('modifier', 'h', '/var/www/html/../data/Smarty/templates/bootcube/products/detail.tpl', 38, false),array('modifier', 'strlen', '/var/www/html/../data/Smarty/templates/bootcube/products/detail.tpl', 53, false),array('modifier', 'number_format', '/var/www/html/../data/Smarty/templates/bootcube/products/detail.tpl', 124, false),array('modifier', 'sfPrePoint', '/var/www/html/../data/Smarty/templates/bootcube/products/detail.tpl', 154, false),array('modifier', 'nl2br_html', '/var/www/html/../data/Smarty/templates/bootcube/products/detail.tpl', 199, false),array('modifier', 'sfGetErrorColor', '/var/www/html/../data/Smarty/templates/bootcube/products/detail.tpl', 216, false),array('modifier', 'default', '/var/www/html/../data/Smarty/templates/bootcube/products/detail.tpl', 245, false),array('modifier', 'sfDispDBDate', '/var/www/html/../data/Smarty/templates/bootcube/products/detail.tpl', 357, false),array('modifier', 'nl2br', '/var/www/html/../data/Smarty/templates/bootcube/products/detail.tpl', 358, false),array('modifier', 'u', '/var/www/html/../data/Smarty/templates/bootcube/products/detail.tpl', 375, false),array('modifier', 'sfNoImageMainList', '/var/www/html/../data/Smarty/templates/bootcube/products/detail.tpl', 376, false),array('function', 'html_options', '/var/www/html/../data/Smarty/templates/bootcube/products/detail.tpl', 217, false),)), $this); ?>
@@ -40,12 +40,13 @@ smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_esca
 					<?php if (((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['arrProduct']['main_large_image'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('strlen', true, $_tmp) : strlen($_tmp)) >= 1): ?>
 						<a data-toggle="modal" data-target="#large_photo">
 					<?php endif; ?>
-						<img src="<?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['arrFile'][$this->_tpl_vars['key']]['filepath'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('h', true, $_tmp) : smarty_modifier_h($_tmp)); ?>
+						<img src="<?php echo ((is_array($_tmp=@IMAGE_SAVE_URLPATH)) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+<?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['arrProduct']['main_large_image'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('h', true, $_tmp) : smarty_modifier_h($_tmp)); ?>
 " width="<?php echo ((is_array($_tmp=$this->_tpl_vars['arrFile'][$this->_tpl_vars['key']]['width'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 " height="<?php echo ((is_array($_tmp=$this->_tpl_vars['arrFile'][$this->_tpl_vars['key']]['height'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 " alt="<?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['arrProduct']['name'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('h', true, $_tmp) : smarty_modifier_h($_tmp)); ?>
 " class="picture" />
-					<?php if (((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['arrProduct']['main_large_image'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('strlen', true, $_tmp) : strlen($_tmp)) >= 1): ?>
+					<?php if (((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['arrProduct']['main_image'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('strlen', true, $_tmp) : strlen($_tmp)) >= 1): ?>
 						</a>
 					<?php endif; ?>
 				</div>

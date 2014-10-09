@@ -1,8 +1,8 @@
-<?php /* Smarty version 2.6.27, created on 2014-10-06 14:53:28
+<?php /* Smarty version 2.6.27, created on 2014-10-10 07:05:29
          compiled from mypage/login.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'mypage/login.tpl', 3, false),array('modifier', 'h', 'mypage/login.tpl', 9, false),array('modifier', 'sfGetErrorColor', 'mypage/login.tpl', 21, false),array('modifier', 'sfGetChecked', 'mypage/login.tpl', 29, false),)), $this); ?>
-<div id="undercolumn" class="well fs18" style="margin-top:100px;border-radius:50px;">
+<div id="undercolumn" class="well fs18" style="margin-top:50px;border-radius:50px;width:70%;margin-left:15%;">
 
 	<div class="col-sm-offset-3" style="padding:13px;"><img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 img/taheebo/iinet_main_logo.png" class='img-responsive' width="60%"/></div>

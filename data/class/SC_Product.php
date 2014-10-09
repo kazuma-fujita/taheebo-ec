@@ -131,6 +131,7 @@ class SC_Product
             ,main_list_comment
             ,main_image
             ,main_list_image
+            ,main_large_image
             ,price01_min
             ,price01_max
             ,price02_min
