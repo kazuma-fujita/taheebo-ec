@@ -4137,3 +4137,143 @@ customer_id = 3
 /var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
 /var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
 /var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/10/10 22:51:24 [/admin/order/edit.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(869)] from 192.168.218.1
+login_id = taheebo(0)[52la6gs01586ouu608mme6l3c0]
+/var/www/html/admin/order/edit.php(29): LC_Page_Admin_Order_Edit_Ex->process
+/var/www/data/class_extends/page_extends/admin/order/LC_Page_Admin_Order_Edit_Ex.php(54): LC_Page_Admin_Order_Edit->process
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(133): LC_Page_Admin_Order_Edit->action
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(199): LC_Page_Admin_Order_Edit->doRegister
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(869): SC_Helper_HandleError::handle_warning
+2014/10/10 22:51:24 [/admin/order/edit.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(869)] from 192.168.218.1
+login_id = taheebo(0)[52la6gs01586ouu608mme6l3c0]
+/var/www/html/admin/order/edit.php(29): LC_Page_Admin_Order_Edit_Ex->process
+/var/www/data/class_extends/page_extends/admin/order/LC_Page_Admin_Order_Edit_Ex.php(54): LC_Page_Admin_Order_Edit->process
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(133): LC_Page_Admin_Order_Edit->action
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(199): LC_Page_Admin_Order_Edit->doRegister
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(869): SC_Helper_HandleError::handle_warning
+2014/10/10 22:57:28 [/admin/order/edit.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(870)] from 192.168.218.1
+login_id = taheebo(0)[52la6gs01586ouu608mme6l3c0]
+/var/www/html/admin/order/edit.php(29): LC_Page_Admin_Order_Edit_Ex->process
+/var/www/data/class_extends/page_extends/admin/order/LC_Page_Admin_Order_Edit_Ex.php(54): LC_Page_Admin_Order_Edit->process
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(134): LC_Page_Admin_Order_Edit->action
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(200): LC_Page_Admin_Order_Edit->doRegister
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(870): SC_Helper_HandleError::handle_warning
+2014/10/10 22:57:28 [/admin/order/edit.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(870)] from 192.168.218.1
+login_id = taheebo(0)[52la6gs01586ouu608mme6l3c0]
+/var/www/html/admin/order/edit.php(29): LC_Page_Admin_Order_Edit_Ex->process
+/var/www/data/class_extends/page_extends/admin/order/LC_Page_Admin_Order_Edit_Ex.php(54): LC_Page_Admin_Order_Edit->process
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(134): LC_Page_Admin_Order_Edit->action
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(200): LC_Page_Admin_Order_Edit->doRegister
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(870): SC_Helper_HandleError::handle_warning
+2014/10/10 22:57:35 [/admin/order/edit.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(870)] from 192.168.218.1
+login_id = taheebo(0)[52la6gs01586ouu608mme6l3c0]
+/var/www/html/admin/order/edit.php(29): LC_Page_Admin_Order_Edit_Ex->process
+/var/www/data/class_extends/page_extends/admin/order/LC_Page_Admin_Order_Edit_Ex.php(54): LC_Page_Admin_Order_Edit->process
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(134): LC_Page_Admin_Order_Edit->action
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(200): LC_Page_Admin_Order_Edit->doRegister
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(870): SC_Helper_HandleError::handle_warning
+2014/10/10 22:57:35 [/admin/order/edit.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(870)] from 192.168.218.1
+login_id = taheebo(0)[52la6gs01586ouu608mme6l3c0]
+/var/www/html/admin/order/edit.php(29): LC_Page_Admin_Order_Edit_Ex->process
+/var/www/data/class_extends/page_extends/admin/order/LC_Page_Admin_Order_Edit_Ex.php(54): LC_Page_Admin_Order_Edit->process
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(134): LC_Page_Admin_Order_Edit->action
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(200): LC_Page_Admin_Order_Edit->doRegister
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(870): SC_Helper_HandleError::handle_warning
+2014/10/10 22:58:19 [/admin/order/edit.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(870)] from 192.168.218.1
+login_id = taheebo(0)[52la6gs01586ouu608mme6l3c0]
+/var/www/html/admin/order/edit.php(29): LC_Page_Admin_Order_Edit_Ex->process
+/var/www/data/class_extends/page_extends/admin/order/LC_Page_Admin_Order_Edit_Ex.php(54): LC_Page_Admin_Order_Edit->process
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(134): LC_Page_Admin_Order_Edit->action
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(200): LC_Page_Admin_Order_Edit->doRegister
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(870): SC_Helper_HandleError::handle_warning
+2014/10/10 22:58:19 [/admin/order/edit.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(870)] from 192.168.218.1
+login_id = taheebo(0)[52la6gs01586ouu608mme6l3c0]
+/var/www/html/admin/order/edit.php(29): LC_Page_Admin_Order_Edit_Ex->process
+/var/www/data/class_extends/page_extends/admin/order/LC_Page_Admin_Order_Edit_Ex.php(54): LC_Page_Admin_Order_Edit->process
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(134): LC_Page_Admin_Order_Edit->action
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(200): LC_Page_Admin_Order_Edit->doRegister
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(870): SC_Helper_HandleError::handle_warning
+2014/10/10 22:58:25 [/admin/order/edit.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(870)] from 192.168.218.1
+login_id = taheebo(0)[52la6gs01586ouu608mme6l3c0]
+/var/www/html/admin/order/edit.php(29): LC_Page_Admin_Order_Edit_Ex->process
+/var/www/data/class_extends/page_extends/admin/order/LC_Page_Admin_Order_Edit_Ex.php(54): LC_Page_Admin_Order_Edit->process
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(134): LC_Page_Admin_Order_Edit->action
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(200): LC_Page_Admin_Order_Edit->doRegister
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(870): SC_Helper_HandleError::handle_warning
+2014/10/10 22:58:25 [/admin/order/edit.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(870)] from 192.168.218.1
+login_id = taheebo(0)[52la6gs01586ouu608mme6l3c0]
+/var/www/html/admin/order/edit.php(29): LC_Page_Admin_Order_Edit_Ex->process
+/var/www/data/class_extends/page_extends/admin/order/LC_Page_Admin_Order_Edit_Ex.php(54): LC_Page_Admin_Order_Edit->process
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(134): LC_Page_Admin_Order_Edit->action
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(200): LC_Page_Admin_Order_Edit->doRegister
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(870): SC_Helper_HandleError::handle_warning
+2014/10/10 22:59:41 [/admin/order/edit.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(870)] from 192.168.218.1
+login_id = taheebo(0)[52la6gs01586ouu608mme6l3c0]
+/var/www/html/admin/order/edit.php(29): LC_Page_Admin_Order_Edit_Ex->process
+/var/www/data/class_extends/page_extends/admin/order/LC_Page_Admin_Order_Edit_Ex.php(54): LC_Page_Admin_Order_Edit->process
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(134): LC_Page_Admin_Order_Edit->action
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(200): LC_Page_Admin_Order_Edit->doRegister
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(870): SC_Helper_HandleError::handle_warning
+2014/10/10 22:59:41 [/admin/order/edit.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(870)] from 192.168.218.1
+login_id = taheebo(0)[52la6gs01586ouu608mme6l3c0]
+/var/www/html/admin/order/edit.php(29): LC_Page_Admin_Order_Edit_Ex->process
+/var/www/data/class_extends/page_extends/admin/order/LC_Page_Admin_Order_Edit_Ex.php(54): LC_Page_Admin_Order_Edit->process
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(134): LC_Page_Admin_Order_Edit->action
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(200): LC_Page_Admin_Order_Edit->doRegister
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(870): SC_Helper_HandleError::handle_warning
+2014/10/10 23:00:14 [/admin/order/edit.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(870)] from 192.168.218.1
+login_id = taheebo(0)[52la6gs01586ouu608mme6l3c0]
+/var/www/html/admin/order/edit.php(29): LC_Page_Admin_Order_Edit_Ex->process
+/var/www/data/class_extends/page_extends/admin/order/LC_Page_Admin_Order_Edit_Ex.php(54): LC_Page_Admin_Order_Edit->process
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(134): LC_Page_Admin_Order_Edit->action
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(200): LC_Page_Admin_Order_Edit->doRegister
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(870): SC_Helper_HandleError::handle_warning
+2014/10/10 23:00:14 [/admin/order/edit.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(870)] from 192.168.218.1
+login_id = taheebo(0)[52la6gs01586ouu608mme6l3c0]
+/var/www/html/admin/order/edit.php(29): LC_Page_Admin_Order_Edit_Ex->process
+/var/www/data/class_extends/page_extends/admin/order/LC_Page_Admin_Order_Edit_Ex.php(54): LC_Page_Admin_Order_Edit->process
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(134): LC_Page_Admin_Order_Edit->action
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(200): LC_Page_Admin_Order_Edit->doRegister
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(870): SC_Helper_HandleError::handle_warning
+2014/10/10 23:00:21 [/admin/order/edit.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(870)] from 192.168.218.1
+login_id = taheebo(0)[52la6gs01586ouu608mme6l3c0]
+/var/www/html/admin/order/edit.php(29): LC_Page_Admin_Order_Edit_Ex->process
+/var/www/data/class_extends/page_extends/admin/order/LC_Page_Admin_Order_Edit_Ex.php(54): LC_Page_Admin_Order_Edit->process
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(134): LC_Page_Admin_Order_Edit->action
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(200): LC_Page_Admin_Order_Edit->doRegister
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(870): SC_Helper_HandleError::handle_warning
+2014/10/10 23:00:21 [/admin/order/edit.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(870)] from 192.168.218.1
+login_id = taheebo(0)[52la6gs01586ouu608mme6l3c0]
+/var/www/html/admin/order/edit.php(29): LC_Page_Admin_Order_Edit_Ex->process
+/var/www/data/class_extends/page_extends/admin/order/LC_Page_Admin_Order_Edit_Ex.php(54): LC_Page_Admin_Order_Edit->process
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(134): LC_Page_Admin_Order_Edit->action
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(200): LC_Page_Admin_Order_Edit->doRegister
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(870): SC_Helper_HandleError::handle_warning
+2014/10/10 23:00:35 [/admin/order/edit.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(869)] from 192.168.218.1
+login_id = taheebo(0)[52la6gs01586ouu608mme6l3c0]
+/var/www/html/admin/order/edit.php(29): LC_Page_Admin_Order_Edit_Ex->process
+/var/www/data/class_extends/page_extends/admin/order/LC_Page_Admin_Order_Edit_Ex.php(54): LC_Page_Admin_Order_Edit->process
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(133): LC_Page_Admin_Order_Edit->action
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(199): LC_Page_Admin_Order_Edit->doRegister
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(869): SC_Helper_HandleError::handle_warning
+2014/10/10 23:00:35 [/admin/order/edit.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(869)] from 192.168.218.1
+login_id = taheebo(0)[52la6gs01586ouu608mme6l3c0]
+/var/www/html/admin/order/edit.php(29): LC_Page_Admin_Order_Edit_Ex->process
+/var/www/data/class_extends/page_extends/admin/order/LC_Page_Admin_Order_Edit_Ex.php(54): LC_Page_Admin_Order_Edit->process
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(133): LC_Page_Admin_Order_Edit->action
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(199): LC_Page_Admin_Order_Edit->doRegister
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(869): SC_Helper_HandleError::handle_warning
+2014/10/10 23:00:42 [/admin/order/edit.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(869)] from 192.168.218.1
+login_id = taheebo(0)[52la6gs01586ouu608mme6l3c0]
+/var/www/html/admin/order/edit.php(29): LC_Page_Admin_Order_Edit_Ex->process
+/var/www/data/class_extends/page_extends/admin/order/LC_Page_Admin_Order_Edit_Ex.php(54): LC_Page_Admin_Order_Edit->process
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(133): LC_Page_Admin_Order_Edit->action
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(199): LC_Page_Admin_Order_Edit->doRegister
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(869): SC_Helper_HandleError::handle_warning
+2014/10/10 23:00:42 [/admin/order/edit.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(869)] from 192.168.218.1
+login_id = taheebo(0)[52la6gs01586ouu608mme6l3c0]
+/var/www/html/admin/order/edit.php(29): LC_Page_Admin_Order_Edit_Ex->process
+/var/www/data/class_extends/page_extends/admin/order/LC_Page_Admin_Order_Edit_Ex.php(54): LC_Page_Admin_Order_Edit->process
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(133): LC_Page_Admin_Order_Edit->action
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(199): LC_Page_Admin_Order_Edit->doRegister
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(869): SC_Helper_HandleError::handle_warning

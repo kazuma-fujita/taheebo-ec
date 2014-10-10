@@ -151,10 +151,7 @@
                     <select name="<!--{$key}-->" style="<!--{$arrErr[$key]|sfGetErrorColor}-->">
                         <option value="">選択してください</option>
                         <!--{html_options options=$arrORDERSTATUS selected=$arrForm[$key].value}-->
-                    </select>
-                    &nbsp;
-                    <input type="checkbox" name="disable_auto_mail" value="1"> メールを自動返信しない
-                    <br />
+                    </select><br />
                     <!--{if $smarty.get.mode != 'add'}-->
                         <span class="attention">※ <!--{$arrORDERSTATUS[$smarty.const.ORDER_CANCEL]}-->に変更時には、在庫数を手動で戻してください。</span>
                     <!--{/if}-->
@@ -769,13 +766,6 @@
                         <option value="" selected="">選択してください</option>
                         <!--{html_options options=$arrPayment selected=$arrForm[$key].value}-->
                     </select>
-                </td>
-            </tr>
-                <th>伝票番号</th>
-                <td>
-                        <!--{assign var=key value="deliv_number"}-->
-                        <span class="attention"><!--{$arrErr[$key]}--></span>
-                        <input type="text" name="deliv_number" value="<!--{$arrForm[$key].value|h}-->" size="60" class="box60" maxlength="<!--{$arrForm[$key].length}-->" style="<!--{$arrErr[$key]|sfGetErrorColor}-->" />
                 </td>
             </tr>
 

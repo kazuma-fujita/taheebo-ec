@@ -454,7 +454,6 @@ class LC_Page_Admin_Order_Edit extends LC_Page_Admin_Order_Ex
         $objFormParam->addParam('アンカーキー', 'anchor_key', STEXT_LEN, 'KVa', array('SPTAB_CHECK', 'MAX_LENGTH_CHECK'));
         // add 
         $objFormParam->addParam("メールを自動送信しない", "disable_auto_mail", INT_LEN, 'n', array("SPTAB_CHECK", "NUM_CHECK", "MAX_LENGTH_CHECK"));
-        $objFormParam->addParam('伝票番号', 'deliv_number', MTEXT_LEN, 'KVa', array('SPTAB_CHECK', 'MAX_LENGTH_CHECK'));
     }
 
     /**
@@ -880,7 +879,7 @@ class LC_Page_Admin_Order_Edit extends LC_Page_Admin_Order_Ex
         $objQuery->commit();
         // add
         if ($order_id > 0) {
-            if ($arrValues['disable_auto_mail'] != 1) {
+            if ($arrValues['disable_auto_mail'] != AUTO_SENDMAIL_DISABLE) {
                 if ($arrValues['status'] != $arrValuesBefore['status']) {
                     if (ORDER_DELIV == $arrValues['status']) {
                         $this->doSend($objFormParam, 9); // 発送完了メール

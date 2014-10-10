@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.27, created on 2014-10-06 15:58:06
+<?php /* Smarty version 2.6.27, created on 2014-10-10 23:00:14
          compiled from order/edit.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'order/edit.tpl', 28, false),array('modifier', 'escape', 'order/edit.tpl', 91, false),array('modifier', 'default', 'order/edit.tpl', 107, false),array('modifier', 'h', 'order/edit.tpl', 107, false),array('modifier', 'sfDispDBDate', 'order/edit.tpl', 144, false),array('modifier', 'sfGetErrorColor', 'order/edit.tpl', 151, false),array('modifier', 'nl2br', 'order/edit.tpl', 347, false),array('modifier', 'number_format', 'order/edit.tpl', 353, false),array('modifier', 'sfCalcIncTax', 'order/edit.tpl', 432, false),array('modifier', 'sfMultiply', 'order/edit.tpl', 437, false),array('modifier', 'count', 'order/edit.tpl', 546, false),array('function', 'html_options', 'order/edit.tpl', 153, false),array('function', 'html_radios', 'order/edit.tpl', 257, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'order/edit.tpl', 28, false),array('modifier', 'escape', 'order/edit.tpl', 91, false),array('modifier', 'default', 'order/edit.tpl', 107, false),array('modifier', 'h', 'order/edit.tpl', 107, false),array('modifier', 'sfDispDBDate', 'order/edit.tpl', 144, false),array('modifier', 'sfGetErrorColor', 'order/edit.tpl', 151, false),array('modifier', 'nl2br', 'order/edit.tpl', 350, false),array('modifier', 'number_format', 'order/edit.tpl', 356, false),array('modifier', 'sfCalcIncTax', 'order/edit.tpl', 435, false),array('modifier', 'sfMultiply', 'order/edit.tpl', 440, false),array('modifier', 'count', 'order/edit.tpl', 549, false),array('function', 'html_options', 'order/edit.tpl', 153, false),array('function', 'html_radios', 'order/edit.tpl', 260, false),)), $this); ?>
 
 <script type="text/javascript">
 <!--
@@ -158,7 +158,10 @@ order/multiple.php', 'multiple', '600', '500', {menubar:'no'});
                         <option value="">選択してください</option>
                         <?php echo smarty_function_html_options(array('options' => ((is_array($_tmp=$this->_tpl_vars['arrORDERSTATUS'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)),'selected' => ((is_array($_tmp=$this->_tpl_vars['arrForm'][$this->_tpl_vars['key']]['value'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp))), $this);?>
 
-                    </select><br />
+                    </select>
+                    &nbsp;
+                    <input type="checkbox" name="disable_auto_mail" value="1"> メールを自動返信しない
+                    <br />
                     <?php if (((is_array($_tmp=$_GET['mode'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)) != 'add'): ?>
                         <span class="attention">※ <?php echo ((is_array($_tmp=$this->_tpl_vars['arrORDERSTATUS'][@ORDER_CANCEL])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 に変更時には、在庫数を手動で戻してください。</span>
@@ -1289,6 +1292,17 @@ $this->_sections['item']['last']       = ($this->_sections['item']['iteration'] 
                         <?php echo smarty_function_html_options(array('options' => ((is_array($_tmp=$this->_tpl_vars['arrPayment'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)),'selected' => ((is_array($_tmp=$this->_tpl_vars['arrForm'][$this->_tpl_vars['key']]['value'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp))), $this);?>
 
                     </select>
+                </td>
+            </tr>
+                <th>伝票番号</th>
+                <td>
+                        <?php $this->assign('key', 'deliv_number'); ?>
+                        <span class="attention"><?php echo ((is_array($_tmp=$this->_tpl_vars['arrErr'][$this->_tpl_vars['key']])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+</span>
+                        <input type="text" name="deliv_number" value="<?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['arrForm'][$this->_tpl_vars['key']]['value'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('h', true, $_tmp) : smarty_modifier_h($_tmp)); ?>
+" size="60" class="box60" maxlength="<?php echo ((is_array($_tmp=$this->_tpl_vars['arrForm'][$this->_tpl_vars['key']]['length'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+" style="<?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['arrErr'][$this->_tpl_vars['key']])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('sfGetErrorColor', true, $_tmp) : SC_Utils_Ex::sfGetErrorColor($_tmp)); ?>
+" />
                 </td>
             </tr>
 
