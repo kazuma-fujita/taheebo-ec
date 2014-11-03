@@ -48,24 +48,6 @@
                 <div class="block_body clearfix">
                     <!--{if $tpl_login}-->
                         <ul class="list-inline">
-                            <li>
-                            	<!--{if $smarty.const.USE_POINT !== false}-->
-                            	    <span class="btn btn-danger" style="cursor:default;"> <!--{$tpl_user_point|number_format|default:0}--> pt</span>&nbsp;&nbsp;
-                            	<!--{/if}-->
-                            </li>
-                            <li>
-                            	<a href="/user_data/about_taheebo.php"><span>タヒボとは</span></a>
-                            </li>
-                            <li>
-                                <a href="/user_data/about_drink.php"><span>飲み方</span></a>
-                            </li>
-                            <li>
-                                <a href="/user_data/qa.php"><span style="padding-right:15px">Q&amp;A</span></a>
-                            </li>
-                            <li>
-                                <!--a rel="sidebar" href="javascript:void favorite(location.href,document.title);"><span class="btn btn-success">お気に入り</span></a-->
-                                <a rel="sidebar" href="javascript:void favorite('<!--{$smarty.const.HTTPS_URL}-->','いいねっと');"><span class="btn btn-success">お気に入り</span></a>
-                            </li>
 <!--{if false}-->
                             <li>
                             	ようこそ <span class="user_name"><!--{$tpl_name1|h}--> <!--{$tpl_name2|h}--> 様</span>
@@ -76,26 +58,16 @@
                             	<!--{/if}-->
                             </li>
 <!--{/if}-->
-                        </ul>
-
-                        <ul class="list-inline">
                             <li>
-                                <a href="/mypage/" class="btn btn-default">
-                                    <span class="glyphicon glyphicon-user"></span>&nbsp;マイページ
-                                </a>
+                                <a class="btn" href="/mypage/">マイページ</a>
                             </li>
                             <li>
-                                <a href="<!--{$smarty.const.CART_URL}-->" class="btn btn-default">
-                                    <span class="glyphicon glyphicon-shopping-cart"></span>
-                                </a>
+                            	<!--{if $smarty.const.USE_POINT !== false}-->
+				<a class="btn btn-success"><!--{$tpl_user_point|number_format|default:0}-->pt</a>
+                            	<!--{/if}-->
                             </li>
                             <li>
-                            	<span class="btn active" style="cursor:default;">合計&nbsp;:&nbsp;<!--{$arrCartList.0.ProductsTotal|number_format|default:0}-->円</span>
-                            </li>
-                            <li class="header-button-sf">
-                                <a href="/shopping/deliv.php">
-                            	<span class="btn btn-danger">購入手続きへ</span>
-                                </a>
+                            	<a class="btn btn-danger" href="<!--{$smarty.const.CART_URL}-->">合計<!--{$arrCartList.0.ProductsTotal|number_format|default:0}-->円 購入へ</a>
                             </li>
                         </ul>
                     <!--{else}-->

@@ -23,17 +23,13 @@ Note: All content are copyrighted by author. Please, don't steal anything.
 body {
   font-size: 12px;
   background-color: #fafafa;
-  background-image: url('/user_data/packages/bootcube/img/taheebo/taheebo_bg.png');
-  background-repeat: repeat;
-  background-position: center top;
-  background-attachment: fixed;
-  padding-top: 150px;
+  padding-top:65px;
   font-family:'メイリオ', 'Meiryo', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic Pro', 'MS Pゴシック', 'MS P Gothic', 'Osaka', 'Helvetica', 'Arial', 'Gothic', 'sans-serif';
 }
 
 @media (max-width: 768px) {
   body {
-    padding-top: 315px;
+    padding-top: 190px;
   }
 }
 
@@ -102,8 +98,7 @@ a:hover {
 /*--------------------------------- */
 #header {
   width: 100%;
-  padding: 20px 0;
-  padding-top: 30px;
+  padding: 10px 0;
 }
 #header #logo_area h1 {
   margin: 0;
@@ -135,7 +130,7 @@ a:hover {
 }
 @media (max-width: 768px) {
   #headerInternalColumn > div:last-child {
-    padding-right: 15px;
+    padding-right: 0px;
   }
 }
 

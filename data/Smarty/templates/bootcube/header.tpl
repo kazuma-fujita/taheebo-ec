@@ -69,16 +69,15 @@
 			<div class="container">
 				<div class="row">
 						
-				<div id="logo_area" class="col-xs-12 col-sm-3">
+				<div id="logo_area" class="col-sm-3">
 					<h1>
 						<a href="<!--{$smarty.const.TOP_URL}-->">
-							<img src="<!--{$TPL_URLPATH}-->img/taheebo/iinet_main_logo.png"/>
+							<img src="<!--{$TPL_URLPATH}-->img/taheebo/iinet_main_logo.png" style="width:150px"/>
 						</a>
 					</h1>
-				</div>
-	
+				</div>	
 				
-				<div id="header_utility" class="col-xs-12 col-sm-9 text-right">
+				<div id="header_utility" class="col-sm-9 text-right">
 				
 					<div id="headerInternalColumn">
 					<!--{* ▼HeaderInternal COLUMN *}-->

@@ -98,7 +98,7 @@
 
 				<!--{* ▼CENTER COLUMN *}-->
 				<div id="main_column" <!--{**}-->
-						class="col-xs-12 col-sm-<!--{if $tpl_column_num|h == 2}-->9<!--{elseif $tpl_column_num|h == 1}-->12<!--{else}-->6<!--{/if}-->
+						class="col-xs-12 col-md-<!--{if $tpl_column_num|h == 2}-->9<!--{elseif $tpl_column_num|h == 1}-->10 col-md-offset-1<!--{else}-->6<!--{/if}-->
 						<!--{if $tpl_column_num == 2}-->
 								<!--{" "}--><!--{if $arrPageLayout.LeftNavi|@count == 0}-->left<!--{else}-->right<!--{/if}-->
 						<!--{/if}-->">

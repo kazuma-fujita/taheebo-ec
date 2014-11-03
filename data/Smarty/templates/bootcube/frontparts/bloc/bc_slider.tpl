@@ -13,10 +13,10 @@
 				<img alt="slider1" src="<!--{$TPL_URLPATH}-->test-img/iinet_slider1.jpg">
 			</div>
 			<div class="item">
-				<img alt="slider2" src="<!--{$TPL_URLPATH}-->test-img/slider2.png">
+				<img alt="slider2" src="<!--{$TPL_URLPATH}-->test-img/iinet_slider2.png">
 			</div>
 			<div class="item">
-				<img alt="slider3" src="<!--{$TPL_URLPATH}-->test-img/slider3.png">
+				<img alt="slider3" src="<!--{$TPL_URLPATH}-->test-img/iinet_slider1.jpg">
 			</div>
 		</div>
 		<a class="left carousel-control" href="#bc_slider" data-slide="prev">
