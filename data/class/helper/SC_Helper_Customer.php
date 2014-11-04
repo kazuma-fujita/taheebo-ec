@@ -560,7 +560,8 @@ class SC_Helper_Customer
      */
     public function sfCustomerRegisterErrorCheck(&$objErr, $isAdmin = false)
     {
-        $objErr->doFunc(array('生年月日', 'year', 'month', 'day'), array('CHECK_BIRTHDAY'));
+        //$objErr->doFunc(array('生年月日', 'year', 'month', 'day'), array('CHECK_BIRTHDAY'));
+        $objErr->doFunc(array('生年月日', 'year', 'month', 'day'), array('EXIST_CHECK','CHECK_BIRTHDAY'));
         $objErr->doFunc(array('パスワード', 'password', PASSWORD_MIN_LEN, PASSWORD_MAX_LEN) ,array('NUM_RANGE_CHECK'));
 
         if (SC_Display_Ex::detectDevice() !== DEVICE_TYPE_MOBILE) {
@@ -627,7 +628,8 @@ class SC_Helper_Customer
         $objFormParam->addParam('性別', 'search_sex', INT_LEN, 'n', array('MAX_LENGTH_CHECK'));
         $objFormParam->addParam('会員状態', 'search_status', INT_LEN, 'n', array('MAX_LENGTH_CHECK'));
         $objFormParam->addParam('職業', 'search_job', INT_LEN, 'n', array('MAX_LENGTH_CHECK'));
-        $objFormParam->addParam('代理店コード', 'search_agency_code', 5, 'n', array('NUM_CHECK','MAX_LENGTH_CHECK'));
+        //$objFormParam->addParam('代理店コード', 'search_agency_code', 5, 'n', array('NUM_CHECK','MAX_LENGTH_CHECK'));
+        $objFormParam->addParam('代理店コード', 'search_agency_code', INT_LEN, 'n', array('NUM_CHECK','MAX_LENGTH_CHECK'));
     }
 
     /**

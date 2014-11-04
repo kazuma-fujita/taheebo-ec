@@ -510,6 +510,28 @@ class SC_Helper_DB
         return $arrList;
     }
 
+    public function sfGetAgencyList()
+    {
+        $objQuery =& SC_Query_Ex::getSingletonInstance();
+
+        $objQuery->setOption('ORDER BY agency_code ASC');
+
+        $col = 'agency_code';
+        $from = 'dtb_member';
+        $where = 'del_flg = 0 AND member_id != 2';
+
+        $arrRet = $objQuery->select($col, $from, $where);
+        //return $arrReti;
+        $max = count($arrRet);
+        $arrList = array();
+        for ($cnt = 0; $cnt < $max; $cnt++) {
+            $agency_code = $arrRet[$cnt]['agency_code'];
+            $arrList[$agency_code] = $agency_code;
+        }
+
+        return $arrList;
+    }
+
     /**
      * カテゴリツリーの取得を行う.
      *

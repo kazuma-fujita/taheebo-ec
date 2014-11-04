@@ -69,6 +69,10 @@ class LC_Page_Admin_Order extends LC_Page_Admin_Ex
         // 支払い方法の取得
         $this->arrPayments = SC_Helper_Payment_Ex::getIDValueList();
 
+        // 代理店一覧
+        $objDb = new SC_Helper_DB_Ex();
+        $this->arrAgencyList = $objDb->sfGetAgencyList();
+
         $this->httpCacheControl('nocache');
     }
 
@@ -164,6 +168,15 @@ class LC_Page_Admin_Order extends LC_Page_Admin_Ex
                             // 検索結果の取得
                             $this->arrResults = $this->findOrders($where, $arrWhereVal,
                                                                   $page_max, $objNavi->start_row, $order);
+                            //// 代理店名取得
+                            $objQuery2 =& SC_Query_Ex::getSingletonInstance();
+                            $cols2 = 'agency_name';
+                            $table2 = 'dtb_member';
+                            $where2 = 'agency_code = ?';
+                            foreach ($this->arrResults as $key => $val) {
+                                $obj = $objQuery2->select($cols2, $table2, $where2, array($this->arrResults[$key]['agency_code']));
+                                $this->arrResults[$key]['agency_name'] = $obj[0]['agency_name'];
+                            }
                             break;
                     }
                 }
@@ -220,6 +233,8 @@ class LC_Page_Admin_Order extends LC_Page_Admin_Ex
         $objFormParam->addParam('購入商品','search_product_name',STEXT_LEN,'KVa',array('MAX_LENGTH_CHECK'));
         $objFormParam->addParam('ページ送り番号','search_pageno', INT_LEN, 'n', array('MAX_LENGTH_CHECK', 'NUM_CHECK'));
         $objFormParam->addParam('受注ID', 'order_id', INT_LEN, 'n', array('MAX_LENGTH_CHECK', 'NUM_CHECK'));
+
+        $objFormParam->addParam('代理店コード', 'search_agency_code', INT_LEN, 'n', array('NUM_CHECK','MAX_LENGTH_CHECK'));
     }
 
     /**
@@ -387,6 +402,11 @@ class LC_Page_Admin_Order extends LC_Page_Admin_Ex
                 break;
             case 'search_order_status':
                 $where.= ' AND status = ?';
+                $arrValues[] = $objFormParam->getValue($key);
+                break;
+            // 代理店コード検索クエリ作成
+            case 'search_agency_code':
+                $where.= ' AND agency_code = ?';
                 $arrValues[] = $objFormParam->getValue($key);
                 break;
             default:

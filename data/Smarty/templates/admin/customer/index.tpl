@@ -65,10 +65,12 @@
         <!--検索条件設定テーブルここから-->
         <table class="form">
             <!--{include file="`$smarty.const.TEMPLATE_ADMIN_REALDIR`/adminparts/form_customer_search.tpl"}-->
+<!--{if false}-->
             <tr>
                 <th>会員状態</th>
                 <td colspan="3"><!--{html_checkboxes name="search_status" options=$arrStatus separator="&nbsp;" selected=$arrForm.search_status.value}--></td>
             </tr>
+<!--{/if}-->
         </table>
         <div class="btn">
             <p class="page_rows">検索結果表示件数

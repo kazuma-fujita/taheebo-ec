@@ -31,6 +31,7 @@
         <th>数量</th>
         <th>単価</th>
         <th>金額</th>
+        <th>ポイント</th>
     </tr>
 
     <!--{section name=cnt loop=$arrResults}-->
@@ -52,6 +53,7 @@
             <td class="right"><!--{*数量*}--><!--{$arrResults[cnt].products_count}--></td>
             <td class="right"><!--{*単価*}--><!--{$arrResults[cnt].price|number_format}-->円</td>
             <td class="right"><!--{*金額*}--><!--{$arrResults[cnt].total|number_format}-->円</td>
+            <td class="right"><!--{*ポイント*}--><!--{$arrResults[cnt].point_total|number_format}-->pt</td>
         </tr>
     <!--{/section}-->
 
@@ -63,5 +65,6 @@
         <th>数量</th>
         <th>単価</th>
         <th>金額</th>
+        <th>ポイント</th>
     </tr>
 </table>

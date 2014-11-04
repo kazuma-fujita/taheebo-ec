@@ -4277,3 +4277,188 @@ login_id = taheebo(0)[52la6gs01586ouu608mme6l3c0]
 /var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(133): LC_Page_Admin_Order_Edit->action
 /var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(199): LC_Page_Admin_Order_Edit->doRegister
 /var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(869): SC_Helper_HandleError::handle_warning
+2014/11/04 01:01:39 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 3
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(54): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(252): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/bootcube/%%F1^F15^F158E3F4%%site_frame.tpl.php(97): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/bootcube/%%58^587^5876E692%%site_main.tpl.php(44): smarty_core_smarty_include_php
+/var/www/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1924): include
+/var/www/html/frontparts/bloc/recommend.php(30): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/var/www/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(54): LC_Page_FrontParts_Bloc_Recommend->process
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(52): LC_Page_FrontParts_Bloc_Recommend->action
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(68): LC_Page_FrontParts_Bloc_Recommend->lfGetRanking
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/04 07:24:29 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 660 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(451)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(93): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(137): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(660): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(451): SC_Helper_HandleError::handle_warning
+2014/11/04 07:24:30 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 660 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(451)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(93): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(137): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(660): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(451): SC_Helper_HandleError::handle_warning
+2014/11/04 07:28:30 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 660 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(451)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(93): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(137): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(660): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(451): SC_Helper_HandleError::handle_warning
+2014/11/04 07:28:31 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 660 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(451)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(93): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(137): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(660): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(451): SC_Helper_HandleError::handle_warning
+2014/11/04 07:29:11 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 660 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(451)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(93): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(137): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(660): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(451): SC_Helper_HandleError::handle_warning
+2014/11/04 07:29:12 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 660 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(451)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(93): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(137): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(660): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(451): SC_Helper_HandleError::handle_warning
+2014/11/04 07:29:26 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 660 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(451)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(93): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(137): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(660): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(451): SC_Helper_HandleError::handle_warning
+2014/11/04 07:29:27 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 660 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(451)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(93): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(137): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(660): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(451): SC_Helper_HandleError::handle_warning
+2014/11/04 07:29:38 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 660 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(451)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(93): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(137): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(660): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(451): SC_Helper_HandleError::handle_warning
+2014/11/04 07:29:38 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 660 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(451)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(93): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(137): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(660): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(451): SC_Helper_HandleError::handle_warning
+2014/11/04 07:45:55 [/admin/total/index.php] Fatal error(E_USER_ERROR): DB処理でエラーが発生しました。
+SQL: [SELECT                 product_id,                 product_code,                 product_name,                 SUM(quantity) AS products_count,                 COUNT(dtb_order_detail.order_id) AS order_count,                 price,                 (price * SUM(quantity)) AS total,                 SUM(use_point) AS products_count,                  FROM dtb_order_detail JOIN dtb_order ON dtb_order_detail.order_id = dtb_order.order_id WHERE  create_date >= '2014/10/1' AND  create_date < date('2014/11/01') AND dtb_order.del_flg = 0 AND dtb_order.status <> ? GROUP BY product_id, product_name, product_code, price ORDER BY total DESC ]
+MDB2 Error: syntax error
+_doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysql_646f17f5ac365b1e653f25567e3e49f44574bc348 FROM 'SELECT                 product_id,                 product_code,                 product_name,                 SUM(quantity) AS products_count,                 COUNT(dtb_order_detail.order_id) AS order_count,                 price,                 (price * SUM(quantity)) AS total,                 SUM(use_point) AS products_count,                  FROM dtb_order_detail JOIN dtb_order ON dtb_order_detail.order_id = dtb_order.order_id WHERE  create_date >= \'2014/10/1\' AND  create_date < date(\'2014/11/01\') AND dtb_order.del_flg = 0 AND dtb_order.status <> ? GROUP BY product_id, product_name, product_code, price ORDER BY total DESC ']
+[Native code: 1064]
+[Native message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dtb_order_detail JOIN dtb_order ON dtb_order_detail.order_id = dtb_order.or' at line 1]
+ on [/var/www/data/class/SC_Query.php(1087)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(93): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(137): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderProducts
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(563): SC_Query->select
+/var/www/data/class/SC_Query.php(176): SC_Query->getAll
+/var/www/data/class/SC_Query.php(296): SC_Query->prepare
+/var/www/data/class/SC_Query.php(1016): SC_Query->error
+/var/www/data/class/SC_Query.php(1087): trigger_error
+2014/11/04 07:46:12 [/admin/total/index.php] Fatal error(E_USER_ERROR): DB処理でエラーが発生しました。
+SQL: [SELECT                 product_id,                 product_code,                 product_name,                 SUM(quantity) AS products_count,                 COUNT(dtb_order_detail.order_id) AS order_count,                 price,                 (price * SUM(quantity)) AS total,                 SUM(use_point) AS products_count,                  FROM dtb_order_detail JOIN dtb_order ON dtb_order_detail.order_id = dtb_order.order_id WHERE  create_date >= '2014/10/1' AND  create_date < date('2014/11/01') AND dtb_order.del_flg = 0 AND dtb_order.status <> ? GROUP BY product_id, product_name, product_code, price ORDER BY total DESC ]
+MDB2 Error: syntax error
+_doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysql_6e278ef32676ac5349d1e4de6129191104f469699 FROM 'SELECT                 product_id,                 product_code,                 product_name,                 SUM(quantity) AS products_count,                 COUNT(dtb_order_detail.order_id) AS order_count,                 price,                 (price * SUM(quantity)) AS total,                 SUM(use_point) AS products_count,                  FROM dtb_order_detail JOIN dtb_order ON dtb_order_detail.order_id = dtb_order.order_id WHERE  create_date >= \'2014/10/1\' AND  create_date < date(\'2014/11/01\') AND dtb_order.del_flg = 0 AND dtb_order.status <> ? GROUP BY product_id, product_name, product_code, price ORDER BY total DESC ']
+[Native code: 1064]
+[Native message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dtb_order_detail JOIN dtb_order ON dtb_order_detail.order_id = dtb_order.or' at line 1]
+ on [/var/www/data/class/SC_Query.php(1087)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(93): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(137): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderProducts
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(563): SC_Query->select
+/var/www/data/class/SC_Query.php(176): SC_Query->getAll
+/var/www/data/class/SC_Query.php(296): SC_Query->prepare
+/var/www/data/class/SC_Query.php(1016): SC_Query->error
+/var/www/data/class/SC_Query.php(1087): trigger_error
+2014/11/04 08:26:36 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 663 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(451)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(93): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(137): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(663): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(451): SC_Helper_HandleError::handle_warning
+2014/11/04 08:26:37 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 663 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(451)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(93): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(137): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(663): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(451): SC_Helper_HandleError::handle_warning
+2014/11/04 10:59:57 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 663 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(451)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(93): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(137): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(663): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(451): SC_Helper_HandleError::handle_warning
+2014/11/04 10:59:58 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 663 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(451)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(93): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(137): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(663): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(451): SC_Helper_HandleError::handle_warning

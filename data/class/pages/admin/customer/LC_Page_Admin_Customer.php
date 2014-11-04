@@ -74,6 +74,9 @@ class LC_Page_Admin_Customer extends LC_Page_Admin_Ex
         $objDb = new SC_Helper_DB_Ex();
         $this->arrCatList = $objDb->sfGetCategoryList();
 
+        // 代理店一覧
+        $this->arrAgencyList = $objDb->sfGetAgencyList();
+
         $this->httpCacheControl('nocache');
     }
 

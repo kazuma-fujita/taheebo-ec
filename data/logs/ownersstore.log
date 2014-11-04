@@ -2308,3 +2308,235 @@ login_id = taheebo(0)[rrcslq1lgkh9vka3396obl0l10]
 /var/www/eccube/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(70): LC_Upgrade_Helper_Log->end
 /var/www/eccube/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(48): LC_Upgrade_Helper_Log->log
 /var/www/eccube/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/04 05:50:22 [/upgrade/index.php] ##### products_list start ##### from 192.168.218.1
+customer_id = 
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(55): LC_Upgrade_Helper_Log->start
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(38): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/04 05:50:22 [/upgrade/index.php] * admin auth start from 192.168.218.1
+customer_id = 
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(58): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/04 05:50:22 [/upgrade/index.php] * public key check start from 192.168.218.1
+customer_id = 
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(71): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/04 05:50:22 [/upgrade/index.php] * http request start from 192.168.218.1
+customer_id = 
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(81): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/04 05:50:33 [/upgrade/index.php] ##### products_list start ##### from 192.168.218.1
+customer_id = 
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(55): LC_Upgrade_Helper_Log->start
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(38): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/04 05:50:33 [/upgrade/index.php] * admin auth start from 192.168.218.1
+customer_id = 
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(58): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/04 05:50:33 [/upgrade/index.php] * public key check start from 192.168.218.1
+customer_id = 
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(71): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/04 05:50:33 [/upgrade/index.php] * http request start from 192.168.218.1
+customer_id = 
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(81): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/04 05:50:36 [/upgrade/index.php] ##### products_list start ##### from 192.168.218.1
+customer_id = 
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(55): LC_Upgrade_Helper_Log->start
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(38): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/04 05:50:36 [/upgrade/index.php] * admin auth start from 192.168.218.1
+customer_id = 
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(58): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/04 05:50:36 [/upgrade/index.php] * public key check start from 192.168.218.1
+customer_id = 
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(71): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/04 05:50:36 [/upgrade/index.php] * http request start from 192.168.218.1
+customer_id = 
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(81): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/04 05:51:02 [/upgrade/index.php] * http request check start from 192.168.218.1
+customer_id = 
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(91): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/04 05:51:02 [/upgrade/index.php] * error! code:2002 / debug:O:10:"PEAR_Error":8:{s:20:"error_message_prefix";s:0:"";s:4:"mode";i:1;s:5:"level";i:1024;s:4:"code";i:0;s:7:"message";s:71:"php_network_getaddresses: getaddrinfo failed: Name or service not known";s:8:"userinfo";N;s:9:"backtrace";a:6:{i:0;a:6:{s:4:"file";s:29:"/var/www/data/module/PEAR.php";s:4:"line";i:542;s:8:"function";s:10:"PEAR_Error";s:5:"class";s:10:"PEAR_Error";s:4:"type";s:2:"->";s:4:"args";a:5:{i:0;s:71:"php_network_getaddresses: getaddrinfo failed: Name or service not known";i:1;i:0;i:2;i:1;i:3;i:1024;i:4;N;}}i:1;a:7:{s:4:"file";s:35:"/var/www/data/module/Net/Socket.php";s:4:"line";i:185;s:8:"function";s:10:"raiseError";s:5:"class";s:4:"PEAR";s:6:"object";O:10:"Net_Socket":14:{s:2:"fp";N;s:8:"blocking";b:1;s:10:"persistent";b:0;s:4:"addr";s:15:"www.ec-cube.net";s:4:"port";i:80;s:7:"timeout";b:0;s:10:"lineLength";i:2048;s:7:"newline";s:2:"
+";s:6:"_debug";b:0;s:19:"_default_error_mode";N;s:22:"_default_error_options";N;s:22:"_default_error_handler";s:0:"";s:12:"_error_class";s:10:"PEAR_Error";s:16:"_expected_errors";a:0:{}}s:4:"type";s:2:"->";s:4:"args";a:2:{i:0;s:71:"php_network_getaddresses: getaddrinfo failed: Name or service not known";i:1;i:0;}}i:2;a:7:{s:4:"file";s:37:"/var/www/data/module/HTTP/Request.php";s:4:"line";i:744;s:8:"function";s:7:"connect";s:5:"class";s:10:"Net_Socket";s:6:"object";r:26;s:4:"type";s:2:"->";s:4:"args";a:5:{i:0;s:15:"www.ec-cube.net";i:1;i:80;i:2;N;i:3;N;i:4;N;}}i:3;a:7:{s:4:"file";s:58:"/var/www/data/class/pages/upgrade/LC_Page_Upgrade_Base.php";s:4:"line";i:85;s:8:"function";s:11:"sendRequest";s:5:"class";s:12:"HTTP_Request";s:6:"object";O:12:"HTTP_Request":26:{s:4:"_url";O:7:"Net_URL":13:{s:7:"options";a:1:{s:17:"encode_query_keys";b:0;}s:3:"url";s:40:"http://www.ec-cube.net/upgrade/index.php";s:8:"protocol";s:4:"http";s:8:"username";N;s:8:"password";N;s:4:"host";s:15:"www.ec-cube.net";s:4:"port";i:80;s:4:"path";s:18:"/upgrade/index.php";s:11:"querystring";a:0:{}s:6:"anchor";s:0:"";s:11:"useBrackets";b:1;s:4:"user";s:0:"";s:4:"pass";s:0:"";}s:7:"_method";s:4:"POST";s:5:"_http";s:3:"1.1";s:15:"_requestHeaders";a:4:{s:10:"user-agent";s:48:"PEAR HTTP_Request class ( http://pear.php.net/ )";s:10:"connection";s:5:"close";s:15:"accept-encoding";s:4:"gzip";s:4:"host";s:15:"www.ec-cube.net";}s:5:"_user";N;s:5:"_pass";N;s:5:"_sock";r:26;s:11:"_proxy_host";N;s:11:"_proxy_port";N;s:11:"_proxy_user";N;s:11:"_proxy_pass";N;s:9:"_postData";a:5:{s:4:"mode";s:13:"products_list";s:10:"eccube_url";s:31:"http%3A%2F%2F192.168.218.200%2F";s:10:"public_key";s:40:"035f41a9a7e1db4ed4cd909b8c05f7bdc01b8bb3";s:8:"sha1_key";s:40:"dff358dcd9d4ee4d25cb9bd825e57cbc62486d55";s:3:"ver";s:6:"2.13.2";}s:5:"_body";N;s:15:"_bodyDisallowed";a:1:{i:0;s:5:"TRACE";}s:13:"_bodyRequired";a:2:{i:0;s:4:"POST";i:1;s:3:"PUT";}s:10:"_postFiles";a:0:{}s:8:"_timeout";N;s:9:"_response";N;s:15:"_allowRedirects";b:0;s:13:"_maxRedirects";i:3;s:10:"_redirects";i:0;s:12:"_useBrackets";b:1;s:10:"_listeners";a:0:{}s:9:"_saveBody";b:1;s:12:"_readTimeout";N;s:14:"_socketOptions";N;}s:4:"type";s:2:"->";s:4:"args";a:0:{}}i:4;a:7:{s:4:"file";s:66:"/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php";s:4:"line";i:88;s:8:"function";s:7:"request";s:5:"class";s:20:"LC_Page_Upgrade_Base";s:6:"object";O:28:"LC_Page_Upgrade_ProductsList":18:{s:12:"tpl_mainpage";N;s:14:"tpl_column_num";N;s:10:"tpl_mainno";N;s:7:"tpl_css";N;s:14:"tpl_javascript";N;s:9:"tpl_title";N;s:15:"tpl_login_email";N;s:10:"tpl_onload";N;s:13:"transactionid";s:40:"b17b6ccf7019df1eb494ad5725b01dcb278a12d0";s:8:"template";s:14:"site_frame.tpl";s:11:"arrSiteInfo";a:66:{s:2:"id";s:1:"1";s:12:"company_name";s:22:"タヒボe株式会社";s:12:"company_kana";s:39:"タヒボイーカブシキカイシャ";s:5:"zip01";s:3:"981";s:5:"zip02";s:4:"3133";s:7:"zipcode";N;s:10:"country_id";s:3:"392";s:4:"pref";s:1:"4";s:6:"addr01";s:33:"仙台市泉区泉中央三丁目";s:6:"addr02";s:5:"10-15";s:5:"tel01";s:3:"022";s:5:"tel02";s:3:"772";s:5:"tel03";s:4:"6201";s:5:"fax01";s:3:"022";s:5:"fax02";s:3:"772";s:5:"fax03";s:4:"6206";s:13:"business_hour";N;s:11:"law_company";s:22:"タヒボe株式会社";s:11:"law_manager";s:13:"岩崎 正昭";s:9:"law_zip01";s:3:"981";s:9:"law_zip02";s:4:"3133";s:11:"law_zipcode";N;s:14:"law_country_id";N;s:8:"law_pref";s:1:"4";s:10:"law_addr01";s:33:"仙台市泉区泉中央三丁目";s:10:"law_addr02";s:5:"10-15";s:9:"law_tel01";s:3:"022";s:9:"law_tel02";s:3:"772";s:9:"law_tel03";s:4:"6201";s:9:"law_fax01";s:3:"022";s:9:"law_fax02";s:3:"772";s:9:"law_fax03";s:4:"6206";s:9:"law_email";s:19:"info@taheebo-ec.net";s:7:"law_url";s:20:"http://taheebo-e.net";s:10:"law_term01";s:36:"商品代金以外掛かりません";s:10:"law_term02";s:2358:"購入希望の商品ページにある「カートへ入れる」ボタンから商品をショッピングカートに追加して下さい。「カートへ入れる」ボタンがない商品はショッピングカートでのお取り扱いができませんので、商品ページにある「この商品について問い合わせる」ボタンをよりお問い合わせ下さい。
+同一商品を複数ご希望の場合は、商品ページで数量を指定するか、ショッピングカートのページで「数量」を入力して「数量更新」ボタンを押して下さい。
+ショッピングカートに入れた商品を削除する場合は、ショッピングカートのページで商品名左の「X」ボタンを押してください。
+購入希望の商品が全てショッピングカートのリストに追加されましたら、内容をよくご確認の上、「購入手続きへ」ボタンを押してください。
+表示された画面の指示に従いお客様情報を入力後、「次へ」ボタンを押して「お届け先情報」、「ご配送方法・お支払方法・お届け時間の指定」をご入力下さい。
+全ての入力が終わりましたら「ご注文内容の確認へ」ボタンを押し、表示された確認画面で入力された内容に間違いがないことをご確認の上、「ご注文を確定する」ボタンを押してください。
+以上でショッピングカートでの注文手続きが完了し、ご入力いただいたメールアドレス宛に自動的に「ご注文内容の確認」メールをお送りいたします。
+メールが届かない場合はトラブルの可能性もありますので、大変お手数ですがメールまたはお電話(000-0000-0000)でお問い合わせください。
+当店で在庫の確認後1〜3日営業日以内に、ご入力いただいたメールアドレス宛に「ご注文の確定」メールをお送りいたします。ご注文された内容と間違いがないことをご確認のうえ、商品到着まで大切に保管しておいて下さい。
+送料に変更がある場合や在庫の確保ができなかった場合等はその旨のメールをお送りいたしますので、届いたメールの内容にあわせてご返信ください。";s:10:"law_term03";s:24:"クレジットカード";s:10:"law_term04";s:76:"ご注文日より7日以内に合計金額をお振り込みください。";s:10:"law_term05";s:15:"入金確認後";s:10:"law_term06";s:1371:"商品の特性上、お客様のご都合での返品は受け付けておりません。破損などの不良があったもの、商品の誤送があった場合および搬送中に損傷などが生じた場合に限り、返品・交換を受け付けさせていただきます。
+不良品・破損品による交換をご希望の場合は、商品お受取より1週間以内にメールまたはお電話(000-0000-0000)でご連絡下さい。発送料は当店負担にて交換品をお送りいたします。在庫切れの商品やハンドメイドの商品など全く同じものと交換できない場合は返金または同額の商品と交換させていただきます。
+キャンセルにつきましては、原則的にご注文商品の梱包作業前までの受付となります。メールまたはお電話(000-0000-0000)でご連絡下さい。メールでご連絡いただきました場合、当店からキャンセル確認メールをお送りいたします。こちらからのキャンセル確認メールをお送りした時点でキャンセル成立となりますので、それまではご注文は有効な状態です。 万が一、メールをお送りいただいたにも関わらず当店からの連絡がない場合は、お手数ですが再度ご連絡くださいますようお願いいたします。";s:10:"law_term07";N;s:10:"law_term08";N;s:10:"law_term09";N;s:10:"law_term10";N;s:7:"email01";s:17:"nfd@taheebo-e.net";s:7:"email02";s:17:"nfd@taheebo-e.net";s:7:"email03";s:17:"nfd@taheebo-e.net";s:7:"email04";s:17:"nfd@taheebo-e.net";s:9:"free_rule";N;s:9:"shop_name";s:15:"いいねっと";s:9:"shop_kana";N;s:13:"shop_name_eng";N;s:10:"point_rate";s:2:"12";s:13:"welcome_point";s:4:"5000";s:11:"update_date";s:19:"2014-10-09 10:38:30";s:7:"top_tpl";s:8:"default1";s:11:"product_tpl";s:8:"default1";s:10:"detail_tpl";s:8:"default1";s:10:"mypage_tpl";s:8:"default1";s:11:"good_traded";N;s:7:"message";N;s:19:"regular_holiday_ids";s:3:"0|6";s:8:"latitude";s:10:"38.3244726";s:9:"longitude";s:11:"140.8841175";s:17:"downloadable_days";s:2:"30";s:27:"downloadable_days_unlimited";N;}s:19:"plugin_activate_flg";b:1;s:16:"arrLimitPostMode";a:0:{}s:21:"skip_load_page_layout";b:1;s:14:"load_legacy_js";b:0;s:9:"timeStart";d:1415047822.144309;s:13:"tpl_authority";s:1:"0";s:10:"objDisplay";O:13:"SC_Display_Ex":3:{s:8:"response";O:14:"SC_Response_Ex":5:{s:11:"contentType";N;s:4:"body";N;s:10:"statusCode";N;s:6:"header";a:0:{}s:8:"encoding";N;}s:4:"view";N;s:11:"deviceSeted";b:0;}}s:4:"type";s:2:"->";s:4:"args";a:2:{i:0;s:13:"products_list";i:1;a:4:{s:10:"eccube_url";s:23:"http://192.168.218.200/";s:10:"public_key";s:40:"035f41a9a7e1db4ed4cd909b8c05f7bdc01b8bb3";s:8:"sha1_key";s:40:"dff358dcd9d4ee4d25cb9bd825e57cbc62486d55";s:3:"ver";s:6:"2.13.2";}}}i:5;a:7:{s:4:"file";s:31:"/var/www/html/upgrade/index.php";s:4:"line";i:37;s:8:"function";s:7:"process";s:5:"class";s:28:"LC_Page_Upgrade_ProductsList";s:6:"object";r:123;s:4:"type";s:2:"->";s:4:"args";a:1:{i:0;s:13:"products_list";}}}s:8:"callback";N;} from 192.168.218.1
+customer_id = 
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(95): LC_Upgrade_Helper_Log->error
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(69): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/04 05:51:02 [/upgrade/index.php] ##### end ##### from 192.168.218.1
+customer_id = 
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(95): LC_Upgrade_Helper_Log->error
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(70): LC_Upgrade_Helper_Log->end
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(48): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/04 05:51:14 [/upgrade/index.php] * http request check start from 192.168.218.1
+customer_id = 
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(91): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/04 05:51:14 [/upgrade/index.php] * error! code:2002 / debug:O:10:"PEAR_Error":8:{s:20:"error_message_prefix";s:0:"";s:4:"mode";i:1;s:5:"level";i:1024;s:4:"code";i:0;s:7:"message";s:71:"php_network_getaddresses: getaddrinfo failed: Name or service not known";s:8:"userinfo";N;s:9:"backtrace";a:6:{i:0;a:6:{s:4:"file";s:29:"/var/www/data/module/PEAR.php";s:4:"line";i:542;s:8:"function";s:10:"PEAR_Error";s:5:"class";s:10:"PEAR_Error";s:4:"type";s:2:"->";s:4:"args";a:5:{i:0;s:71:"php_network_getaddresses: getaddrinfo failed: Name or service not known";i:1;i:0;i:2;i:1;i:3;i:1024;i:4;N;}}i:1;a:7:{s:4:"file";s:35:"/var/www/data/module/Net/Socket.php";s:4:"line";i:185;s:8:"function";s:10:"raiseError";s:5:"class";s:4:"PEAR";s:6:"object";O:10:"Net_Socket":14:{s:2:"fp";N;s:8:"blocking";b:1;s:10:"persistent";b:0;s:4:"addr";s:15:"www.ec-cube.net";s:4:"port";i:80;s:7:"timeout";b:0;s:10:"lineLength";i:2048;s:7:"newline";s:2:"
+";s:6:"_debug";b:0;s:19:"_default_error_mode";N;s:22:"_default_error_options";N;s:22:"_default_error_handler";s:0:"";s:12:"_error_class";s:10:"PEAR_Error";s:16:"_expected_errors";a:0:{}}s:4:"type";s:2:"->";s:4:"args";a:2:{i:0;s:71:"php_network_getaddresses: getaddrinfo failed: Name or service not known";i:1;i:0;}}i:2;a:7:{s:4:"file";s:37:"/var/www/data/module/HTTP/Request.php";s:4:"line";i:744;s:8:"function";s:7:"connect";s:5:"class";s:10:"Net_Socket";s:6:"object";r:26;s:4:"type";s:2:"->";s:4:"args";a:5:{i:0;s:15:"www.ec-cube.net";i:1;i:80;i:2;N;i:3;N;i:4;N;}}i:3;a:7:{s:4:"file";s:58:"/var/www/data/class/pages/upgrade/LC_Page_Upgrade_Base.php";s:4:"line";i:85;s:8:"function";s:11:"sendRequest";s:5:"class";s:12:"HTTP_Request";s:6:"object";O:12:"HTTP_Request":26:{s:4:"_url";O:7:"Net_URL":13:{s:7:"options";a:1:{s:17:"encode_query_keys";b:0;}s:3:"url";s:40:"http://www.ec-cube.net/upgrade/index.php";s:8:"protocol";s:4:"http";s:8:"username";N;s:8:"password";N;s:4:"host";s:15:"www.ec-cube.net";s:4:"port";i:80;s:4:"path";s:18:"/upgrade/index.php";s:11:"querystring";a:0:{}s:6:"anchor";s:0:"";s:11:"useBrackets";b:1;s:4:"user";s:0:"";s:4:"pass";s:0:"";}s:7:"_method";s:4:"POST";s:5:"_http";s:3:"1.1";s:15:"_requestHeaders";a:4:{s:10:"user-agent";s:48:"PEAR HTTP_Request class ( http://pear.php.net/ )";s:10:"connection";s:5:"close";s:15:"accept-encoding";s:4:"gzip";s:4:"host";s:15:"www.ec-cube.net";}s:5:"_user";N;s:5:"_pass";N;s:5:"_sock";r:26;s:11:"_proxy_host";N;s:11:"_proxy_port";N;s:11:"_proxy_user";N;s:11:"_proxy_pass";N;s:9:"_postData";a:5:{s:4:"mode";s:13:"products_list";s:10:"eccube_url";s:31:"http%3A%2F%2F192.168.218.200%2F";s:10:"public_key";s:40:"24fcdc4f98446bfe6dc8492b94c79a179e0da0ff";s:8:"sha1_key";s:40:"f710b56cfee1abf62d5e340aed8659ff1de1d448";s:3:"ver";s:6:"2.13.2";}s:5:"_body";N;s:15:"_bodyDisallowed";a:1:{i:0;s:5:"TRACE";}s:13:"_bodyRequired";a:2:{i:0;s:4:"POST";i:1;s:3:"PUT";}s:10:"_postFiles";a:0:{}s:8:"_timeout";N;s:9:"_response";N;s:15:"_allowRedirects";b:0;s:13:"_maxRedirects";i:3;s:10:"_redirects";i:0;s:12:"_useBrackets";b:1;s:10:"_listeners";a:0:{}s:9:"_saveBody";b:1;s:12:"_readTimeout";N;s:14:"_socketOptions";N;}s:4:"type";s:2:"->";s:4:"args";a:0:{}}i:4;a:7:{s:4:"file";s:66:"/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php";s:4:"line";i:88;s:8:"function";s:7:"request";s:5:"class";s:20:"LC_Page_Upgrade_Base";s:6:"object";O:28:"LC_Page_Upgrade_ProductsList":18:{s:12:"tpl_mainpage";N;s:14:"tpl_column_num";N;s:10:"tpl_mainno";N;s:7:"tpl_css";N;s:14:"tpl_javascript";N;s:9:"tpl_title";N;s:15:"tpl_login_email";N;s:10:"tpl_onload";N;s:13:"transactionid";s:40:"b17b6ccf7019df1eb494ad5725b01dcb278a12d0";s:8:"template";s:14:"site_frame.tpl";s:11:"arrSiteInfo";a:66:{s:2:"id";s:1:"1";s:12:"company_name";s:22:"タヒボe株式会社";s:12:"company_kana";s:39:"タヒボイーカブシキカイシャ";s:5:"zip01";s:3:"981";s:5:"zip02";s:4:"3133";s:7:"zipcode";N;s:10:"country_id";s:3:"392";s:4:"pref";s:1:"4";s:6:"addr01";s:33:"仙台市泉区泉中央三丁目";s:6:"addr02";s:5:"10-15";s:5:"tel01";s:3:"022";s:5:"tel02";s:3:"772";s:5:"tel03";s:4:"6201";s:5:"fax01";s:3:"022";s:5:"fax02";s:3:"772";s:5:"fax03";s:4:"6206";s:13:"business_hour";N;s:11:"law_company";s:22:"タヒボe株式会社";s:11:"law_manager";s:13:"岩崎 正昭";s:9:"law_zip01";s:3:"981";s:9:"law_zip02";s:4:"3133";s:11:"law_zipcode";N;s:14:"law_country_id";N;s:8:"law_pref";s:1:"4";s:10:"law_addr01";s:33:"仙台市泉区泉中央三丁目";s:10:"law_addr02";s:5:"10-15";s:9:"law_tel01";s:3:"022";s:9:"law_tel02";s:3:"772";s:9:"law_tel03";s:4:"6201";s:9:"law_fax01";s:3:"022";s:9:"law_fax02";s:3:"772";s:9:"law_fax03";s:4:"6206";s:9:"law_email";s:19:"info@taheebo-ec.net";s:7:"law_url";s:20:"http://taheebo-e.net";s:10:"law_term01";s:36:"商品代金以外掛かりません";s:10:"law_term02";s:2358:"購入希望の商品ページにある「カートへ入れる」ボタンから商品をショッピングカートに追加して下さい。「カートへ入れる」ボタンがない商品はショッピングカートでのお取り扱いができませんので、商品ページにある「この商品について問い合わせる」ボタンをよりお問い合わせ下さい。
+同一商品を複数ご希望の場合は、商品ページで数量を指定するか、ショッピングカートのページで「数量」を入力して「数量更新」ボタンを押して下さい。
+ショッピングカートに入れた商品を削除する場合は、ショッピングカートのページで商品名左の「X」ボタンを押してください。
+購入希望の商品が全てショッピングカートのリストに追加されましたら、内容をよくご確認の上、「購入手続きへ」ボタンを押してください。
+表示された画面の指示に従いお客様情報を入力後、「次へ」ボタンを押して「お届け先情報」、「ご配送方法・お支払方法・お届け時間の指定」をご入力下さい。
+全ての入力が終わりましたら「ご注文内容の確認へ」ボタンを押し、表示された確認画面で入力された内容に間違いがないことをご確認の上、「ご注文を確定する」ボタンを押してください。
+以上でショッピングカートでの注文手続きが完了し、ご入力いただいたメールアドレス宛に自動的に「ご注文内容の確認」メールをお送りいたします。
+メールが届かない場合はトラブルの可能性もありますので、大変お手数ですがメールまたはお電話(000-0000-0000)でお問い合わせください。
+当店で在庫の確認後1〜3日営業日以内に、ご入力いただいたメールアドレス宛に「ご注文の確定」メールをお送りいたします。ご注文された内容と間違いがないことをご確認のうえ、商品到着まで大切に保管しておいて下さい。
+送料に変更がある場合や在庫の確保ができなかった場合等はその旨のメールをお送りいたしますので、届いたメールの内容にあわせてご返信ください。";s:10:"law_term03";s:24:"クレジットカード";s:10:"law_term04";s:76:"ご注文日より7日以内に合計金額をお振り込みください。";s:10:"law_term05";s:15:"入金確認後";s:10:"law_term06";s:1371:"商品の特性上、お客様のご都合での返品は受け付けておりません。破損などの不良があったもの、商品の誤送があった場合および搬送中に損傷などが生じた場合に限り、返品・交換を受け付けさせていただきます。
+不良品・破損品による交換をご希望の場合は、商品お受取より1週間以内にメールまたはお電話(000-0000-0000)でご連絡下さい。発送料は当店負担にて交換品をお送りいたします。在庫切れの商品やハンドメイドの商品など全く同じものと交換できない場合は返金または同額の商品と交換させていただきます。
+キャンセルにつきましては、原則的にご注文商品の梱包作業前までの受付となります。メールまたはお電話(000-0000-0000)でご連絡下さい。メールでご連絡いただきました場合、当店からキャンセル確認メールをお送りいたします。こちらからのキャンセル確認メールをお送りした時点でキャンセル成立となりますので、それまではご注文は有効な状態です。 万が一、メールをお送りいただいたにも関わらず当店からの連絡がない場合は、お手数ですが再度ご連絡くださいますようお願いいたします。";s:10:"law_term07";N;s:10:"law_term08";N;s:10:"law_term09";N;s:10:"law_term10";N;s:7:"email01";s:17:"nfd@taheebo-e.net";s:7:"email02";s:17:"nfd@taheebo-e.net";s:7:"email03";s:17:"nfd@taheebo-e.net";s:7:"email04";s:17:"nfd@taheebo-e.net";s:9:"free_rule";N;s:9:"shop_name";s:15:"いいねっと";s:9:"shop_kana";N;s:13:"shop_name_eng";N;s:10:"point_rate";s:2:"12";s:13:"welcome_point";s:4:"5000";s:11:"update_date";s:19:"2014-10-09 10:38:30";s:7:"top_tpl";s:8:"default1";s:11:"product_tpl";s:8:"default1";s:10:"detail_tpl";s:8:"default1";s:10:"mypage_tpl";s:8:"default1";s:11:"good_traded";N;s:7:"message";N;s:19:"regular_holiday_ids";s:3:"0|6";s:8:"latitude";s:10:"38.3244726";s:9:"longitude";s:11:"140.8841175";s:17:"downloadable_days";s:2:"30";s:27:"downloadable_days_unlimited";N;}s:19:"plugin_activate_flg";b:1;s:16:"arrLimitPostMode";a:0:{}s:21:"skip_load_page_layout";b:1;s:14:"load_legacy_js";b:0;s:9:"timeStart";d:1415047833.793427;s:13:"tpl_authority";s:1:"0";s:10:"objDisplay";O:13:"SC_Display_Ex":3:{s:8:"response";O:14:"SC_Response_Ex":5:{s:11:"contentType";N;s:4:"body";N;s:10:"statusCode";N;s:6:"header";a:0:{}s:8:"encoding";N;}s:4:"view";N;s:11:"deviceSeted";b:0;}}s:4:"type";s:2:"->";s:4:"args";a:2:{i:0;s:13:"products_list";i:1;a:4:{s:10:"eccube_url";s:23:"http://192.168.218.200/";s:10:"public_key";s:40:"24fcdc4f98446bfe6dc8492b94c79a179e0da0ff";s:8:"sha1_key";s:40:"f710b56cfee1abf62d5e340aed8659ff1de1d448";s:3:"ver";s:6:"2.13.2";}}}i:5;a:7:{s:4:"file";s:31:"/var/www/html/upgrade/index.php";s:4:"line";i:37;s:8:"function";s:7:"process";s:5:"class";s:28:"LC_Page_Upgrade_ProductsList";s:6:"object";r:123;s:4:"type";s:2:"->";s:4:"args";a:1:{i:0;s:13:"products_list";}}}s:8:"callback";N;} from 192.168.218.1
+customer_id = 
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(95): LC_Upgrade_Helper_Log->error
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(69): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/04 05:51:14 [/upgrade/index.php] ##### end ##### from 192.168.218.1
+customer_id = 
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(95): LC_Upgrade_Helper_Log->error
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(70): LC_Upgrade_Helper_Log->end
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(48): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/04 05:51:16 [/upgrade/index.php] * http request check start from 192.168.218.1
+customer_id = 
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(91): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/04 05:51:16 [/upgrade/index.php] * error! code:2002 / debug:O:10:"PEAR_Error":8:{s:20:"error_message_prefix";s:0:"";s:4:"mode";i:1;s:5:"level";i:1024;s:4:"code";i:0;s:7:"message";s:71:"php_network_getaddresses: getaddrinfo failed: Name or service not known";s:8:"userinfo";N;s:9:"backtrace";a:6:{i:0;a:6:{s:4:"file";s:29:"/var/www/data/module/PEAR.php";s:4:"line";i:542;s:8:"function";s:10:"PEAR_Error";s:5:"class";s:10:"PEAR_Error";s:4:"type";s:2:"->";s:4:"args";a:5:{i:0;s:71:"php_network_getaddresses: getaddrinfo failed: Name or service not known";i:1;i:0;i:2;i:1;i:3;i:1024;i:4;N;}}i:1;a:7:{s:4:"file";s:35:"/var/www/data/module/Net/Socket.php";s:4:"line";i:185;s:8:"function";s:10:"raiseError";s:5:"class";s:4:"PEAR";s:6:"object";O:10:"Net_Socket":14:{s:2:"fp";N;s:8:"blocking";b:1;s:10:"persistent";b:0;s:4:"addr";s:15:"www.ec-cube.net";s:4:"port";i:80;s:7:"timeout";b:0;s:10:"lineLength";i:2048;s:7:"newline";s:2:"
+";s:6:"_debug";b:0;s:19:"_default_error_mode";N;s:22:"_default_error_options";N;s:22:"_default_error_handler";s:0:"";s:12:"_error_class";s:10:"PEAR_Error";s:16:"_expected_errors";a:0:{}}s:4:"type";s:2:"->";s:4:"args";a:2:{i:0;s:71:"php_network_getaddresses: getaddrinfo failed: Name or service not known";i:1;i:0;}}i:2;a:7:{s:4:"file";s:37:"/var/www/data/module/HTTP/Request.php";s:4:"line";i:744;s:8:"function";s:7:"connect";s:5:"class";s:10:"Net_Socket";s:6:"object";r:26;s:4:"type";s:2:"->";s:4:"args";a:5:{i:0;s:15:"www.ec-cube.net";i:1;i:80;i:2;N;i:3;N;i:4;N;}}i:3;a:7:{s:4:"file";s:58:"/var/www/data/class/pages/upgrade/LC_Page_Upgrade_Base.php";s:4:"line";i:85;s:8:"function";s:11:"sendRequest";s:5:"class";s:12:"HTTP_Request";s:6:"object";O:12:"HTTP_Request":26:{s:4:"_url";O:7:"Net_URL":13:{s:7:"options";a:1:{s:17:"encode_query_keys";b:0;}s:3:"url";s:40:"http://www.ec-cube.net/upgrade/index.php";s:8:"protocol";s:4:"http";s:8:"username";N;s:8:"password";N;s:4:"host";s:15:"www.ec-cube.net";s:4:"port";i:80;s:4:"path";s:18:"/upgrade/index.php";s:11:"querystring";a:0:{}s:6:"anchor";s:0:"";s:11:"useBrackets";b:1;s:4:"user";s:0:"";s:4:"pass";s:0:"";}s:7:"_method";s:4:"POST";s:5:"_http";s:3:"1.1";s:15:"_requestHeaders";a:4:{s:10:"user-agent";s:48:"PEAR HTTP_Request class ( http://pear.php.net/ )";s:10:"connection";s:5:"close";s:15:"accept-encoding";s:4:"gzip";s:4:"host";s:15:"www.ec-cube.net";}s:5:"_user";N;s:5:"_pass";N;s:5:"_sock";r:26;s:11:"_proxy_host";N;s:11:"_proxy_port";N;s:11:"_proxy_user";N;s:11:"_proxy_pass";N;s:9:"_postData";a:5:{s:4:"mode";s:13:"products_list";s:10:"eccube_url";s:31:"http%3A%2F%2F192.168.218.200%2F";s:10:"public_key";s:40:"4b5b2cdcc5cde7247adc5c2c879b1c98f5c0c09e";s:8:"sha1_key";s:40:"31b8ecb7fd26f3881b0b8a796d7614b7cca056eb";s:3:"ver";s:6:"2.13.2";}s:5:"_body";N;s:15:"_bodyDisallowed";a:1:{i:0;s:5:"TRACE";}s:13:"_bodyRequired";a:2:{i:0;s:4:"POST";i:1;s:3:"PUT";}s:10:"_postFiles";a:0:{}s:8:"_timeout";N;s:9:"_response";N;s:15:"_allowRedirects";b:0;s:13:"_maxRedirects";i:3;s:10:"_redirects";i:0;s:12:"_useBrackets";b:1;s:10:"_listeners";a:0:{}s:9:"_saveBody";b:1;s:12:"_readTimeout";N;s:14:"_socketOptions";N;}s:4:"type";s:2:"->";s:4:"args";a:0:{}}i:4;a:7:{s:4:"file";s:66:"/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php";s:4:"line";i:88;s:8:"function";s:7:"request";s:5:"class";s:20:"LC_Page_Upgrade_Base";s:6:"object";O:28:"LC_Page_Upgrade_ProductsList":18:{s:12:"tpl_mainpage";N;s:14:"tpl_column_num";N;s:10:"tpl_mainno";N;s:7:"tpl_css";N;s:14:"tpl_javascript";N;s:9:"tpl_title";N;s:15:"tpl_login_email";N;s:10:"tpl_onload";N;s:13:"transactionid";s:40:"b17b6ccf7019df1eb494ad5725b01dcb278a12d0";s:8:"template";s:14:"site_frame.tpl";s:11:"arrSiteInfo";a:66:{s:2:"id";s:1:"1";s:12:"company_name";s:22:"タヒボe株式会社";s:12:"company_kana";s:39:"タヒボイーカブシキカイシャ";s:5:"zip01";s:3:"981";s:5:"zip02";s:4:"3133";s:7:"zipcode";N;s:10:"country_id";s:3:"392";s:4:"pref";s:1:"4";s:6:"addr01";s:33:"仙台市泉区泉中央三丁目";s:6:"addr02";s:5:"10-15";s:5:"tel01";s:3:"022";s:5:"tel02";s:3:"772";s:5:"tel03";s:4:"6201";s:5:"fax01";s:3:"022";s:5:"fax02";s:3:"772";s:5:"fax03";s:4:"6206";s:13:"business_hour";N;s:11:"law_company";s:22:"タヒボe株式会社";s:11:"law_manager";s:13:"岩崎 正昭";s:9:"law_zip01";s:3:"981";s:9:"law_zip02";s:4:"3133";s:11:"law_zipcode";N;s:14:"law_country_id";N;s:8:"law_pref";s:1:"4";s:10:"law_addr01";s:33:"仙台市泉区泉中央三丁目";s:10:"law_addr02";s:5:"10-15";s:9:"law_tel01";s:3:"022";s:9:"law_tel02";s:3:"772";s:9:"law_tel03";s:4:"6201";s:9:"law_fax01";s:3:"022";s:9:"law_fax02";s:3:"772";s:9:"law_fax03";s:4:"6206";s:9:"law_email";s:19:"info@taheebo-ec.net";s:7:"law_url";s:20:"http://taheebo-e.net";s:10:"law_term01";s:36:"商品代金以外掛かりません";s:10:"law_term02";s:2358:"購入希望の商品ページにある「カートへ入れる」ボタンから商品をショッピングカートに追加して下さい。「カートへ入れる」ボタンがない商品はショッピングカートでのお取り扱いができませんので、商品ページにある「この商品について問い合わせる」ボタンをよりお問い合わせ下さい。
+同一商品を複数ご希望の場合は、商品ページで数量を指定するか、ショッピングカートのページで「数量」を入力して「数量更新」ボタンを押して下さい。
+ショッピングカートに入れた商品を削除する場合は、ショッピングカートのページで商品名左の「X」ボタンを押してください。
+購入希望の商品が全てショッピングカートのリストに追加されましたら、内容をよくご確認の上、「購入手続きへ」ボタンを押してください。
+表示された画面の指示に従いお客様情報を入力後、「次へ」ボタンを押して「お届け先情報」、「ご配送方法・お支払方法・お届け時間の指定」をご入力下さい。
+全ての入力が終わりましたら「ご注文内容の確認へ」ボタンを押し、表示された確認画面で入力された内容に間違いがないことをご確認の上、「ご注文を確定する」ボタンを押してください。
+以上でショッピングカートでの注文手続きが完了し、ご入力いただいたメールアドレス宛に自動的に「ご注文内容の確認」メールをお送りいたします。
+メールが届かない場合はトラブルの可能性もありますので、大変お手数ですがメールまたはお電話(000-0000-0000)でお問い合わせください。
+当店で在庫の確認後1〜3日営業日以内に、ご入力いただいたメールアドレス宛に「ご注文の確定」メールをお送りいたします。ご注文された内容と間違いがないことをご確認のうえ、商品到着まで大切に保管しておいて下さい。
+送料に変更がある場合や在庫の確保ができなかった場合等はその旨のメールをお送りいたしますので、届いたメールの内容にあわせてご返信ください。";s:10:"law_term03";s:24:"クレジットカード";s:10:"law_term04";s:76:"ご注文日より7日以内に合計金額をお振り込みください。";s:10:"law_term05";s:15:"入金確認後";s:10:"law_term06";s:1371:"商品の特性上、お客様のご都合での返品は受け付けておりません。破損などの不良があったもの、商品の誤送があった場合および搬送中に損傷などが生じた場合に限り、返品・交換を受け付けさせていただきます。
+不良品・破損品による交換をご希望の場合は、商品お受取より1週間以内にメールまたはお電話(000-0000-0000)でご連絡下さい。発送料は当店負担にて交換品をお送りいたします。在庫切れの商品やハンドメイドの商品など全く同じものと交換できない場合は返金または同額の商品と交換させていただきます。
+キャンセルにつきましては、原則的にご注文商品の梱包作業前までの受付となります。メールまたはお電話(000-0000-0000)でご連絡下さい。メールでご連絡いただきました場合、当店からキャンセル確認メールをお送りいたします。こちらからのキャンセル確認メールをお送りした時点でキャンセル成立となりますので、それまではご注文は有効な状態です。 万が一、メールをお送りいただいたにも関わらず当店からの連絡がない場合は、お手数ですが再度ご連絡くださいますようお願いいたします。";s:10:"law_term07";N;s:10:"law_term08";N;s:10:"law_term09";N;s:10:"law_term10";N;s:7:"email01";s:17:"nfd@taheebo-e.net";s:7:"email02";s:17:"nfd@taheebo-e.net";s:7:"email03";s:17:"nfd@taheebo-e.net";s:7:"email04";s:17:"nfd@taheebo-e.net";s:9:"free_rule";N;s:9:"shop_name";s:15:"いいねっと";s:9:"shop_kana";N;s:13:"shop_name_eng";N;s:10:"point_rate";s:2:"12";s:13:"welcome_point";s:4:"5000";s:11:"update_date";s:19:"2014-10-09 10:38:30";s:7:"top_tpl";s:8:"default1";s:11:"product_tpl";s:8:"default1";s:10:"detail_tpl";s:8:"default1";s:10:"mypage_tpl";s:8:"default1";s:11:"good_traded";N;s:7:"message";N;s:19:"regular_holiday_ids";s:3:"0|6";s:8:"latitude";s:10:"38.3244726";s:9:"longitude";s:11:"140.8841175";s:17:"downloadable_days";s:2:"30";s:27:"downloadable_days_unlimited";N;}s:19:"plugin_activate_flg";b:1;s:16:"arrLimitPostMode";a:0:{}s:21:"skip_load_page_layout";b:1;s:14:"load_legacy_js";b:0;s:9:"timeStart";d:1415047836.4468679;s:13:"tpl_authority";s:1:"0";s:10:"objDisplay";O:13:"SC_Display_Ex":3:{s:8:"response";O:14:"SC_Response_Ex":5:{s:11:"contentType";N;s:4:"body";N;s:10:"statusCode";N;s:6:"header";a:0:{}s:8:"encoding";N;}s:4:"view";N;s:11:"deviceSeted";b:0;}}s:4:"type";s:2:"->";s:4:"args";a:2:{i:0;s:13:"products_list";i:1;a:4:{s:10:"eccube_url";s:23:"http://192.168.218.200/";s:10:"public_key";s:40:"4b5b2cdcc5cde7247adc5c2c879b1c98f5c0c09e";s:8:"sha1_key";s:40:"31b8ecb7fd26f3881b0b8a796d7614b7cca056eb";s:3:"ver";s:6:"2.13.2";}}}i:5;a:7:{s:4:"file";s:31:"/var/www/html/upgrade/index.php";s:4:"line";i:37;s:8:"function";s:7:"process";s:5:"class";s:28:"LC_Page_Upgrade_ProductsList";s:6:"object";r:123;s:4:"type";s:2:"->";s:4:"args";a:1:{i:0;s:13:"products_list";}}}s:8:"callback";N;} from 192.168.218.1
+customer_id = 
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(95): LC_Upgrade_Helper_Log->error
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(69): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/04 05:51:16 [/upgrade/index.php] ##### end ##### from 192.168.218.1
+customer_id = 
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(95): LC_Upgrade_Helper_Log->error
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(70): LC_Upgrade_Helper_Log->end
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(48): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/04 05:52:07 [/upgrade/index.php] ##### products_list start ##### from 192.168.218.1
+customer_id = 
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(55): LC_Upgrade_Helper_Log->start
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(38): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/04 05:52:07 [/upgrade/index.php] * admin auth start from 192.168.218.1
+customer_id = 
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(58): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/04 05:52:08 [/upgrade/index.php] * public key check start from 192.168.218.1
+customer_id = 
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(71): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/04 05:52:08 [/upgrade/index.php] * http request start from 192.168.218.1
+customer_id = 
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(81): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/04 05:52:48 [/upgrade/index.php] * http request check start from 192.168.218.1
+customer_id = 
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(91): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/04 05:52:48 [/upgrade/index.php] * error! code:2002 / debug:O:10:"PEAR_Error":8:{s:20:"error_message_prefix";s:0:"";s:4:"mode";i:1;s:5:"level";i:1024;s:4:"code";i:0;s:7:"message";s:71:"php_network_getaddresses: getaddrinfo failed: Name or service not known";s:8:"userinfo";N;s:9:"backtrace";a:6:{i:0;a:6:{s:4:"file";s:29:"/var/www/data/module/PEAR.php";s:4:"line";i:542;s:8:"function";s:10:"PEAR_Error";s:5:"class";s:10:"PEAR_Error";s:4:"type";s:2:"->";s:4:"args";a:5:{i:0;s:71:"php_network_getaddresses: getaddrinfo failed: Name or service not known";i:1;i:0;i:2;i:1;i:3;i:1024;i:4;N;}}i:1;a:7:{s:4:"file";s:35:"/var/www/data/module/Net/Socket.php";s:4:"line";i:185;s:8:"function";s:10:"raiseError";s:5:"class";s:4:"PEAR";s:6:"object";O:10:"Net_Socket":14:{s:2:"fp";N;s:8:"blocking";b:1;s:10:"persistent";b:0;s:4:"addr";s:15:"www.ec-cube.net";s:4:"port";i:80;s:7:"timeout";b:0;s:10:"lineLength";i:2048;s:7:"newline";s:2:"
+";s:6:"_debug";b:0;s:19:"_default_error_mode";N;s:22:"_default_error_options";N;s:22:"_default_error_handler";s:0:"";s:12:"_error_class";s:10:"PEAR_Error";s:16:"_expected_errors";a:0:{}}s:4:"type";s:2:"->";s:4:"args";a:2:{i:0;s:71:"php_network_getaddresses: getaddrinfo failed: Name or service not known";i:1;i:0;}}i:2;a:7:{s:4:"file";s:37:"/var/www/data/module/HTTP/Request.php";s:4:"line";i:744;s:8:"function";s:7:"connect";s:5:"class";s:10:"Net_Socket";s:6:"object";r:26;s:4:"type";s:2:"->";s:4:"args";a:5:{i:0;s:15:"www.ec-cube.net";i:1;i:80;i:2;N;i:3;N;i:4;N;}}i:3;a:7:{s:4:"file";s:58:"/var/www/data/class/pages/upgrade/LC_Page_Upgrade_Base.php";s:4:"line";i:85;s:8:"function";s:11:"sendRequest";s:5:"class";s:12:"HTTP_Request";s:6:"object";O:12:"HTTP_Request":26:{s:4:"_url";O:7:"Net_URL":13:{s:7:"options";a:1:{s:17:"encode_query_keys";b:0;}s:3:"url";s:40:"http://www.ec-cube.net/upgrade/index.php";s:8:"protocol";s:4:"http";s:8:"username";N;s:8:"password";N;s:4:"host";s:15:"www.ec-cube.net";s:4:"port";i:80;s:4:"path";s:18:"/upgrade/index.php";s:11:"querystring";a:0:{}s:6:"anchor";s:0:"";s:11:"useBrackets";b:1;s:4:"user";s:0:"";s:4:"pass";s:0:"";}s:7:"_method";s:4:"POST";s:5:"_http";s:3:"1.1";s:15:"_requestHeaders";a:4:{s:10:"user-agent";s:48:"PEAR HTTP_Request class ( http://pear.php.net/ )";s:10:"connection";s:5:"close";s:15:"accept-encoding";s:4:"gzip";s:4:"host";s:15:"www.ec-cube.net";}s:5:"_user";N;s:5:"_pass";N;s:5:"_sock";r:26;s:11:"_proxy_host";N;s:11:"_proxy_port";N;s:11:"_proxy_user";N;s:11:"_proxy_pass";N;s:9:"_postData";a:5:{s:4:"mode";s:13:"products_list";s:10:"eccube_url";s:31:"http%3A%2F%2F192.168.218.200%2F";s:10:"public_key";s:40:"5c125c3536401047c65e1538b2491e2f17e1267e";s:8:"sha1_key";s:40:"994ea2726aba39966b777a0e7418d2b5ecdcdbae";s:3:"ver";s:6:"2.13.2";}s:5:"_body";N;s:15:"_bodyDisallowed";a:1:{i:0;s:5:"TRACE";}s:13:"_bodyRequired";a:2:{i:0;s:4:"POST";i:1;s:3:"PUT";}s:10:"_postFiles";a:0:{}s:8:"_timeout";N;s:9:"_response";N;s:15:"_allowRedirects";b:0;s:13:"_maxRedirects";i:3;s:10:"_redirects";i:0;s:12:"_useBrackets";b:1;s:10:"_listeners";a:0:{}s:9:"_saveBody";b:1;s:12:"_readTimeout";N;s:14:"_socketOptions";N;}s:4:"type";s:2:"->";s:4:"args";a:0:{}}i:4;a:7:{s:4:"file";s:66:"/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php";s:4:"line";i:88;s:8:"function";s:7:"request";s:5:"class";s:20:"LC_Page_Upgrade_Base";s:6:"object";O:28:"LC_Page_Upgrade_ProductsList":18:{s:12:"tpl_mainpage";N;s:14:"tpl_column_num";N;s:10:"tpl_mainno";N;s:7:"tpl_css";N;s:14:"tpl_javascript";N;s:9:"tpl_title";N;s:15:"tpl_login_email";N;s:10:"tpl_onload";N;s:13:"transactionid";s:40:"b17b6ccf7019df1eb494ad5725b01dcb278a12d0";s:8:"template";s:14:"site_frame.tpl";s:11:"arrSiteInfo";a:66:{s:2:"id";s:1:"1";s:12:"company_name";s:22:"タヒボe株式会社";s:12:"company_kana";s:39:"タヒボイーカブシキカイシャ";s:5:"zip01";s:3:"981";s:5:"zip02";s:4:"3133";s:7:"zipcode";N;s:10:"country_id";s:3:"392";s:4:"pref";s:1:"4";s:6:"addr01";s:33:"仙台市泉区泉中央三丁目";s:6:"addr02";s:5:"10-15";s:5:"tel01";s:3:"022";s:5:"tel02";s:3:"772";s:5:"tel03";s:4:"6201";s:5:"fax01";s:3:"022";s:5:"fax02";s:3:"772";s:5:"fax03";s:4:"6206";s:13:"business_hour";N;s:11:"law_company";s:22:"タヒボe株式会社";s:11:"law_manager";s:13:"岩崎 正昭";s:9:"law_zip01";s:3:"981";s:9:"law_zip02";s:4:"3133";s:11:"law_zipcode";N;s:14:"law_country_id";N;s:8:"law_pref";s:1:"4";s:10:"law_addr01";s:33:"仙台市泉区泉中央三丁目";s:10:"law_addr02";s:5:"10-15";s:9:"law_tel01";s:3:"022";s:9:"law_tel02";s:3:"772";s:9:"law_tel03";s:4:"6201";s:9:"law_fax01";s:3:"022";s:9:"law_fax02";s:3:"772";s:9:"law_fax03";s:4:"6206";s:9:"law_email";s:19:"info@taheebo-ec.net";s:7:"law_url";s:20:"http://taheebo-e.net";s:10:"law_term01";s:36:"商品代金以外掛かりません";s:10:"law_term02";s:2358:"購入希望の商品ページにある「カートへ入れる」ボタンから商品をショッピングカートに追加して下さい。「カートへ入れる」ボタンがない商品はショッピングカートでのお取り扱いができませんので、商品ページにある「この商品について問い合わせる」ボタンをよりお問い合わせ下さい。
+同一商品を複数ご希望の場合は、商品ページで数量を指定するか、ショッピングカートのページで「数量」を入力して「数量更新」ボタンを押して下さい。
+ショッピングカートに入れた商品を削除する場合は、ショッピングカートのページで商品名左の「X」ボタンを押してください。
+購入希望の商品が全てショッピングカートのリストに追加されましたら、内容をよくご確認の上、「購入手続きへ」ボタンを押してください。
+表示された画面の指示に従いお客様情報を入力後、「次へ」ボタンを押して「お届け先情報」、「ご配送方法・お支払方法・お届け時間の指定」をご入力下さい。
+全ての入力が終わりましたら「ご注文内容の確認へ」ボタンを押し、表示された確認画面で入力された内容に間違いがないことをご確認の上、「ご注文を確定する」ボタンを押してください。
+以上でショッピングカートでの注文手続きが完了し、ご入力いただいたメールアドレス宛に自動的に「ご注文内容の確認」メールをお送りいたします。
+メールが届かない場合はトラブルの可能性もありますので、大変お手数ですがメールまたはお電話(000-0000-0000)でお問い合わせください。
+当店で在庫の確認後1〜3日営業日以内に、ご入力いただいたメールアドレス宛に「ご注文の確定」メールをお送りいたします。ご注文された内容と間違いがないことをご確認のうえ、商品到着まで大切に保管しておいて下さい。
+送料に変更がある場合や在庫の確保ができなかった場合等はその旨のメールをお送りいたしますので、届いたメールの内容にあわせてご返信ください。";s:10:"law_term03";s:24:"クレジットカード";s:10:"law_term04";s:76:"ご注文日より7日以内に合計金額をお振り込みください。";s:10:"law_term05";s:15:"入金確認後";s:10:"law_term06";s:1371:"商品の特性上、お客様のご都合での返品は受け付けておりません。破損などの不良があったもの、商品の誤送があった場合および搬送中に損傷などが生じた場合に限り、返品・交換を受け付けさせていただきます。
+不良品・破損品による交換をご希望の場合は、商品お受取より1週間以内にメールまたはお電話(000-0000-0000)でご連絡下さい。発送料は当店負担にて交換品をお送りいたします。在庫切れの商品やハンドメイドの商品など全く同じものと交換できない場合は返金または同額の商品と交換させていただきます。
+キャンセルにつきましては、原則的にご注文商品の梱包作業前までの受付となります。メールまたはお電話(000-0000-0000)でご連絡下さい。メールでご連絡いただきました場合、当店からキャンセル確認メールをお送りいたします。こちらからのキャンセル確認メールをお送りした時点でキャンセル成立となりますので、それまではご注文は有効な状態です。 万が一、メールをお送りいただいたにも関わらず当店からの連絡がない場合は、お手数ですが再度ご連絡くださいますようお願いいたします。";s:10:"law_term07";N;s:10:"law_term08";N;s:10:"law_term09";N;s:10:"law_term10";N;s:7:"email01";s:17:"nfd@taheebo-e.net";s:7:"email02";s:17:"nfd@taheebo-e.net";s:7:"email03";s:17:"nfd@taheebo-e.net";s:7:"email04";s:17:"nfd@taheebo-e.net";s:9:"free_rule";N;s:9:"shop_name";s:15:"いいねっと";s:9:"shop_kana";N;s:13:"shop_name_eng";N;s:10:"point_rate";s:2:"12";s:13:"welcome_point";s:4:"5000";s:11:"update_date";s:19:"2014-10-09 10:38:30";s:7:"top_tpl";s:8:"default1";s:11:"product_tpl";s:8:"default1";s:10:"detail_tpl";s:8:"default1";s:10:"mypage_tpl";s:8:"default1";s:11:"good_traded";N;s:7:"message";N;s:19:"regular_holiday_ids";s:3:"0|6";s:8:"latitude";s:10:"38.3244726";s:9:"longitude";s:11:"140.8841175";s:17:"downloadable_days";s:2:"30";s:27:"downloadable_days_unlimited";N;}s:19:"plugin_activate_flg";b:1;s:16:"arrLimitPostMode";a:0:{}s:21:"skip_load_page_layout";b:1;s:14:"load_legacy_js";b:0;s:9:"timeStart";d:1415047927.9654181;s:13:"tpl_authority";s:1:"0";s:10:"objDisplay";O:13:"SC_Display_Ex":3:{s:8:"response";O:14:"SC_Response_Ex":5:{s:11:"contentType";N;s:4:"body";N;s:10:"statusCode";N;s:6:"header";a:0:{}s:8:"encoding";N;}s:4:"view";N;s:11:"deviceSeted";b:0;}}s:4:"type";s:2:"->";s:4:"args";a:2:{i:0;s:13:"products_list";i:1;a:4:{s:10:"eccube_url";s:23:"http://192.168.218.200/";s:10:"public_key";s:40:"5c125c3536401047c65e1538b2491e2f17e1267e";s:8:"sha1_key";s:40:"994ea2726aba39966b777a0e7418d2b5ecdcdbae";s:3:"ver";s:6:"2.13.2";}}}i:5;a:7:{s:4:"file";s:31:"/var/www/html/upgrade/index.php";s:4:"line";i:37;s:8:"function";s:7:"process";s:5:"class";s:28:"LC_Page_Upgrade_ProductsList";s:6:"object";r:123;s:4:"type";s:2:"->";s:4:"args";a:1:{i:0;s:13:"products_list";}}}s:8:"callback";N;} from 192.168.218.1
+customer_id = 
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(95): LC_Upgrade_Helper_Log->error
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(69): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/04 05:52:48 [/upgrade/index.php] ##### end ##### from 192.168.218.1
+customer_id = 
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(95): LC_Upgrade_Helper_Log->error
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(70): LC_Upgrade_Helper_Log->end
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(48): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog

@@ -59,6 +59,9 @@
     <!--{else}-->
         <a href="?" onclick="document.form1.mode.value='search'; return eccube.setValueAndSubmit('form1', 'type', 'all');">全体</a>&nbsp;
     <!--{/if}-->
+
+<!--{if false}-->
+
     <!--{if $smarty.post.type == 'member'}-->
         <span class="over">会員</span>&nbsp;
     <!--{else}-->
@@ -69,6 +72,9 @@
     <!--{else}-->
         <a href="?" onclick="document.form1.mode.value='search'; return eccube.setValueAndSubmit('form1', 'type', 'nonmember');">非会員</a>&nbsp;
     <!--{/if}-->
+
+<!--{/if}-->
+
     ）
 <!--{/if}-->
 
@@ -79,6 +85,9 @@
     <!--{else}-->
         <a href="?" onclick="document.form1.mode.value='search'; return eccube.setValueAndSubmit('form1', 'type', 'all');">全体</a>&nbsp;
     <!--{/if}-->
+
+<!--{if false}-->
+
     <!--{if $smarty.post.type == 'member'}-->
         <span class="over">会員</span>&nbsp;
     <!--{else}-->
@@ -89,11 +98,14 @@
     <!--{else}-->
         <a href="?" onclick="document.form1.mode.value='search'; return eccube.setValueAndSubmit('form1', 'type', 'nonmember');">非会員</a>&nbsp;
     <!--{/if}-->
+
+<!--{/if}-->
+
     ）
 <!--{/if}-->
 
 <!--{if $arrForm.page.value == "job"}-->
-    <strong>職業別集計</strong>&nbsp;（
+    <strong>代理店別集計</strong>&nbsp;（
     <span class="over">全体</span>
     ）
     <!--{*（

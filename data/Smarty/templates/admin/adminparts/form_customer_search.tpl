@@ -90,6 +90,7 @@
     <input type="text" name="<!--{$key}-->" maxlength="<!--{$arrForm[$key].length}-->" value="<!--{$arrForm[$key].value|h}-->" size="60" class="box60" <!--{if $arrErr[$key]}--><!--{sfSetErrorStyle}--><!--{/if}-->/>
     </td>
 </tr>
+<!--{if false}-->
 <tr>
     <th>携帯メールアドレス</th>
     <td colspan="3">
@@ -97,6 +98,7 @@
         <!--{if $arrErr[$key]}--><span class="attention"><!--{$arrErr[$key]}--></span><!--{/if}-->
         <input type="text" name="<!--{$key}-->" maxlength="<!--{$arrForm[$key].length}-->" value="<!--{$arrForm[$key].value|h}-->" size="60" class="box60" <!--{if $arrErr[$key]}--><!--{sfSetErrorStyle}--><!--{/if}-->/></td>
 </tr>
+<!--{/if}-->
 <tr>
     <th>電話番号</th>
     <td colspan="3">
@@ -236,8 +238,20 @@
 <tr>
     <th>代理店コード</th>
     <td colspan="3">
+        <!--{assign var=key value="search_agency_code"}-->
+        <select name="<!--{$key}-->" <!--{if $arrErr[$errkey]}--><!--{sfSetErrorStyle}--><!--{/if}-->>
+            <option value="">選択してください</option>
+            <!--{html_options options=$arrAgencyList selected=$arrForm[$key].value}-->
+        </select>
+    </td>
+</tr>
+<!--{if false}-->
+<tr>
+    <th>代理店コード</th>
+    <td colspan="3">
     <!--{assign var=key value="search_agency_code"}-->
     <!--{if $arrErr[$key]}--><span class="attention"><!--{$arrErr[$key]}--></span><!--{/if}-->
     <input type="text" name="<!--{$key}-->" maxlength="<!--{$arrForm[$key].length}-->" value="<!--{$arrForm[$key].value|h}-->" size="60" class="box60" <!--{if $arrErr[$key]}--><!--{sfSetErrorStyle}--><!--{/if}-->/>
     </td>
 </tr>
+<!--{/if}-->

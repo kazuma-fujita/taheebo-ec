@@ -233,7 +233,8 @@ __EOS__;
             SUM(CASE WHEN customer_id = 0 AND order_sex = 1 THEN 1 ELSE 0 END) AS men_nonmember,
             SUM(CASE WHEN customer_id = 0 AND order_sex = 2 THEN 1 ELSE 0 END) AS women_nonmember,
             SUM(total) AS total,
-            AVG(total) AS total_average";
+            AVG(total) AS total_average,
+            SUM(use_point) AS point_total";
     }
 
     /**

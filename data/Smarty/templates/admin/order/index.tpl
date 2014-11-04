@@ -296,6 +296,17 @@
                     <input type="text" name="<!--{$key}-->" value="<!--{$arrForm[$key].value|h}-->" maxlength="<!--{$arrForm[$key].length}-->" style="<!--{$arrErr[$key]|sfGetErrorColor}-->" size="6" class="box30" />
                 </td>
             </tr>
+
+            <tr>
+                <th>代理店コード</th>
+                <td colspan="3">
+                    <!--{assign var=key value="search_agency_code"}-->
+                    <select name="<!--{$key}-->" <!--{if $arrErr[$errkey]}--><!--{sfSetErrorStyle}--><!--{/if}-->>
+                        <option value="">選択してください</option>
+                        <!--{html_options options=$arrAgencyList selected=$arrForm[$key].value}-->
+                    </select>
+                </td>
+            </tr>
         </table>
 
         <div class="btn">
@@ -347,6 +358,7 @@
 
                 <!--{* 検索結果表示テーブル *}-->
                 <table class="list">
+<!--
                     <col width="10%" />
                     <col width="8%" />
                     <col width="15%" />
@@ -358,6 +370,7 @@
                     <col width="5%" />
                     <col width="9%" />
                     <col width="5%" />
+-->
                     <!--{* ペイジェントモジュール連携用 *}-->
                     <!--{assign var=path value=`$smarty.const.MODULE_REALDIR`mdl_paygent/paygent_order_index.tpl}-->
                     <!--{if file_exists($path)}-->
@@ -367,8 +380,10 @@
                             <th>受注日</th>
                             <th>注文番号</th>
                             <th>お名前</th>
+                            <th>代理店</th>
                             <th>支払方法</th>
                             <th>購入金額(円)</th>
+                            <th>使用pt</th>
                             <th>全商品発送日</th>
                             <th>対応状況</th>
                             <th><label for="pdf_check">帳票</label> <input type="checkbox" name="pdf_check" id="pdf_check" onclick="eccube.checkAllBox(this, 'input[name=pdf_order_id[]]')" /></th>
@@ -383,9 +398,11 @@
                                 <td class="center"><!--{$arrResults[cnt].create_date|sfDispDBDate}--></td>
                                 <td class="center"><!--{$arrResults[cnt].order_id}--></td>
                                 <td class="center"><!--{$arrResults[cnt].order_name01|h}--> <!--{$arrResults[cnt].order_name02|h}--></td>
+                                <td class="center"><!--{$arrResults[cnt].agency_name}--></td>
                                 <!--{assign var=payment_id value="`$arrResults[cnt].payment_id`"}-->
                                 <td class="center"><!--{$arrPayments[$payment_id]}--></td>
                                 <td class="right"><!--{$arrResults[cnt].total|number_format}--></td>
+                                <td class="right"><!--{$arrResults[cnt].use_point|number_format}-->pt</td>
                                 <td class="center"><!--{$arrResults[cnt].commit_date|sfDispDBDate|default:"未発送"}--></td>
                                 <td class="center"><!--{$arrORDERSTATUS[$status]}--></td>
                                 <td class="center">

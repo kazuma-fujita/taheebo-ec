@@ -53,7 +53,7 @@
                     <option value="<!--{$key}-->" ><!--{$item}--></option>
                     <!--{/if}-->
                     <!--{/foreach}-->
-                    <option value="delete">削除</option>
+                    <!--option value="delete">削除</option-->
                 </select>
                 <a class="btn-normal" href="javascript:;" onclick="fnSelectCheckSubmit(); return false;"><span>移動</span></a>
             </div>

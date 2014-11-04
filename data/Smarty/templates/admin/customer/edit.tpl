@@ -195,7 +195,7 @@
                 </td>
             </tr>
             <tr>
-                <th>生年月日</th>
+                <th>生年月日<span class="attention"> *</span></th>
                 <td>
                     <span class="attention"><!--{$arrErr.year}--></span>
                     <select name="year" <!--{if $arrErr.year != ""}--><!--{sfSetErrorStyle}--><!--{/if}--> >

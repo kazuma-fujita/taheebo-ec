@@ -88,8 +88,10 @@
             <p class="info"><span><strong>ログイン&nbsp;:&nbsp;</strong><!--{* ログイン名 *}--><!--{$smarty.session.login_name|h}--></span>&nbsp;様,&nbsp;&nbsp;
             <span><strong>最終ログイン日時&nbsp;:&nbsp;</strong><!--{* 最終ログイン日時 *}--><!--{$smarty.session.last_login|sfDispDBDate:true|h}--></span></p>
             <ul>
-                <li><a href="<!--{$smarty.const.HTTP_URL}--><!--{$smarty.const.DIR_INDEX_PATH}-->" class="btn-tool-format" target="_blank"><span>SITE CHECK</span></a></li>
-                <li><a href="<!--{$smarty.const.ADMIN_LOGOUT_URLPATH}-->" class="btn-tool-format">LOGOUT</a></li>
+                <!--li><a href="<!--{$smarty.const.HTTP_URL}--><!--{$smarty.const.DIR_INDEX_PATH}-->" class="btn-tool-format" target="_blank"><span>SITE CHECK</span></a></li-->
+                <li><a href="<!--{$smarty.const.HTTP_URL}--><!--{$smarty.const.DIR_INDEX_PATH}-->" class="btn-tool-format" target="_blank"><span>サイトを見る</span></a></li>
+                <!--li><a href="<!--{$smarty.const.ADMIN_LOGOUT_URLPATH}-->" class="btn-tool-format">LOGOUT</a></li-->
+                <li><a href="<!--{$smarty.const.ADMIN_LOGOUT_URLPATH}-->" class="btn-tool-format">退室</a></li>
             </ul>
         </div>
     </div>

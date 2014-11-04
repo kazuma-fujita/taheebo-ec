@@ -374,7 +374,8 @@ __EOS__;
         $from = 'dtb_order';
         $where = 'del_flg = 0 AND status <> ?';
         $objQuery->setOrder('create_date DESC');
-        $objQuery->setLimit(10);
+        //$objQuery->setLimit(10);
+        $objQuery->setLimit(100);
 
         $arrNewOrder = array();
 

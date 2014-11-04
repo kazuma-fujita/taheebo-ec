@@ -31,6 +31,7 @@
     <!--{* 検索条件設定テーブルここから *}-->
     <table>
         <!--{include file="`$smarty.const.TEMPLATE_ADMIN_REALDIR`/adminparts/form_customer_search.tpl"}-->
+<!--{if false}-->
         <tr>
             <th>配信形式</th>
             <td colspan="3">
@@ -46,6 +47,7 @@
                 <!--{html_radios name=$key options=$arrMailType separator="<br />" selected=$arrForm[$key].value|default:1}-->
             </td>
         </tr>
+<!--{/if}-->
     </table>
     <!--{* 検索条件設定テーブルここまで *}-->
 
@@ -97,13 +99,13 @@
         <col width="10%" />
         <col width="25%" />
         <col width="35%" />
-        <col width="15%" />
+        <!--col width="15%" /-->
         <col width="15%" />
             <tr>
                 <th>会員ID</th>
                 <th>名前</th>
                 <th>メールアドレス</th>
-                <th>希望配信</th>
+                <!--th>希望配信</th-->
                 <th>登録・更新日</th>
             </tr>
             <!--{section name=i loop=$arrResults}-->
@@ -112,7 +114,7 @@
                 <td><!--{$arrResults[i].name01|h}--> <!--{$arrResults[i].name02|h}--></td>
                 <td><!--{$arrResults[i].email|h}--></td>
                 <!--{assign var="key" value="`$arrResults[i].mailmaga_flg`"}-->
-                <td class="center"><!--{$arrHtmlmail[$key]}--></td>
+                <!--td class="center"><!--{$arrHtmlmail[$key]}--></td-->
                 <td class="center"><!--{$arrResults[i].update_date|sfDispDBDate}--></td>
             </tr>
             <!--{/section}-->

@@ -271,7 +271,7 @@
 			</td>
 		</tr>
 		<tr>
-			<th>生年月日</th>
+			<th>生年月日<span class="attention">※</span></th>
 			<td>
 				<!--{assign var=key1 value="`$prefix`year"}-->
 				<!--{assign var=key2 value="`$prefix`month"}-->

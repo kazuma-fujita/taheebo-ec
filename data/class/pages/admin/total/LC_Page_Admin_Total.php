@@ -65,7 +65,6 @@ class LC_Page_Admin_Total extends LC_Page_Admin_Ex
         $this->arrTitle['term']     = '期間別集計';
         $this->arrTitle['products'] = '商品別集計';
         $this->arrTitle['age']      = '年代別集計';
-        //$this->arrTitle['job']      = '職業別集計';
         $this->arrTitle['job']      = '代理店別集計';
         $this->arrTitle['member']   = '会員別集計';
 
@@ -550,7 +549,8 @@ __EOS__;
                 SUM(quantity) AS products_count,
                 COUNT(dtb_order_detail.order_id) AS order_count,
                 price,
-                (price * SUM(quantity)) AS total
+                (price * SUM(quantity)) AS total,
+                SUM(use_point) AS point_total
 __EOS__;
 
         $from = 'dtb_order_detail JOIN dtb_order ON dtb_order_detail.order_id = dtb_order.order_id';
@@ -565,7 +565,7 @@ __EOS__;
         return array($arrTotalResults, $tpl_image);
     }
 
-    /** 職業別集計 **/
+    /** 職業別集計 → 代理店集計 **/
     public function lfGetOrderJob($type, $sdate, $edate)
     {
         $objQuery = SC_Query_Ex::getSingletonInstance();
@@ -575,7 +575,8 @@ __EOS__;
             agency_code,
             COUNT(order_id) AS order_count,
             SUM(total) AS total,
-            AVG(total) AS total_average
+            AVG(total) AS total_average,
+            SUM(use_point) AS point_total
 __EOS__;
 
         // $from   = 'dtb_order JOIN dtb_customer ON dtb_order.customer_id = dtb_customer.customer_id';
@@ -626,6 +627,7 @@ __EOS__;
         $col .= ',COUNT(order_id) AS order_count';
         $col .= ',SUM(total) AS total';
         $col .= ',AVG(total) AS total_average';
+        $col .= ',SUM(use_point) AS point_total';
 
         $from   = 'dtb_order';
 
@@ -825,6 +827,7 @@ __EOS__;
                     '数量',
                     '単価',
                     '金額',
+                    'ポイント',
                 );
                 $arrDataCol = array(
                     'product_code',
@@ -833,6 +836,7 @@ __EOS__;
                     'products_count',
                     'price',
                     'total',
+                    'point_total',
                 );
                 break;
             // 職業別集計
@@ -856,12 +860,14 @@ __EOS__;
                     '購入件数',
                     '購入合計',
                     '購入平均',
+                    'ポイント',
                 );
                 $arrDataCol = array(
                     'agency_name',
                     'order_count',
                     'total',
                     'total_average',
+                    'point_total',
                 );
                 break;
             // 会員別集計
@@ -871,12 +877,14 @@ __EOS__;
                     '購入件数',
                     '購入合計',
                     '購入平均',
+                    'ポイント',
                 );
                 $arrDataCol = array(
                     'member_name',
                     'order_count',
                     'total',
                     'total_average',
+                    'point_total',
                 );
                 break;
             // 年代別集計
@@ -886,12 +894,14 @@ __EOS__;
                     '購入件数',
                     '購入合計',
                     '購入平均',
+                    'ポイント',
                 );
                 $arrDataCol = array(
                     'age_name',
                     'order_count',
                     'total',
                     'total_average',
+                    'point_total',
                 );
                 break;
             // 期間別集計
@@ -899,26 +909,32 @@ __EOS__;
                 $arrTitleCol = array(
                     '期間',
                     '購入件数',
+/*
                     '男性',
                     '女性',
                     '男性(会員)',
                     '男性(非会員)',
                     '女性(会員)',
                     '女性(非会員)',
+*/
                     '購入合計',
                     '購入平均',
+                    'ポイント',
                 );
                 $arrDataCol = array(
                     'str_date',
                     'total_order',
+/*
                     'men',
                     'women',
                     'men_member',
                     'men_nonmember',
                     'women_member',
                     'women_nonmember',
+*/
                     'total',
                     'total_average',
+                    'point_total',
                 );
                 break;
         }

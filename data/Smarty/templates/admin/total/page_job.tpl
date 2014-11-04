@@ -30,6 +30,7 @@
         <th>購入件数</th>
         <th>購入合計</th>
         <th>購入平均</th>
+        <th>ポイント</th>
     </tr>
 
     <!--{section name=cnt loop=$arrResults}-->
@@ -52,15 +53,17 @@
             <td class="right"><!--{*購入件数*}--><!--{$arrResults[cnt].order_count}-->件</td>
             <td class="right"><!--{*購入合計*}--><!--{$arrResults[cnt].total|number_format}-->円</td>
             <td class="right"><!--{*購入平均*}--><!--{$arrResults[cnt].total_average|number_format}-->円</td>
+            <td class="right"><!--{*ポイント*}--><!--{$arrResults[cnt].point_total|number_format}-->pt</td>
         </tr>
     <!--{/section}-->
 
     <tr>
-        <th>順位</span></th>
+        <th>順位</th>
         <!--th>職業</span></th-->
-        <th>代理店</span></th>
-        <th>購入件数</span></th>
-        <th>購入合計</span></th>
-        <th>購入平均</span></th>
+        <th>代理店</th>
+        <th>購入件数</th>
+        <th>購入合計</th>
+        <th>購入平均</th>
+        <th>ポイント</th>
     </tr>
 </table>
