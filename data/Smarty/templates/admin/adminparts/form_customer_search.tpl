@@ -236,7 +236,7 @@
     </td>
 </tr>
 <tr>
-    <th>代理店コード</th>
+    <th>代理店</th>
     <td colspan="3">
         <!--{assign var=key value="search_agency_code"}-->
         <select name="<!--{$key}-->" <!--{if $arrErr[$errkey]}--><!--{sfSetErrorStyle}--><!--{/if}-->>
