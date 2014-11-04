@@ -516,7 +516,7 @@ class SC_Helper_DB
 
         $objQuery->setOption('ORDER BY agency_code ASC');
 
-        $col = 'agency_code';
+        $col = 'agency_code, agency_name';
         $from = 'dtb_member';
         $where = 'del_flg = 0 AND member_id != 2';
 
@@ -526,7 +526,8 @@ class SC_Helper_DB
         $arrList = array();
         for ($cnt = 0; $cnt < $max; $cnt++) {
             $agency_code = $arrRet[$cnt]['agency_code'];
-            $arrList[$agency_code] = $agency_code;
+            $arrList[$agency_code] = $arrRet[$cnt]['agency_name'];
+            //$arrList[$agency_code] = $agency_code;
         }
 
         return $arrList;

@@ -539,8 +539,10 @@ __EOS__;
 
         list($where, $arrWhereVal) = $this->lfGetWhereMember('create_date', $sdate, $edate, $type);
 
-        $where .= ' AND dtb_order.del_flg = 0 AND dtb_order.status <> ?';
-        $arrWhereVal[] = ORDER_CANCEL;
+        //$where .= ' AND dtb_order.del_flg = 0 AND dtb_order.status <> ?';
+        //$arrWhereVal[] = ORDER_CANCEL;
+        $dbFactory = SC_DB_DBFactory_Ex::getInstance();
+        $where .= ' AND dtb_order.del_flg = 0 '.$dbFactory->andStatusParam();
 
         $col = <<< __EOS__
                 product_id,
@@ -582,8 +584,11 @@ __EOS__;
         // $from   = 'dtb_order JOIN dtb_customer ON dtb_order.customer_id = dtb_customer.customer_id';
         $from   = 'dtb_order';
 
-        $where .= ' AND dtb_order.del_flg = 0 AND dtb_order.status <> ?';
-        $arrWhereVal[] = ORDER_CANCEL;
+        //$where .= ' AND dtb_order.del_flg = 0 AND dtb_order.status <> ?';
+        //$arrWhereVal[] = ORDER_CANCEL;
+
+        $dbFactory = SC_DB_DBFactory_Ex::getInstance();
+        $where .= ' AND dtb_order.del_flg = 0 '.$dbFactory->andStatusParam();
 
         $objQuery->setGroupBy('agency_code');
         $objQuery->setOrder('total DESC');
@@ -631,8 +636,9 @@ __EOS__;
 
         $from   = 'dtb_order';
 
-        $where .= ' AND del_flg = 0 AND status <> ?';
-        $arrWhereVal[] = ORDER_CANCEL;
+        //$where .= ' AND del_flg = 0 AND status <> ?';
+        //$arrWhereVal[] = ORDER_CANCEL;
+        $where .= ' AND del_flg = 0 '.$dbFactory->andStatusParam();
 
         $objQuery->setGroupBy('age');
         $objQuery->setOrder('age DESC');
@@ -660,8 +666,10 @@ __EOS__;
         $objQuery   = SC_Query_Ex::getSingletonInstance();
 
         list($where, $arrWhereVal) = $this->lfGetWhereMember('create_date', $sdate, $edate);
-        $where .= ' AND del_flg = 0 AND status <> ?';
-        $arrWhereVal[] = ORDER_CANCEL;
+        //$where .= ' AND del_flg = 0 AND status <> ?';
+        //$arrWhereVal[] = ORDER_CANCEL;
+        $dbFactory = SC_DB_DBFactory_Ex::getInstance();
+        $where .= ' AND del_flg = 0 '.$dbFactory->andStatusParam();
 
         switch ($type) {
             case 'month':
@@ -692,7 +700,7 @@ __EOS__;
                 break;
         }
 
-        $dbFactory = SC_DB_DBFactory_Ex::getInstance();
+        //$dbFactory = SC_DB_DBFactory_Ex::getInstance();
         // todo postgres
         $col = $dbFactory->getOrderTotalDaysWhereSql($type);
 

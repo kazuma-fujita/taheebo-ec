@@ -1278,4 +1278,30 @@ class LC_Page_Admin_Order_Edit extends LC_Page_Admin_Order_Ex
             return null;
         }
     }
+
+    // なんかエラーになるから追加してみる
+    function doSend(&$objFormParam,$template_id){
+        $arrErr = $objFormParam->checkerror();
+        
+        //DBからメールの情報を取得
+        $objQuery = new SC_Query();     //インスタンス生成
+        $col = "*"; //カラム
+        $table = "dtb_mailtemplate";    //テーブル名
+        $where = "template_id = $template_id";      //メールテンプレートＩＤに属するデータだけ取得
+        $refs = $objQuery->select($col,$table,$where);
+         // メールの送信
+        if (count($arrErr) == 0) {
+            //受注完了メール
+            $objMail = new SC_Helper_Mail_Ex();
+            $objSendMail = $objMail->sfSendOrderMail($objFormParam->getValue('order_id'),
+            6/*テンプレートID*/,
+            $refs[0]['subject'],
+            $refs[0]['header'],
+            $refs[0]['footer']);
+            // TODO $SC_SendMail から送信がちゃんと出来たか確認できたら素敵。
+             return true;
+         }
+        return $arrErr;
+     }
+
 }

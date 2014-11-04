@@ -4462,3 +4462,1843 @@ login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
 (): LC_Page_Admin_Total->lfGetOrderTerm
 /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(663): LC_Page_Admin_Total->lfGetWhereMember
 /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(451): SC_Helper_HandleError::handle_warning
+2014/11/05 02:28:12 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 662 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(662): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450): SC_Helper_HandleError::handle_warning
+2014/11/05 02:28:12 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:12 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:12 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:12 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:12 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:12 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:12 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:12 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:12 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:12 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:12 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:12 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:12 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:12 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:12 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:12 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:12 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:12 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:12 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:12 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:12 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:12 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:12 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:12 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:12 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:12 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:12 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:12 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:12 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:13 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:13 [/admin/total/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(792)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(707): LC_Page_Admin_Total->lfAddTotalLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(792): SC_Helper_HandleError::handle_warning
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 662 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(662): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450): SC_Helper_HandleError::handle_warning
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:14 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:17 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 662 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(662): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450): SC_Helper_HandleError::handle_warning
+2014/11/05 02:28:17 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:28:17 [/admin/total/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(792)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(707): LC_Page_Admin_Total->lfAddTotalLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(792): SC_Helper_HandleError::handle_warning
+2014/11/05 02:28:18 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 662 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(662): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450): SC_Helper_HandleError::handle_warning
+2014/11/05 02:28:18 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 662 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(662): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450): SC_Helper_HandleError::handle_warning
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:49 [/admin/total/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(792)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(707): LC_Page_Admin_Total->lfAddTotalLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(792): SC_Helper_HandleError::handle_warning
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 662 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(662): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450): SC_Helper_HandleError::handle_warning
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:50 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(704): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(725): array_key_exists
+2014/11/05 02:30:58 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 662 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(662): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450): SC_Helper_HandleError::handle_warning
+2014/11/05 02:30:59 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 662 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(662): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450): SC_Helper_HandleError::handle_warning
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 668 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(668): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450): SC_Helper_HandleError::handle_warning
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:29 [/admin/total/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(800)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(715): LC_Page_Admin_Total->lfAddTotalLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(800): SC_Helper_HandleError::handle_warning
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 668 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(668): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450): SC_Helper_HandleError::handle_warning
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:30 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/05 02:47:38 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 668 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(668): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450): SC_Helper_HandleError::handle_warning
+2014/11/05 02:47:39 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 668 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(668): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450): SC_Helper_HandleError::handle_warning
+2014/11/05 02:48:59 [/admin/order/edit.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(869)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/order/edit.php(29): LC_Page_Admin_Order_Edit_Ex->process
+/var/www/data/class_extends/page_extends/admin/order/LC_Page_Admin_Order_Edit_Ex.php(54): LC_Page_Admin_Order_Edit->process
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(133): LC_Page_Admin_Order_Edit->action
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(199): LC_Page_Admin_Order_Edit->doRegister
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(869): SC_Helper_HandleError::handle_warning
+2014/11/05 02:48:59 [/admin/order/edit.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(869)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/order/edit.php(29): LC_Page_Admin_Order_Edit_Ex->process
+/var/www/data/class_extends/page_extends/admin/order/LC_Page_Admin_Order_Edit_Ex.php(54): LC_Page_Admin_Order_Edit->process
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(133): LC_Page_Admin_Order_Edit->action
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(199): LC_Page_Admin_Order_Edit->doRegister
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(869): SC_Helper_HandleError::handle_warning
+2014/11/05 02:48:59 [/admin/order/edit.php] Fatal error(E_ERROR): Call to undefined method LC_Page_Admin_Order_Edit_Ex::doSend() on [/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(886)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+2014/11/05 02:54:59 [/admin/order/edit.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(869)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/order/edit.php(29): LC_Page_Admin_Order_Edit_Ex->process
+/var/www/data/class_extends/page_extends/admin/order/LC_Page_Admin_Order_Edit_Ex.php(54): LC_Page_Admin_Order_Edit->process
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(133): LC_Page_Admin_Order_Edit->action
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(199): LC_Page_Admin_Order_Edit->doRegister
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(869): SC_Helper_HandleError::handle_warning
+2014/11/05 02:54:59 [/admin/order/edit.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(869)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/order/edit.php(29): LC_Page_Admin_Order_Edit_Ex->process
+/var/www/data/class_extends/page_extends/admin/order/LC_Page_Admin_Order_Edit_Ex.php(54): LC_Page_Admin_Order_Edit->process
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(133): LC_Page_Admin_Order_Edit->action
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(199): LC_Page_Admin_Order_Edit->doRegister
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(869): SC_Helper_HandleError::handle_warning
+2014/11/05 02:56:09 [/admin/order/edit.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(869)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/order/edit.php(29): LC_Page_Admin_Order_Edit_Ex->process
+/var/www/data/class_extends/page_extends/admin/order/LC_Page_Admin_Order_Edit_Ex.php(54): LC_Page_Admin_Order_Edit->process
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(133): LC_Page_Admin_Order_Edit->action
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(199): LC_Page_Admin_Order_Edit->doRegister
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(869): SC_Helper_HandleError::handle_warning
+2014/11/05 02:56:09 [/admin/order/edit.php] Warning(E_WARNING): Invalid argument supplied for foreach() on [/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(869)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/order/edit.php(29): LC_Page_Admin_Order_Edit_Ex->process
+/var/www/data/class_extends/page_extends/admin/order/LC_Page_Admin_Order_Edit_Ex.php(54): LC_Page_Admin_Order_Edit->process
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(133): LC_Page_Admin_Order_Edit->action
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(199): LC_Page_Admin_Order_Edit->doRegister
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(869): SC_Helper_HandleError::handle_warning
+2014/11/05 02:56:10 [/admin/order/edit.php] Warning(E_USER_WARNING): Smarty error: unable to read resource: &quot;&quot; on [/var/www/data/module/Smarty/libs/Smarty.class.php(1094)] from 192.168.218.1
+login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
+/var/www/html/admin/order/edit.php(29): LC_Page_Admin_Order_Edit_Ex->process
+/var/www/data/class_extends/page_extends/admin/order/LC_Page_Admin_Order_Edit_Ex.php(54): LC_Page_Admin_Order_Edit->process
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(133): LC_Page_Admin_Order_Edit->action
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(199): LC_Page_Admin_Order_Edit->doRegister
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(886): LC_Page_Admin_Order_Edit->doSend
+/var/www/data/class/pages/admin/order/LC_Page_Admin_Order_Edit.php(1300): SC_Helper_Mail->sfSendOrderMail
+/var/www/data/class/helper/SC_Helper_Mail.php(183): SC_View->fetch
+/var/www/data/class/SC_View.php(81): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1262): Smarty->_compile_resource
+/var/www/data/module/Smarty/libs/Smarty.class.php(1416): Smarty->_fetch_resource_info
+/var/www/data/module/Smarty/libs/Smarty.class.php(1590): Smarty->trigger_error
+/var/www/data/module/Smarty/libs/Smarty.class.php(1094): trigger_error
