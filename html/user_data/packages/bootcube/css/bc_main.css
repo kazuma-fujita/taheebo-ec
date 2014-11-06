@@ -399,7 +399,7 @@ Note: All content are copyrighted by author. Please, don't steal anything.
   margin: 0;
   padding-top: 10px;
   border-top: 1px dashed #ccc;
-  font-size: 14px;
+  font-size: 16px;
 }
 #detailrightbloc .sale_price dt, #detailrightbloc .sale_price dd {
   display: inline-block;
@@ -409,7 +409,7 @@ Note: All content are copyrighted by author. Please, don't steal anything.
   padding-bottom: 10px;
   border-bottom: 1px dashed #ccc;
   color: #f00;
-  font-size: 14px;
+  font-size: 16px;
 }
 #detailrightbloc .relative_cat {
   padding: 10px 0;
@@ -423,7 +423,7 @@ Note: All content are copyrighted by author. Please, don't steal anything.
 #detailrightbloc .main_comment {
   margin-bottom: 10px;
   color: #666;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 #customervoice_area {

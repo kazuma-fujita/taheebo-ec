@@ -47,8 +47,20 @@
                 <input type="hidden" name="url" value="<!--{$smarty.server.REQUEST_URI|h}-->" />
                 <div class="block_body clearfix">
                     <!--{if $tpl_login}-->
-                        <ul class="list-inline">
+
+		<div class="btn-group">
+			<a class="btn" href="/mypage/">ﾏｲﾍﾟｰｼﾞ</a>
+		</div>
+		<div class="btn-group">
+			<!--{if $smarty.const.USE_POINT !== false}-->
+				<a class="btn btn-primary" disabled="disabled"><!--{$tpl_user_point|number_format|default:0}-->P</a>
+			<!--{/if}-->
+			<a class="btn btn-danger" href="<!--{$smarty.const.CART_URL}-->">\<!--{$arrCartList.0.ProductsTotal|number_format|default:0}--> 購入</a>
+		</div>
+
+
 <!--{if false}-->
+                        <ul class="list-inline">
                             <li>
                             	ようこそ <span class="user_name"><!--{$tpl_name1|h}--> <!--{$tpl_name2|h}--> 様</span>
                             </li>
@@ -57,19 +69,9 @@
                             	    <input type="submit" class="btn btn-default" value="ログアウト" onclick="eccube.fnFormModeSubmit('header_login_form', 'logout', '', ''); return false;" />
                             	<!--{/if}-->
                             </li>
-<!--{/if}-->
-                            <li>
-                                <a class="btn" href="/mypage/">マイページ</a>
-                            </li>
-                            <li>
-                            	<!--{if $smarty.const.USE_POINT !== false}-->
-				<a class="btn btn-success"><!--{$tpl_user_point|number_format|default:0}-->pt</a>
-                            	<!--{/if}-->
-                            </li>
-                            <li>
-                            	<a class="btn btn-danger" href="<!--{$smarty.const.CART_URL}-->">合計<!--{$arrCartList.0.ProductsTotal|number_format|default:0}-->円 購入へ</a>
-                            </li>
                         </ul>
+<!--{/if}-->
+
                     <!--{else}-->
                         <ul class="formlist list-inline">
                             <li class="mail">

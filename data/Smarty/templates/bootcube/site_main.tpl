@@ -139,7 +139,7 @@
 				
 				<!--{* ▼LEFT COLUMN MOBILE-VIEW *}-->
 				<!--{if $arrPageLayout.LeftNavi|@count > 0}-->
-						<div id="leftcolumn" class="side_column visible-xs col-xs-6">
+						<div id="leftcolumn" class="side_column visible-xs col-xs-12">
 								<!--{* ▼左ナビ *}-->
 								<!--{foreach key=LeftNaviKey item=LeftNaviItem from=$arrPageLayout.LeftNavi}-->
 										<!-- ▼<!--{$LeftNaviItem.bloc_name}--> -->

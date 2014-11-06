@@ -45,7 +45,7 @@
 		<div id="detailarea">
 		<div class="row">
 
-			<div id="detailphotobloc" class="col-xs-4">
+			<div id="detailphotobloc" class="col-sm-4">
 
 				<div class="photo">
 					<!--{assign var=key value="main_image"}-->
@@ -60,30 +60,9 @@
 				</div>
 
 
-				<!--{if $arrProduct.main_large_image|strlen >= 1}-->
-					<span class="mini">
-						<!--★拡大する★-->
-						<a class="btn btn-default btn-xs" data-toggle="modal" data-target="#large_photo">
-							画像を拡大する
-						</a>
-					</span>
-					<div class="modal fade" id="large_photo">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-body">
-									<img src="<!--{$smarty.const.IMAGE_SAVE_URLPATH}--><!--{$arrProduct.main_large_image|h}-->" alt="">
-								</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-								</div>
-							</div>
-						</div>
-					</div>
-				<!--{/if}-->
-
 			</div>
 
-			<div id="detailrightbloc" class="col-xs-8">
+			<div id="detailrightbloc" class="col-sm-8">
 				<!--▼商品ステータス-->
 				<!--{assign var=ps value=$productStatus[$tpl_product_id]}-->
 				<!--{if count($ps) > 0}-->
@@ -98,18 +77,6 @@
 				<!--▲商品ステータス-->
 
 				<!--★商品コード★-->
-				<dl class="product_code">
-					<dt>商品コード：</dt>
-					<dd>
-						<span id="product_code_default">
-							<!--{if $arrProduct.product_code_min == $arrProduct.product_code_max}-->
-								<!--{$arrProduct.product_code_min|h}-->
-							<!--{else}-->
-								<!--{$arrProduct.product_code_min|h}-->～<!--{$arrProduct.product_code_max|h}-->
-							<!--{/if}-->
-						</span><span id="product_code_dynamic"></span>
-					</dd>
-				</dl>
 
 				<!--★商品名★-->
 				<h2 class="title"><!--{$arrProduct.name|h}--></h2>
@@ -160,7 +127,8 @@
 								<!--{/if}-->
 							<!--{/if}-->
 						<!--{/strip}--></span><span id="point_dynamic"></span>
-						Pt
+						P
+						<span class="label label-danger"><!--{$arrProduct.point_rate}-->%還元</span>
 					</div>
 				<!--{/if}-->
 
@@ -183,17 +151,6 @@
 				<!--▼メーカーURL-->
 
 				<!--★関連カテゴリ★-->
-				<dl class="relative_cat">
-					<dt>関連カテゴリ：</dt>
-					<!--{section name=r loop=$arrRelativeCat}-->
-						<dd>
-							<!--{section name=s loop=$arrRelativeCat[r]}-->
-								<a href="<!--{$smarty.const.ROOT_URLPATH}-->products/list.php?category_id=<!--{$arrRelativeCat[r][s].category_id}-->"><!--{$arrRelativeCat[r][s].category_name|h}--></a>
-								<!--{if !$smarty.section.s.last}--><!--{$smarty.const.SEPA_CATNAVI}--><!--{/if}-->
-							<!--{/section}-->
-						</dd>
-					<!--{/section}-->
-				</dl>
 
 				<!--★詳細メインコメント★-->
 				<div class="main_comment"><!--{$arrProduct.main_comment|nl2br_html}--></div>
@@ -333,35 +290,7 @@
 	<!--{/section}-->
 	<!--▲サブコメント-->
 
-	<!--この商品に対するお客様の声-->
-	<div id="customervoice_area">
-		<h3 class="title">この商品に対するお客様の声</h3>
 
-		<div class="review_bloc clearfix">
-			<span>この商品に対するご感想をぜひお寄せください。</span>
-				<!--{if count($arrReview) < $smarty.const.REVIEW_REGIST_MAX}-->
-					<!--★新規コメントを書き込む★-->
-					<a href="./review.php"
-						onclick="eccube.openWindow('./review.php?product_id=<!--{$arrProduct.product_id}-->','review','600','640'); return false;"
-						target="_blank" class="btn btn-default btn-sm">
-						新規コメントを書き込む
-					</a>
-				<!--{/if}-->
-		</div>
-
-		<!--{if count($arrReview) > 0}-->
-			<ul class="list-unstyled">
-				<!--{section name=cnt loop=$arrReview}-->
-				<li class="user_voice">
-					<p class="voicetitle"><!--{$arrReview[cnt].title|h}--></p>
-					<p class="voicedate"><!--{$arrReview[cnt].create_date|sfDispDBDate:false}-->　投稿者：<!--{if $arrReview[cnt].reviewer_url}--><a href="<!--{$arrReview[cnt].reviewer_url}-->" target="_blank"><!--{$arrReview[cnt].reviewer_name|h}--></a><!--{else}--><!--{$arrReview[cnt].reviewer_name|h}--><!--{/if}-->　おすすめレベル：<span class="recommend_level"><!--{assign var=level value=$arrReview[cnt].recommend_level}--><!--{$arrRECOMMEND[$level]|h}--></span></p>
-					<p class="voicecomment"><!--{$arrReview[cnt].comment|h|nl2br}--></p>
-				</li>
-				<!--{/section}-->
-			</ul>
-		<!--{/if}-->
-	</div>
-	<!--お客様の声ここまで-->
 
 	<!--▼関連商品-->
 	<!--{if $arrRecommend}-->

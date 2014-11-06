@@ -9,7 +9,7 @@
 			</h4>
 			<div class="block_body">
 				<div class="news_contents">
-				<!--{section name=data loop=$arrNews}-->
+				<!--{section name=data loop=2}-->
 				<!--{assign var="date_array" value="-"|explode:$arrNews[data].cast_news_date}-->
 				<dl class="newslist">
 					<dt class="date">
@@ -23,6 +23,8 @@
 						>
 							<!--{$arrNews[data].news_title|h|nl2br}--></a>
 					</dt>
+
+					<dd class="mini"><!--{$arrNews[data].news_comment|h|nl2br}--></dd>
 				</dl>
 				<!--{/section}-->
 				</div>
