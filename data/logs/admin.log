@@ -13183,3 +13183,38 @@ login_id = taheebo(0)[rqbk2js2qg5he0lf5r0ros3u94]
 /var/www/data/require_base.php(51): SC_Helper_Session->adminAuthorization
 /var/www/data/class/helper/SC_Helper_Session.php(248): SC_Session->__construct
 /var/www/data/class/SC_Session.php(61): GC_Utils->gfPrintLog
+2014/11/07 03:51:12 [/admin/design/index.php] access : user=taheebo auth=0 sid=rqbk2js2qg5he0lf5r0ros3u94 from 192.168.218.1
+login_id = taheebo(0)[rqbk2js2qg5he0lf5r0ros3u94]
+/var/www/html/admin/design/index.php(24): require_once
+/var/www/html/admin/require.php(35): require_once
+/var/www/data/require_base.php(51): SC_Helper_Session->adminAuthorization
+/var/www/data/class/helper/SC_Helper_Session.php(248): SC_Session->__construct
+/var/www/data/class/SC_Session.php(61): GC_Utils->gfPrintLog
+2014/11/07 03:51:19 [/admin/design/index.php] access : user=taheebo auth=0 sid=rqbk2js2qg5he0lf5r0ros3u94 from 192.168.218.1
+login_id = taheebo(0)[rqbk2js2qg5he0lf5r0ros3u94]
+/var/www/html/admin/design/index.php(24): require_once
+/var/www/html/admin/require.php(35): require_once
+/var/www/data/require_base.php(51): SC_Helper_Session->adminAuthorization
+/var/www/data/class/helper/SC_Helper_Session.php(248): SC_Session->__construct
+/var/www/data/class/SC_Session.php(61): GC_Utils->gfPrintLog
+2014/11/07 03:51:19 [/admin/design/index.php] access : user=taheebo auth=0 sid=rqbk2js2qg5he0lf5r0ros3u94 from 192.168.218.1
+login_id = taheebo(0)[rqbk2js2qg5he0lf5r0ros3u94]
+/var/www/html/admin/design/index.php(24): require_once
+/var/www/html/admin/require.php(35): require_once
+/var/www/data/require_base.php(51): SC_Helper_Session->adminAuthorization
+/var/www/data/class/helper/SC_Helper_Session.php(248): SC_Session->__construct
+/var/www/data/class/SC_Session.php(61): GC_Utils->gfPrintLog
+2014/11/07 03:51:26 [/admin/design/index.php] access : user=taheebo auth=0 sid=rqbk2js2qg5he0lf5r0ros3u94 from 192.168.218.1
+login_id = taheebo(0)[rqbk2js2qg5he0lf5r0ros3u94]
+/var/www/html/admin/design/index.php(24): require_once
+/var/www/html/admin/require.php(35): require_once
+/var/www/data/require_base.php(51): SC_Helper_Session->adminAuthorization
+/var/www/data/class/helper/SC_Helper_Session.php(248): SC_Session->__construct
+/var/www/data/class/SC_Session.php(61): GC_Utils->gfPrintLog
+2014/11/07 03:51:26 [/admin/design/index.php] access : user=taheebo auth=0 sid=rqbk2js2qg5he0lf5r0ros3u94 from 192.168.218.1
+login_id = taheebo(0)[rqbk2js2qg5he0lf5r0ros3u94]
+/var/www/html/admin/design/index.php(24): require_once
+/var/www/html/admin/require.php(35): require_once
+/var/www/data/require_base.php(51): SC_Helper_Session->adminAuthorization
+/var/www/data/class/helper/SC_Helper_Session.php(248): SC_Session->__construct
+/var/www/data/class/SC_Session.php(61): GC_Utils->gfPrintLog

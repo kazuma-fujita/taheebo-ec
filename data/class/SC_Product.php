@@ -234,7 +234,9 @@ __EOS__;
         if (strlen($objQuery->order) === 0) {
             $arrTmp = array();
             foreach ($arrProductId as $product_id) {
-                $arrTmp[$product_id] = $arrProducts[$product_id];
+                if ( !empty($arrProducts[$product_id]) ) {
+                    $arrTmp[$product_id] = $arrProducts[$product_id];
+                }
             }
             $arrProducts =& $arrTmp;
             unset($arrTmp);
@@ -244,15 +246,18 @@ __EOS__;
 
 
         // 途中で無駄データが入るので絞る
+/*
         $retArray = array();
+echo "<br/><br/>";
         foreach ( $arrProducts as $products ) {
-
+echo var_dump($products)."<br/><br/>";
             if( isset($products['product_id']) ){
                 $retArray[] = $products;
             } 
         }
-        //return $arrProducts;
-        return $retArray;
+*/
+        return $arrProducts;
+        //return $retArray;
     }
 
 
