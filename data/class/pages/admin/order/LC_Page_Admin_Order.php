@@ -376,14 +376,19 @@ class LC_Page_Admin_Order extends LC_Page_Admin_Ex
                 $date = SC_Utils_Ex::sfGetTimestamp($objFormParam->getValue('search_supdateyear'),
                                                     $objFormParam->getValue('search_supdatemonth'),
                                                     $objFormParam->getValue('search_supdateday'));
-                $where.= ' AND update_date >= ?';
+                //$where.= ' AND update_date >= ?';
+                // 発送済ステータス 5追加 commit date
+                //$where.= ' AND update_date >= ?';
+                $where.= ' AND commit_date >= ? AND status = 5';
                 $arrValues[] = $date;
                 break;
             case 'search_eupdateyear':
                 $date = SC_Utils_Ex::sfGetTimestamp($objFormParam->getValue('search_eupdateyear'),
                                                     $objFormParam->getValue('search_eupdatemonth'),
                                                     $objFormParam->getValue('search_eupdateday'), true);
-                $where.= ' AND update_date <= ?';
+                // 発送済ステータス 5追加 commit_date
+                //$where.= ' AND update_date <= ?';
+                $where.= ' AND commit_date <= ? AND status = 5';
                 $arrValues[] = $date;
                 break;
             case 'search_sbirthyear':

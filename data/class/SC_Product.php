@@ -193,7 +193,7 @@ __EOS__;
         return $arrProducts;
     }
 
-    private function getAgencyProductCategoryIdByAgencyCode( $agency_code ) {
+    public function getAgencyProductCategoryIdByAgencyCode( $agency_code ) {
 
         $objQuery =& SC_Query_Ex::getSingletonInstance();
         $col = 'agency_product_category_id';
@@ -242,7 +242,17 @@ __EOS__;
         // 税込金額を設定する
         SC_Product_Ex::setIncTaxToProducts($arrProducts);
 
-        return $arrProducts;
+
+        // 途中で無駄データが入るので絞る
+        $retArray = array();
+        foreach ( $arrProducts as $products ) {
+
+            if( isset($products['product_id']) ){
+                $retArray[] = $products;
+            } 
+        }
+        //return $arrProducts;
+        return $retArray;
     }
 
 

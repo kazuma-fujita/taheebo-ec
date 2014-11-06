@@ -2540,3 +2540,135 @@ login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
 /var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(70): LC_Upgrade_Helper_Log->end
 /var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(48): LC_Upgrade_Helper_Log->log
 /var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/07 02:06:03 [/upgrade/index.php] ##### products_list start ##### from 192.168.218.1
+customer_id = 4
+login_id = taheebo(0)[rqbk2js2qg5he0lf5r0ros3u94]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(55): LC_Upgrade_Helper_Log->start
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(38): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/07 02:06:03 [/upgrade/index.php] * admin auth start from 192.168.218.1
+customer_id = 4
+login_id = taheebo(0)[rqbk2js2qg5he0lf5r0ros3u94]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(58): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/07 02:06:03 [/upgrade/index.php] * public key check start from 192.168.218.1
+customer_id = 4
+login_id = taheebo(0)[rqbk2js2qg5he0lf5r0ros3u94]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(71): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/07 02:06:03 [/upgrade/index.php] * http request start from 192.168.218.1
+customer_id = 4
+login_id = taheebo(0)[rqbk2js2qg5he0lf5r0ros3u94]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(81): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/07 02:06:04 [/upgrade/index.php] * http request check start from 192.168.218.1
+customer_id = 4
+login_id = taheebo(0)[rqbk2js2qg5he0lf5r0ros3u94]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(91): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/07 02:06:04 [/upgrade/index.php] * http response check start from 192.168.218.1
+customer_id = 4
+login_id = taheebo(0)[rqbk2js2qg5he0lf5r0ros3u94]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(101): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/07 02:06:04 [/upgrade/index.php] * json deta check start from 192.168.218.1
+customer_id = 4
+login_id = taheebo(0)[rqbk2js2qg5he0lf5r0ros3u94]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(114): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/07 02:06:04 [/upgrade/index.php] * json status check start from 192.168.218.1
+customer_id = 4
+login_id = taheebo(0)[rqbk2js2qg5he0lf5r0ros3u94]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(124): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/07 02:06:04 [/upgrade/index.php] * error! code:1002 / debug:O:12:"HTTP_Request":26:{s:4:"_url";O:7:"Net_URL":13:{s:7:"options";a:1:{s:17:"encode_query_keys";b:0;}s:3:"url";s:40:"http://www.ec-cube.net/upgrade/index.php";s:8:"protocol";s:4:"http";s:8:"username";N;s:8:"password";N;s:4:"host";s:15:"www.ec-cube.net";s:4:"port";i:80;s:4:"path";s:18:"/upgrade/index.php";s:11:"querystring";a:0:{}s:6:"anchor";s:0:"";s:11:"useBrackets";b:1;s:4:"user";s:0:"";s:4:"pass";s:0:"";}s:7:"_method";s:4:"POST";s:5:"_http";s:3:"1.1";s:15:"_requestHeaders";a:5:{s:10:"user-agent";s:48:"PEAR HTTP_Request class ( http://pear.php.net/ )";s:10:"connection";s:5:"close";s:15:"accept-encoding";s:4:"gzip";s:4:"host";s:15:"www.ec-cube.net";s:12:"content-type";s:33:"application/x-www-form-urlencoded";}s:5:"_user";N;s:5:"_pass";N;s:5:"_sock";O:10:"Net_Socket":14:{s:2:"fp";N;s:8:"blocking";b:1;s:10:"persistent";b:0;s:4:"addr";s:13:"112.78.219.77";s:4:"port";i:80;s:7:"timeout";b:0;s:10:"lineLength";i:2048;s:7:"newline";s:2:"
+";s:6:"_debug";b:0;s:19:"_default_error_mode";N;s:22:"_default_error_options";N;s:22:"_default_error_handler";s:0:"";s:12:"_error_class";s:10:"PEAR_Error";s:16:"_expected_errors";a:0:{}}s:11:"_proxy_host";N;s:11:"_proxy_port";N;s:11:"_proxy_user";N;s:11:"_proxy_pass";N;s:9:"_postData";a:5:{s:4:"mode";s:13:"products_list";s:10:"eccube_url";s:31:"http%3A%2F%2F192.168.218.200%2F";s:10:"public_key";s:40:"ea179f03092054e757d88986df2528d3b640c90c";s:8:"sha1_key";s:40:"223dfceb410bc9bbc397550cd3d3303ca25436a4";s:3:"ver";s:6:"2.13.2";}s:5:"_body";N;s:15:"_bodyDisallowed";a:1:{i:0;s:5:"TRACE";}s:13:"_bodyRequired";a:2:{i:0;s:4:"POST";i:1;s:3:"PUT";}s:10:"_postFiles";a:0:{}s:8:"_timeout";N;s:9:"_response";O:13:"HTTP_Response":10:{s:5:"_sock";R:27;s:9:"_protocol";s:8:"HTTP/1.1";s:5:"_code";i:200;s:7:"_reason";s:2:"OK";s:8:"_headers";a:6:{s:4:"date";s:29:"Thu, 06 Nov 2014 17:06:02 GMT";s:6:"server";s:23:"Apache/2.2.15 (Red Hat)";s:12:"x-powered-by";s:9:"PHP/5.3.3";s:14:"content-length";s:3:"405";s:10:"connection";s:5:"close";s:12:"content-type";s:30:"text/javascript; charset=UTF-8";}s:8:"_cookies";a:1:{i:0;a:6:{s:7:"expires";N;s:6:"domain";N;s:4:"path";s:1:"/";s:6:"secure";b:0;s:4:"name";s:9:"PHPSESSID";s:5:"value";s:26:"4aa0ko82bvtuv3eonfqhr1vq63";}}s:5:"_body";s:405:"{"status":"ERROR","errcode":"1002","msg":"\u8a8d\u8a3c\u306b\u5931\u6557\u3057\u307e\u3057\u305f\u3002<br \/>\u30fb\u4eee\u4f1a\u54e1\u306e\u65b9\u306f\u3001\u672c\u4f1a\u54e1\u767b\u9332\u3092\u884c\u3063\u3066\u304f\u3060\u3055\u3044<br \/>\u30fb\u8a8d\u8a3c\u30ad\u30fc\u304c\u6b63\u3057\u304f\u8a2d\u5b9a\u3055\u308c\u3066\u3044\u308b\u304b\u78ba\u8a8d\u3057\u3066\u304f\u3060\u3055\u3044","data":[]}
+";s:12:"_chunkLength";i:0;s:10:"_listeners";a:0:{}s:7:"_toRead";i:0;}s:15:"_allowRedirects";b:0;s:13:"_maxRedirects";i:3;s:10:"_redirects";i:0;s:12:"_useBrackets";b:1;s:10:"_listeners";R:81;s:9:"_saveBody";b:1;s:12:"_readTimeout";N;s:14:"_socketOptions";N;} from 192.168.218.1
+customer_id = 4
+login_id = taheebo(0)[rqbk2js2qg5he0lf5r0ros3u94]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(153): LC_Upgrade_Helper_Log->error
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(69): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/07 02:06:04 [/upgrade/index.php] ##### end ##### from 192.168.218.1
+customer_id = 4
+login_id = taheebo(0)[rqbk2js2qg5he0lf5r0ros3u94]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(153): LC_Upgrade_Helper_Log->error
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(70): LC_Upgrade_Helper_Log->end
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(48): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/07 02:06:25 [/upgrade/index.php] ##### products_list start ##### from 192.168.218.1
+customer_id = 4
+login_id = taheebo(0)[rqbk2js2qg5he0lf5r0ros3u94]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(55): LC_Upgrade_Helper_Log->start
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(38): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/07 02:06:25 [/upgrade/index.php] * admin auth start from 192.168.218.1
+customer_id = 4
+login_id = taheebo(0)[rqbk2js2qg5he0lf5r0ros3u94]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(58): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/07 02:06:25 [/upgrade/index.php] * public key check start from 192.168.218.1
+customer_id = 4
+login_id = taheebo(0)[rqbk2js2qg5he0lf5r0ros3u94]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(71): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/07 02:06:25 [/upgrade/index.php] * http request start from 192.168.218.1
+customer_id = 4
+login_id = taheebo(0)[rqbk2js2qg5he0lf5r0ros3u94]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(81): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/07 02:06:26 [/upgrade/index.php] * http request check start from 192.168.218.1
+customer_id = 4
+login_id = taheebo(0)[rqbk2js2qg5he0lf5r0ros3u94]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(91): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/07 02:06:26 [/upgrade/index.php] * http response check start from 192.168.218.1
+customer_id = 4
+login_id = taheebo(0)[rqbk2js2qg5he0lf5r0ros3u94]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(101): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/07 02:06:26 [/upgrade/index.php] * json deta check start from 192.168.218.1
+customer_id = 4
+login_id = taheebo(0)[rqbk2js2qg5he0lf5r0ros3u94]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(114): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/07 02:06:26 [/upgrade/index.php] * json status check start from 192.168.218.1
+customer_id = 4
+login_id = taheebo(0)[rqbk2js2qg5he0lf5r0ros3u94]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(124): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/07 02:06:26 [/upgrade/index.php] * error! code:1002 / debug:O:12:"HTTP_Request":26:{s:4:"_url";O:7:"Net_URL":13:{s:7:"options";a:1:{s:17:"encode_query_keys";b:0;}s:3:"url";s:40:"http://www.ec-cube.net/upgrade/index.php";s:8:"protocol";s:4:"http";s:8:"username";N;s:8:"password";N;s:4:"host";s:15:"www.ec-cube.net";s:4:"port";i:80;s:4:"path";s:18:"/upgrade/index.php";s:11:"querystring";a:0:{}s:6:"anchor";s:0:"";s:11:"useBrackets";b:1;s:4:"user";s:0:"";s:4:"pass";s:0:"";}s:7:"_method";s:4:"POST";s:5:"_http";s:3:"1.1";s:15:"_requestHeaders";a:5:{s:10:"user-agent";s:48:"PEAR HTTP_Request class ( http://pear.php.net/ )";s:10:"connection";s:5:"close";s:15:"accept-encoding";s:4:"gzip";s:4:"host";s:15:"www.ec-cube.net";s:12:"content-type";s:33:"application/x-www-form-urlencoded";}s:5:"_user";N;s:5:"_pass";N;s:5:"_sock";O:10:"Net_Socket":14:{s:2:"fp";N;s:8:"blocking";b:1;s:10:"persistent";b:0;s:4:"addr";s:13:"112.78.219.77";s:4:"port";i:80;s:7:"timeout";b:0;s:10:"lineLength";i:2048;s:7:"newline";s:2:"
+";s:6:"_debug";b:0;s:19:"_default_error_mode";N;s:22:"_default_error_options";N;s:22:"_default_error_handler";s:0:"";s:12:"_error_class";s:10:"PEAR_Error";s:16:"_expected_errors";a:0:{}}s:11:"_proxy_host";N;s:11:"_proxy_port";N;s:11:"_proxy_user";N;s:11:"_proxy_pass";N;s:9:"_postData";a:5:{s:4:"mode";s:13:"products_list";s:10:"eccube_url";s:31:"http%3A%2F%2F192.168.218.200%2F";s:10:"public_key";s:40:"fca033aa08832fa0861b5c5bedf3223d5d56dc52";s:8:"sha1_key";s:40:"1676d969ac44368b9d6c2763c96cd1bfa5a29887";s:3:"ver";s:6:"2.13.2";}s:5:"_body";N;s:15:"_bodyDisallowed";a:1:{i:0;s:5:"TRACE";}s:13:"_bodyRequired";a:2:{i:0;s:4:"POST";i:1;s:3:"PUT";}s:10:"_postFiles";a:0:{}s:8:"_timeout";N;s:9:"_response";O:13:"HTTP_Response":10:{s:5:"_sock";R:27;s:9:"_protocol";s:8:"HTTP/1.1";s:5:"_code";i:200;s:7:"_reason";s:2:"OK";s:8:"_headers";a:6:{s:4:"date";s:29:"Thu, 06 Nov 2014 17:06:25 GMT";s:6:"server";s:23:"Apache/2.2.15 (Red Hat)";s:12:"x-powered-by";s:9:"PHP/5.3.3";s:14:"content-length";s:3:"405";s:10:"connection";s:5:"close";s:12:"content-type";s:30:"text/javascript; charset=UTF-8";}s:8:"_cookies";a:1:{i:0;a:6:{s:7:"expires";N;s:6:"domain";N;s:4:"path";s:1:"/";s:6:"secure";b:0;s:4:"name";s:9:"PHPSESSID";s:5:"value";s:26:"qosgcmoi6j8pmk9u8p71akgtv7";}}s:5:"_body";s:405:"{"status":"ERROR","errcode":"1002","msg":"\u8a8d\u8a3c\u306b\u5931\u6557\u3057\u307e\u3057\u305f\u3002<br \/>\u30fb\u4eee\u4f1a\u54e1\u306e\u65b9\u306f\u3001\u672c\u4f1a\u54e1\u767b\u9332\u3092\u884c\u3063\u3066\u304f\u3060\u3055\u3044<br \/>\u30fb\u8a8d\u8a3c\u30ad\u30fc\u304c\u6b63\u3057\u304f\u8a2d\u5b9a\u3055\u308c\u3066\u3044\u308b\u304b\u78ba\u8a8d\u3057\u3066\u304f\u3060\u3055\u3044","data":[]}
+";s:12:"_chunkLength";i:0;s:10:"_listeners";a:0:{}s:7:"_toRead";i:0;}s:15:"_allowRedirects";b:0;s:13:"_maxRedirects";i:3;s:10:"_redirects";i:0;s:12:"_useBrackets";b:1;s:10:"_listeners";R:81;s:9:"_saveBody";b:1;s:12:"_readTimeout";N;s:14:"_socketOptions";N;} from 192.168.218.1
+customer_id = 4
+login_id = taheebo(0)[rqbk2js2qg5he0lf5r0ros3u94]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(153): LC_Upgrade_Helper_Log->error
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(69): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog
+2014/11/07 02:06:26 [/upgrade/index.php] ##### end ##### from 192.168.218.1
+customer_id = 4
+login_id = taheebo(0)[rqbk2js2qg5he0lf5r0ros3u94]
+/var/www/html/upgrade/index.php(37): LC_Page_Upgrade_ProductsList->process
+/var/www/data/class/pages/upgrade/LC_Page_Upgrade_ProductsList.php(153): LC_Upgrade_Helper_Log->error
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(70): LC_Upgrade_Helper_Log->end
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(48): LC_Upgrade_Helper_Log->log
+/var/www/data/class/pages/upgrade/helper/LC_Upgrade_Helper_Log.php(57): GC_Utils->gfPrintLog

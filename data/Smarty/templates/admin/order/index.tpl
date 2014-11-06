@@ -247,7 +247,7 @@
                 </td>
             </tr>
             <tr>
-                <th>更新日</th>
+                <th>発送日</th>
                 <td colspan="3">
                     <!--{if $arrErr.search_supdateyear}--><span class="attention"><!--{$arrErr.search_supdateyear}--></span><!--{/if}-->
                     <!--{if $arrErr.search_eupdateyear}--><span class="attention"><!--{$arrErr.search_eupdateyear}--></span><!--{/if}-->

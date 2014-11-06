@@ -6302,3 +6302,947 @@ login_id = taheebo(0)[0bct9nj4e2b1lhbk5s19207ng4]
 /var/www/data/module/Smarty/libs/Smarty.class.php(1416): Smarty->_fetch_resource_info
 /var/www/data/module/Smarty/libs/Smarty.class.php(1590): Smarty->trigger_error
 /var/www/data/module/Smarty/libs/Smarty.class.php(1094): trigger_error
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 668 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(668): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450): SC_Helper_HandleError::handle_warning
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(800)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(715): LC_Page_Admin_Total->lfAddTotalLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(800): SC_Helper_HandleError::handle_warning
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 668 and defined on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(668): LC_Page_Admin_Total->lfGetWhereMember
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(450): SC_Helper_HandleError::handle_warning
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 00:21:07 [/admin/total/index.php] Warning(E_WARNING): array_key_exists() expects parameter 2 to be array, null given on [/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733)] from 192.168.218.1
+login_id = taheebo(0)[bfkm851pf1m48m65s7de5oklv0]
+/var/www/html/admin/total/index.php(29): LC_Page_Admin_Total_Ex->process
+/var/www/data/class_extends/page_extends/admin/total/LC_Page_Admin_Total_Ex.php(54): LC_Page_Admin_Total->process
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(92): LC_Page_Admin_Total->action
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(136): call_user_func_array
+(): LC_Page_Admin_Total->lfGetOrderTerm
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(712): LC_Page_Admin_Total->lfAddBlankLine
+/var/www/data/class/pages/admin/total/LC_Page_Admin_Total.php(733): array_key_exists
+2014/11/07 01:47:22 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(54): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(252): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/bootcube/%%F1^F15^F158E3F4%%site_frame.tpl.php(97): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/bootcube/%%58^587^5876E692%%site_main.tpl.php(44): smarty_core_smarty_include_php
+/var/www/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1924): include
+/var/www/html/frontparts/bloc/recommend.php(30): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/var/www/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(54): LC_Page_FrontParts_Bloc_Recommend->process
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(52): LC_Page_FrontParts_Bloc_Recommend->action
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(68): LC_Page_FrontParts_Bloc_Recommend->lfGetRanking
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/07 01:47:26 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/products/list.php(29): LC_Page_Products_List_Ex->process
+/var/www/data/class_extends/page_extends/products/LC_Page_Products_List_Ex.php(54): LC_Page_Products_List->process
+/var/www/data/class/pages/products/LC_Page_Products_List.php(83): LC_Page_Products_List->action
+/var/www/data/class/pages/products/LC_Page_Products_List.php(145): LC_Page_Products_List->lfGetProductsList
+/var/www/data/class/pages/products/LC_Page_Products_List.php(257): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/07 01:47:43 [/preview/index.php] Warning(E_USER_WARNING): ページ情報を取得できませんでした。 on [/var/www/data/class/helper/SC_Helper_PageLayout.php(59)] from 192.168.218.1
+customer_id = 4
+/var/www/html/preview/index.php(28): LC_Page_Preview_Ex->init
+/var/www/data/class_extends/page_extends/preview/LC_Page_Preview_Ex.php(44): LC_Page_Preview->init
+/var/www/data/class/pages/preview/LC_Page_Preview.php(42): LC_Page->init
+/var/www/data/class/pages/LC_Page.php(101): SC_Helper_PageLayout->sfGetPageLayout
+/var/www/data/class/helper/SC_Helper_PageLayout.php(59): trigger_error
+2014/11/07 01:47:43 [/preview/index.php] Warning(E_USER_WARNING): メイン部のテンプレートが存在しません。[/var/www/html/../data/Smarty/templates/bootcube/.tpl] on [/var/www/data/class/helper/SC_Helper_PageLayout.php(66)] from 192.168.218.1
+customer_id = 4
+/var/www/html/preview/index.php(28): LC_Page_Preview_Ex->init
+/var/www/data/class_extends/page_extends/preview/LC_Page_Preview_Ex.php(44): LC_Page_Preview->init
+/var/www/data/class/pages/preview/LC_Page_Preview.php(42): LC_Page->init
+/var/www/data/class/pages/LC_Page.php(101): SC_Helper_PageLayout->sfGetPageLayout
+/var/www/data/class/helper/SC_Helper_PageLayout.php(66): trigger_error
+2014/11/07 01:48:34 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(54): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(252): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/bootcube/%%F1^F15^F158E3F4%%site_frame.tpl.php(97): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/bootcube/%%58^587^5876E692%%site_main.tpl.php(44): smarty_core_smarty_include_php
+/var/www/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1924): include
+/var/www/html/frontparts/bloc/recommend.php(30): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/var/www/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(54): LC_Page_FrontParts_Bloc_Recommend->process
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(52): LC_Page_FrontParts_Bloc_Recommend->action
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(68): LC_Page_FrontParts_Bloc_Recommend->lfGetRanking
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/07 01:49:00 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(54): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(252): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/bootcube/%%F1^F15^F158E3F4%%site_frame.tpl.php(97): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/bootcube/%%58^587^5876E692%%site_main.tpl.php(44): smarty_core_smarty_include_php
+/var/www/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1924): include
+/var/www/html/frontparts/bloc/recommend.php(30): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/var/www/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(54): LC_Page_FrontParts_Bloc_Recommend->process
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(52): LC_Page_FrontParts_Bloc_Recommend->action
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(68): LC_Page_FrontParts_Bloc_Recommend->lfGetRanking
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/07 01:49:06 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/products/list.php(29): LC_Page_Products_List_Ex->process
+/var/www/data/class_extends/page_extends/products/LC_Page_Products_List_Ex.php(54): LC_Page_Products_List->process
+/var/www/data/class/pages/products/LC_Page_Products_List.php(83): LC_Page_Products_List->action
+/var/www/data/class/pages/products/LC_Page_Products_List.php(145): LC_Page_Products_List->lfGetProductsList
+/var/www/data/class/pages/products/LC_Page_Products_List.php(257): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/07 02:36:44 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/products/list.php(29): LC_Page_Products_List_Ex->process
+/var/www/data/class_extends/page_extends/products/LC_Page_Products_List_Ex.php(54): LC_Page_Products_List->process
+/var/www/data/class/pages/products/LC_Page_Products_List.php(83): LC_Page_Products_List->action
+/var/www/data/class/pages/products/LC_Page_Products_List.php(145): LC_Page_Products_List->lfGetProductsList
+/var/www/data/class/pages/products/LC_Page_Products_List.php(257): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/07 02:44:44 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/products/list.php(29): LC_Page_Products_List_Ex->process
+/var/www/data/class_extends/page_extends/products/LC_Page_Products_List_Ex.php(54): LC_Page_Products_List->process
+/var/www/data/class/pages/products/LC_Page_Products_List.php(83): LC_Page_Products_List->action
+/var/www/data/class/pages/products/LC_Page_Products_List.php(145): LC_Page_Products_List->lfGetProductsList
+/var/www/data/class/pages/products/LC_Page_Products_List.php(257): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/07 02:45:14 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/products/list.php(29): LC_Page_Products_List_Ex->process
+/var/www/data/class_extends/page_extends/products/LC_Page_Products_List_Ex.php(54): LC_Page_Products_List->process
+/var/www/data/class/pages/products/LC_Page_Products_List.php(83): LC_Page_Products_List->action
+/var/www/data/class/pages/products/LC_Page_Products_List.php(145): LC_Page_Products_List->lfGetProductsList
+/var/www/data/class/pages/products/LC_Page_Products_List.php(257): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/07 02:52:42 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/products/list.php(29): LC_Page_Products_List_Ex->process
+/var/www/data/class_extends/page_extends/products/LC_Page_Products_List_Ex.php(54): LC_Page_Products_List->process
+/var/www/data/class/pages/products/LC_Page_Products_List.php(83): LC_Page_Products_List->action
+/var/www/data/class/pages/products/LC_Page_Products_List.php(145): LC_Page_Products_List->lfGetProductsList
+/var/www/data/class/pages/products/LC_Page_Products_List.php(257): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/07 02:53:32 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/products/list.php(29): LC_Page_Products_List_Ex->process
+/var/www/data/class_extends/page_extends/products/LC_Page_Products_List_Ex.php(54): LC_Page_Products_List->process
+/var/www/data/class/pages/products/LC_Page_Products_List.php(83): LC_Page_Products_List->action
+/var/www/data/class/pages/products/LC_Page_Products_List.php(145): LC_Page_Products_List->lfGetProductsList
+/var/www/data/class/pages/products/LC_Page_Products_List.php(257): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/07 02:56:09 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/products/list.php(29): LC_Page_Products_List_Ex->process
+/var/www/data/class_extends/page_extends/products/LC_Page_Products_List_Ex.php(54): LC_Page_Products_List->process
+/var/www/data/class/pages/products/LC_Page_Products_List.php(83): LC_Page_Products_List->action
+/var/www/data/class/pages/products/LC_Page_Products_List.php(145): LC_Page_Products_List->lfGetProductsList
+/var/www/data/class/pages/products/LC_Page_Products_List.php(257): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/07 03:10:21 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/products/list.php(29): LC_Page_Products_List_Ex->process
+/var/www/data/class_extends/page_extends/products/LC_Page_Products_List_Ex.php(54): LC_Page_Products_List->process
+/var/www/data/class/pages/products/LC_Page_Products_List.php(83): LC_Page_Products_List->action
+/var/www/data/class/pages/products/LC_Page_Products_List.php(145): LC_Page_Products_List->lfGetProductsList
+/var/www/data/class/pages/products/LC_Page_Products_List.php(268): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/07 03:12:38 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/products/list.php(29): LC_Page_Products_List_Ex->process
+/var/www/data/class_extends/page_extends/products/LC_Page_Products_List_Ex.php(54): LC_Page_Products_List->process
+/var/www/data/class/pages/products/LC_Page_Products_List.php(83): LC_Page_Products_List->action
+/var/www/data/class/pages/products/LC_Page_Products_List.php(145): LC_Page_Products_List->lfGetProductsList
+/var/www/data/class/pages/products/LC_Page_Products_List.php(268): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/07 03:12:48 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/products/list.php(29): LC_Page_Products_List_Ex->process
+/var/www/data/class_extends/page_extends/products/LC_Page_Products_List_Ex.php(54): LC_Page_Products_List->process
+/var/www/data/class/pages/products/LC_Page_Products_List.php(83): LC_Page_Products_List->action
+/var/www/data/class/pages/products/LC_Page_Products_List.php(145): LC_Page_Products_List->lfGetProductsList
+/var/www/data/class/pages/products/LC_Page_Products_List.php(268): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/07 03:13:40 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/products/list.php(29): LC_Page_Products_List_Ex->process
+/var/www/data/class_extends/page_extends/products/LC_Page_Products_List_Ex.php(54): LC_Page_Products_List->process
+/var/www/data/class/pages/products/LC_Page_Products_List.php(83): LC_Page_Products_List->action
+/var/www/data/class/pages/products/LC_Page_Products_List.php(145): LC_Page_Products_List->lfGetProductsList
+/var/www/data/class/pages/products/LC_Page_Products_List.php(268): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/07 03:14:21 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/products/list.php(29): LC_Page_Products_List_Ex->process
+/var/www/data/class_extends/page_extends/products/LC_Page_Products_List_Ex.php(54): LC_Page_Products_List->process
+/var/www/data/class/pages/products/LC_Page_Products_List.php(83): LC_Page_Products_List->action
+/var/www/data/class/pages/products/LC_Page_Products_List.php(145): LC_Page_Products_List->lfGetProductsList
+/var/www/data/class/pages/products/LC_Page_Products_List.php(268): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/07 03:14:31 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/products/list.php(29): LC_Page_Products_List_Ex->process
+/var/www/data/class_extends/page_extends/products/LC_Page_Products_List_Ex.php(54): LC_Page_Products_List->process
+/var/www/data/class/pages/products/LC_Page_Products_List.php(83): LC_Page_Products_List->action
+/var/www/data/class/pages/products/LC_Page_Products_List.php(145): LC_Page_Products_List->lfGetProductsList
+/var/www/data/class/pages/products/LC_Page_Products_List.php(268): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/07 03:14:35 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/products/list.php(29): LC_Page_Products_List_Ex->process
+/var/www/data/class_extends/page_extends/products/LC_Page_Products_List_Ex.php(54): LC_Page_Products_List->process
+/var/www/data/class/pages/products/LC_Page_Products_List.php(83): LC_Page_Products_List->action
+/var/www/data/class/pages/products/LC_Page_Products_List.php(145): LC_Page_Products_List->lfGetProductsList
+/var/www/data/class/pages/products/LC_Page_Products_List.php(268): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/07 03:17:17 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/products/list.php(29): LC_Page_Products_List_Ex->process
+/var/www/data/class_extends/page_extends/products/LC_Page_Products_List_Ex.php(54): LC_Page_Products_List->process
+/var/www/data/class/pages/products/LC_Page_Products_List.php(83): LC_Page_Products_List->action
+/var/www/data/class/pages/products/LC_Page_Products_List.php(145): LC_Page_Products_List->lfGetProductsList
+/var/www/data/class/pages/products/LC_Page_Products_List.php(268): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/07 03:17:22 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(54): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(252): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/bootcube/%%F1^F15^F158E3F4%%site_frame.tpl.php(97): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/bootcube/%%58^587^5876E692%%site_main.tpl.php(44): smarty_core_smarty_include_php
+/var/www/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1924): include
+/var/www/html/frontparts/bloc/recommend.php(30): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/var/www/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(54): LC_Page_FrontParts_Bloc_Recommend->process
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(52): LC_Page_FrontParts_Bloc_Recommend->action
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(68): LC_Page_FrontParts_Bloc_Recommend->lfGetRanking
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/07 03:29:43 [/products/list.php] Fatal error(E_ERROR): Call to private method SC_Product::getAgencyProductCategoryIdByAgencyCode() from context 'LC_Page_Products_List' on [/var/www/data/class/pages/products/LC_Page_Products_List.php(429)] from 192.168.218.1
+customer_id = 4
+2014/11/07 03:30:10 [/products/list.php] Fatal error(E_ERROR): Call to private method SC_Product::getAgencyProductCategoryIdByAgencyCode() from context 'LC_Page_Products_List' on [/var/www/data/class/pages/products/LC_Page_Products_List.php(429)] from 192.168.218.1
+customer_id = 4
+2014/11/07 03:30:56 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/products/list.php(29): LC_Page_Products_List_Ex->process
+/var/www/data/class_extends/page_extends/products/LC_Page_Products_List_Ex.php(54): LC_Page_Products_List->process
+/var/www/data/class/pages/products/LC_Page_Products_List.php(83): LC_Page_Products_List->action
+/var/www/data/class/pages/products/LC_Page_Products_List.php(136): LC_Page_Products_List->lfGetSearchCondition
+/var/www/data/class/pages/products/LC_Page_Products_List.php(429): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/07 03:30:56 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/products/list.php(29): LC_Page_Products_List_Ex->process
+/var/www/data/class_extends/page_extends/products/LC_Page_Products_List_Ex.php(54): LC_Page_Products_List->process
+/var/www/data/class/pages/products/LC_Page_Products_List.php(83): LC_Page_Products_List->action
+/var/www/data/class/pages/products/LC_Page_Products_List.php(145): LC_Page_Products_List->lfGetProductsList
+/var/www/data/class/pages/products/LC_Page_Products_List.php(268): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/07 03:31:34 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/products/list.php(29): LC_Page_Products_List_Ex->process
+/var/www/data/class_extends/page_extends/products/LC_Page_Products_List_Ex.php(54): LC_Page_Products_List->process
+/var/www/data/class/pages/products/LC_Page_Products_List.php(83): LC_Page_Products_List->action
+/var/www/data/class/pages/products/LC_Page_Products_List.php(136): LC_Page_Products_List->lfGetSearchCondition
+/var/www/data/class/pages/products/LC_Page_Products_List.php(429): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/07 03:31:34 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/products/list.php(29): LC_Page_Products_List_Ex->process
+/var/www/data/class_extends/page_extends/products/LC_Page_Products_List_Ex.php(54): LC_Page_Products_List->process
+/var/www/data/class/pages/products/LC_Page_Products_List.php(83): LC_Page_Products_List->action
+/var/www/data/class/pages/products/LC_Page_Products_List.php(145): LC_Page_Products_List->lfGetProductsList
+/var/www/data/class/pages/products/LC_Page_Products_List.php(268): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/07 03:35:13 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/products/list.php(29): LC_Page_Products_List_Ex->process
+/var/www/data/class_extends/page_extends/products/LC_Page_Products_List_Ex.php(54): LC_Page_Products_List->process
+/var/www/data/class/pages/products/LC_Page_Products_List.php(83): LC_Page_Products_List->action
+/var/www/data/class/pages/products/LC_Page_Products_List.php(136): LC_Page_Products_List->lfGetSearchCondition
+/var/www/data/class/pages/products/LC_Page_Products_List.php(429): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/07 03:35:13 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/products/list.php(29): LC_Page_Products_List_Ex->process
+/var/www/data/class_extends/page_extends/products/LC_Page_Products_List_Ex.php(54): LC_Page_Products_List->process
+/var/www/data/class/pages/products/LC_Page_Products_List.php(83): LC_Page_Products_List->action
+/var/www/data/class/pages/products/LC_Page_Products_List.php(145): LC_Page_Products_List->lfGetProductsList
+/var/www/data/class/pages/products/LC_Page_Products_List.php(268): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/07 03:35:31 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/products/list.php(29): LC_Page_Products_List_Ex->process
+/var/www/data/class_extends/page_extends/products/LC_Page_Products_List_Ex.php(54): LC_Page_Products_List->process
+/var/www/data/class/pages/products/LC_Page_Products_List.php(83): LC_Page_Products_List->action
+/var/www/data/class/pages/products/LC_Page_Products_List.php(136): LC_Page_Products_List->lfGetSearchCondition
+/var/www/data/class/pages/products/LC_Page_Products_List.php(429): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/07 03:35:31 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/products/list.php(29): LC_Page_Products_List_Ex->process
+/var/www/data/class_extends/page_extends/products/LC_Page_Products_List_Ex.php(54): LC_Page_Products_List->process
+/var/www/data/class/pages/products/LC_Page_Products_List.php(83): LC_Page_Products_List->action
+/var/www/data/class/pages/products/LC_Page_Products_List.php(145): LC_Page_Products_List->lfGetProductsList
+/var/www/data/class/pages/products/LC_Page_Products_List.php(268): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/07 03:40:48 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(54): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(252): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/bootcube/%%F1^F15^F158E3F4%%site_frame.tpl.php(97): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/bootcube/%%58^587^5876E692%%site_main.tpl.php(44): smarty_core_smarty_include_php
+/var/www/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1924): include
+/var/www/html/frontparts/bloc/recommend.php(30): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/var/www/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(54): LC_Page_FrontParts_Bloc_Recommend->process
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(52): LC_Page_FrontParts_Bloc_Recommend->action
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(68): LC_Page_FrontParts_Bloc_Recommend->lfGetRanking
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/07 03:40:55 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(54): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(252): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/bootcube/%%F1^F15^F158E3F4%%site_frame.tpl.php(97): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/bootcube/%%58^587^5876E692%%site_main.tpl.php(44): smarty_core_smarty_include_php
+/var/www/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1924): include
+/var/www/html/frontparts/bloc/recommend.php(30): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/var/www/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(54): LC_Page_FrontParts_Bloc_Recommend->process
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(52): LC_Page_FrontParts_Bloc_Recommend->action
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(68): LC_Page_FrontParts_Bloc_Recommend->lfGetRanking
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/07 03:41:10 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+customer_id = 4
+/var/www/html/index.php(28): LC_Page_Index_Ex->process
+/var/www/data/class_extends/page_extends/LC_Page_Index_Ex.php(54): LC_Page_Index->process
+/var/www/data/class/pages/LC_Page_Index.php(54): LC_Page->sendResponse
+/var/www/data/class/pages/LC_Page.php(252): SC_Display->prepare
+/var/www/data/class/SC_Display.php(80): SC_View->getResponse
+/var/www/data/class/SC_View.php(101): Smarty->fetch
+/var/www/data/module/Smarty/libs/Smarty.class.php(1264): include
+/var/www/data/Smarty/templates_c/bootcube/%%F1^F15^F158E3F4%%site_frame.tpl.php(97): Smarty->_smarty_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1870): include
+/var/www/data/Smarty/templates_c/bootcube/%%58^587^5876E692%%site_main.tpl.php(44): smarty_core_smarty_include_php
+/var/www/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/var/www/data/module/Smarty/libs/Smarty.class.php(1924): include
+/var/www/html/frontparts/bloc/recommend.php(30): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/var/www/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(54): LC_Page_FrontParts_Bloc_Recommend->process
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(52): LC_Page_FrontParts_Bloc_Recommend->action
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(68): LC_Page_FrontParts_Bloc_Recommend->lfGetRanking
+/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
+/var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
+/var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning

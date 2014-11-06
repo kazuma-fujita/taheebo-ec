@@ -153,6 +153,17 @@ class LC_Page_Products_List extends LC_Page_Ex
                 $this->doDefault($objProduct, $objFormParam);
                 break;
         }
+/*
+echo "<br/><br/><br/>";
+        $retArray = array();
+        foreach ( $this->arrProducts as $products ) {
+
+echo var_dump($products)."<br/><br/>";
+            if( isset($products['product_id']) ){
+                $retArray[] = $products;
+            }
+        }
+*/
 
         $this->tpl_rnd = SC_Utils_Ex::sfGetRandomString(3);
     }
@@ -411,6 +422,13 @@ class LC_Page_Products_List extends LC_Page_Ex
         if (NOSTOCK_HIDDEN) {
             $searchCondition['where'] .= ' AND EXISTS(SELECT * FROM dtb_products_class WHERE product_id = alldtl.product_id AND del_flg = 0 AND (stock >= 1 OR stock_unlimited = 1))';
         }
+        
+        // agency_code add
+        $objProduct = new SC_Product_Ex();
+        $agency_code = $_SESSION['customer']['agency_code'];
+        $agency_product_category_id = $objProduct->getAgencyProductCategoryIdByAgencyCode($agency_code);
+        $searchCondition['where'] .= ' AND alldtl.agency_product_category_id LIKE ?';
+        $searchCondition['arrval'][] = sprintf('%%%s%%', $agency_product_category_id);
 
         // XXX 一時期内容が異なっていたことがあるので別要素にも格納している。
         $searchCondition['where_for_count'] = $searchCondition['where'];
