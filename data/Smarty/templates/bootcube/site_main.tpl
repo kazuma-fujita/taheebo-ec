@@ -81,7 +81,7 @@
 
 				<!--{* ▼LEFT COLUMN *}-->
 				<!--{if $arrPageLayout.LeftNavi|@count > 0}-->
-						<div id="leftcolumn" class="side_column hidden-xs col-sm-3">
+						<div id="leftcolumn" class="side_column hidden-xs hidden-sm col-sm-3">
 								<!--{* ▼左ナビ *}-->
 								<!--{foreach key=LeftNaviKey item=LeftNaviItem from=$arrPageLayout.LeftNavi}-->
 										<!-- ▼<!--{$LeftNaviItem.bloc_name}--> -->
@@ -140,7 +140,7 @@
 				
 				<!--{* ▼LEFT COLUMN MOBILE-VIEW *}-->
 				<!--{if $arrPageLayout.LeftNavi|@count > 0}-->
-						<div id="leftcolumn" class="side_column visible-xs col-xs-12">
+						<div id="leftcolumn" class="side_column visible-xs visible-sm col-xs-12">
 								<!--{* ▼左ナビ *}-->
 								<!--{foreach key=LeftNaviKey item=LeftNaviItem from=$arrPageLayout.LeftNavi}-->
 										<!-- ▼<!--{$LeftNaviItem.bloc_name}--> -->

@@ -17,9 +17,8 @@
 										所持ポイント：<span class="point"> <!--{$tpl_user_point|number_format|default:0}--> pt</span>
 								<!--{/if}-->
 							</p>
-							<p><a href="<!--{$smarty.const.HTTPS_URL}-->mypage/login.php">Myページ</a></p>
 							<!--{if !$tpl_disable_logout}-->
-								<div class="text-center">
+								<div>
 									<input type="submit" class="btn btn-default btn-sm" value="ログアウト" onclick="eccube.fnFormModeSubmit('login_form', 'logout', '', ''); return false;" />
 								</div>
 							<!--{/if}-->
