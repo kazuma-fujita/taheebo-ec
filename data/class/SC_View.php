@@ -194,6 +194,12 @@ class SC_View
         foreach ($data as $key => $value) {
             $this->_smarty->assign($key, $value);
         }
+
+        // add cart情報を常に取得
+        require_once CLASS_REALDIR . 'pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Cart.php';
+        $objCart = new SC_CartSession_Ex();
+        $objBlocCart = new LC_Page_FrontParts_Bloc_Cart();
+        $this->_smarty->assign("arrCartList", array(0 => $objBlocCart->lfGetCartData($objCart)));
     }
 
     // 連想配列内の変数を全て割り当てる。
