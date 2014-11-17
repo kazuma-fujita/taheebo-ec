@@ -36,7 +36,7 @@
 <!--CONTENTS-->
 <div id="undercolumn">
 	<div id="undercolumn_shopping">
-		<p class="flow_area"><img src="<!--{$TPL_URLPATH}-->img/picture/img_flow_03.jpg" alt="購入手続きの流れ" /></p>
+		<p class="flow_area"><img src="<!--{$TPL_URLPATH}-->img/picture/img_flow_03.jpg" class="img-responsive" alt="購入手続きの流れ" /></p>
 		<h2 class="cat_title"><!--{$tpl_title|h}--></h2>
 
 		<p class="information">下記ご注文内容で送信してもよろしいでしょうか？<br />
@@ -84,7 +84,7 @@
 								<!--{if $item.productsClass.main_image|strlen >= 1}--> href="<!--{$smarty.const.IMAGE_SAVE_URLPATH}--><!--{$item.productsClass.main_image|sfNoImageMainList|h}-->" class="expansion" target="_blank"
 								<!--{/if}-->
 							>
-								<img src="<!--{$smarty.const.IMAGE_SAVE_URLPATH}--><!--{$item.productsClass.main_list_image|sfNoImageMainList|h}-->" style="max-width: 65px;max-height: 65px;" alt="<!--{$item.productsClass.name|h}-->" /></a>
+								<img src="<!--{$smarty.const.IMAGE_SAVE_URLPATH}--><!--{$item.productsClass.main_list_image|sfNoImageMainList|h}-->" class="img-responsive" style="width: 90px;" alt="<!--{$item.productsClass.name|h}-->" /></a>
 						</td>
 						<td>
 							<ul class="list-unstyled">

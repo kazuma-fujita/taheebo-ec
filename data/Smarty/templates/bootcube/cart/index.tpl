@@ -89,18 +89,17 @@
 								<!--{/if}-->
 							<!--{/if}-->
 						</p>
-
 						<table class="table table-bordered" summary="商品情報">
-							<col width="15%" />
-							<col width="30%" />
-							<col width="15%" />
-							<col width="15%" />
+							<col width="20%" />
+							<col width="35%" />
+
 							<col width="10%" />
-							<col width="15%" />
+							<col width="10%" />
+							<col width="25%" />
 							<tr>
 								<th class="alignC">商品写真</th>
 								<th class="alignC">商品名</th>
-								<th class="alignC">単価</th>
+
 								<th class="alignC">数量</th>
 								<th class="alignC">削除</th>
 								<th class="alignC">小計</th>
@@ -111,7 +110,7 @@
 									<!--{if $item.productsClass.main_image|strlen >= 1}-->
 										<a class="expansion" target="_blank" href="<!--{$smarty.const.IMAGE_SAVE_URLPATH|h}--><!--{$item.productsClass.main_large_image|sfNoImageMainList|h}-->">
 									<!--{/if}-->
-											<img src="<!--{$smarty.const.IMAGE_SAVE_URLPATH}--><!--{$item.productsClass.main_large_image|sfNoImageMainList|h}-->" style="max-width: 65px;max-height: 65px;" alt="<!--{$item.productsClass.name|h}-->" />
+											<img src="<!--{$smarty.const.IMAGE_SAVE_URLPATH}--><!--{$item.productsClass.main_large_image|sfNoImageMainList|h}-->" class="img-responsive" style="width: 90px;" alt="<!--{$item.productsClass.name|h}-->" />
 											<!--{if $item.productsClass.main_image|strlen >= 1}-->
 										</a>
 									<!--{/if}-->
@@ -123,10 +122,9 @@
 										<!--{if $item.productsClass.classcategory_name2 != ""}-->
 											<div><!--{$item.productsClass.class_name2|h}-->：<!--{$item.productsClass.classcategory_name2|h}--></div>
 										<!--{/if}-->
+										<div><!--{$item.price_inctax|number_format|h}-->円</div>
 									</td>
-									<td class="alignR">
-										<!--{$item.price_inctax|number_format|h}-->円
-									</td>
+
 									<td class="alignC"><!--{$item.quantity|h}-->
 										<ul id="quantity_level" class="list-inline">
 											<li><a href="?" onclick="eccube.fnFormModeSubmit('form<!--{$key|h}-->','up','cart_no','<!--{$item.cart_no|h}-->'); return false"><img src="<!--{$TPL_URLPATH|h}-->img/button/btn_plus.jpg" width="16" height="16" alt="＋" /></a></li>
@@ -141,29 +139,27 @@
 								</tr>
 							<!--{/foreach}-->
 							<tr>
-								<th colspan="5" class="alignR">小計</th>
+								<th colspan="4" class="alignR">小計</th>
 								<td class="alignR"><!--{$tpl_total_inctax[$key]|number_format|h}-->円</td>
 							</tr>
 							<tr>
-								<th colspan="5" class="alignR">合計</th>
+								<th colspan="4" class="alignR">合計</th>
 								<td class="alignR"><span class="price"><!--{$arrData[$key].total-$arrData[$key].deliv_fee|number_format|h}-->円</span></td>
 							</tr>
 							<!--{if $smarty.const.USE_POINT !== false}-->
 								<!--{if $arrData[$key].birth_point > 0}-->
 									<tr>
-										<th colspan="5" class="alignR">お誕生月ポイント</th>
+										<th colspan="4" class="alignR">お誕生月ポイント</th>
 										<td class="alignR"><!--{$arrData[$key].birth_point|number_format|h}-->pt</td>
 									</tr>
 								<!--{/if}-->
 								<tr>
-									<th colspan="5" class="alignR">今回加算ポイント</th>
+									<th colspan="4" class="alignR">今回加算ポイント</th>
 									<td class="alignR"><!--{$arrData[$key].add_point|number_format|h}-->pt</td>
 								</tr>
 							<!--{/if}-->
 						</table>
-						<!--{if strlen($tpl_error) == 0}-->
-							<p class="alignC">上記内容でよろしければ「購入手続きへ」ボタンをクリックしてください。</p>
-						<!--{/if}-->
+
 						<div class="btn_area">
 							<ul class="list-inline">
 								<li>

@@ -23,7 +23,7 @@
 <div id="undercolumn">
 	<div id="undercolumn_shopping">
 		<p class="flow_area">
-			<img src="<!--{$TPL_URLPATH}-->img/picture/img_flow_01.jpg" alt="購入手続きの流れ" />
+			<img src="<!--{$TPL_URLPATH}-->img/picture/img_flow_01.jpg" class="img-responsive" alt="購入手続きの流れ" />
 		</p>
 		<h2 class="cat_title"><!--{$tpl_title|h}--></h2>
 		<p class="information">各商品のお届け先を選択してください。<br />（※数量の合計は、カゴの中の数量と合わせてください。）</p>
@@ -63,7 +63,7 @@
 								<!--{if $arrForm.main_image[$index]|strlen >= 1}--> href="<!--{$smarty.const.IMAGE_SAVE_URLPATH}--><!--{$arrForm.main_image.value[$index]|sfNoImageMainList|h}-->" class="expansion" target="_blank"
 								<!--{/if}-->
 							>
-								<img src="<!--{$smarty.const.IMAGE_SAVE_URLPATH}--><!--{$arrForm.main_list_image.value[$index]|sfNoImageMainList|h}-->" style="max-width: 65px;max-height: 65px;" alt="<!--{$arrForm.name.value[$index]|h}-->" /></a>
+								<img src="<!--{$smarty.const.IMAGE_SAVE_URLPATH}--><!--{$arrForm.main_list_image.value[$index]|sfNoImageMainList|h}-->" class="img-responsive" style="width: 90px;" alt="<!--{$arrForm.name.value[$index]|h}-->" /></a>
 						</td>
 						<td><!--{* 商品名 *}--><strong><!--{$arrForm.name.value[$index]|h}--></strong><br />
 							<!--{if $arrForm.classcategory_name1.value[$index] != ""}-->

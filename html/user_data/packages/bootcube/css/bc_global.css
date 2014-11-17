@@ -21,8 +21,9 @@ Note: All content are copyrighted by author. Please, don't steal anything.
 /*	  01.common	*/
 /* ------------------------------------- */
 body {
+  margin: 8px;
   font-size: 12px;
-  background-color: #fafafa;
+  background-color: #f1f1f1;
   padding-top:65px;
   font-family:'メイリオ', 'Meiryo', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic Pro', 'MS Pゴシック', 'MS P Gothic', 'Osaka', 'Helvetica', 'Arial', 'Gothic', 'sans-serif';
 }
@@ -92,6 +93,7 @@ a:hover {
 /*--------------------------------- */
 #header_wrap {
   background-color: #fff;
+  box-shadow: 0 0 3px #ddd;
 }
 
 /*  header	*/

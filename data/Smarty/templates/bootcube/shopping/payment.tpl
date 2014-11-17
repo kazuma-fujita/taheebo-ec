@@ -120,7 +120,7 @@
 <div id="undercolumn">
 	<div id="undercolumn_shopping">
 		<p class="flow_area">
-			<img src="<!--{$TPL_URLPATH}-->img/picture/img_flow_02.jpg" alt="購入手続きの流れ" />
+			<img src="<!--{$TPL_URLPATH}-->img/picture/img_flow_02.jpg" class="img-responsive" alt="購入手続きの流れ" />
 		</p>
 		<h2 class="cat_title"><!--{$tpl_title|h}--></h2>
 
@@ -246,7 +246,7 @@
 						</p>
 						<div class="point_announce">
 							<p><span class="user_name"><!--{$name01|h}--> <!--{$name02|h}-->様</span>の、現在の所持ポイントは「<span class="point"><!--{$tpl_user_point|default:0|number_format}-->Pt</span>」です。<br />
-								今回ご購入合計金額：<span class="price"><!--{$arrPrices.subtotal|number_format}-->円</span> <span class="attention">(送料、手数料を含みません。)</span>
+								今回ご購入合計金額：<span class="price"><!--{$arrPrices.subtotal|number_format}-->円</span>
 							</p>
 							<ul class="list-unstyled">
 								<li>
@@ -260,18 +260,6 @@
 				</div>
 			<!--{/if}-->
 			<!-- ▲ポイント使用 -->
-
-			<div class="pay_area02">
-				<h3 class="title">その他お問い合わせ</h3>
-				<p>その他お問い合わせ事項がございましたら、こちらにご入力ください。</p>
-				<div>
-					<!--★その他お問い合わせ事項★-->
-					<!--{assign var=key value="message"}-->
-					<span class="attention"><!--{$arrErr[$key]}--></span>
-					<textarea name="<!--{$key}-->" style="<!--{$arrErr[$key]|sfGetErrorColor}-->" cols="70" rows="8" class="txtarea" wrap="hard"><!--{"\n"}--><!--{$arrForm[$key].value|h}--></textarea>
-					<p class="attention"> (<!--{$smarty.const.LTEXT_LEN}-->文字まで)</p>
-				</div>
-			</div>
 
 			<div class="btn_area">
 				<ul class="list-inline">

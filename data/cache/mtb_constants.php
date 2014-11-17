@@ -8,7 +8,7 @@ define('USER_DIR', "user_data/");
 /** ユーザファイル保存先 */
 define('USER_REALDIR', HTML_REALDIR . USER_DIR);
 /** ユーザー作成ページ等 */
-define('USER_URL', HTTP_URL . USER_DIR);
+define('USER_URL', HTTPS_URL . USER_DIR);
 /** 認証方式 */
 define('AUTH_TYPE', "HMAC");
 /** テンプレートファイル保存先 */
@@ -76,7 +76,7 @@ define('ORDER_STATUS_MAX', 50);
 /** フロントレビュー書き込み最大数 */
 define('REVIEW_REGIST_MAX', 5);
 /** デバッグモード(true：sfPrintRやDBのエラーメッセージ、ログレベルがDebugのログを出力する、false：出力しない) */
-define('DEBUG_MODE', true);
+define('DEBUG_MODE', false);
 /** ログを冗長とするか(true:利用する、false:利用しない) */
 define('USE_VERBOSE_LOG', DEBUG_MODE);
 /** 管理ユーザID(メンテナンス用表示されない。) */
@@ -116,7 +116,7 @@ define('BIRTH_MONTH_POINT', 0);
 /** 拡大画像横 */
 define('LARGE_IMAGE_WIDTH', 1000);
 /** 拡大画像縦 */
-define('LARGE_IMAGE_HEIGHT', 750);
+define('LARGE_IMAGE_HEIGHT', 1000);
 /** 一覧画像横 */
 define('SMALL_IMAGE_WIDTH', 130);
 /** 一覧画像縦 */
@@ -186,9 +186,9 @@ define('IMAGE_TEMP_URLPATH', ROOT_URLPATH . "upload/temp_image/");
 /** 画像保存先URL */
 define('IMAGE_SAVE_URLPATH', ROOT_URLPATH . "upload/save_image/");
 /** RSS用画像一時保存URL */
-define('IMAGE_TEMP_RSS_URL', HTTP_URL . "upload/temp_image/");
+define('IMAGE_TEMP_RSS_URL', HTTPS_URL . "upload/temp_image/");
 /** RSS用画像保存先URL */
-define('IMAGE_SAVE_RSS_URL', HTTP_URL . "upload/save_image/");
+define('IMAGE_SAVE_RSS_URL', HTTPS_URL . "upload/save_image/");
 /** エンコードCSVの一時保存先 */
 define('CSV_TEMP_REALDIR', DATA_REALDIR . "upload/csv/");
 /** 画像がない場合に表示 */
@@ -275,9 +275,9 @@ define('SHOPPING_URL', HTTPS_URL . "shopping/" . DIR_INDEX_PATH);
 /** 会員登録ページTOP */
 define('ENTRY_URL', HTTPS_URL . "entry/" . DIR_INDEX_PATH);
 /** サイトトップ */
-define('TOP_URL', HTTP_URL . DIR_INDEX_PATH);
+define('TOP_URL', HTTPS_URL . DIR_INDEX_PATH);
 /** カートトップ */
-define('CART_URL', HTTP_URL . "cart/" . DIR_INDEX_PATH);
+define('CART_URL', HTTPS_URL . "cart/" . DIR_INDEX_PATH);
 /** お届け先設定 */
 define('DELIV_URLPATH', ROOT_URLPATH . "shopping/deliv.php");
 /** 複数お届け先設定 */
@@ -321,7 +321,7 @@ define('USE_MULTIPLE_SHIPPING', true);
 /** 短文の文字数 */
 define('SLTEXT_LEN', 500);
 /** デフォルトテンプレート名(PC) */
-define('DEFAULT_TEMPLATE_NAME', "default");
+define('DEFAULT_TEMPLATE_NAME', 'bootcube');
 /** デフォルトテンプレート名(モバイル) */
 define('MOBILE_DEFAULT_TEMPLATE_NAME', "mobile");
 /** デフォルトテンプレート名(スマートフォン) */
@@ -377,9 +377,9 @@ define('SESSION_KEEP_METHOD', "useCookie");
 /** セッションの存続時間 (秒) */
 define('SESSION_LIFETIME', 1800);
 /** オーナーズストアURL */
-define('OSTORE_URL', "http://www.ec-cube.net/");
+define('OSTORE_URL', HTTP_URL."test/");
 /** オーナーズストアURL */
-define('OSTORE_SSLURL', "https://www.ec-cube.net/");
+define('OSTORE_SSLURL', HTTPS_URL."test/");
 /** オーナーズストアログパス */
 define('OSTORE_LOG_REALFILE', DATA_REALDIR . "logs/ownersstore.log");
 /** お気に入り商品登録(有効:1 無効:0) */

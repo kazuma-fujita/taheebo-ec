@@ -147,7 +147,13 @@
 						</div>
 
 					</div>
+				<!--{if $smarty.foreach.bestseller.iteration % 2 === 0 and $smarty.foreach.bestseller.last == false}-->
+					</div>
+					<div class="row">
+				<!--{/if}-->
+
 				</div>
+
 			<!--{/foreach}-->
 		</div>
 		<div class="clearfix"></div>

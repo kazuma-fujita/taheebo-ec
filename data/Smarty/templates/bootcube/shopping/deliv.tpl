@@ -23,7 +23,7 @@
 <div id="undercolumn">
 	<div id="undercolumn_shopping">
 		<p class="flow_area">
-			<img src="<!--{$TPL_URLPATH}-->img/picture/img_flow_01.jpg" alt="購入手続きの流れ" />
+			<img src="<!--{$TPL_URLPATH}-->img/picture/img_flow_01.jpg" class="img-responsive "alt="購入手続きの流れ" />
 		</p>
 		
 		<h2 class="cat_title"><!--{$tpl_title|h}--></h2>

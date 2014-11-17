@@ -106,6 +106,10 @@ Note: All content are copyrighted by author. Please, don't steal anything.
 #undercolumn_cart .point_announce .point {
   color: #f00;
 }
+#undercolumn_cart .btn_area {
+  margin-bottom: 20px;
+  text-align: center;
+}
 #undercolumn_cart table > tbody > tr th {
   background-color: #f4f4f4;
 }

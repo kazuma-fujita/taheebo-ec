@@ -45,7 +45,7 @@
 		<div id="detailarea">
 		<div class="row">
 
-			<div id="detailphotobloc" class="col-sm-4">
+			<div id="detailphotobloc" class="col-sm-5 col-lg-4">
 
 				<div class="photo">
 					<!--{assign var=key value="main_image"}-->
@@ -62,7 +62,7 @@
 
 			</div>
 
-			<div id="detailrightbloc" class="col-sm-8">
+			<div id="detailrightbloc" class="col-sm-7 col-lg-8">
 				<!--▼商品ステータス-->
 				<!--{assign var=ps value=$productStatus[$tpl_product_id]}-->
 				<!--{if count($ps) > 0}-->
@@ -207,7 +207,7 @@
 							<div class="cartin_btn">
 								<div id="cartbtn_default">
 									<!--★カゴに入れる★-->
-									<a href="javascript:void(document.form1.submit())" class="btn btn-default">カゴに入れる</a>
+									<a href="javascript:void(document.form1.submit())" class="btn btn-danger">カゴに入れる</a>
 								</div>
 							</div>
 						</div>
@@ -228,9 +228,9 @@
 							<div class="attention"><!--{$arrErr[$add_favorite]}--></div>
 						<!--{/if}-->
 						<!--{if !$is_favorite}-->
-							<a href="javascript:eccube.changeAction('?product_id=<!--{$arrProduct.product_id|h}-->'); eccube.setModeAndSubmit('add_favorite','favorite_product_id','<!--{$arrProduct.product_id|h}-->');"><img class="hover_change_image" src="<!--{$TPL_URLPATH}-->img/button/btn_add_favorite.jpg" alt="お気に入りに追加" /></a>
+							<a href="javascript:eccube.changeAction('?product_id=<!--{$arrProduct.product_id|h}-->'); eccube.setModeAndSubmit('add_favorite','favorite_product_id','<!--{$arrProduct.product_id|h}-->');" class="btn btn-primary">お気に入りに追加</a>
 						<!--{else}-->
-							<img src="<!--{$TPL_URLPATH}-->img/button/btn_add_favorite_on.jpg" alt="お気に入り登録済" name="add_favorite_product" id="add_favorite_product" />
+							<a class="btn btn-primary" disabled="disabled" name="add_favorite_product" id="add_favorite_product"/>お気に入りに追加</a>
 							<script type="text/javascript" src="<!--{$smarty.const.ROOT_URLPATH}-->js/jquery.tipsy.js"></script>
 							<script type="text/javascript">
 								var favoriteButton = $("#add_favorite_product");
