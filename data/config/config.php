@@ -1,7 +1,7 @@
 <?php
 define('ECCUBE_INSTALL', 'ON');
-define('HTTP_URL', 'http://taheebo-e.net/');
-define('HTTPS_URL', 'https://taheebo-e.net/');
+define('HTTP_URL', 'http://192.168.218.200/');
+define('HTTPS_URL', 'https://192.168.218.200/');
 define('ROOT_URLPATH', '/');
 define('DOMAIN_NAME', '');
 define('DB_TYPE', 'mysql');

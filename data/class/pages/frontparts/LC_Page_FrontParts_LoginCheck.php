@@ -70,7 +70,9 @@ class LC_Page_FrontParts_LoginCheck extends LC_Page_Ex
         // 会員管理クラス
         $objCustomer = new SC_Customer_Ex();
         // クッキー管理クラス
-        $objCookie = new SC_Cookie_Ex();
+        //$objCookie = new SC_Cookie_Ex();
+        // expire day 365.
+        $objCookie = new SC_Cookie_Ex(365);
         // パラメーター管理クラス
         $objFormParam = new SC_FormParam_Ex();
 
@@ -184,6 +186,10 @@ class LC_Page_FrontParts_LoginCheck extends LC_Page_Ex
 
                 // ログイン情報の解放
                 $objCustomer->EndSession();
+
+                // cookie情報の削除
+                $objCookie->setCookie('login_email', '');
+
                 // 画面遷移の制御
                 $mypage_url_search = strpos('.'.$url, 'mypage');
                 if ($mypage_url_search == 2) {

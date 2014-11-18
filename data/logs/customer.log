@@ -38,3 +38,11 @@
 2014/11/07 04:16:50 [/frontparts/login_check.php] logout : user=4	ip=192.168.218.1 from 192.168.218.1
 2014/11/07 04:17:25 [/frontparts/login_check.php] access : user=4	ip=192.168.218.1 from 192.168.218.1
 2014/11/10 01:53:06 [/frontparts/login_check.php] access : user=4	ip=192.168.218.1 from 192.168.218.1
+2014/11/17 22:12:29 [/frontparts/login_check.php] access : user=4	ip=192.168.218.1 from 192.168.218.1
+2014/11/17 22:12:34 [/frontparts/login_check.php] logout : user=4	ip=192.168.218.1 from 192.168.218.1
+2014/11/17 22:13:01 [/frontparts/login_check.php] access : user=4	ip=192.168.218.1 from 192.168.218.1
+2014/11/17 22:14:12 [/frontparts/login_check.php] access : user=4	ip=192.168.218.1 from 192.168.218.1
+2014/11/17 22:16:35 [/frontparts/login_check.php] access : user=4	ip=192.168.218.1 from 192.168.218.1
+2014/11/17 22:17:07 [/frontparts/login_check.php] access : user=4	ip=192.168.218.1 from 192.168.218.1
+2014/11/17 23:13:27 [/mypage/login.php] access : user=4	ip=192.168.218.1 from 192.168.218.1
+2014/11/17 23:13:34 [/frontparts/login_check.php] logout : user=4	ip=192.168.218.1 from 192.168.218.1

@@ -775,3 +775,4 @@ customer_id = 4
 /var/www/data/class_extends/page_extends/preview/LC_Page_Preview_Ex.php(54): LC_Page_Preview->process
 /var/www/data/class/pages/preview/LC_Page_Preview.php(55): SC_Session->__construct
 /var/www/data/class/SC_Session.php(61): GC_Utils->gfPrintLog
+2014/11/10 03:35:33 [/index.php] PAGE_DISPLAY_TIME_LOG [2.09sec] from 192.168.218.1

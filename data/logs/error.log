@@ -7923,3 +7923,85 @@ customer_id = 4
 /var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(94): SC_Product->getListByProductIdsWithAgencyCode
 /var/www/data/class/SC_Product.php(223): SC_Product->getAgencyProductCategoryIdByAgencyCode
 /var/www/data/class/SC_Product.php(203): SC_Helper_HandleError::handle_warning
+2014/11/10 03:29:20 [/index.php] Warning(E_USER_WARNING): ブロックが見つかりません
+tpl_path: /var/www/html/../data/Smarty/templates/default/frontparts/bloc/bc_footer_guide.tpl
+php_path:  on [/var/www/data/class/helper/SC_Helper_PageLayout.php(100)] from 192.168.218.1
+2014/11/10 03:29:20 [/index.php] Warning(E_USER_WARNING): ブロックが見つかりません
+tpl_path: /var/www/html/../data/Smarty/templates/default/frontparts/bloc/bc_slider.tpl
+php_path:  on [/var/www/data/class/helper/SC_Helper_PageLayout.php(100)] from 192.168.218.1
+2014/11/10 03:29:22 [/index.php] Warning(E_USER_WARNING): Smarty error: unable to read resource: &quot;/var/www/html/../data/Smarty/templates/default/frontparts/bloc/bc_infomation.tpl&quot; on [/var/www/data/module/Smarty/libs/Smarty.class.php(1094)] from 192.168.218.1
+2014/11/10 03:29:22 [/index.php] Warning(E_USER_WARNING): Smarty error: unable to read resource: &quot;/var/www/html/../data/Smarty/templates/default/frontparts/bloc/bc_categorylist.tpl&quot; on [/var/www/data/module/Smarty/libs/Smarty.class.php(1094)] from 192.168.218.1
+2014/11/10 03:29:22 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/10 03:29:22 [/index.php] Warning(E_USER_WARNING): Smarty error: unable to read resource: &quot;/var/www/html/../data/Smarty/templates/default/frontparts/bloc/bc_recommend.tpl&quot; on [/var/www/data/module/Smarty/libs/Smarty.class.php(1094)] from 192.168.218.1
+2014/11/10 03:29:22 [/index.php] Warning(E_USER_WARNING): Smarty error: unable to read resource: &quot;/var/www/html/../data/Smarty/templates/default/frontparts/bloc/bc_headerlogin.tpl&quot; on [/var/www/data/module/Smarty/libs/Smarty.class.php(1094)] from 192.168.218.1
+2014/11/10 03:35:32 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/10 03:35:41 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/10 03:35:57 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/10 03:37:48 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/10 03:37:52 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/10 03:37:52 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/10 03:37:59 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/10 03:37:59 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/10 03:38:02 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/10 03:38:02 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/10 03:38:10 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/10 03:57:08 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/10 03:57:10 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/10 03:57:26 [/admin/design/template.php] Fatal error(E_USER_ERROR): DB処理でエラーが発生しました。
+SQL: [PREPARE mdb2_statement_mysql_74c63049c81743d36fb6deebfab8d4633cd4b5025 FROM '  INSERT INTO `dtb_blocposition` VALUES (1,1,2,2,1,0),(1,1,2,3,2,0),(1,1,2,4,3,0),(1,1,10,1,1,0),(2,1,4,1,4,0),(2,1,4,2,1,0),(2,1,4,3,2,0),(2,1,4,4,3,0),(2,1,6,7,2,0),(2,1,6,8,1,0),(2,1,10,5,1,0),(2,2,6,7,2,0),(2,2,6,8,1,0),(2,2,10,6,1,0),(2,3,6,7,2,0),(2,3,6,8,1,0),(2,3,10,6,1,0),(2,4,6,7,2,0),(2,4,6,8,1,0),(2,4,10,6,1,0),(2,5,6,7,2,0),(2,5,6,8,1,0),(2,5,10,6,1,0),(2,6,6,7,2,0),(2,6,6,8,1,0),(2,6,10,6,1,0),(2,7,6,7,2,0),(2,7,6,8,1,0),(2,7,10,6,1,0),(2,8,6,7,2,0),(2,8,6,8,1,0),(2,8,10,6,1,0),(2,9,6,7,2,0),(2,9,6,8,1,0),(2,9,10,6,1,0),(2,10,6,7,2,0),(2,10,6,8,1,0),(2,10,10,6,1,0),(2,11,6,7,2,0),(2,11,6,8,1,0),(2,11,10,6,1,0),(2,12,6,7,2,0),(2,12,6,8,1,0),(2,12,10,6,1,0),(2,13,6,7,2,0),(2,13,6,8,1,0),(2,13,10,6,1,0),(2,14,6,7,2,0),(2,14,6,8,1,0),(2,14,10,6,1,0),(2,15,6,7,2,0),(2,15,6,8,1,0),(2,15,10,6,1,0),(2,16,6,7,2,0),(2,16,6,8,1,0),(2,16,10,6,1,0),(2,17,6,7,2,0),(2,17,6,8,1,0),(2,17,10,6,1,0),(2,18,6,7,2,0),(2,18,6,8,1,0),(2,18,10,6,1,0),(2,19,6,7,2,0),(2,19,6,8,1,0),(2,19,10,6,1,0),(2,20,6,7,2,0),(2,20,6,8,1,0),(2,20,10,6,1,0),(2,21,6,7,2,0),(2,21,6,8,1,0),(2,21,10,6,1,0),(2,22,6,7,2,0),(2,22,6,8,1,0),(2,22,10,6,1,0),(2,23,6,7,2,0),(2,23,6,8,1,0),(2,23,10,6,1,0),(2,24,6,7,2,0),(2,24,6,8,1,0),(2,24,10,6,1,0),(2,25,6,7,2,0),(2,25,6,8,1,0),(2,25,10,6,1,0),(2,26,6,7,2,0),(2,26,6,8,1,0),(2,26,10,6,1,0),(2,27,6,7,2,0),(2,27,6,8,1,0),(2,27,10,6,1,0),(2,28,6,7,2,0),(2,28,6,8,1,0),(2,28,10,6,1,0),(2,29,6,7,2,0),(2,29,6,8,1,0),(2,29,10,6,1,0),(10,1,1,13,3,0),(10,1,1,16,2,0),(10,1,1,28,4,0),(10,1,1,29,1,0),(10,1,4,22,1,0),(10,1,4,27,2,0),(10,1,5,30,1,0),(10,1,10,9,1,1),(10,3,4,26,1,0)']
+PlaceHolder: [array (
+)]
+MDB2 Error: constraint violation
+_doQuery: [Error message: Could not execute statement]
+[Last executed query: EXECUTE mdb2_statement_mysql_74c63049c81743d36fb6deebfab8d4633cd4b5025]
+[Native code: 1062]
+[Native message: Duplicate entry '1-1-2-2' for key 'PRIMARY']
+ on [/var/www/data/class/SC_Query.php(1087)] from 192.168.218.1
+login_id = taheebo(0)[ju3scmnef93211sad1d5v65i54]
+/var/www/html/admin/design/template.php(29): LC_Page_Admin_Design_Template_Ex->process
+/var/www/data/class_extends/page_extends/admin/design/LC_Page_Admin_Design_Template_Ex.php(54): LC_Page_Admin_Design_Template->process
+/var/www/data/class/pages/admin/design/LC_Page_Admin_Design_Template.php(62): LC_Page_Admin_Design_Template->action
+/var/www/data/class/pages/admin/design/LC_Page_Admin_Design_Template.php(87): LC_Page_Admin_Design_Template->doRegister
+/var/www/data/class/pages/admin/design/LC_Page_Admin_Design_Template.php(272): LC_Page_Admin_Design_Template->updateBloc
+/var/www/data/class/pages/admin/design/LC_Page_Admin_Design_Template.php(193): SC_Query->query
+/var/www/data/class/SC_Query.php(865): SC_Query->execute
+/var/www/data/class/SC_Query.php(1048): SC_Query->error
+/var/www/data/class/SC_Query.php(1087): trigger_error
+2014/11/10 03:58:49 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/10 03:58:49 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/10 03:58:49 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/10 03:58:50 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/10 03:58:50 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/10 03:58:57 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/10 03:58:57 [/products/list.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/17 21:54:28 [/admin/index.php] Warning(E_USER_WARNING): ホスト名不一致を検出。リダイレクト実行。要求値='192.168.218.200' 設定値='taheebo-e.net' リダイレクト先='https://taheebo-e.net/admin/'  on [/var/www/data/class/SC_Initial.php(542)] from 192.168.218.1
+2014/11/17 22:12:30 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/17 22:12:30 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/17 22:12:30 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/17 22:12:30 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/17 22:12:30 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/17 22:13:01 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/17 22:13:01 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/17 22:13:02 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/17 22:13:02 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/17 22:13:02 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/17 22:13:12 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/17 22:13:12 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/17 22:13:12 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/17 22:13:13 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/17 22:13:13 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/17 22:14:12 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/17 22:14:13 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/17 22:14:13 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/17 22:14:13 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/17 22:14:13 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/17 22:17:07 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/17 22:17:07 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/17 22:17:08 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/17 22:17:08 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/17 22:17:08 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/17 23:13:28 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/17 23:13:28 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/17 23:13:28 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/17 23:13:29 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1
+2014/11/17 23:13:29 [/index.php] Warning(E_WARNING): Illegal string offset 'agency_product_category_id' on [/var/www/data/class/SC_Product.php(203)] from 192.168.218.1

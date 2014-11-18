@@ -63,8 +63,13 @@ class LC_Page_AbstractMypage extends LC_Page_Ex
             $objCookie = new SC_Cookie_Ex();
             // クッキー判定(メールアドレスをクッキーに保存しているか）
             $this->tpl_login_email = $objCookie->getCookie('login_email');
+
             if ($this->tpl_login_email != '') {
+
                 $this->tpl_login_memory = '1';
+                // add
+                $objCustomer->setLogin($this->tpl_login_email);
+                SC_Response_Ex::sendRedirect(TOP_URL);
             }
 
             // POSTされてきたIDがある場合は優先する。

@@ -163,12 +163,14 @@ class LC_Page_Admin_Index extends LC_Page_Admin_Ex
     {
         $objQuery =& SC_Query_Ex::getSingletonInstance();
         //メンバー情報取得
-        $cols = 'member_id, authority, login_date, name';
+        //$cols = 'member_id, authority, login_date, name';
+        $cols = 'member_id, authority, login_date, name, agency_name';
         $table = 'dtb_member';
         $where = 'login_id = ?';
         $arrData = $objQuery->getRow($cols, $table, $where, array($login_id));
         // セッション登録
-        $sid = $this->lfSetLoginSession($arrData['member_id'], $login_id, $arrData['authority'], $arrData['name'], $arrData['login_date']);
+        //$sid = $this->lfSetLoginSession($arrData['member_id'], $login_id, $arrData['authority'], $arrData['name'], $arrData['login_date']);
+        $sid = $this->lfSetLoginSession($arrData['member_id'], $login_id, $arrData['authority'], $arrData['name'], $arrData['login_date'], $arrData['agency_name']);
         // ログイン情報記録
         $this->lfSetLoginData($sid, $arrData['member_id'], $login_id, $arrData['authority'], $arrData['login_date']);
     }
@@ -183,7 +185,8 @@ class LC_Page_Admin_Index extends LC_Page_Admin_Ex
      * @param  string  $last_login 最終ログイン日時(YYYY/MM/DD HH:ii:ss形式) またはNULL
      * @return string  $sid 設定したセッションのセッションID
      */
-    public function lfSetLoginSession($member_id, $login_id, $authority, $login_name, $last_login)
+    //public function lfSetLoginSession($member_id, $login_id, $authority, $login_name, $last_login)
+    public function lfSetLoginSession($member_id, $login_id, $authority, $login_name, $last_login, $agency_name)
     {
         // Session Fixation対策
         SC_Session_Ex::regenerateSID();
@@ -195,6 +198,7 @@ class LC_Page_Admin_Index extends LC_Page_Admin_Ex
         $objSess->SetSession('login_id', $login_id);
         $objSess->SetSession('authority', $authority);
         $objSess->SetSession('login_name', $login_name);
+        $objSess->SetSession('agency_name', $agency_name);
         $objSess->SetSession('uniqid', $objSess->getUniqId());
         if (SC_Utils_Ex::isBlank($last_login)) {
             $objSess->SetSession('last_login', date('Y-m-d H:i:s'));
