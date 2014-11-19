@@ -215,7 +215,7 @@
 					<span class="attention"><!--{$arrErr[$key]}--></span>
 					お届け日：
 					<!--{if !$arrDelivDate}-->
-						ご指定頂けません。
+						最短でお届けします。
 					<!--{else}-->
 						<select name="<!--{$key}-->" id="<!--{$key}-->" style="<!--{$arrErr[$key]|sfGetErrorColor}-->">
 							<option value="" selected="">指定なし</option>
