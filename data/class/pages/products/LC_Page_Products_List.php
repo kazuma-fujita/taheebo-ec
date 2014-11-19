@@ -425,7 +425,9 @@ echo var_dump($products)."<br/><br/>";
         
         // agency_code add
         $objProduct = new SC_Product_Ex();
+
         $agency_code = $_SESSION['customer']['agency_code'];
+
         $agency_product_category_id = $objProduct->getAgencyProductCategoryIdByAgencyCode($agency_code);
         $searchCondition['where'] .= ' AND alldtl.agency_product_category_id LIKE ?';
         $searchCondition['arrval'][] = sprintf('%%%s%%', $agency_product_category_id);

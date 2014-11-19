@@ -145,6 +145,7 @@ class SC_Product
             ,del_flg
             ,update_date
             ,agency_product_category_id
+            ,point_rate
 __EOS__;
         $res = $objQuery->select($col, $this->alldtlSQL());
 
@@ -200,7 +201,12 @@ __EOS__;
         $table = 'dtb_member';
         $where = 'agency_code = ?';
         $object = $objQuery->get($col, $table, $where, array($agency_code) );
-        $agency_product_category_id = $object['agency_product_category_id'];
+
+//GC_Utils_Ex::gfDebugLog("object list".var_dump($object));
+
+        //$agency_product_category_id = $object['agency_product_category_id'];
+        $agency_product_category_id = $object[0];
+//echo "agency_product_category_id" . $agency_product_category_id;
         return $agency_product_category_id;
     }
 

@@ -46,3 +46,5 @@
 2014/11/17 22:17:07 [/frontparts/login_check.php] access : user=4	ip=192.168.218.1 from 192.168.218.1
 2014/11/17 23:13:27 [/mypage/login.php] access : user=4	ip=192.168.218.1 from 192.168.218.1
 2014/11/17 23:13:34 [/frontparts/login_check.php] logout : user=4	ip=192.168.218.1 from 192.168.218.1
+2014/11/19 22:02:55 [/frontparts/login_check.php] access : user=4	ip=192.168.218.1 from 192.168.218.1
+2014/11/19 22:08:42 [/mypage/login.php] access : user=4	ip=192.168.218.1 from 192.168.218.1
