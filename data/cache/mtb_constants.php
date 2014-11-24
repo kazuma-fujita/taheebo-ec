@@ -26,7 +26,7 @@ define('MODULE_REALDIR', DATA_REALDIR . MODULE_DIR);
 /** DBセッションの有効期限(秒) */
 define('MAX_LIFETIME', 7200);
 /** マスターデータキャッシュディレクトリ */
-define('MASTER_DATA_REALDIR', DATA_REALDIR . "cache/");
+define('MASTER_DATA_REALDIR', "/var/cache/eccube/cache/");
 /** アップデート管理用ファイル格納場所 */
 define('UPDATE_HTTP', "http://www.ec-cube.net/info/index.php");
 /** 文字コード */
@@ -164,19 +164,19 @@ define('NORMAL_PRICE_TITLE', "通常価格");
 /** 価格名称 */
 define('SALE_PRICE_TITLE', "販売価格");
 /** 標準ログファイル */
-define('LOG_REALFILE', DATA_REALDIR . "logs/site.log");
+define('LOG_REALFILE', "/var/log/eccube/site.log");
 /** 会員ログイン ログファイル */
-define('CUSTOMER_LOG_REALFILE', DATA_REALDIR . "logs/customer.log");
+define('CUSTOMER_LOG_REALFILE', "/var/log/eccube/customer.log");
 /** 管理機能ログファイル */
-define('ADMIN_LOG_REALFILE', DATA_REALDIR . "logs/admin.log");
+define('ADMIN_LOG_REALFILE', "/var/log/eccube/admin.log");
 /** デバッグログファイル(未入力:標準ログファイル・管理画面ログファイル) */
 define('DEBUG_LOG_REALFILE', "");
 /** エラーログファイル(未入力:標準ログファイル・管理画面ログファイル) */
-define('ERROR_LOG_REALFILE', DATA_REALDIR . "logs/error.log");
+define('ERROR_LOG_REALFILE', "/var/log/eccube/error.log");
 /** DBログファイル */
-define('DB_LOG_REALFILE', DATA_REALDIR . "logs/db.log");
+define('DB_LOG_REALFILE', "/var/log/eccube/db.log");
 /** プラグインログファイル */
-define('PLUGIN_LOG_REALFILE', DATA_REALDIR . "logs/plugin.log");
+define('PLUGIN_LOG_REALFILE', "/var/log/eccube/plugin.log");
 /** 画像一時保存 */
 define('IMAGE_TEMP_REALDIR', HTML_REALDIR . "upload/temp_image/");
 /** 画像保存先 */
@@ -339,19 +339,19 @@ define('TEMPLATE_REALDIR', SMARTY_TEMPLATES_REALDIR . TEMPLATE_NAME . "/");
 /** SMARTYテンプレート(管理機能) */
 define('TEMPLATE_ADMIN_REALDIR', SMARTY_TEMPLATES_REALDIR . "admin/");
 /** SMARTYコンパイル */
-define('COMPILE_REALDIR', DATA_REALDIR . "Smarty/templates_c/" . TEMPLATE_NAME . "/");
+define('COMPILE_REALDIR', "/var/cache/eccube/templates_c/" . TEMPLATE_NAME . "/");
 /** SMARTYコンパイル(管理機能) */
-define('COMPILE_ADMIN_REALDIR', DATA_REALDIR . "Smarty/templates_c/admin/");
+define('COMPILE_ADMIN_REALDIR', "/var/cache/eccube/templates_c/admin/");
 /** ブロックファイル保存先 */
 define('BLOC_DIR', "frontparts/bloc/");
 /** SMARTYテンプレート(mobile) */
 define('MOBILE_TEMPLATE_REALDIR', SMARTY_TEMPLATES_REALDIR . MOBILE_TEMPLATE_NAME . "/");
 /** SMARTYコンパイル(mobile) */
-define('MOBILE_COMPILE_REALDIR', DATA_REALDIR . "Smarty/templates_c/" . MOBILE_TEMPLATE_NAME . "/");
+define('MOBILE_COMPILE_REALDIR', "/var/cache/eccube/templates_c/" . MOBILE_TEMPLATE_NAME . "/");
 /** SMARTYテンプレート(smart phone) */
 define('SMARTPHONE_TEMPLATE_REALDIR', SMARTY_TEMPLATES_REALDIR . SMARTPHONE_TEMPLATE_NAME . "/");
 /** SMARTYコンパイル(smartphone) */
-define('SMARTPHONE_COMPILE_REALDIR', DATA_REALDIR . "Smarty/templates_c/" . SMARTPHONE_TEMPLATE_NAME . "/");
+define('SMARTPHONE_COMPILE_REALDIR', "/var/cache/eccube/templates_c/" . MOBILE_TEMPLATE_NAME . "/");
 /** EメールアドレスチェックをRFC準拠にするか(true:準拠する、false:準拠しない) */
 define('RFC_COMPLIANT_EMAIL_CHECK', false);
 /** モバイルサイトのセッションの存続時間 (秒) */
@@ -377,11 +377,11 @@ define('SESSION_KEEP_METHOD', "useCookie");
 /** セッションの存続時間 (秒) */
 define('SESSION_LIFETIME', 1800);
 /** オーナーズストアURL */
-define('OSTORE_URL', HTTP_URL."test/");
+define('OSTORE_URL', "http://www.ec-cube.net/");
 /** オーナーズストアURL */
-define('OSTORE_SSLURL', HTTPS_URL."test/");
+define('OSTORE_SSLURL', "https://www.ec-cube.net/");
 /** オーナーズストアログパス */
-define('OSTORE_LOG_REALFILE', DATA_REALDIR . "logs/ownersstore.log");
+define('OSTORE_LOG_REALFILE', "/var/log/eccube/ownersstore.log");
 /** お気に入り商品登録(有効:1 無効:0) */
 define('OPTION_FAVORITE_PRODUCT', 1);
 /** 画像リネーム設定 (商品画像のみ) (true:リネームする、false:リネームしない) */

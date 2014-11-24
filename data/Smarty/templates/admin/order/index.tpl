@@ -371,6 +371,7 @@
                     <col width="9%" />
                     <col width="5%" />
 -->
+                    <col/>
                     <!--{* ペイジェントモジュール連携用 *}-->
                     <!--{assign var=path value=`$smarty.const.MODULE_REALDIR`mdl_paygent/paygent_order_index.tpl}-->
                     <!--{if file_exists($path)}-->

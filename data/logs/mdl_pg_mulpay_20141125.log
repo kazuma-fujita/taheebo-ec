@@ -1,0 +1,1142 @@
+2014/11/25 01:30:31 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchMember.idPass from 211.129.80.16
+2014/11/25 01:30:31 [/shopping/load_payment_module.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 01:30:31 [/shopping/load_payment_module.php] ErrCode=E01&ErrInfo=E01390002 from 211.129.80.16
+2014/11/25 01:30:31 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01390002
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 01:30:31 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchCard.idPass from 211.129.80.16
+2014/11/25 01:30:31 [/shopping/load_payment_module.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 01:30:31 [/shopping/load_payment_module.php] ErrCode=E01|E01&ErrInfo=E01390002|E01240002 from 211.129.80.16
+2014/11/25 01:30:31 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01390002
+        )
+
+    [1] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01240002
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 01:30:39 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchMember.idPass from 211.129.80.16
+2014/11/25 01:30:39 [/shopping/load_payment_module.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 01:30:40 [/shopping/load_payment_module.php] ErrCode=E01&ErrInfo=E01390002 from 211.129.80.16
+2014/11/25 01:30:40 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01390002
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 01:30:40 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchCard.idPass from 211.129.80.16
+2014/11/25 01:30:40 [/shopping/load_payment_module.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 01:30:40 [/shopping/load_payment_module.php] ErrCode=E01|E01&ErrInfo=E01390002|E01240002 from 211.129.80.16
+2014/11/25 01:30:40 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01390002
+        )
+
+    [1] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01240002
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 01:42:54 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchMember.idPass from 211.129.80.16
+2014/11/25 01:42:54 [/shopping/load_payment_module.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 01:42:54 [/shopping/load_payment_module.php] ErrCode=E01&ErrInfo=E01390002 from 211.129.80.16
+2014/11/25 01:42:54 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01390002
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 01:42:54 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchCard.idPass from 211.129.80.16
+2014/11/25 01:42:54 [/shopping/load_payment_module.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 01:42:54 [/shopping/load_payment_module.php] ErrCode=E01|E01&ErrInfo=E01390002|E01240002 from 211.129.80.16
+2014/11/25 01:42:54 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01390002
+        )
+
+    [1] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01240002
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 01:50:25 [/admin/basis/payment_input.php] is mulpay payment payment_id:10 pay_id:11 from 211.129.80.16
+2014/11/25 01:50:40 [/admin/basis/payment_input.php] is mulpay payment payment_id:10 pay_id:11 from 211.129.80.16
+2014/11/25 01:50:40 [/admin/basis/payment_input.php] Array
+(
+    [JobCd] => ※ 処理区分が入力されていません。<br />
+    [credit_pay_methods] => ※ 支払種別が入力されていません。<br />
+)
+ from 211.129.80.16
+2014/11/25 01:50:59 [/admin/basis/payment_input.php] is mulpay payment payment_id:10 pay_id:11 from 211.129.80.16
+2014/11/25 01:50:59 [/admin/basis/payment_input.php] set paymentTypeConfig payment_id:10 from 211.129.80.16
+2014/11/25 01:50:59 [/admin/basis/payment_input.php] Array
+(
+    [JobCd] => CAPTURE
+    [credit_pay_methods] => Array
+        (
+            [0] => 1-0
+        )
+
+    [enable_mail] => 0
+    [enable_cvs_mails] => 0
+    [use_securitycd] => 0
+    [use_securitycd_option] => 0
+    [TdFlag] => 0
+    [TdTenantName] => 
+    [ClientField1] => 
+    [ClientField2] => 
+    [PaymentTermDay] => 
+    [PaymentTermSec] => 
+    [EdyAddInfo1] => 
+    [EdyAddInfo2] => 
+    [SuicaAddInfo1] => 
+    [SuicaAddInfo2] => 
+    [SuicaAddInfo3] => 
+    [SuicaAddInfo4] => 
+    [Currency] => JPY
+    [order_mail_title1] => お支払いについて
+    [order_mail_body1] => 
+)
+ from 211.129.80.16
+2014/11/25 01:51:03 [/admin/basis/payment_input.php] is mulpay payment payment_id:10 pay_id:11 from 211.129.80.16
+2014/11/25 01:51:12 [/admin/basis/payment_input.php] is mulpay payment payment_id:9 pay_id:10 from 211.129.80.16
+2014/11/25 01:51:50 [/admin/basis/payment_input.php] is mulpay payment payment_id:9 pay_id:10 from 211.129.80.16
+2014/11/25 01:51:50 [/admin/basis/payment_input.php] set paymentTypeConfig payment_id:9 from 211.129.80.16
+2014/11/25 01:51:50 [/admin/basis/payment_input.php] Array
+(
+    [JobCd] => CAPTURE
+    [credit_pay_methods] => Array
+        (
+            [0] => 1-0
+        )
+
+    [enable_mail] => 0
+    [enable_cvs_mails] => 0
+    [use_securitycd] => 0
+    [use_securitycd_option] => 0
+    [TdFlag] => 0
+    [TdTenantName] => 
+    [ClientField1] => 
+    [ClientField2] => 
+    [PaymentTermDay] => 
+    [PaymentTermSec] => 
+    [EdyAddInfo1] => 
+    [EdyAddInfo2] => 
+    [SuicaAddInfo1] => 
+    [SuicaAddInfo2] => 
+    [SuicaAddInfo3] => 
+    [SuicaAddInfo4] => 
+    [Currency] => JPY
+    [order_mail_title1] => お支払いについて
+    [order_mail_body1] => 
+)
+ from 211.129.80.16
+2014/11/25 01:52:03 [/shopping/payment.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchMember.idPass from 211.129.80.16
+2014/11/25 01:52:03 [/shopping/payment.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 01:52:03 [/shopping/payment.php] ErrCode=E01&ErrInfo=E01390002 from 211.129.80.16
+2014/11/25 01:52:03 [/shopping/payment.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01390002
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 01:52:03 [/shopping/payment.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchCard.idPass from 211.129.80.16
+2014/11/25 01:52:03 [/shopping/payment.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 01:52:03 [/shopping/payment.php] ErrCode=E01|E01&ErrInfo=E01390002|E01240002 from 211.129.80.16
+2014/11/25 01:52:03 [/shopping/payment.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01390002
+        )
+
+    [1] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01240002
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 01:52:14 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchMember.idPass from 211.129.80.16
+2014/11/25 01:52:14 [/shopping/load_payment_module.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 01:52:14 [/shopping/load_payment_module.php] ErrCode=E01&ErrInfo=E01390002 from 211.129.80.16
+2014/11/25 01:52:14 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01390002
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 01:52:14 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchCard.idPass from 211.129.80.16
+2014/11/25 01:52:14 [/shopping/load_payment_module.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 01:52:14 [/shopping/load_payment_module.php] ErrCode=E01|E01&ErrInfo=E01390002|E01240002 from 211.129.80.16
+2014/11/25 01:52:14 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01390002
+        )
+
+    [1] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01240002
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 01:52:33 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchMember.idPass from 211.129.80.16
+2014/11/25 01:52:33 [/shopping/load_payment_module.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 01:52:33 [/shopping/load_payment_module.php] ErrCode=E01&ErrInfo=E01390002 from 211.129.80.16
+2014/11/25 01:52:33 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01390002
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 01:52:33 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchCard.idPass from 211.129.80.16
+2014/11/25 01:52:33 [/shopping/load_payment_module.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 01:52:33 [/shopping/load_payment_module.php] ErrCode=E01|E01&ErrInfo=E01390002|E01240002 from 211.129.80.16
+2014/11/25 01:52:33 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01390002
+        )
+
+    [1] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01240002
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 02:00:52 [/admin/basis/payment_input.php] no mulpay payment payment_id:4 from 211.129.80.16
+2014/11/25 02:00:57 [/admin/basis/payment_input.php] is mulpay payment payment_id:9 pay_id:10 from 211.129.80.16
+2014/11/25 02:01:14 [/admin/basis/payment_input.php] is mulpay payment payment_id:10 pay_id:11 from 211.129.80.16
+2014/11/25 02:01:24 [/admin/basis/payment_input.php] is mulpay payment payment_id:10 pay_id:11 from 211.129.80.16
+2014/11/25 02:01:24 [/admin/basis/payment_input.php] set paymentTypeConfig payment_id:10 from 211.129.80.16
+2014/11/25 02:01:24 [/admin/basis/payment_input.php] Array
+(
+    [JobCd] => CAPTURE
+    [credit_pay_methods] => Array
+        (
+            [0] => 1-0
+        )
+
+    [enable_mail] => 0
+    [enable_cvs_mails] => 0
+    [use_securitycd] => 0
+    [use_securitycd_option] => 0
+    [TdFlag] => 0
+    [TdTenantName] => 
+    [ClientField1] => 
+    [ClientField2] => 
+    [PaymentTermDay] => 
+    [PaymentTermSec] => 
+    [EdyAddInfo1] => 
+    [EdyAddInfo2] => 
+    [SuicaAddInfo1] => 
+    [SuicaAddInfo2] => 
+    [SuicaAddInfo3] => 
+    [SuicaAddInfo4] => 
+    [Currency] => JPY
+    [order_mail_title1] => お支払いについて
+    [order_mail_body1] => 
+)
+ from 211.129.80.16
+2014/11/25 02:01:40 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchMember.idPass from 211.129.80.16
+2014/11/25 02:01:40 [/shopping/load_payment_module.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 02:01:40 [/shopping/load_payment_module.php] ErrCode=E01&ErrInfo=E01390002 from 211.129.80.16
+2014/11/25 02:01:40 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01390002
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 02:01:40 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchCard.idPass from 211.129.80.16
+2014/11/25 02:01:40 [/shopping/load_payment_module.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 02:01:40 [/shopping/load_payment_module.php] ErrCode=E01|E01&ErrInfo=E01390002|E01240002 from 211.129.80.16
+2014/11/25 02:01:40 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01390002
+        )
+
+    [1] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01240002
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 02:01:42 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchMember.idPass from 211.129.80.16
+2014/11/25 02:01:42 [/shopping/load_payment_module.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 02:01:42 [/shopping/load_payment_module.php] ErrCode=E01&ErrInfo=E01390002 from 211.129.80.16
+2014/11/25 02:01:42 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01390002
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 02:01:42 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchCard.idPass from 211.129.80.16
+2014/11/25 02:01:42 [/shopping/load_payment_module.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 02:01:43 [/shopping/load_payment_module.php] ErrCode=E01|E01&ErrInfo=E01390002|E01240002 from 211.129.80.16
+2014/11/25 02:01:43 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01390002
+        )
+
+    [1] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01240002
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 02:06:13 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchMember.idPass from 211.129.80.16
+2014/11/25 02:06:13 [/shopping/load_payment_module.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 02:06:13 [/shopping/load_payment_module.php] ErrCode=E01&ErrInfo=E01390002 from 211.129.80.16
+2014/11/25 02:06:13 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01390002
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 02:06:13 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchCard.idPass from 211.129.80.16
+2014/11/25 02:06:13 [/shopping/load_payment_module.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 02:06:13 [/shopping/load_payment_module.php] ErrCode=E01|E01&ErrInfo=E01390002|E01240002 from 211.129.80.16
+2014/11/25 02:06:13 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01390002
+        )
+
+    [1] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01240002
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 02:06:22 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchMember.idPass from 211.129.80.16
+2014/11/25 02:06:22 [/shopping/load_payment_module.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 02:06:22 [/shopping/load_payment_module.php] ErrCode=E01&ErrInfo=E01390002 from 211.129.80.16
+2014/11/25 02:06:22 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01390002
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 02:06:22 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchCard.idPass from 211.129.80.16
+2014/11/25 02:06:22 [/shopping/load_payment_module.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 02:06:22 [/shopping/load_payment_module.php] ErrCode=E01|E01&ErrInfo=E01390002|E01240002 from 211.129.80.16
+2014/11/25 02:06:22 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01390002
+        )
+
+    [1] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01240002
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 02:25:04 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchMember.idPass from 211.129.80.16
+2014/11/25 02:25:04 [/shopping/load_payment_module.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 02:25:04 [/shopping/load_payment_module.php] ErrCode=E01&ErrInfo=E01390002 from 211.129.80.16
+2014/11/25 02:25:04 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01390002
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 02:25:04 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchCard.idPass from 211.129.80.16
+2014/11/25 02:25:04 [/shopping/load_payment_module.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 02:25:04 [/shopping/load_payment_module.php] ErrCode=E01|E01&ErrInfo=E01390002|E01240002 from 211.129.80.16
+2014/11/25 02:25:04 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01390002
+        )
+
+    [1] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01240002
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 02:26:03 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchMember.idPass from 211.129.80.16
+2014/11/25 02:26:03 [/shopping/load_payment_module.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 02:26:03 [/shopping/load_payment_module.php] ErrCode=E01&ErrInfo=E01390002 from 211.129.80.16
+2014/11/25 02:26:03 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01390002
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 02:26:03 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchCard.idPass from 211.129.80.16
+2014/11/25 02:26:03 [/shopping/load_payment_module.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 02:26:03 [/shopping/load_payment_module.php] ErrCode=E01|E01&ErrInfo=E01390002|E01240002 from 211.129.80.16
+2014/11/25 02:26:03 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01390002
+        )
+
+    [1] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01240002
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 02:26:03 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/EntryTran.idPass from 211.129.80.16
+2014/11/25 02:26:03 [/shopping/load_payment_module.php] Array
+(
+    [ShopID] => tsite00016367
+    [ShopPass] => ******
+    [OrderID] => 66-25022603
+    [JobCd] => CAPTURE
+    [Amount] => 76000
+    [TdFlag] => 0
+    [TdTenantName] => 
+)
+ from 211.129.80.16
+2014/11/25 02:26:03 [/shopping/load_payment_module.php] ErrCode=E01&ErrInfo=E01030002 from 211.129.80.16
+2014/11/25 02:26:03 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01030002
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 02:26:03 [/shopping/load_payment_module.php] load_payment_module.php set payment data:Array
+(
+    [request_error] => Array
+        (
+            [0] => 指定されたIDとパスワードのショップが存在しません。 (E01-E01030002)
+        )
+
+    [OrderID] => 66-25022603
+    [Amount] => 76000
+    [JobCd] => CAPTURE
+    [action_status] => 1
+    [pay_status] => 0
+)
+ from 211.129.80.16
+2014/11/25 02:27:06 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchMember.idPass from 211.129.80.16
+2014/11/25 02:27:06 [/shopping/load_payment_module.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 02:27:06 [/shopping/load_payment_module.php] ErrCode=E01&ErrInfo=E01390002 from 211.129.80.16
+2014/11/25 02:27:06 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01390002
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 02:27:06 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchCard.idPass from 211.129.80.16
+2014/11/25 02:27:06 [/shopping/load_payment_module.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 02:27:06 [/shopping/load_payment_module.php] ErrCode=E01|E01&ErrInfo=E01390002|E01240002 from 211.129.80.16
+2014/11/25 02:27:06 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01390002
+        )
+
+    [1] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01240002
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 02:27:06 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/EntryTran.idPass from 211.129.80.16
+2014/11/25 02:27:06 [/shopping/load_payment_module.php] Array
+(
+    [ShopID] => tshop00017475
+    [ShopPass] => ******
+    [OrderID] => 66-25022603
+    [JobCd] => CAPTURE
+    [Amount] => 76000
+    [TdFlag] => 0
+    [TdTenantName] => 
+)
+ from 211.129.80.16
+2014/11/25 02:27:06 [/shopping/load_payment_module.php] AccessID=b2174c2a5f59cc91dbb4d05cfe2d29fd&AccessPass=78d965316ea6a7f5eb7843f1b225fed2 from 211.129.80.16
+2014/11/25 02:27:06 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [AccessID] => b2174c2a5f59cc91dbb4d05cfe2d29fd
+            [AccessPass] => 78d965316ea6a7f5eb7843f1b225fed2
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 02:27:06 [/shopping/load_payment_module.php] load_payment_module.php set payment data:Array
+(
+    [AccessID] => b2174c2a5f59cc91dbb4d05cfe2d29fd
+    [AccessPass] => 78d965316ea6a7f5eb7843f1b225fed2
+    [Amount] => 76000
+    [JobCd] => CAPTURE
+    [action_status] => 1
+    [pay_status] => 0
+)
+ from 211.129.80.16
+2014/11/25 02:27:06 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/ExecTran.idPass from 211.129.80.16
+2014/11/25 02:27:06 [/shopping/load_payment_module.php] Array
+(
+    [AccessID] => b2174c2a5f59cc91dbb4d05cfe2d29fd
+    [AccessPass] => 78d965316ea6a7f5eb7843f1b225fed2
+    [OrderID] => 66-25022603
+    [Method] => 1
+    [CardNo] => *************310
+    [Expire] => 1503
+    [ClientField1] => 
+    [ClientField2] => 
+    [ClientField3] => EC-CUBE4.2.1
+    [ClientFieldFlag] => 1
+)
+ from 211.129.80.16
+2014/11/25 02:27:06 [/shopping/load_payment_module.php] ACS=0&OrderID=66-25022603&Forward=2a99662&Method=1&PayTimes=&Approve=5026951&TranID=1411250227111111111111877139&TranDate=20141125022706&CheckString=19cae62bbb9f256594a102609099be7b&ClientField1=&ClientField2=&ClientField3=EC-CUBE4.2.1 from 211.129.80.16
+2014/11/25 02:27:06 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [ACS] => 0
+            [OrderID] => 66-25022603
+            [Forward] => 2a99662
+            [Method] => 1
+            [PayTimes] => 
+            [Approve] => 5026951
+            [TranID] => 1411250227111111111111877139
+            [TranDate] => 20141125022706
+            [CheckString] => 19cae62bbb9f256594a102609099be7b
+            [ClientField1] => 
+            [ClientField2] => 
+            [ClientField3] => EC-CUBE4.2.1
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 02:27:06 [/shopping/load_payment_module.php] load_payment_module.php set payment data:Array
+(
+    [ACS] => 0
+    [Forward] => 2a99662
+    [Method] => 1
+    [PayTimes] => 
+    [Approve] => 5026951
+    [TranID] => 1411250227111111111111877139
+    [TranDate] => 20141125022706
+    [CheckString] => 19cae62bbb9f256594a102609099be7b
+    [ClientField1] => 
+    [ClientField2] => 
+    [ClientField3] => EC-CUBE4.2.1
+    [Amount] => 76000
+    [JobCd] => CAPTURE
+    [action_status] => 3
+    [pay_status] => 13
+)
+ from 211.129.80.16
+2014/11/25 02:27:06 [/shopping/load_payment_module.php] load_payment_module.php set payment data:Array
+(
+    [register_card] => 1
+    [HolderName] => TEST TARO
+)
+ from 211.129.80.16
+2014/11/25 02:27:07 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchMember.idPass from 211.129.80.16
+2014/11/25 02:27:07 [/shopping/load_payment_module.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 02:27:07 [/shopping/load_payment_module.php] ErrCode=E01&ErrInfo=E01390002 from 211.129.80.16
+2014/11/25 02:27:07 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01390002
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 02:27:07 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/SaveMember.idPass from 211.129.80.16
+2014/11/25 02:27:07 [/shopping/load_payment_module.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+    [MemberName] => ******
+)
+ from 211.129.80.16
+2014/11/25 02:27:07 [/shopping/load_payment_module.php] MemberID=4 from 211.129.80.16
+2014/11/25 02:27:07 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [MemberID] => 4
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 02:27:07 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/TradedCard.idPass from 211.129.80.16
+2014/11/25 02:27:07 [/shopping/load_payment_module.php] Array
+(
+    [ShopID] => tshop00017475
+    [ShopPass] => ******
+    [OrderID] => 66-25022603
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+    [DefaultFlag] => 1
+    [HolderName] => TEST TARO
+)
+ from 211.129.80.16
+2014/11/25 02:27:07 [/shopping/load_payment_module.php] CardSeq=0&CardNo=************7310&Forward=2a99662 from 211.129.80.16
+2014/11/25 02:27:07 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [CardSeq] => 0
+            [CardNo] => ************7310
+            [Forward] => 2a99662
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 02:27:31 [/shopping/payment.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchMember.idPass from 211.129.80.16
+2014/11/25 02:27:31 [/shopping/payment.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 02:27:31 [/shopping/payment.php] MemberID=4&MemberName=r542e71af0a016nYv2BRXP&DeleteFlag=0 from 211.129.80.16
+2014/11/25 02:27:31 [/shopping/payment.php] Array
+(
+    [0] => Array
+        (
+            [MemberID] => 4
+            [MemberName] => r542e71af0a016nYv2BRXP
+            [DeleteFlag] => 0
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 02:27:31 [/shopping/payment.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchCard.idPass from 211.129.80.16
+2014/11/25 02:27:31 [/shopping/payment.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 02:27:31 [/shopping/payment.php] CardSeq=0&DefaultFlag=1&CardName=&CardNo=*************310&Expire=1503&HolderName=TEST TARO&DeleteFlag=0 from 211.129.80.16
+2014/11/25 02:27:31 [/shopping/payment.php] Array
+(
+    [0] => Array
+        (
+            [CardSeq] => 0
+            [DefaultFlag] => 1
+            [CardName] => 
+            [CardNo] => *************310
+            [Expire] => 1503
+            [HolderName] => TEST TARO
+            [DeleteFlag] => 0
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 02:27:45 [/shopping/payment.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchMember.idPass from 211.129.80.16
+2014/11/25 02:27:45 [/shopping/payment.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 02:27:45 [/shopping/payment.php] MemberID=4&MemberName=r542e71af0a016nYv2BRXP&DeleteFlag=0 from 211.129.80.16
+2014/11/25 02:27:45 [/shopping/payment.php] Array
+(
+    [0] => Array
+        (
+            [MemberID] => 4
+            [MemberName] => r542e71af0a016nYv2BRXP
+            [DeleteFlag] => 0
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 02:27:45 [/shopping/payment.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchCard.idPass from 211.129.80.16
+2014/11/25 02:27:45 [/shopping/payment.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 02:27:45 [/shopping/payment.php] CardSeq=0&DefaultFlag=1&CardName=&CardNo=*************310&Expire=1503&HolderName=TEST TARO&DeleteFlag=0 from 211.129.80.16
+2014/11/25 02:27:45 [/shopping/payment.php] Array
+(
+    [0] => Array
+        (
+            [CardSeq] => 0
+            [DefaultFlag] => 1
+            [CardName] => 
+            [CardNo] => *************310
+            [Expire] => 1503
+            [HolderName] => TEST TARO
+            [DeleteFlag] => 0
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 02:27:58 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchMember.idPass from 211.129.80.16
+2014/11/25 02:27:58 [/shopping/load_payment_module.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 02:27:58 [/shopping/load_payment_module.php] MemberID=4&MemberName=r542e71af0a016nYv2BRXP&DeleteFlag=0 from 211.129.80.16
+2014/11/25 02:27:58 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [MemberID] => 4
+            [MemberName] => r542e71af0a016nYv2BRXP
+            [DeleteFlag] => 0
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 02:27:58 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchCard.idPass from 211.129.80.16
+2014/11/25 02:27:58 [/shopping/load_payment_module.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 02:27:59 [/shopping/load_payment_module.php] CardSeq=0&DefaultFlag=1&CardName=&CardNo=*************310&Expire=1503&HolderName=TEST TARO&DeleteFlag=0 from 211.129.80.16
+2014/11/25 02:27:59 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [CardSeq] => 0
+            [DefaultFlag] => 1
+            [CardName] => 
+            [CardNo] => *************310
+            [Expire] => 1503
+            [HolderName] => TEST TARO
+            [DeleteFlag] => 0
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 02:28:05 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/EntryTran.idPass from 211.129.80.16
+2014/11/25 02:28:05 [/shopping/load_payment_module.php] Array
+(
+    [ShopID] => tshop00017475
+    [ShopPass] => ******
+    [OrderID] => 67-25022805
+    [JobCd] => CAPTURE
+    [Amount] => 81000
+    [TdFlag] => 0
+    [TdTenantName] => 
+    [Method] => 1
+)
+ from 211.129.80.16
+2014/11/25 02:28:05 [/shopping/load_payment_module.php] AccessID=e7b9a8a94e60e910ca8b66e78c6dbc23&AccessPass=c35ad48f275e9f944db399985161621f from 211.129.80.16
+2014/11/25 02:28:05 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [AccessID] => e7b9a8a94e60e910ca8b66e78c6dbc23
+            [AccessPass] => c35ad48f275e9f944db399985161621f
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 02:28:05 [/shopping/load_payment_module.php] load_payment_module.php set payment data:Array
+(
+    [AccessID] => e7b9a8a94e60e910ca8b66e78c6dbc23
+    [AccessPass] => c35ad48f275e9f944db399985161621f
+    [OrderID] => 67-25022805
+    [Amount] => 81000
+    [JobCd] => CAPTURE
+    [CardSeq] => 0
+    [action_status] => 1
+    [pay_status] => 0
+)
+ from 211.129.80.16
+2014/11/25 02:28:05 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/ExecTran.idPass from 211.129.80.16
+2014/11/25 02:28:05 [/shopping/load_payment_module.php] Array
+(
+    [AccessID] => e7b9a8a94e60e910ca8b66e78c6dbc23
+    [AccessPass] => c35ad48f275e9f944db399985161621f
+    [OrderID] => 67-25022805
+    [Method] => 1
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+    [CardSeq] => 0
+    [ClientField1] => 
+    [ClientField2] => 
+    [ClientField3] => EC-CUBE4.2.1
+    [ClientFieldFlag] => 1
+)
+ from 211.129.80.16
+2014/11/25 02:28:05 [/shopping/load_payment_module.php] ACS=0&OrderID=67-25022805&Forward=2a99662&Method=1&PayTimes=&Approve=5026955&TranID=1411250228111111111111877142&TranDate=20141125022805&CheckString=8c7caa2090830169ea6bb9e11ad3f1c1&ClientField1=&ClientField2=&ClientField3=EC-CUBE4.2.1 from 211.129.80.16
+2014/11/25 02:28:05 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [ACS] => 0
+            [OrderID] => 67-25022805
+            [Forward] => 2a99662
+            [Method] => 1
+            [PayTimes] => 
+            [Approve] => 5026955
+            [TranID] => 1411250228111111111111877142
+            [TranDate] => 20141125022805
+            [CheckString] => 8c7caa2090830169ea6bb9e11ad3f1c1
+            [ClientField1] => 
+            [ClientField2] => 
+            [ClientField3] => EC-CUBE4.2.1
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 02:28:05 [/shopping/load_payment_module.php] load_payment_module.php set payment data:Array
+(
+    [ACS] => 0
+    [Forward] => 2a99662
+    [Method] => 1
+    [PayTimes] => 
+    [Approve] => 5026955
+    [TranID] => 1411250228111111111111877142
+    [TranDate] => 20141125022805
+    [CheckString] => 8c7caa2090830169ea6bb9e11ad3f1c1
+    [ClientField1] => 
+    [ClientField2] => 
+    [ClientField3] => EC-CUBE4.2.1
+    [Amount] => 81000
+    [JobCd] => CAPTURE
+    [CardSeq] => 0
+    [action_status] => 3
+    [pay_status] => 13
+)
+ from 211.129.80.16
+2014/11/25 02:28:05 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchMember.idPass from 211.129.80.16
+2014/11/25 02:28:05 [/shopping/load_payment_module.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 02:28:05 [/shopping/load_payment_module.php] MemberID=4&MemberName=r542e71af0a016nYv2BRXP&DeleteFlag=0 from 211.129.80.16
+2014/11/25 02:28:05 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [MemberID] => 4
+            [MemberName] => r542e71af0a016nYv2BRXP
+            [DeleteFlag] => 0
+        )
+
+)
+ from 211.129.80.16
+2014/11/25 02:28:05 [/shopping/load_payment_module.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchCard.idPass from 211.129.80.16
+2014/11/25 02:28:05 [/shopping/load_payment_module.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 211.129.80.16
+2014/11/25 02:28:06 [/shopping/load_payment_module.php] CardSeq=0&DefaultFlag=1&CardName=&CardNo=*************310&Expire=1503&HolderName=TEST TARO&DeleteFlag=0 from 211.129.80.16
+2014/11/25 02:28:06 [/shopping/load_payment_module.php] Array
+(
+    [0] => Array
+        (
+            [CardSeq] => 0
+            [DefaultFlag] => 1
+            [CardName] => 
+            [CardNo] => *************310
+            [Expire] => 1503
+            [HolderName] => TEST TARO
+            [DeleteFlag] => 0
+        )
+
+)
+ from 211.129.80.16
