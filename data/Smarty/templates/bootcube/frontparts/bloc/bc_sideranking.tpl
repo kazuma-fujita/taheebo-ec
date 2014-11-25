@@ -17,12 +17,12 @@
 						<div class="rank_num num-<!--{$smarty.foreach.bestseller.iteration}-->">
 								<!--{$smarty.foreach.bestseller.iteration}-->位
 						</div>
-						<div class="item_image col-md-6">
+						<div class="item_image col-lg-6">
 							<a href="<!--{$smarty.const.P_DETAIL_URLPATH}--><!--{$arrProduct.product_id|u}-->">
 								<img src="<!--{$smarty.const.IMAGE_SAVE_URLPATH}--><!--{$arrProduct.main_large_image|sfNoImageMainList|h}-->" alt="<!--{$arrProduct.name|h}-->" />
 							</a>
 						</div>
-						<div class="item_meta col-md-6">
+						<div class="item_meta col-lg-6">
 							<p class="title">
 								<a href="<!--{$smarty.const.P_DETAIL_URLPATH}--><!--{$arrProduct.product_id|u}-->"><!--{$arrProduct.name|h}--></a>
 							</p>
@@ -143,6 +143,21 @@
 									<!--{$arrProduct.price02_min_inctax|number_format}--> 円
 								</span>
 							</p>
+					<div class="point">
+						<span id="point_default"><!--{strip}-->
+							<!--{if $arrProduct.price02_min == $arrProduct.price02_max}-->
+								<!--{$arrProduct.price02_min|sfPrePoint:$arrProduct.point_rate|number_format}-->
+							<!--{else}-->
+								<!--{if $arrProduct.price02_min|sfPrePoint:$arrProduct.point_rate == $arrProduct.price02_max|sfPrePoint:$arrProduct.point_rate}-->
+									<!--{$arrProduct.price02_min|sfPrePoint:$arrProduct.point_rate|number_format}-->
+								<!--{else}-->
+									<!--{$arrProduct.price02_min|sfPrePoint:$arrProduct.point_rate|number_format}-->～<!--{$arrProduct.price02_max|sfPrePoint:$arrProduct.point_rate|number_format}-->
+								<!--{/if}-->
+							<!--{/if}-->
+						<!--{/strip}--></span><span id="point_dynamic"></span>
+						P
+						<span class="label label-danger"><!--{$arrProduct.point_rate}-->%還元</span>
+					</div>
 							<p class="mini comment"><!--{$arrProduct.comment|h|nl2br}--></p>
 						</div>
 

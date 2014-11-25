@@ -30,7 +30,6 @@
 ご注文番号：<!--{$arrOrder.order_id}-->
 お支払合計：￥<!--{$arrOrder.payment_total|number_format|default:0}-->
 ご決済方法：<!--{$arrOrder.payment_method}-->
-メッセージ：<!--{$Message_tmp}-->
 
 <!--{if $arrOther.title.value}-->
 ************************************************
@@ -63,8 +62,9 @@
 <!--{/if}-->
 送　料 ￥<!--{$arrOrder.deliv_fee|number_format|default:0}-->
 手数料 ￥<!--{$arrOrder.charge|number_format|default:0}-->
-============================================
+-------------------------------------------------
 合　計 ￥<!--{$arrOrder.payment_total|number_format|default:0}-->
+
 
 ************************************************
 　ご注文者情報
@@ -80,11 +80,8 @@
 　郵便番号：〒<!--{$arrOrder.order_zip01}-->-<!--{$arrOrder.order_zip02}-->
 　住所　　：<!--{$arrPref[$arrOrder.order_pref]}--><!--{$arrOrder.order_addr01}--><!--{$arrOrder.order_addr02}-->
 　電話番号：<!--{$arrOrder.order_tel01}-->-<!--{$arrOrder.order_tel02}-->-<!--{$arrOrder.order_tel03}-->
-　FAX番号 ：<!--{if $arrOrder.order_fax01 > 0}--><!--{$arrOrder.order_fax01}-->-<!--{$arrOrder.order_fax02}-->-<!--{$arrOrder.order_fax03}--><!--{/if}-->
-
 　メールアドレス：<!--{$arrOrder.order_email}-->
 
-　登録コード：<!--{$arrOrder.agency_code}-->
 
 <!--{if count($arrShipping) >= 1}-->
 ************************************************
@@ -92,7 +89,7 @@
 ************************************************
 
 <!--{foreach item=shipping name=shipping from=$arrShipping}-->
-◎お届け先<!--{if count($arrShipping) > 1}--><!--{$smarty.foreach.shipping.iteration}--><!--{/if}-->
+　お届け先<!--{if count($arrShipping) > 1}--><!--{$smarty.foreach.shipping.iteration}--><!--{/if}-->
 
 　お名前　：<!--{$shipping.shipping_name01}--> <!--{$shipping.shipping_name02}-->　様
 <!--{if $shipping.shipping_company_name != ""}-->
@@ -105,26 +102,26 @@
 　郵便番号：〒<!--{$shipping.shipping_zip01}-->-<!--{$shipping.shipping_zip02}-->
 　住所　　：<!--{$arrPref[$shipping.shipping_pref]}--><!--{$shipping.shipping_addr01}--><!--{$shipping.shipping_addr02}-->
 　電話番号：<!--{$shipping.shipping_tel01}-->-<!--{$shipping.shipping_tel02}-->-<!--{$shipping.shipping_tel03}-->
-　FAX番号 ：<!--{if $shipping.shipping_fax01 > 0}--><!--{$shipping.shipping_fax01}-->-<!--{$shipping.shipping_fax02}-->-<!--{$shipping.shipping_fax03}--><!--{else}-->　<!--{/if}-->
-
-　お届け日：<!--{$shipping.shipping_date|date_format:"%Y/%m/%d"|default:"指定なし"}-->
+　お届け日：<!--{$shipping.shipping_date|date_format:"%Y/%m/%d"|default:"最短でお届けします"}-->
 　お届け時間：<!--{$shipping.shipping_time|default:"指定なし"}-->
 
 <!--{foreach item=item name=item from=$shipping.shipment_item}-->
-商品コード: <!--{$item.product_code}-->
-商品名: <!--{$item.product_name}--> <!--{$item.classcategory_name1}--> <!--{$item.classcategory_name2}-->
+　商品コード: <!--{$item.product_code}-->
+　商品名: <!--{$item.product_name}--> <!--{$item.classcategory_name1}--> <!--{$item.classcategory_name2}-->
 <!--{assign var=shipping_product value=$item.productsClass}-->
-単価：￥<!--{$shipping_product.price02_inctax|number_format}-->
-数量：<!--{$item.quantity|number_format}-->
+　数量：<!--{$item.quantity|number_format}-->
 
 <!--{/foreach}-->
 <!--{/foreach}-->
 <!--{/if}-->
 <!--{if $arrOrder.customer_id && $smarty.const.USE_POINT !== false}-->
-============================================
+-------------------------------------------------
 <!--{* ご注文前のポイント {$tpl_user_point} pt *}-->
 ご使用ポイント <!--{$arrOrder.use_point|default:0|number_format}--> pt
 今回加算される予定のポイント <!--{$arrOrder.add_point|default:0|number_format}--> pt
 現在の所持ポイント <!--{$arrCustomer.point|default:0|number_format}--> pt
+-------------------------------------------------
+
+
 <!--{/if}-->
 <!--{$tpl_footer}-->

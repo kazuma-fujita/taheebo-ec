@@ -7,7 +7,7 @@
         <!--{assign var=id value=$arrProduct.product_id}-->
         <!--{assign var=arrErr value=$arrProduct.arrErr}-->
         <!--▼商品-->
-        <form class="form-inline" name="product_form<!--{$id|h}-->" action="?" onsubmit="return false;">
+        <form class="form-inline col-sm- col-lg-4" name="product_form<!--{$id|h}-->" action="?" onsubmit="return false;">
             <input type="hidden" name="<!--{$smarty.const.TRANSACTION_ID_NAME}-->" value="<!--{$transactionid}-->" />
             <input type="hidden" name="product_id" value="<!--{$id|h}-->" />
             <input type="hidden" name="product_class_id" id="product_class_id<!--{$id|h}-->" value="<!--{$tpl_product_class_id[$id]}-->" />
@@ -17,13 +17,13 @@
             <div class="row">
                 <a name="product<!--{$id|h}-->"></a>
 
-                <div class="listphoto col-xs-12 col-sm-3">
+                <div class="col-xs-12 col-sm-4 col-lg-12">
                     <!--★画像★-->
                     <a href="<!--{$smarty.const.P_DETAIL_URLPATH}--><!--{$arrProduct.product_id|u}-->">
-                        <img src="<!--{$smarty.const.IMAGE_SAVE_URLPATH}--><!--{$arrProduct.main_large_image|sfNoImageMainList|h}-->" alt="<!--{$arrProduct.name|h}-->" class="picture" /></a>
+                        <img src="<!--{$smarty.const.IMAGE_SAVE_URLPATH}--><!--{$arrProduct.main_large_image|sfNoImageMainList|h}-->" alt="<!--{$arrProduct.name|h}-->" class="img-responsive" /></a>
                 </div>
 
-                <div class="listrightbloc col-xs-12 col-sm-9">
+                <div class="listrightbloc col-xs-12 col-sm-8 col-lg-12">
                     <!--▼商品ステータス-->
                     <!--{if count($productStatus[$id]) > 0}-->
                         <ul class="status_icon list-inline">
@@ -55,6 +55,21 @@
                                 </span><span id="price02_dynamic_<!--{$id}-->"></span><!--{/strip}-->
                                 円</span>
                         </div>
+					<div class="point">
+						<span id="point_default"><!--{strip}-->
+							<!--{if $arrProduct.price02_min == $arrProduct.price02_max}-->
+								<!--{$arrProduct.price02_min|sfPrePoint:$arrProduct.point_rate|number_format}-->
+							<!--{else}-->
+								<!--{if $arrProduct.price02_min|sfPrePoint:$arrProduct.point_rate == $arrProduct.price02_max|sfPrePoint:$arrProduct.point_rate}-->
+									<!--{$arrProduct.price02_min|sfPrePoint:$arrProduct.point_rate|number_format}-->
+								<!--{else}-->
+									<!--{$arrProduct.price02_min|sfPrePoint:$arrProduct.point_rate|number_format}-->～<!--{$arrProduct.price02_max|sfPrePoint:$arrProduct.point_rate|number_format}-->
+								<!--{/if}-->
+							<!--{/if}-->
+						<!--{/strip}--></span><span id="point_dynamic"></span>
+						P
+						<span class="label label-danger"><!--{$arrProduct.point_rate}-->%還元</span>
+					</div><br>
 
                         <!--★コメント★-->
                         <div class="listcomment"><!--{$arrProduct.main_list_comment|h|nl2br}--></div>
@@ -62,7 +77,7 @@
                         <!--★商品詳細を見る★-->
                         <div class="detail_btn">
                             <!--{assign var=name value="detail`$id`"}-->
-                            <a href="<!--{$smarty.const.P_DETAIL_URLPATH}--><!--{$arrProduct.product_id|u}-->" class="btn btn-default btn-sm">商品詳細を見る</a>
+                            <a href="<!--{$smarty.const.P_DETAIL_URLPATH}--><!--{$arrProduct.product_id|u}-->" class="btn btn-primary btn-sm">詳細を見る</a>
                         </div>
                     </div>
 
