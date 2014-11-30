@@ -341,7 +341,8 @@ class SC_SendMail
 
             case 'sendmail':
                 $arrParams = array(
-                    'sendmail_path' => '/usr/bin/sendmail',
+                    //'sendmail_path' => '/usr/bin/sendmail',
+                    'sendmail_path' => '/usr/sbin/sendmail',
                     'sendmail_args' => '-i',
                 );
                 break;

@@ -92,8 +92,14 @@ a:hover {
 /*  header_wrap  */
 /*--------------------------------- */
 #header_wrap {
-  background-color: #fff;
   box-shadow: 0 0 3px #ddd;
+  background: #ffffff transparent;
+  /* nice browsers */
+  background: rgba(255, 255, 255, 0.8);
+  /* IE 6/7 */
+  filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF)";
+  /* IE8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF)";
 }
 
 /*  header	*/

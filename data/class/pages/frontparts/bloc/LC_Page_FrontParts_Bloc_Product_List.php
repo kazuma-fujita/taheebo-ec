@@ -40,9 +40,24 @@ class LC_Page_FrontParts_Bloc_Product_List extends LC_Page_FrontParts_Bloc {
         require_once CLASS_REALDIR . 'pages/products/LC_Page_Products_List.php';
         $objProduct = new SC_Product();
         $productList = new LC_Page_Products_List();
-        $productList->orderby = 'date';
+/*
+        $arrSearchData = array(
+            'category_id'   => $this->lfGetCategoryId(intval($this->arrForm['category_id'])),
+            'maker_id'      => intval($this->arrForm['maker_id']),
+            'name'          => $this->arrForm['name']
+        );
+        $arrSearchCondition = $this->lfGetSearchCondition($this->arrSearchData);
+*/
+        //$productList->orderby = 'date';
         // add
-        $this->arrProducts  = $productList->lfGetProductsList($arrSearchCondition, 100, 0, $objProduct);
+       // $this->arrProducts  = $productList->lfGetProductsList($arrSearchCondition, 100, 0, $objProduct);
+        $productList->action();
+        $this->arrProducts = $productList->arrProducts;
+/*
+        $this->tpl_stock_find       = $objProduct->stock_find;
+        $this->tpl_product_class_id = $objProduct->product_class_id;
+        $this->tpl_product_type     = $objProduct->product_type;
+*/
 
         //$objQuery = new SC_Query_Ex();
         //$objProduct = new SC_Product_Ex();

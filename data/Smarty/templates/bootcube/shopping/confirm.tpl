@@ -65,15 +65,15 @@
 			</div>
 
 			<table class="table table-bordered" summary="ご注文内容確認">
-				<col width="10%" />
+				<col width="20%" />
 				<col width="40%" />
-				<col width="20%" />
-				<col width="10%" />
-				<col width="20%" />
+
+				<col width="15%" />
+				<col width="25%" />
 				<tr>
 					<th scope="col">商品写真</th>
 					<th scope="col">商品名</th>
-					<th scope="col">単価</th>
+
 					<th scope="col">数量</th>
 					<th scope="col">小計</th>
 				</tr>
@@ -95,23 +95,21 @@
 								<!--{if $item.productsClass.classcategory_name2 != ""}-->
 								<li><!--{$item.productsClass.class_name2|h}-->：<!--{$item.productsClass.classcategory_name2|h}--></li>
 								<!--{/if}-->
+								<div><!--{$item.price_inctax|number_format|h}-->円</div>
 							</ul>
-						</td>
-						<td class="alignR">
-							<!--{$item.price_inctax|number_format}-->円
 						</td>
 						<td class="alignR"><!--{$item.quantity|number_format}--></td>
 						<td class="alignR"><!--{$item.total_inctax|number_format}-->円</td>
 					</tr>
 				<!--{/foreach}-->
 				<tr>
-					<th colspan="4" class="alignR" scope="row">小計</th>
+					<th colspan="3" class="alignR" scope="row">小計</th>
 					<td class="alignR"><!--{$tpl_total_inctax[$cartKey]|number_format}-->円</td>
 				</tr>
 				<!--{if $smarty.const.USE_POINT !== false}-->
 					<!--{if $arrForm.use_point > 0}-->
 					<tr>
-						<th colspan="4" class="alignR" scope="row">値引き（ポイントご使用時）</th>
+						<th colspan="3" class="alignR" scope="row">値引き（ポイントご使用時）</th>
 						<td class="alignR">
 							<!--{assign var=discount value=`$arrForm.use_point*$smarty.const.POINT_VALUE`}-->
 							-<!--{$discount|number_format|default:0}-->円</td>
@@ -119,15 +117,15 @@
 					<!--{/if}-->
 				<!--{/if}-->
 				<tr>
-					<th colspan="4" class="alignR" scope="row">送料</th>
+					<th colspan="3" class="alignR" scope="row">送料</th>
 					<td class="alignR"><!--{$arrForm.deliv_fee|number_format}-->円</td>
 				</tr>
 				<tr>
-					<th colspan="4" class="alignR" scope="row">手数料</th>
+					<th colspan="3" class="alignR" scope="row">手数料</th>
 					<td class="alignR"><!--{$arrForm.charge|number_format}-->円</td>
 				</tr>
 				<tr>
-					<th colspan="4" class="alignR" scope="row">合計</th>
+					<th colspan="3" class="alignR" scope="row">合計</th>
 					<td class="alignR"><span class="price"><!--{$arrForm.payment_total|number_format}-->円</span></td>
 				</tr>
 			</table>
@@ -178,10 +176,6 @@
 						<th scope="row">お名前(フリガナ)</th>
 						<td><!--{$arrForm.order_kana01|h}--> <!--{$arrForm.order_kana02|h}--></td>
 					</tr>
-					<tr>
-						<th scope="row">会社名</th>
-						<td><!--{$arrForm.order_company_name|h}--></td>
-					</tr>
 					<!--{if $smarty.const.FORM_COUNTRY_ENABLE}-->
 					<tr>
 						<th scope="row">国</th>
@@ -205,14 +199,6 @@
 						<td><!--{$arrForm.order_tel01}-->-<!--{$arrForm.order_tel02}-->-<!--{$arrForm.order_tel03}--></td>
 					</tr>
 					<tr>
-						<th scope="row">FAX番号</th>
-						<td>
-							<!--{if $arrForm.order_fax01 > 0}-->
-								<!--{$arrForm.order_fax01}-->-<!--{$arrForm.order_fax02}-->-<!--{$arrForm.order_fax03}-->
-							<!--{/if}-->
-						</td>
-					</tr>
-					<tr>
 						<th scope="row">メールアドレス</th>
 						<td><!--{$arrForm.order_email|h}--></td>
 					</tr>
@@ -221,18 +207,10 @@
 						<td><!--{$arrSex[$arrForm.order_sex]|h}--></td>
 					</tr>
 					<tr>
-						<th scope="row">職業</th>
-						<td><!--{$arrJob[$arrForm.order_job]|default:'(未登録)'|h}--></td>
-					</tr>
-					<tr>
 						<th scope="row">生年月日</th>
 						<td>
 							<!--{$arrForm.order_birth|regex_replace:"/ .+/":""|regex_replace:"/-/":"/"|default:'(未登録)'|h}-->
 						</td>
-					</tr>
-					<tr>
-						<th scope="row">登録コード</th>
-						<td><!--{$arrForm.agency_code|h}--></td>
 					</tr>
 				</tbody>
 			</table>
@@ -290,10 +268,6 @@
 							<th scope="row">お名前(フリガナ)</th>
 							<td><!--{$shippingItem.shipping_kana01|h}--> <!--{$shippingItem.shipping_kana02|h}--></td>
 						</tr>
-						<tr>
-							<th scope="row">会社名</th>
-							<td><!--{$shippingItem.shipping_company_name|h}--></td>
-						</tr>
 						<!--{if $smarty.const.FORM_COUNTRY_ENABLE}-->
 						<tr>
 							<th scope="row">国</th>
@@ -316,18 +290,10 @@
 							<th scope="row">電話番号</th>
 							<td><!--{$shippingItem.shipping_tel01}-->-<!--{$shippingItem.shipping_tel02}-->-<!--{$shippingItem.shipping_tel03}--></td>
 						</tr>
-						<tr>
-							<th scope="row">FAX番号</th>
-							<td>
-								<!--{if $shippingItem.shipping_fax01 > 0}-->
-									<!--{$shippingItem.shipping_fax01}-->-<!--{$shippingItem.shipping_fax02}-->-<!--{$shippingItem.shipping_fax03}-->
-								<!--{/if}-->
-							</td>
-						</tr>
 						<!--{if $cartKey != $smarty.const.PRODUCT_TYPE_DOWNLOAD}-->
 							<tr>
 								<th scope="row">お届け日</th>
-								<td><!--{$shippingItem.shipping_date|default:"指定なし"|h}--></td>
+								<td><!--{$shippingItem.shipping_date|default:"最短でお届けします"|h}--></td>
 							</tr>
 							<tr>
 								<th scope="row">お届け時間</th>
@@ -351,10 +317,6 @@
 				<tr>
 					<th scope="row">お支払方法</th>
 					<td><!--{$arrForm.payment_method|h}--></td>
-				</tr>
-				<tr>
-					<th scope="row">その他お問い合わせ</th>
-					<td><!--{$arrForm.message|h|nl2br}--></td>
 				</tr>
 				</tbody>
 			</table>

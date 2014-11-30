@@ -1,5 +1,6 @@
 <!--{strip}-->
 <div class="block_outer clearfix">
+<div class="clearfix">
 
     <!--▼ページナビ(本文)-->
     <!--{foreach from=$arrProducts item=arrProduct name=arrProducts}-->
@@ -7,7 +8,7 @@
         <!--{assign var=id value=$arrProduct.product_id}-->
         <!--{assign var=arrErr value=$arrProduct.arrErr}-->
         <!--▼商品-->
-        <form class="form-inline col-sm- col-lg-4" name="product_form<!--{$id|h}-->" action="?" onsubmit="return false;">
+        <form class="form-inline col-lg-4" name="product_form<!--{$id|h}-->" action="?" onsubmit="return false;">
             <input type="hidden" name="<!--{$smarty.const.TRANSACTION_ID_NAME}-->" value="<!--{$transactionid}-->" />
             <input type="hidden" name="product_id" value="<!--{$id|h}-->" />
             <input type="hidden" name="product_class_id" id="product_class_id<!--{$id|h}-->" value="<!--{$tpl_product_class_id[$id]}-->" />
@@ -144,6 +145,11 @@
             <!-- /list_area -->
         </form>
         <!--▲商品-->
+				<!--{if $smarty.foreach.arrProducts.iteration % 3 === 0 and $smarty.foreach.arrProducts.last == false}-->
+					</div>
+					<div class="clearfix">
+				<!--{/if}-->
     <!--{/foreach}-->
+</div>
 </div>
 <!--{/strip}-->

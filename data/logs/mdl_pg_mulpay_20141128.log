@@ -1,0 +1,220 @@
+2014/11/28 04:03:02 [/shopping/payment.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchMember.idPass from 106.154.79.95
+2014/11/28 04:03:02 [/shopping/payment.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 106.154.79.95
+2014/11/28 04:03:02 [/shopping/payment.php] MemberID=4&MemberName=r542e71af0a016nYv2BRXP&DeleteFlag=0 from 106.154.79.95
+2014/11/28 04:03:02 [/shopping/payment.php] Array
+(
+    [0] => Array
+        (
+            [MemberID] => 4
+            [MemberName] => r542e71af0a016nYv2BRXP
+            [DeleteFlag] => 0
+        )
+
+)
+ from 106.154.79.95
+2014/11/28 04:03:02 [/shopping/payment.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchCard.idPass from 106.154.79.95
+2014/11/28 04:03:02 [/shopping/payment.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 106.154.79.95
+2014/11/28 04:03:02 [/shopping/payment.php] CardSeq=0&DefaultFlag=1&CardName=&CardNo=*************310&Expire=1503&HolderName=TEST TARO&DeleteFlag=0 from 106.154.79.95
+2014/11/28 04:03:02 [/shopping/payment.php] Array
+(
+    [0] => Array
+        (
+            [CardSeq] => 0
+            [DefaultFlag] => 1
+            [CardName] => 
+            [CardNo] => *************310
+            [Expire] => 1503
+            [HolderName] => TEST TARO
+            [DeleteFlag] => 0
+        )
+
+)
+ from 106.154.79.95
+2014/11/28 04:19:43 [/shopping/payment.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchMember.idPass from 106.154.79.95
+2014/11/28 04:19:43 [/shopping/payment.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 106.154.79.95
+2014/11/28 04:19:43 [/shopping/payment.php] MemberID=4&MemberName=r542e71af0a016nYv2BRXP&DeleteFlag=0 from 106.154.79.95
+2014/11/28 04:19:43 [/shopping/payment.php] Array
+(
+    [0] => Array
+        (
+            [MemberID] => 4
+            [MemberName] => r542e71af0a016nYv2BRXP
+            [DeleteFlag] => 0
+        )
+
+)
+ from 106.154.79.95
+2014/11/28 04:19:43 [/shopping/payment.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchCard.idPass from 106.154.79.95
+2014/11/28 04:19:43 [/shopping/payment.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 106.154.79.95
+2014/11/28 04:19:43 [/shopping/payment.php] CardSeq=0&DefaultFlag=1&CardName=&CardNo=*************310&Expire=1503&HolderName=TEST TARO&DeleteFlag=0 from 106.154.79.95
+2014/11/28 04:19:43 [/shopping/payment.php] Array
+(
+    [0] => Array
+        (
+            [CardSeq] => 0
+            [DefaultFlag] => 1
+            [CardName] => 
+            [CardNo] => *************310
+            [Expire] => 1503
+            [HolderName] => TEST TARO
+            [DeleteFlag] => 0
+        )
+
+)
+ from 106.154.79.95
+2014/11/28 04:23:56 [/shopping/payment.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchMember.idPass from 106.154.79.95
+2014/11/28 04:23:56 [/shopping/payment.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 106.154.79.95
+2014/11/28 04:23:57 [/shopping/payment.php] MemberID=4&MemberName=r542e71af0a016nYv2BRXP&DeleteFlag=0 from 106.154.79.95
+2014/11/28 04:23:57 [/shopping/payment.php] Array
+(
+    [0] => Array
+        (
+            [MemberID] => 4
+            [MemberName] => r542e71af0a016nYv2BRXP
+            [DeleteFlag] => 0
+        )
+
+)
+ from 106.154.79.95
+2014/11/28 04:23:57 [/shopping/payment.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchCard.idPass from 106.154.79.95
+2014/11/28 04:23:57 [/shopping/payment.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 106.154.79.95
+2014/11/28 04:23:57 [/shopping/payment.php] CardSeq=0&DefaultFlag=1&CardName=&CardNo=*************310&Expire=1503&HolderName=TEST TARO&DeleteFlag=0 from 106.154.79.95
+2014/11/28 04:23:57 [/shopping/payment.php] Array
+(
+    [0] => Array
+        (
+            [CardSeq] => 0
+            [DefaultFlag] => 1
+            [CardName] => 
+            [CardNo] => *************310
+            [Expire] => 1503
+            [HolderName] => TEST TARO
+            [DeleteFlag] => 0
+        )
+
+)
+ from 106.154.79.95
+2014/11/28 04:30:41 [/shopping/payment.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchMember.idPass from 106.154.79.95
+2014/11/28 04:30:41 [/shopping/payment.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 106.154.79.95
+2014/11/28 04:30:41 [/shopping/payment.php] MemberID=4&MemberName=r542e71af0a016nYv2BRXP&DeleteFlag=0 from 106.154.79.95
+2014/11/28 04:30:41 [/shopping/payment.php] Array
+(
+    [0] => Array
+        (
+            [MemberID] => 4
+            [MemberName] => r542e71af0a016nYv2BRXP
+            [DeleteFlag] => 0
+        )
+
+)
+ from 106.154.79.95
+2014/11/28 04:30:41 [/shopping/payment.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchCard.idPass from 106.154.79.95
+2014/11/28 04:30:41 [/shopping/payment.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 4
+)
+ from 106.154.79.95
+2014/11/28 04:30:41 [/shopping/payment.php] CardSeq=0&DefaultFlag=1&CardName=&CardNo=*************310&Expire=1503&HolderName=TEST TARO&DeleteFlag=0 from 106.154.79.95
+2014/11/28 04:30:41 [/shopping/payment.php] Array
+(
+    [0] => Array
+        (
+            [CardSeq] => 0
+            [DefaultFlag] => 1
+            [CardName] => 
+            [CardNo] => *************310
+            [Expire] => 1503
+            [HolderName] => TEST TARO
+            [DeleteFlag] => 0
+        )
+
+)
+ from 106.154.79.95
+2014/11/28 08:00:50 [/shopping/payment.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchMember.idPass from 126.78.53.25
+2014/11/28 08:00:50 [/shopping/payment.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 7
+)
+ from 126.78.53.25
+2014/11/28 08:00:50 [/shopping/payment.php] ErrCode=E01&ErrInfo=E01390002 from 126.78.53.25
+2014/11/28 08:00:50 [/shopping/payment.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01390002
+        )
+
+)
+ from 126.78.53.25
+2014/11/28 08:00:50 [/shopping/payment.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchCard.idPass from 126.78.53.25
+2014/11/28 08:00:50 [/shopping/payment.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 7
+)
+ from 126.78.53.25
+2014/11/28 08:00:50 [/shopping/payment.php] ErrCode=E01|E01&ErrInfo=E01390002|E01240002 from 126.78.53.25
+2014/11/28 08:00:50 [/shopping/payment.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01390002
+        )
+
+    [1] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01240002
+        )
+
+)
+ from 126.78.53.25
