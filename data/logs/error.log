@@ -1,0 +1,146 @@
+2014/11/26 03:38:22 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/11/26 03:38:22 [/index.php] Warning(E_WARNING): array_merge(): Argument #1 is not an array on [/var/www/data/class/pages/products/LC_Page_Products_List.php(264)] from 192.168.218.1
+2014/11/26 03:38:33 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/11/26 03:38:33 [/index.php] Warning(E_WARNING): array_merge(): Argument #1 is not an array on [/var/www/data/class/pages/products/LC_Page_Products_List.php(264)] from 192.168.218.1
+2014/11/26 03:43:12 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/11/26 03:43:12 [/index.php] Warning(E_WARNING): array_merge(): Argument #1 is not an array on [/var/www/data/class/pages/products/LC_Page_Products_List.php(264)] from 192.168.218.1
+2014/11/26 04:00:41 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/11/26 04:00:41 [/index.php] Warning(E_WARNING): array_merge(): Argument #1 is not an array on [/var/www/data/class/pages/products/LC_Page_Products_List.php(264)] from 192.168.218.1
+2014/11/26 04:24:02 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/11/26 04:24:02 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/11/26 04:24:02 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/11/26 04:24:02 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 05:46:22 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 05:46:22 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 05:46:22 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 05:46:22 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 05:46:34 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 05:46:34 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 05:46:34 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 05:46:34 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 05:46:49 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 05:46:49 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 05:46:49 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 05:46:49 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 05:53:11 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 05:53:11 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 05:53:11 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 05:53:11 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 05:53:27 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 05:53:27 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 05:53:27 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 05:53:27 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 05:57:19 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 05:57:19 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 05:57:19 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 05:57:19 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 05:57:34 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 05:57:34 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 05:57:34 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 05:57:34 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 06:14:48 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 06:14:49 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:14:49 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:14:49 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 06:14:57 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 06:14:57 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:14:57 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:14:57 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 06:16:25 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 06:16:25 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:16:25 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:16:25 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 06:16:37 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 06:16:37 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:16:37 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:16:37 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 06:16:41 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 06:16:41 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:16:41 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:16:42 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 06:16:49 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 06:16:49 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:16:49 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:16:49 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 06:17:11 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 06:17:11 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:17:11 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:17:11 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 06:17:15 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 06:17:15 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:17:15 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:17:15 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 06:17:52 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 06:17:52 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:17:52 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:17:52 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 06:18:18 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 06:18:18 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:18:18 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:18:18 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 06:19:43 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 06:19:43 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:19:43 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:19:43 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 06:23:47 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 06:23:47 [/index.php] Fatal error(E_ERROR): Call to undefined method LC_Page_FrontParts_Bloc_Product_List_Ex::lfGetCategoryId() on [/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Product_List.php(45)] from 192.168.218.1
+customer_id = 4
+2014/12/01 06:23:52 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 06:23:52 [/index.php] Fatal error(E_ERROR): Call to undefined method LC_Page_FrontParts_Bloc_Product_List_Ex::lfGetCategoryId() on [/var/www/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Product_List.php(45)] from 192.168.218.1
+customer_id = 4
+2014/12/01 06:31:43 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 06:31:43 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:31:43 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:31:43 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 06:32:32 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 06:32:32 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:32:32 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:32:32 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 06:33:08 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 06:33:08 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:33:08 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:33:08 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 06:36:27 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 06:36:27 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:36:27 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:36:27 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 06:36:43 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 06:36:43 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:36:43 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:36:43 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 06:37:52 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 06:37:52 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:37:52 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:37:52 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 06:37:56 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 06:37:56 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:37:56 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:37:56 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 06:38:08 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 06:38:08 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:38:08 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:38:08 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 06:38:15 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 06:38:15 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:38:15 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:38:15 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 06:39:28 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 06:39:28 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:39:28 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:39:28 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 06:39:33 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 06:39:33 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:39:33 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:39:33 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 06:39:40 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 06:39:40 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:39:40 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:39:40 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 06:39:46 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 06:39:46 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:39:46 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:39:46 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1
+2014/12/01 06:39:52 [/index.php] Warning(E_WARNING): register_shutdown_function(): Invalid shutdown callback 'LC_Page_FrontParts_Bloc_Product_List_Ex::destroy' passed on [/var/www/html/frontparts/bloc/product_list.php(10)] from 192.168.218.1
+2014/12/01 06:39:52 [/index.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:39:52 [/index.php] Warning(E_WARNING): current() expects parameter 1 to be array, null given on [/var/www/data/class/pages/products/LC_Page_Products_List.php(306)] from 192.168.218.1
+2014/12/01 06:39:52 [/index.php] Warning(E_WARNING): Division by zero on [/var/www/data/class/SC_PageNavi.php(64)] from 192.168.218.1

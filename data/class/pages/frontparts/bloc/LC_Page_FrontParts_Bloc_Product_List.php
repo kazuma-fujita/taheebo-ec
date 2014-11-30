@@ -36,9 +36,9 @@ class LC_Page_FrontParts_Bloc_Product_List extends LC_Page_FrontParts_Bloc {
             $objView = new SC_SiteView();
         }
 
-        require_once CLASS_REALDIR . 'SC_Product.php';
+        //require_once CLASS_REALDIR . 'SC_Product.php';
         require_once CLASS_REALDIR . 'pages/products/LC_Page_Products_List.php';
-        $objProduct = new SC_Product();
+        //$objProduct = new SC_Product();
         $productList = new LC_Page_Products_List();
 /*
         $arrSearchData = array(
@@ -51,13 +51,14 @@ class LC_Page_FrontParts_Bloc_Product_List extends LC_Page_FrontParts_Bloc {
         //$productList->orderby = 'date';
         // add
        // $this->arrProducts  = $productList->lfGetProductsList($arrSearchCondition, 100, 0, $objProduct);
+
         $productList->action();
+
+        $this->tpl_stock_find       = $productList->tpl_stock_find;
+        $this->tpl_product_class_id = $productList->tpl_product_class_id;
+        $this->tpl_product_type     = $productList->tpl_product_type;
+
         $this->arrProducts = $productList->arrProducts;
-/*
-        $this->tpl_stock_find       = $objProduct->stock_find;
-        $this->tpl_product_class_id = $objProduct->product_class_id;
-        $this->tpl_product_type     = $objProduct->product_type;
-*/
 
         //$objQuery = new SC_Query_Ex();
         //$objProduct = new SC_Product_Ex();

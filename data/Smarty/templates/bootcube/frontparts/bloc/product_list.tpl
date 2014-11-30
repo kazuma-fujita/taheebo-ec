@@ -1,3 +1,21 @@
+<script type="text/javascript">//<![CDATA[
+    function fnSetClassCategories(form, classcat_id2_selected) {
+        var $form = $(form);
+        var product_id = $form.find('input[name=product_id]').val();
+        var $sele1 = $form.find('select[name=classcategory_id1]');
+        var $sele2 = $form.find('select[name=classcategory_id2]');
+        setClassCategories($form, product_id, $sele1, $sele2, classcat_id2_selected);
+    }
+    // カゴに入れる
+    function fnInCart(productForm) {
+        var searchForm = $("#form1");
+        var cartForm = $(productForm);
+        // 商品別のフォームを送信
+        cartForm.submit();
+    }
+//]]></script>
+
+
 <!--{strip}-->
 <div class="block_outer clearfix">
 <div class="clearfix">
@@ -118,7 +136,7 @@
                             <!--{/if}-->
                             <div class="cartin">
                                 <div class="quantity">
-                                    数量：<input type="text" name="quantity" class="box form-control" value="<!--{$arrProduct.quantity|default:1|h}-->" maxlength="<!--{$smarty.const.INT_LEN}-->" style="<!--{$arrErr.quantity|sfGetErrorColor}-->" />
+                                    <input type="hidden" name="quantity" class="box form-control" value="1" />
                                     <!--{if $arrErr.quantity != ""}-->
                                         <br /><span class="attention"><!--{$arrErr.quantity}--></span>
                                     <!--{/if}-->
@@ -126,14 +144,14 @@
                                 <div class="cartin_btn">
                                     <!--★カゴに入れる★-->
                                     <div id="cartbtn_default_<!--{$id}-->">
-                                        <input type="submit" value="カートに入れる" id="cart<!--{$id}-->" onclick="fnInCart(this.form); return false;" class="btn btn-default" />
+                                        <input type="submit" value="カゴに入れる" id="cart<!--{$id}-->" onclick="fnInCart(this.form); return false;" class="btn btn-danger" />
                                     </div>
                                 </div>
                             </div>
 
                             <div class="attention" id="cartbtn_dynamic_<!--{$id}-->"></div>
                         <!--{else}-->
-                            <!--div class="cartbtn attention">申し訳ございませんが、只今品切れ中です。</div-->
+                            <div class="cartbtn attention">申し訳ございませんが、只今品切れ中です。</div>
                         <!--{/if}-->
                     </div>
                     <!--▲買い物かご-->

@@ -1,0 +1,18 @@
+2014/12/01 05:32:41 [/upgrade/index.php] ##### products_list start ##### from 192.168.218.1
+2014/12/01 05:32:41 [/upgrade/index.php] * admin auth start from 192.168.218.1
+2014/12/01 05:32:41 [/upgrade/index.php] * public key check start from 192.168.218.1
+2014/12/01 05:32:41 [/upgrade/index.php] * http request start from 192.168.218.1
+2014/12/01 05:32:41 [/upgrade/index.php] * http request check start from 192.168.218.1
+2014/12/01 05:32:41 [/upgrade/index.php] * http response check start from 192.168.218.1
+2014/12/01 05:32:41 [/upgrade/index.php] * error! code:2003 / debug:O:12:"HTTP_Request":26:{s:4:"_url";O:7:"Net_URL":13:{s:7:"options";a:1:{s:17:"encode_query_keys";b:0;}s:3:"url";s:45:"http://192.168.218.200/test/upgrade/index.php";s:8:"protocol";s:4:"http";s:8:"username";N;s:8:"password";N;s:4:"host";s:15:"192.168.218.200";s:4:"port";i:80;s:4:"path";s:23:"/test/upgrade/index.php";s:11:"querystring";a:0:{}s:6:"anchor";s:0:"";s:11:"useBrackets";b:1;s:4:"user";s:0:"";s:4:"pass";s:0:"";}s:7:"_method";s:4:"POST";s:5:"_http";s:3:"1.1";s:15:"_requestHeaders";a:5:{s:10:"user-agent";s:48:"PEAR HTTP_Request class ( http://pear.php.net/ )";s:10:"connection";s:5:"close";s:15:"accept-encoding";s:4:"gzip";s:4:"host";s:15:"192.168.218.200";s:12:"content-type";s:33:"application/x-www-form-urlencoded";}s:5:"_user";N;s:5:"_pass";N;s:5:"_sock";O:10:"Net_Socket":14:{s:2:"fp";N;s:8:"blocking";b:1;s:10:"persistent";b:0;s:4:"addr";s:15:"192.168.218.200";s:4:"port";i:80;s:7:"timeout";b:0;s:10:"lineLength";i:2048;s:7:"newline";s:2:"
+";s:6:"_debug";b:0;s:19:"_default_error_mode";N;s:22:"_default_error_options";N;s:22:"_default_error_handler";s:0:"";s:12:"_error_class";s:10:"PEAR_Error";s:16:"_expected_errors";a:0:{}}s:11:"_proxy_host";N;s:11:"_proxy_port";N;s:11:"_proxy_user";N;s:11:"_proxy_pass";N;s:9:"_postData";a:5:{s:4:"mode";s:13:"products_list";s:10:"eccube_url";s:31:"http%3A%2F%2F192.168.218.200%2F";s:10:"public_key";s:40:"c6a6c16f2bfed46f7a48e9b95783413a93acdedb";s:8:"sha1_key";s:40:"f2df6164c9830fba6edf2c4aa186ba732665379e";s:3:"ver";s:6:"2.13.2";}s:5:"_body";N;s:15:"_bodyDisallowed";a:1:{i:0;s:5:"TRACE";}s:13:"_bodyRequired";a:2:{i:0;s:4:"POST";i:1;s:3:"PUT";}s:10:"_postFiles";a:0:{}s:8:"_timeout";N;s:9:"_response";O:13:"HTTP_Response":10:{s:5:"_sock";R:27;s:9:"_protocol";s:8:"HTTP/1.1";s:5:"_code";i:302;s:7:"_reason";s:5:"Found";s:8:"_headers";a:6:{s:4:"date";s:29:"Sun, 30 Nov 2014 20:32:41 GMT";s:6:"server";s:22:"Apache/2.2.15 (CentOS)";s:8:"location";s:46:"https://192.168.218.200/test/upgrade/index.php";s:14:"content-length";s:3:"311";s:10:"connection";s:5:"close";s:12:"content-type";s:29:"text/html; charset=iso-8859-1";}s:8:"_cookies";N;s:5:"_body";s:311:"<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://192.168.218.200/test/upgrade/index.php">here</a>.</p>
+<hr>
+<address>Apache/2.2.15 (CentOS) Server at 192.168.218.200 Port 80</address>
+</body></html>
+";s:12:"_chunkLength";i:0;s:10:"_listeners";a:0:{}s:7:"_toRead";i:0;}s:15:"_allowRedirects";b:0;s:13:"_maxRedirects";i:3;s:10:"_redirects";i:0;s:12:"_useBrackets";b:1;s:10:"_listeners";R:74;s:9:"_saveBody";b:1;s:12:"_readTimeout";N;s:14:"_socketOptions";N;} from 192.168.218.1
+2014/12/01 05:32:41 [/upgrade/index.php] ##### end ##### from 192.168.218.1
