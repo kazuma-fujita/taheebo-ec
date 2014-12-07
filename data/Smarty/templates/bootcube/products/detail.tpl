@@ -290,8 +290,6 @@
 	<!--{/section}-->
 	<!--▲サブコメント-->
 
-
-
 	<!--▼関連商品-->
 	<!--{if $arrRecommend}-->
 		<div id="whobought_area">

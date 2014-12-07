@@ -62,15 +62,15 @@
 
 		<table class="table table-bordered" summary="購入商品詳細">
 			<col width="15%" />
-			<col width="25%" />
+			<col width="30%" />
+
 			<col width="20%" />
 			<col width="15%" />
-			<col width="10%" />
-			<col width="15%" />
+			<col width="20%" />
 			<tr>
 				<th class="alignC">商品コード</th>
 				<th class="alignC">商品名</th>
-				<th class="alignC">商品種別</th>
+
 				<th class="alignC">単価</th>
 				<th class="alignC">数量</th>
 				<th class="alignC">小計</th>
@@ -86,21 +86,6 @@
 							<!--{$orderDetail.classcategory_name2|h}-->
 						<!--{/if}-->
 					</td>
-					<td class="alignC">
-					<!--{if $orderDetail.product_type_id == $smarty.const.PRODUCT_TYPE_DOWNLOAD}-->
-						<!--{if $orderDetail.is_downloadable}-->
-							<a target="_self" href="<!--{$smarty.const.ROOT_URLPATH}-->mypage/download.php?order_id=<!--{$tpl_arrOrderData.order_id}-->&product_id=<!--{$orderDetail.product_id}-->&product_class_id=<!--{$orderDetail.product_class_id}-->">ダウンロード</a>
-						<!--{else}-->
-							<!--{if $orderDetail.payment_date == "" && $orderDetail.effective == "0"}-->
-								<!--{$arrProductType[$orderDetail.product_type_id]}--><BR />（入金確認中）
-							<!--{else}-->
-								<!--{$arrProductType[$orderDetail.product_type_id]}--><BR />（期限切れ）
-							<!--{/if}-->
-						<!--{/if}-->
-					<!--{else}-->
-						<!--{$arrProductType[$orderDetail.product_type_id]}-->
-					<!--{/if}-->
-					</td>
 					<td class="alignR"><!--{$orderDetail.price_inctax|number_format|h}-->円
 					<!--{if $orderDetail.price_inctax != $orderDetail.product_price_inctax}-->
 						<div class="attention">【現在価格】</div><span class="attention"><!--{$orderDetail.product_price_inctax|number_format|h}-->円</span>
@@ -111,34 +96,34 @@
 				</tr>
 			<!--{/foreach}-->
 			<tr>
-				<th colspan="5" class="alignR">小計</th>
+				<th colspan="4" class="alignR">小計</th>
 				<td class="alignR"><!--{$tpl_arrOrderData.subtotal|number_format}-->円</td>
 			</tr>
 			<!--{assign var=point_discount value="`$tpl_arrOrderData.use_point*$smarty.const.POINT_VALUE`"}-->
 			<!--{if $point_discount > 0}-->
 			<tr>
-				<th colspan="5" class="alignR">ポイント値引き</th>
+				<th colspan="4" class="alignR">ポイント値引き</th>
 				<td class="alignR">&minus;<!--{$point_discount|number_format}-->円</td>
 			</tr>
 			<!--{/if}-->
 			<!--{assign var=key value="discount"}-->
 			<!--{if $tpl_arrOrderData[$key] != "" && $tpl_arrOrderData[$key] > 0}-->
 			<tr>
-				<th colspan="5" class="alignR">値引き</th>
+				<th colspan="4" class="alignR">値引き</th>
 				<td class="alignR">&minus;<!--{$tpl_arrOrderData[$key]|number_format}-->円</td>
 			</tr>
 			<!--{/if}-->
 			<tr>
-				<th colspan="5" class="alignR">送料</th>
+				<th colspan="4" class="alignR">送料</th>
 				<td class="alignR"><!--{assign var=key value="deliv_fee"}--><!--{$tpl_arrOrderData[$key]|number_format|h}-->円</td>
 			</tr>
 			<tr>
-				<th colspan="5" class="alignR">手数料</th>
+				<th colspan="4" class="alignR">手数料</th>
 				<!--{assign var=key value="charge"}-->
 				<td class="alignR"><!--{$tpl_arrOrderData[$key]|number_format|h}-->円</td>
 			</tr>
 			<tr>
-				<th colspan="5" class="alignR">合計</th>
+				<th colspan="4" class="alignR">合計</th>
 				<td class="alignR"><span class="price"><!--{$tpl_arrOrderData.payment_total|number_format}-->円</span></td>
 			</tr>
 		</table>
@@ -211,10 +196,6 @@
 						<th class="alignL">お名前(フリガナ)</th>
 						<td><!--{$shippingItem.shipping_kana01|h}-->&nbsp;<!--{$shippingItem.shipping_kana02|h}--></td>
 					</tr>
-					<tr>
-						<th class="alignL">会社名</th>
-						<td><!--{$shippingItem.shipping_company_name|h}--></td>
-					</tr>
 					<!--{if $smarty.const.FORM_COUNTRY_ENABLE}-->
 					<tr>
 						<th class="alignL">国</th>
@@ -236,14 +217,6 @@
 					<tr>
 						<th class="alignL">電話番号</th>
 						<td><!--{$shippingItem.shipping_tel01}-->-<!--{$shippingItem.shipping_tel02}-->-<!--{$shippingItem.shipping_tel03}--></td>
-					</tr>
-					<tr>
-						<th class="alignL">FAX番号</th>
-						<td>
-							<!--{if $shippingItem.shipping_fax01 > 0}-->
-								<!--{$shippingItem.shipping_fax01}-->-<!--{$shippingItem.shipping_fax02}-->-<!--{$shippingItem.shipping_fax03}-->
-							<!--{/if}-->
-						</td>
 					</tr>
 					<tr>
 						<th class="alignL">お届け日</th>

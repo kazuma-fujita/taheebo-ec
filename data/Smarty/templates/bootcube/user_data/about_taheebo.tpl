@@ -5,7 +5,8 @@
 			<li><a href="<!--{$smarty.const.TOP_URL}-->">トップ</a></li>
 			<li class="active"><!--{$tpl_title|h}--></li>
 		</ol>
-	
+			<img alt="slider3" src="<!--{$TPL_URLPATH}-->test-img/lp1.jpg"  class="img-responsive center-block" width="1200px">
+			<img alt="slider3" src="<!--{$TPL_URLPATH}-->test-img/lp2.jpg"  class="img-responsive center-block" width="1200px">
 		<h2 class="cat_title">タヒボとは</h2>
                 <div class="col-xs-6">
 		  <p>タヒボの木ブラジル・アマゾン川流域に自生するタベブイア・アベラネダエ（学名）というノウゼンカズラ科の樹木のことで、アマゾン川流域の肥沃な特定地域にしか生育せず、気候や土壌などの生育条件が限られているため、人工栽培が不可能とされている貴重な樹木です。</p>

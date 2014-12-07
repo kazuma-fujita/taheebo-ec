@@ -240,7 +240,7 @@ class LC_Page_Entry extends LC_Page_Ex
             $subject        = $objHelperMail->sfMakeSubject('会員登録のご確認');
             $toCustomerMail = $objMailText->fetch('mail_templates/customer_mail.tpl');
         } else {
-            $subject        = $objHelperMail->sfMakeSubject('会員登録のご完了');
+            $subject        = $objHelperMail->sfMakeSubject('会員登録ありがとうございます');
             $toCustomerMail = $objMailText->fetch('mail_templates/customer_regist_mail.tpl');
         }
 

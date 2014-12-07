@@ -1,0 +1,38 @@
+2014/12/03 18:00:28 [/mypage/change_card.php] SendRequest:https://pt01.mul-pay.jp/payment/SearchMember.idPass from 180.46.98.47
+2014/12/03 18:00:28 [/mypage/change_card.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 19
+)
+ from 180.46.98.47
+2014/12/03 18:00:29 [/mypage/change_card.php] ErrCode=E01&ErrInfo=E01390002 from 180.46.98.47
+2014/12/03 18:00:29 [/mypage/change_card.php] Array
+(
+    [0] => Array
+        (
+            [ErrCode] => E01
+            [ErrInfo] => E01390002
+        )
+
+)
+ from 180.46.98.47
+2014/12/03 18:00:29 [/mypage/change_card.php] SendRequest:https://pt01.mul-pay.jp/payment/SaveMember.idPass from 180.46.98.47
+2014/12/03 18:00:29 [/mypage/change_card.php] Array
+(
+    [SiteID] => tsite00016367
+    [SitePass] => ******
+    [MemberID] => 19
+    [MemberName] => ******
+)
+ from 180.46.98.47
+2014/12/03 18:00:29 [/mypage/change_card.php] MemberID=19 from 180.46.98.47
+2014/12/03 18:00:29 [/mypage/change_card.php] Array
+(
+    [0] => Array
+        (
+            [MemberID] => 19
+        )
+
+)
+ from 180.46.98.47
