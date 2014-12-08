@@ -537,7 +537,8 @@ __EOS__;
     {
         $objQuery = SC_Query_Ex::getSingletonInstance();
 
-        list($where, $arrWhereVal) = $this->lfGetWhereMember('create_date', $sdate, $edate, $type);
+        //list($where, $arrWhereVal) = $this->lfGetWhereMember('create_date', $sdate, $edate, $type);
+        list($where, $arrWhereVal) = $this->lfGetWhereMember('commit_date', $sdate, $edate, $type);
 
         //$where .= ' AND dtb_order.del_flg = 0 AND dtb_order.status <> ?';
         //$arrWhereVal[] = ORDER_CANCEL;
@@ -571,7 +572,8 @@ __EOS__;
     public function lfGetOrderJob($type, $sdate, $edate)
     {
         $objQuery = SC_Query_Ex::getSingletonInstance();
-        list($where, $arrWhereVal) = $this->lfGetWhereMember('dtb_order.create_date', $sdate, $edate, $type);
+        //list($where, $arrWhereVal) = $this->lfGetWhereMember('dtb_order.create_date', $sdate, $edate, $type);
+        list($where, $arrWhereVal) = $this->lfGetWhereMember('dtb_order.commit_date', $sdate, $edate, $type);
 
         $col = <<< __EOS__
             agency_code,
@@ -625,7 +627,8 @@ __EOS__;
     {
         $objQuery = SC_Query_Ex::getSingletonInstance();
 
-        list($where, $arrWhereVal) = $this->lfGetWhereMember('create_date', $sdate, $edate, $type);
+        //list($where, $arrWhereVal) = $this->lfGetWhereMember('create_date', $sdate, $edate, $type);
+        list($where, $arrWhereVal) = $this->lfGetWhereMember('commit_date', $sdate, $edate, $type);
 
         $dbFactory = SC_DB_DBFactory_Ex::getInstance();
         $col = $dbFactory->getOrderTotalAgeColSql() . ' AS age';
@@ -665,7 +668,8 @@ __EOS__;
     {
         $objQuery   = SC_Query_Ex::getSingletonInstance();
 
-        list($where, $arrWhereVal) = $this->lfGetWhereMember('create_date', $sdate, $edate);
+        //list($where, $arrWhereVal) = $this->lfGetWhereMember('create_date', $sdate, $edate);
+        list($where, $arrWhereVal) = $this->lfGetWhereMember('commit_date', $sdate, $edate);
         //$where .= ' AND del_flg = 0 AND status <> ?';
         //$arrWhereVal[] = ORDER_CANCEL;
         $dbFactory = SC_DB_DBFactory_Ex::getInstance();

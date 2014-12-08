@@ -41,7 +41,10 @@
 			<!--{* 退会時非表示 *}-->
 			<!--{if $tpl_login}-->
 				<p class="add_address">
+<!--{if false}-->
 					<a href="<!--{$smarty.const.ROOT_URLPATH}-->mypage/delivery_addr.php" onclick="eccube.openWindow('./delivery_addr.php','delivadd','600','640',{menubar:'no'}); return false;" target="_blank" class="btn btn-default btn-sm">新しいお届け先を追加</a>
+<!--{/if}-->
+					<a href="<!--{$smarty.const.ROOT_URLPATH}-->mypage/delivery_addr.php" onclick="eccube.openWindow('./delivery_addr.php','delivadd','770','640',{menubar:'no'}); return false;" target="_blank" class="btn btn-default btn-sm">新しいお届け先を追加</a>
 				</p>
 			<!--{/if}-->
 		<!--{/if}-->

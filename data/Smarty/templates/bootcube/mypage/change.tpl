@@ -23,6 +23,7 @@
 *}-->
 
 <div id="undercolumn">
+    <div id="undercolumn_entry">
 
 	<ol class="breadcrumb">
 		<li><a href="<!--{$smarty.const.TOP_URL}-->">トップ</a></li>
@@ -32,17 +33,18 @@
 	<h2 class="cat_title"><!--{$tpl_title|h}--></h2>
 	<!--{include file=$tpl_navi}-->
 	
-	<div id="mycontents_area">
+	<!--div id="mycontents_area"-->
 		<h3 class="title"><!--{$tpl_subtitle|h}--></h3>
 		<p>下記項目にご入力ください。「<span class="attention">※</span>」印は入力必須項目です。<br />
 			入力後、一番下の「確認ページへ」ボタンをクリックしてください。</p>
 
-		<form name="form1" id="form1" method="post" action="?">
+		<!--form name="form1" id="form1" method="post" action="?"-->
+		<form name="form1" id="form1" method="post" action="?" class="form-inline">
 			<input type="hidden" name="<!--{$smarty.const.TRANSACTION_ID_NAME}-->" value="<!--{$transactionid}-->" />
 			<input type="hidden" name="mode" value="confirm" />
 			<input type="hidden" name="customer_id" value="<!--{$arrForm.customer_id.value|h}-->" />
 			<table class="table table-bordered" summary="会員登録内容変更 ">
-				<!--{include file="`$smarty.const.TEMPLATE_REALDIR`frontparts/form_personal_input.tpl" flgFields=3 emailMobile=true prefix=""}-->
+            <!--{include file="`$smarty.const.TEMPLATE_REALDIR`frontparts/form_personal_input.tpl" flgFields=1 emailMobile=false prefix=""}-->
 			</table>
 			<div class="btn_area">
 				<ul class="list-inline">
@@ -52,5 +54,5 @@
 				</ul>
 			</div>
 		</form>
-	</div>
+    </div>
 </div>

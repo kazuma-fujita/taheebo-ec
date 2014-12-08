@@ -24,6 +24,9 @@
 <!--{include file="`$smarty.const.TEMPLATE_REALDIR`popup_header.tpl" subtitle="新しいお届け先の追加・変更"}-->
 
 <div id="window_area" class="container">
+
+  <div id="undercolumn_entry">
+
 	<h2 class="cat_title"><!--{$tpl_title|h}--></h2>
 	<p>下記項目にご入力ください。「<span class="attention">※</span>」印は入力必須項目です。<br />
 		入力後、一番下の「登録する」ボタンをクリックしてください。</p>
@@ -45,6 +48,7 @@
 			</ul>
 		</div>
 	</form>
+  </div>
 </div>
 
 <!--{include file="`$smarty.const.TEMPLATE_REALDIR`popup_footer.tpl"}-->

@@ -96,11 +96,17 @@
 
         <!--検索結果表示テーブル-->
         <table class="list">
+            <col width="10%" />
+            <col/>
+            <col/>
+            <col/>
+<!--
         <col width="10%" />
         <col width="25%" />
         <col width="35%" />
-        <!--col width="15%" /-->
         <col width="15%" />
+        <col width="15%" />
+-->
             <tr>
                 <th>会員ID</th>
                 <th>名前</th>
@@ -114,7 +120,7 @@
                 <td><!--{$arrResults[i].name01|h}--> <!--{$arrResults[i].name02|h}--></td>
                 <td><!--{$arrResults[i].email|h}--></td>
                 <!--{assign var="key" value="`$arrResults[i].mailmaga_flg`"}-->
-                <!--td class="center"><!--{$arrHtmlmail[$key]}--></td-->
+                <!--{if false}--><td class="center"><!--{$arrHtmlmail[$key]}--></td><!--{/if}-->
                 <td class="center"><!--{$arrResults[i].update_date|sfDispDBDate}--></td>
             </tr>
             <!--{/section}-->

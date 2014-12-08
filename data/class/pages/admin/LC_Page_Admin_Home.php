@@ -81,14 +81,31 @@ class LC_Page_Admin_Home extends LC_Page_Admin_Ex
         // 昨日の使用pt
         $this->order_yesterday_point = $this->lfGetOrderYesterdayPoint();
 
+        $begin_month = date('Y/m/1', mktime());
+        $month = date('Y/m', strtotime($begin_month));
+
         // 今月の売上高
-        $this->order_month_amount = $this->lfGetOrderMonth('SUM');
+        //$this->order_month_amount = $this->lfGetOrderMonth('SUM');
+        $this->order_month_amount = $this->lfGetOrderMonth('SUM', $month);
 
         // 今月の売上件数
-        $this->order_month_cnt = $this->lfGetOrderMonth('COUNT');
+        //$this->order_month_cnt = $this->lfGetOrderMonth('COUNT');
+        $this->order_month_cnt = $this->lfGetOrderMonth('COUNT', $month);
 
         // 今月の使用pt
-        $this->order_month_point = $this->lfGetOrderMonthPoint();
+        //$this->order_month_point = $this->lfGetOrderMonthPoint();
+        $this->order_month_point = $this->lfGetOrderMonthPoint($month);
+
+        $month = date('Y/m', strtotime($begin_month."-1 month"));
+
+        // 先月の売上高
+        $this->order_last_month_amount = $this->lfGetOrderMonth('SUM', $month);
+
+        // 先月の売上件数
+        $this->order_last_month_cnt = $this->lfGetOrderMonth('COUNT', $month);
+
+        // 先月の使用pt
+        $this->order_last_month_point = $this->lfGetOrderMonthPoint($month);
 
         // 会員の累計ポイント
         $this->customer_point = $this->lfGetTotalCustomerPoint();
@@ -214,10 +231,10 @@ class LC_Page_Admin_Home extends LC_Page_Admin_Ex
      * @param  string  $method 取得タイプ 件数:'COUNT' or 金額:'SUM'
      * @return integer 結果数値
      */
-    public function lfGetOrderMonth($method)
+    public function lfGetOrderMonth($method, $month)
     {
         $objQuery =& SC_Query_Ex::getSingletonInstance();
-        $month = date('Y/m', mktime());
+        //$month = date('Y/m', mktime());
 
         // TODO: DBFactory使わないでも共通化できそうな気もしますが
         $dbFactory = SC_DB_DBFactory_Ex::getInstance();
@@ -234,10 +251,10 @@ class LC_Page_Admin_Home extends LC_Page_Admin_Ex
         //return $objQuery->getOne($sql, array($month));
     }
 
-    public function lfGetOrderMonthPoint()
+    public function lfGetOrderMonthPoint($month)
     {
         $objQuery =& SC_Query_Ex::getSingletonInstance();
-        $month = date('Y/m', mktime());
+        //$month = date('Y/m', mktime());
 
         // TODO: DBFactory使わないでも共通化できそうな気もしますが
         $dbFactory = SC_DB_DBFactory_Ex::getInstance();

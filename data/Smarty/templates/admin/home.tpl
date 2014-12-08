@@ -97,17 +97,29 @@
                     <td><!--{$order_month_cnt|default:"0"|number_format}-->件</td>
                 </tr>
                 <tr>
+                    <th><span>先月の売上高</span><span>(使用pt)</span></th>
+                    <td><!--{$order_last_month_amount|default:"0"|number_format}-->円 (<!--{$order_last_month_point|default:"0"|number_format}-->pt)</td>
+                </tr>
+                <tr>
+                    <th><span>先月の売上件数 </span></th>
+                    <td><!--{$order_last_month_cnt|default:"0"|number_format}-->件</td>
+                </tr>
+<!--{if false}-->
+                <tr>
                     <th>昨日のレビュー書き込み数</th>
                     <td><!--{$review_yesterday_cnt|default:"0"}-->件</th>
                 </tr>
+<!--{/if}-->
                 <tr>
                     <th>会員の保持ポイント合計</th>
                     <td><!--{$customer_point|default:"0"}-->pt</td>
                 </tr>
+<!--{if false}-->
                 <tr>
                     <th>レビュー書き込み非表示数</th>
                     <td><!--{$review_nondisp_cnt|default:"0"}-->件</td>
                 </tr>
+<!--{/if}-->
 <!--{if false}-->
                 <tr>
                     <th>品切れ商品</th>

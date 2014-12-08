@@ -224,7 +224,8 @@ __EOS__;
                 break;
         }
 
-        return " date_format(create_date, '".$format."') AS str_date,
+        //return " date_format(create_date, '".$format."') AS str_date,
+        return " date_format(commit_date, '".$format."') AS str_date,
             COUNT(order_id) AS total_order,
             SUM(CASE WHEN order_sex = 1 THEN 1 ELSE 0 END) AS men,
             SUM(CASE WHEN order_sex = 2 THEN 1 ELSE 0 END) AS women,

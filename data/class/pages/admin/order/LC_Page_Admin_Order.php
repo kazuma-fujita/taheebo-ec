@@ -130,7 +130,8 @@ class LC_Page_Admin_Order extends LC_Page_Admin_Ex
                         $this->buildQuery($key, $where, $arrWhereVal, $objFormParam);
                     }
 
-                    $order = 'update_date DESC';
+                    //$order = 'update_date DESC';
+                    $order = 'order_id DESC';
 
                     /* -----------------------------------------------
                      * 処理を実行
