@@ -151,7 +151,8 @@
 		</td>
 	</tr>
 
-		<tr <!--{if $flgFields < 3}-->style="display:none;"<!--{/if}-->>
+	<!--{if $flgFields > 1}-->
+		<tr>
 			<th>メールアドレス<span class="attention">※</span></th>
 			<td>
 				<!--{assign var=key1 value="`$prefix`email"}-->
@@ -169,7 +170,7 @@
 			</td>
 		</tr>
 
-		<tr <!--{if $flgFields < 3}-->style="display:none;"<!--{/if}-->>
+		<tr>
 			<th>性別<span class="attention">※</span></th>
 			<td>
 				<!--{assign var=key1 value="`$prefix`sex"}-->
@@ -182,7 +183,7 @@
 			</td>
 		</tr>
 
-        <tr <!--{if $flgFields < 3}-->style="display:none;"<!--{/if}-->>
+		<tr>
 			<th>生年月日<span class="attention">※</span></th>
 			<td>
 				<!--{assign var=key1 value="`$prefix`year"}-->
@@ -203,8 +204,8 @@
 				</select>日
 			</td>
 		</tr>
-
-            <tr <!--{if $flgFields < 3}-->style="display:none;"<!--{/if}-->>
+		<!--{if $flgFields > 2}-->
+			<tr>
 				<th>希望するパスワード<span class="attention">※</span><br />
 				</th>
 				<td>
@@ -229,9 +230,9 @@
 				</td>
 			</tr>
 
-       <tr <!--{if $flgFields < 3}-->style="display:none;"<!--{/if}-->>
-		  <th>登録コード<span class="attention">※</span></th>
-		  <td>
+	<tr>
+		<th>登録コード<span class="attention">※</span></th>
+		<td>
 			<!--{assign var=key1 value="`$prefix`agency_code"}-->
 			<!--{if $arrErr[$key1]}-->
 				<div class="attention"><!--{$arrErr[$key1]}--></div>
@@ -241,7 +242,9 @@
 				<input type="text" name="<!--{$key1}-->" value="<!--{$arrForm[$key1].value|h}-->" maxlength="<!--{$arrForm[$key1].length}-->" style="<!--{$arrErr[$key1]|sfGetErrorColor}-->; ime-mode: active;" class="box300 form-control" />
 			  </div>
 			</div>
-		  </td>
-    	</tr>
+		</td>
+	</tr>
 
+		<!--{/if}-->
+	<!--{/if}-->
 <!--{/strip}-->

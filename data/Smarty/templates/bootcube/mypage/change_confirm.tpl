@@ -46,7 +46,7 @@
 				<!--{/if}-->
 			<!--{/foreach}-->
 			<table class="table table-bordered" summary="">
-				<!--{include file="`$smarty.const.TEMPLATE_REALDIR`frontparts/form_personal_confirm.tpl" flgFields=3 emailMobile=true prefix=""}-->
+				<!--{include file="`$smarty.const.TEMPLATE_REALDIR`frontparts/form_personal_confirm.tpl" flgFields=2 emailMobile=false prefix=""}-->
 			</table>
 
 			<div class="btn_area">

@@ -44,7 +44,7 @@
 			<input type="hidden" name="mode" value="confirm" />
 			<input type="hidden" name="customer_id" value="<!--{$arrForm.customer_id.value|h}-->" />
 			<table class="table table-bordered" summary="会員登録内容変更 ">
-            <!--{include file="`$smarty.const.TEMPLATE_REALDIR`frontparts/form_personal_input.tpl" flgFields=1 emailMobile=false prefix=""}-->
+            <!--{include file="`$smarty.const.TEMPLATE_REALDIR`frontparts/form_personal_input.tpl" flgFields=2 emailMobile=false prefix=""}-->
 			</table>
 			<div class="btn_area">
 				<ul class="list-inline">

@@ -38,7 +38,7 @@
 		<input type="hidden" name="ParentPage" value="<!--{$ParentPage}-->" />
 
 		<table class="table table-bordered" summary="お届け先登録">
-			<!--{include file="`$smarty.const.TEMPLATE_REALDIR`frontparts/form_personal_input.tpl" flgFields=1 emailMobile=false prefix=""}-->
+			<!--{include file="`$smarty.const.TEMPLATE_REALDIR`frontparts/form_personal_input.tpl" flgFields=2 emailMobile=false prefix=""}-->
 		</table>
 		<div class="btn_area">
 			<ul class="list-inline">

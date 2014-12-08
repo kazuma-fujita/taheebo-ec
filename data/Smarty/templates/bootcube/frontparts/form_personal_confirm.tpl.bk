@@ -107,8 +107,8 @@
 			<!--{/if}-->
 		</td>
 	</tr>
-
-        <tr <!--{if $flgFields < 3}-->style="display:none;"<!--{/if}-->>
+	<!--{if $flgFields > 1}-->
+		<tr>
 			<th>メールアドレス</th>
 			<td>
 				<!--{assign var=key1 value="`$prefix`email"}-->
@@ -128,8 +128,7 @@
 				</td>
 			</tr>
 		<!--{/if}-->
-
-        <tr <!--{if $flgFields < 3}-->style="display:none;"<!--{/if}-->>
+		<tr>
 			<th>性別</th>
 			<td>
 				<!--{assign var=key1 value="`$prefix`sex"}-->
@@ -145,8 +144,7 @@
 				<!--{$arrJob[$job_id]|default:"未登録"|h}-->
 			</td>
 		</tr>
-
-        <tr <!--{if $flgFields < 3}-->style="display:none;"<!--{/if}-->>
+		<tr>
 			<th>生年月日</th>
 			<td>
 				<!--{assign var=key1 value="`$prefix`year"}-->
@@ -159,38 +157,38 @@
 				<!--{/if}-->
 			</td>
 		</tr>
+		<!--{if $flgFields > 2}-->
+			<tr>
+				<th>希望するパスワード</th>
+				<td><!--{$passlen}--></td>
+			</tr>
+            <tr style="display:none;">
+				<th>パスワードを忘れた時のヒント</th>
+				<td>
+					<!--{assign var=key1 value="`$prefix`reminder"}-->
+					<!--{assign var=key2 value="`$prefix`reminder_answer"}-->
+					<!--{assign var="reminder_id" value=$arrForm[$key1].value}-->
+					質問：<!--{$arrReminder[$reminder_id]|h}--><br />
+					答え：<!--{$arrForm[$key2].value|h}-->
+				</td>
+			</tr>
+            <tr style="display:none;">
+				<th>メールマガジン送付について</th>
+				<td>
+					<!--{assign var=key1 value="`$prefix`mailmaga_flg"}-->
+					<!--{assign var="mailmaga_flg_id" value=$arrForm[$key1].value}-->
+					<!--{$arrMAILMAGATYPE[$mailmaga_flg_id]|h}-->
+				</td>
+			</tr>
+		<!--{/if}-->
 
-        <tr <!--{if $flgFields < 3}-->style="display:none;"<!--{/if}-->>
-   		    <th>希望するパスワード</th>
-   		    <td><!--{$passlen}--></td>
-		</tr>
+	<tr>
+		<th>登録コード</th>
+		<td>
+			<!--{assign var=key1 value="`$prefix`agency_code"}-->
+			<!--{$arrForm[$key1].value|h}-->
+		</td>
+	</tr>
 
-        <tr style="display:none;">
-			<th>パスワードを忘れた時のヒント</th>
-			<td>
-				<!--{assign var=key1 value="`$prefix`reminder"}-->
-				<!--{assign var=key2 value="`$prefix`reminder_answer"}-->
-				<!--{assign var="reminder_id" value=$arrForm[$key1].value}-->
-				質問：<!--{$arrReminder[$reminder_id]|h}--><br />
-				答え：<!--{$arrForm[$key2].value|h}-->
-			</td>
-		</tr>
-
-        <tr style="display:none;">
-			<th>メールマガジン送付について</th>
-			<td>
-				<!--{assign var=key1 value="`$prefix`mailmaga_flg"}-->
-				<!--{assign var="mailmaga_flg_id" value=$arrForm[$key1].value}-->
-				<!--{$arrMAILMAGATYPE[$mailmaga_flg_id]|h}-->
-			</td>
-		</tr>
-
-        <tr <!--{if $flgFields < 3}-->style="display:none;"<!--{/if}-->>
-		    <th>登録コード</th>
-		    <td>
-		    	<!--{assign var=key1 value="`$prefix`agency_code"}-->
-		    	<!--{$arrForm[$key1].value|h}-->
-	    	</td>
-	    </tr>
-
+	<!--{/if}-->
 <!--{/strip}-->
