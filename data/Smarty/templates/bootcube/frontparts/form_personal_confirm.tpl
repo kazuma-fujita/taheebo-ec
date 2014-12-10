@@ -160,7 +160,7 @@
 			</td>
 		</tr>
 
-        <tr <!--{if $flgFields < 3}-->style="display:none;"<!--{/if}-->>
+        <tr <!--{if $flgFields < 2}-->style="display:none;"<!--{/if}-->>
    		    <th>希望するパスワード</th>
    		    <td><!--{$passlen}--></td>
 		</tr>
