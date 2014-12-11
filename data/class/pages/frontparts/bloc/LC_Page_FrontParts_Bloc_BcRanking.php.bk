@@ -86,7 +86,7 @@ class LC_Page_FrontParts_Bloc_BcRanking extends LC_Page_FrontParts_Bloc_Ex
         // $objRecommend = new SC_Helper_BestProducts_Ex();
 
         // 売上ランキング取得、デフォルトは５位まで取得
-        $arrRanking = $this->getList($getNumber);
+        $arrRanking = $this -> getList($getNumber);
 
         $response = array();
         if (count($arrRanking) > 0) {

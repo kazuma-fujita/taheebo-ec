@@ -31,6 +31,7 @@
         <th>購入合計</th>
         <th>購入平均</th>
         <th>ポイント</th>
+        <th>支払手数料</th>
     </tr>
 
     <!--{section name=cnt loop=$arrResults}-->
@@ -54,6 +55,7 @@
             <td class="right"><!--{*購入合計*}--><!--{$arrResults[cnt].total|number_format}-->円</td>
             <td class="right"><!--{*購入平均*}--><!--{$arrResults[cnt].total_average|number_format}-->円</td>
             <td class="right"><!--{*ポイント*}--><!--{$arrResults[cnt].point_total|number_format}-->pt</td>
+            <td class="right"><!--{*支払手数料*}--><!--{$arrResults[cnt].commission_paid|number_format}-->円</td>
         </tr>
     <!--{/section}-->
 
@@ -65,5 +67,6 @@
         <th>購入合計</th>
         <th>購入平均</th>
         <th>ポイント</th>
+        <th>支払手数料</th>
     </tr>
 </table>

@@ -580,7 +580,8 @@ __EOS__;
             COUNT(order_id) AS order_count,
             SUM(total) AS total,
             AVG(total) AS total_average,
-            SUM(use_point) AS point_total
+            SUM(use_point) AS point_total,
+            (SUM(total) - SUM(use_point)) * 0.3 AS commission_paid
 __EOS__;
 
         // $from   = 'dtb_order JOIN dtb_customer ON dtb_order.customer_id = dtb_customer.customer_id';
