@@ -67,13 +67,13 @@ class LC_Page_FrontParts_Bloc_BcRanking extends LC_Page_FrontParts_Bloc_Ex
         //売上ランキング取得
         $this->arrBestProducts = $this->lfGetRanking();
         //売上ランキング取得、8位まで
-        $this->arrBestProducts8 = $this->lfGetRanking(8);
+        //$this->arrBestProducts8 = $this->lfGetRanking(8);
 
         //商品レビュー情報を取得
-        $this->arrReviewList = $this->getReviewList();
+        //$this->arrReviewList = $this->getReviewList();
 
         //メーカー情報を取得
-        $this->arrMakerList = $this->getMakerList();
+        //$this->arrMakerList = $this->getMakerList();
     }
 
     /**
@@ -105,11 +105,16 @@ class LC_Page_FrontParts_Bloc_BcRanking extends LC_Page_FrontParts_Bloc_Ex
             SC_Product_Ex::setIncTaxToProducts($arrProducts);
 
             // 売上ランキング情報にマージ
+            $i=0;
             foreach ($arrRanking as $key => $value) {
                 if (isset($arrProducts[$value['product_id']])) {
                     $product = $arrProducts[$value['product_id']];
                     if ($product['status'] == 1 && (!NOSTOCK_HIDDEN || ($product['stock_max'] >= 1 || $product['stock_unlimited_max'] == 1))) {
+                        if ($i == $getNumber ) {
+                            break;
+                        }
                         $response[] = array_merge($value, $arrProducts[$value['product_id']]);
+                        $i++;
                     }
                 } else {
                     // 削除済み商品は除外
@@ -126,6 +131,33 @@ class LC_Page_FrontParts_Bloc_BcRanking extends LC_Page_FrontParts_Bloc_Ex
      *
      * @return array $arrNewProducts 検索結果配列
      */
+    public function getList($dispNumber = 0, $pageNumber = 0, $has_deleted = false)
+    {
+        $objQuery =& SC_Query_Ex::getSingletonInstance();
+        $col = 'OD.product_id,OD.price,SUM(OD.quantity),SUM(OD.quantity)*OD.price';
+        $table = 'dtb_order as O, dtb_order_detail as OD';
+        $where = 'O.order_id = OD.order_id AND O.del_flg = 0';
+        $objQuery->setGroupBy('OD.product_id');
+        $objQuery->setOrder('SUM(OD.quantity) DESC');
+/*
+        if ($dispNumber > 0) {
+            if ($pageNumber > 0) {
+                $objQuery->setLimitOffset($dispNumber, (($pageNumber - 1) * $dispNumber));
+            } else {
+                $objQuery->setLimit($dispNumber);
+            }
+        }
+*/
+        $arrRet = $objQuery->select($col, $table, $where);
+
+        // データの中身の表示テスト
+        // echo "<pre>";
+        // var_dump($arrRet);
+        // echo "</pre>";
+
+        return $arrRet;
+    }
+/*
     public function getList($dispNumber = 0, $pageNumber = 0, $has_deleted = false)
     {
         $objQuery =& SC_Query_Ex::getSingletonInstance();
@@ -151,7 +183,7 @@ class LC_Page_FrontParts_Bloc_BcRanking extends LC_Page_FrontParts_Bloc_Ex
 
         return $arrRet;
     }
-
+*/
     /**
      * 商品のレビューと商品情報を結合した情報を取得
      * 商品ごとに集計、小数点以下切り捨て
