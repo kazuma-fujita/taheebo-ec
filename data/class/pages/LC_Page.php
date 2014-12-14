@@ -130,7 +130,10 @@ GC_Utils_Ex::gfDebugLog("-----test end-----",DATA_PATH.'logs/test.log',true);
         $force_login_page = array(
             'products/',    //商品ページ、検索等
             'cart/',        //買い物かご
-            'shopping/'     //購入ページ
+            'shopping/',    //購入ページ
+            'guide/',       //プライバシーポリシー
+            'abouts/',      //当サイトについて
+            'user_data/'    //タヒボとは・・その他
         );
 
         //TOPページじゃなければ何もしない
@@ -145,7 +148,7 @@ GC_Utils_Ex::gfDebugLog("-----test end-----",DATA_PATH.'logs/test.log',true);
 
         if ( $objCustomer->isLoginSuccess() ) {
             $this->tpl_login = true;
-        }       
+        } 
 
         if ( preg_match('|/admin|', $_SERVER['PHP_SELF']) || $objCustomer->isLoginSuccess() ) {
             return true;
@@ -153,7 +156,8 @@ GC_Utils_Ex::gfDebugLog("-----test end-----",DATA_PATH.'logs/test.log',true);
 
         //ログイン状態でなければリダイレクト
         //$this->sendRedirect(SITE_URL);
-        header("location: https://taheebo-e.net/mypage/login.php");
+        //header("location: https://taheebo-e.net/mypage/login.php");
+        header("location: /mypage/login.php");
         //////////////////////////////////////////////////////////
     }
  
