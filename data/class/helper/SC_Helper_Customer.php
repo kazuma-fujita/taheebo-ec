@@ -708,6 +708,17 @@ class SC_Helper_Customer
         }
         $arrData = $objQuery->getAll($objSelect->getList(), $objSelect->arrVal);
 
+        // 代理店名取得
+        $objQuery2 =& SC_Query_Ex::getSingletonInstance();
+        $cols2 = 'agency_name';
+        $table2 = 'dtb_member';
+        $where2 = 'agency_code = ?';
+        foreach ($arrData as $key => $val) {
+            $arrResult =& $arrData[$key];
+            $obj = $objQuery2->select($cols2, $table2, $where2, array($arrResult['agency_code']));
+            $arrData[$key]['agency_name'] = $obj[0]['agency_name'];
+        }
+
         // 該当全体件数の取得
         $objQuery =& SC_Query_Ex::getSingletonInstance();
         $linemax = $objQuery->getOne($objSelect->getListCount(), $objSelect->arrVal);

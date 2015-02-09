@@ -116,7 +116,9 @@
             <table class="list" id="customer-search-result">
                 <col width="8%" />
                 <col width="10%" />
-                <col width="30%" />
+                <!--col width="30%" /-->
+                <col/>
+                <col/>
                 <col width="8%" />
                 <col width="30%" />
                 <col width="7%" />
@@ -125,6 +127,7 @@
                     <th rowspan="2">種別</th>
                     <th>会員ID</th>
                     <th rowspan="2">お名前/(フリガナ)</th>
+                    <th rowspan="2">代理店</th>
                     <th rowspan="2">性別</th>
                     <th>TEL</th>
                     <th rowspan="2">編集</th>
@@ -139,6 +142,7 @@
                         <td class="center" rowspan="2"><!--{if $row.status eq 1}-->仮<!--{else}-->本<!--{/if}--></td>
                         <td><!--{$row.customer_id|h}--></td>
                         <td rowspan="2"><!--{$row.name01|h}--> <!--{$row.name02|h}--><br />(<!--{$row.kana01|h}--> <!--{$row.kana02|h}-->)</td>
+                        <td rowspan="2"><!--{$row.agency_name|h}--></td>
                         <td class="center" rowspan="2"><!--{$arrSex[$row.sex]|h}--></td>
                         <td><!--{$row.tel01|h}-->-<!--{$row.tel02|h}-->-<!--{$row.tel03|h}--></td>
                         <td class="center" rowspan="2"><span class="icon_edit"><a href="#" onclick="return fnEdit('<!--{$row.customer_id|h}-->');">編集</a></span></td>

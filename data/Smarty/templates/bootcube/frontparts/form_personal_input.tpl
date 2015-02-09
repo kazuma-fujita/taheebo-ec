@@ -244,4 +244,7 @@
 		  </td>
     	</tr>
 
+
+<input type="hidden" name="mailmaga_flg" value="1" />
+
 <!--{/strip}-->
